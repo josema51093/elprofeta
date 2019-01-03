@@ -1,12 +1,3 @@
-/*@import 'base/normalizar';
-@import 'base/fontawesome/fontawesome.scss';
-@import 'base/_colors.scss';
-@import 'base/_base.scss';
-@import 'vendors/breakpoint';
-@import 'vendors/gridlex/gridlex.scss';
-/*@import 'vendors/sassy/sassy.scss';
-@import 'layouts/_layouts.scss';
-*/
 /* ==========================================================================
     GRIDLEX
     Just a Flexbox Grid System - v. 2.7.1
@@ -1310,4 +1301,4 @@
   [class*="xs-hidden"] {
     display: none; } }
 
-/*# sourceMappingURL=estilos.css.map */
+/*# sourceMappingURL=gridlex.css.map */

@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAAA;;;GAGG;AAGH,UAUC;EATC,WAAW,EAAE,qBAAqB;EAClC,UAAU,EAAE,MAAM;EAClB,WAAW,EAAE,GAAG;EAChB,GAAG,EAAE,oDAAwC;EAC7C,GAAG,EAAE,8XAI6D;AAGpE;IACK;EACH,WAAW,EAAE,qBAAqB;EAClC,WAAW,EAAE,GAAG",
+"sources": ["../../../sass/base/fontawesome/solid.scss"],
+"names": [],
+"file": "solid.css"
+}
