@@ -1,0 +1,102 @@
+@charset 'utf-8';
+
+//Distribucion de todo el layout del proyecto
+
+$basic: 543px;
+$pair: 456px 794px;
+
+.contenedor {
+  content: 'No Media Queries';
+
+  @include breakpoint($basic) {
+    main{
+    	background: #eee;
+    }
+  }
+
+  @include breakpoint($pair) {
+    main{
+    	background: red;
+    }
+  }
+}
+
+$color-base: darken(hsl(200, 50%, 100%), 10%);
+$color-masOscuro: darken($color-base, 40%);
+$color-SuperOscuro: darken($color-base, 50%);
+
+.contenedor{
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	grid-template-rows: repeat(4, 1fr);
+	header{
+		grid-column: 1 / 5;
+		grid-row: 1;
+		background: $color-base;
+	}
+	main{
+		grid-column: 1 / 4;
+		grid-row: 2 / 4;
+		background: $color-masOscuro;
+		form{
+			input{
+				/*Uso de sassy*/
+				@include sassy-select;
+			}
+		}
+		section{
+		display: grid;
+		grid-template-areas: "destacado destacado"
+							 "destacado destacado"
+				   			 "articulo1 articulo2";
+		grid-gap: 10px;
+			article:nth-child(1){
+				grid-area: destacado;
+				background: grey;
+				button{
+					background: yellow;
+					color: blue;
+					&:hover{
+						background: blue;
+						color: yellow;
+					}
+				}
+			}
+			article:nth-child(2){
+				grid-area: articulo1;
+				background: pink;
+			}
+			article:nth-child(3){
+				grid-area: articulo2;
+				background: white;
+			}
+		}
+	}
+	aside{
+		grid-column: 4;
+		grid-row: 2 / 4;
+		background: $color-SuperOscuro;
+	}
+	footer{
+		grid-column: 1 / 5;
+		grid-row: 4;
+		background: $color-base;
+	}
+}
+
+//Como crear listas en sass
+$list: "item1" "item2" "item3";
+$colores: "red", "blue", "green", "orange";
+$i: 1;
+@each $clase in $list {
+	//Numero aleatorio en sass
+	$aleatorio: round(random() * 600);
+	.#{$clase} {
+		color: nth($colores,$i);
+		width: rem($aleatorio);
+	} 
+	$i: $i + 1;
+}
+
+
+
