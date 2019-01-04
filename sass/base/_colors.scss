@@ -1,5 +1,17 @@
-@charset "UTF-8";
+@charset 'UTF-8';
 
-//Guía de estilos colores
-$color1: #337ca0;
-$color2: #3ec300;
+//VARIABLES PARA LOS COLORES DE LA WEB
+//Color de fondo del contendor
+$fondoContainer: black;
+
+//Color de fondo header
+$fondoHeader: pink;
+
+//Color de fondo del main
+$fondoMain: red;
+
+//Color de fondo de .sec1
+$fondoSec1: yellow;
+
+//Color de fondo de .sec2
+$fondoSec2: green;

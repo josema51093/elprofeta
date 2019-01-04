@@ -1,17 +1,19 @@
-@charset 'utf-8';
+@charset 'UTF-8';
 
-/*@import 'base/normalizar';
-@import 'base/fontawesome/fontawesome.scss';
-@import 'base/_colors.scss';
-@import 'base/_base.scss';
-@import 'vendors/breakpoint';
-@import 'vendors/gridlex/gridlex.scss';
-/*@import 'vendors/sassy/sassy.scss';
-@import 'layouts/_layouts.scss';
-*/
+//INCLUIR PARTIALS DE VENDORS (NORMALIZE, BREAKPOINT, BOOTSTRAP, SASSY...)
+@import 'vendors/vendorsDir';
 
-@import 'base/_colors.scss';
-@import 'base/_base.scss';
-@import 'layouts/_layouts.scss';
-@import 'vendors/gridlex/gridlex.scss';
+//INCLUIR PARTIALS DE BASE (TYPOGRAPHY...)
+@import 'base/baseDir';
 
+//INCLUIR PARTIALS DE ABSTRACTS (FUNCTIONS, MIXINS, VARIABLES...)
+@import 'abstracts/abstractsDir';
+
+//INCLUIR PARTIALS DE COMPONENTS (CAROUSEL...)
+@import 'components/componentsDir';
+
+//INCLUIR PARTIALS DE LAYOUT (GRID, HEADER, FOOTER...)
+@import 'layout/layoutDir';
+
+//INCLUIR PARTIALS DE PAGES (HOME, SPORTS, INSCRIPTION...)
+@import 'pages/pagesDir';
