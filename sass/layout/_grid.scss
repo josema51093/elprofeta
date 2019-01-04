@@ -1,0 +1,95 @@
+/**
+ * CONTENIDO REFERENTE A LA ESTRUCTURA GRID
+ */
+
+*{
+	box-sizing: border-box;
+}
+
+body{
+	background: $fondoContainer;
+}
+
+.contenedor{
+	width: $widthContainer;
+	height: $heightContainer;
+	display: grid;
+	grid-template-areas: "header header header"
+						 "main main main"
+						 "main main main"
+						 "footer footer footer";
+	grid-gap: 15px;
+
+	header{
+		grid-area: header;
+		background: $fondoHeader;
+		width: $widthHeader;
+		height: $heightHeader;
+		display: flex;
+		justify-content: space-around;
+		align-items: center;
+		flex-wrap: wrap;
+	}
+
+	main{
+		grid-area: main;
+		width: $widthMain;
+		height: $heightMain;
+		background: $fondoMain;
+
+		.sec1{
+			width: $widthSec1;
+			height: $heightSec1;
+			background: $fondoSec1;
+			display: flex;
+			align-items: center;
+			padding: 5%;
+			text-align: justify;
+
+			.art1{
+				width: $widthArt1;
+
+				&>p{
+					column-count: 3;
+				}
+			}
+
+			.art2{
+				column-count: 1;
+				width: 50%;
+				padding-left: 15%;
+			}
+		}
+
+		.sec2{
+			width: $widthSec2;
+			height: $heightSec2;
+			background: $fondoSec2;
+			display: flex;
+			align-items: center;
+			padding: 5%;
+			text-align: justify;
+
+			.art3{
+				column-count: 1;
+				width: 50%;
+				padding-right: 15%;
+			}
+
+			.art4{
+				width: 50%;
+
+				&>p{
+					column-count: 3;
+				}
+			}
+		}
+	}
+
+	footer{
+		grid-area: footer;
+		background: purple;
+		width: 100%;
+		height: 100px;
+	}
+}
