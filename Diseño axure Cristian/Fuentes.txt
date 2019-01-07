@@ -1,0 +1,9 @@
+Tipografia:
+
+- BLACKORE -> Para el titulo
+- Iron Brine -> Titulos de noticias
+- Niconne -> Para parrafos
+- Harry_p -> Para la P del titulo
+
+
+
