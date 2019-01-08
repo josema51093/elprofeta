@@ -1,1 +1,38 @@
 @charset 'UTF-8';
+
+//Fuente para el titulo
+//Blackore Regular
+@font-face{
+	font-family: "Blackore";
+	font-style: italic;
+	font-weight: normal;
+	src: url("../../fonts/Blackore.ttf") format("truetype");
+}
+
+//Fuente para titulo noticias
+//Iron Brine Regular
+@font-face{
+  font-family: 'Iron';
+  font-style: normal;
+  font-weight: normal;
+  src: url(fonts/Iron&Brine.ttf) format('truetype');
+}
+
+//Fuente para parrafos
+//Niconne Regular (USO -> FONT-FAMILY: 'Niconne', 'cursive';)
+@font-face{
+	font-family: 'Niconne';
+	font-style: normal;
+	font-weight: normal;
+	src: url('../../fonts/Niconne-Regular.ttf') format('truetype');
+		 //url('https://fonts.googleapis.com/css?family=Niconne') format("truetype");
+}
+
+//Fuente para zonas del titulo
+//HarryP Regular
+@font-face{
+    font-family: 'Harry';
+    font-style: normal;
+    font-weight: normal;
+    src: url('../../fonts/HARRYP.ttf') format('truetype');
+  }

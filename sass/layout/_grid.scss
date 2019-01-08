@@ -6,6 +6,8 @@
 	box-sizing: border-box;
 }
 
+/*@include font-face("Blackore", "../../fonts/Blackore.ttf");*/
+
 body{
 	background: $fondoContainer;
 }
@@ -13,6 +15,7 @@ body{
 .contenedor{
 	width: $widthContainer;
 	height: $heightContainer;
+	/*@include font-face("Blackore", "fonts/Blackore.ttf");*/
 	display: grid;
 	grid-template-areas: "header header header"
 						 "main main main"

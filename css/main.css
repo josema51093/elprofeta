@@ -402,18 +402,40 @@ template {
 [hidden] {
   display: none; }
 
+@font-face {
+  font-family: "Blackore";
+  font-style: italic;
+  font-weight: normal;
+  src: url("../../fonts/Blackore.ttf") format("truetype"); }
+@font-face {
+  font-family: 'Iron';
+  font-style: normal;
+  font-weight: normal;
+  src: url(fonts/Iron&Brine.ttf) format("truetype"); }
+@font-face {
+  font-family: 'Niconne';
+  font-style: normal;
+  font-weight: normal;
+  src: url("../../fonts/Niconne-Regular.ttf") format("truetype"); }
+@font-face {
+  font-family: 'Harry';
+  font-style: normal;
+  font-weight: normal;
+  src: url("../../fonts/HARRYP.ttf") format("truetype"); }
 /**
  * CONTENIDO REFERENTE A LA ESTRUCTURA GRID
  */
 * {
   box-sizing: border-box; }
 
+/*@include font-face("Blackore", "../../fonts/Blackore.ttf");*/
 body {
   background: black; }
 
 .contenedor {
   width: auto;
   height: auto;
+  /*@include font-face("Blackore", "fonts/Blackore.ttf");*/
   display: grid;
   grid-template-areas: "header header header" "main main main" "main main main" "footer footer footer";
   grid-gap: 15px; }
