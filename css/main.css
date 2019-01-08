@@ -415,8 +415,8 @@ template {
 @font-face {
   font-family: 'Niconne';
   font-style: normal;
-  font-weight: normal;
-  src: url("../../fonts/Niconne-Regular.ttf") format("truetype"); }
+  font-weight: 400;
+  src: local("Niconne"), local("Niconne-Regular"), url("../../fonts/Niconne-Regular.ttf") format("ttf"); }
 @font-face {
   font-family: 'Harry';
   font-style: normal;
@@ -429,6 +429,9 @@ template {
   box-sizing: border-box; }
 
 /*@include font-face("Blackore", "../../fonts/Blackore.ttf");*/
+body {
+  font-family: "Niconne"; }
+
 body {
   background: black; }
 

@@ -8,6 +8,14 @@
 
 /*@include font-face("Blackore", "../../fonts/Blackore.ttf");*/
 
+
+
+$font: 'Niconne';
+
+body{
+	font-family: $font;
+}
+
 body{
 	background: $fondoContainer;
 }

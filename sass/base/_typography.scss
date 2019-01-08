@@ -23,9 +23,10 @@
 @font-face{
 	font-family: 'Niconne';
 	font-style: normal;
-	font-weight: normal;
-	src: url('../../fonts/Niconne-Regular.ttf') format('truetype');
-		 //url('https://fonts.googleapis.com/css?family=Niconne') format("truetype");
+	font-weight: 400;
+	src: local('Niconne'), 
+		 local('Niconne-Regular'),
+		 url('../../fonts/Niconne-Regular.ttf') format('ttf');
 }
 
 //Fuente para zonas del titulo
