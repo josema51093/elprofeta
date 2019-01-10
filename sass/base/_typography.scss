@@ -6,25 +6,24 @@
 	font-family: 'Blackore';
 	font-style: italic;
 	font-weight: normal;
-	src: url("../../fonts/Blackore") format("truetype");
+	src: url("../fonts/Blackore.ttf") format("truetype");
 }
 
 //Fuente para titulo noticias
 //Iron Brine Regular
 @font-face{
-  font-family: Iron;
+  font-family: 'Iron';
   font-style: normal;
   font-weight: normal;
-  src: url("../fonts/Iron&Brine");
+  src: url("../fonts/Iron-Brine.ttf") format("truetype");
 }
 
 //Fuente para parrafos
-//Niconne Regular (USO -> FONT-FAMILY: 'Niconne', 'cursive';)
 @font-face{
 	font-family: Niconne;
 	font-style: normal;
 	font-weight: 400;
-	src: url('../fonts/Niconne-Regular');
+	src: url('../fonts/Niconne-Regular.ttf') format("truetype");
 }
 
 //Fuente para zonas del titulo
@@ -33,5 +32,5 @@
     font-family: Harry;
     font-style: normal;
     font-weight: normal;
-    src: url('../fonts/HARRYP');
+    src: url('../fonts/HARRYP.ttf') format("truetype");
   }
