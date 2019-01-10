@@ -473,6 +473,12 @@ template {
   font-weight: normal;
   src: url("../fonts/HARRYP.ttf") format("truetype");
 }
+@font-face {
+  font-family: Harry2;
+  font-style: normal;
+  font-weight: normal;
+  src: url("../fonts/HARRP___.ttf") format("truetype");
+}
 /**
  * CONTENIDO REFERENTE A LA ESTRUCTURA GRID
  */
@@ -480,10 +486,10 @@ template {
   box-sizing: border-box;
 }
 
-body {
-  font-family: "Blackore", sans-serif;
-}
-
+/*body{
+	//Fuente de prueba para el body
+	font-family: $font;
+}*/
 body {
   background: #E4C9B0;
 }
@@ -510,6 +516,8 @@ body {
   width: auto;
   height: auto;
   background: #E4C9B0;
+  border: 4px solid;
+  margin: 0 2%;
 }
 .contenedor main .sec1 {
   width: 100%;
@@ -526,8 +534,10 @@ body {
   }*/
 }
 .contenedor main .sec1 div > h1 {
-  font-family: "Iron";
-  font-size: 55px;
+  /*font-family: $iron;*/
+  font-family: Harry2;
+  font-size: 75px;
+  letter-spacing: 5px;
 }
 .contenedor main .sec1 div > video {
   align-self: center;
@@ -537,7 +547,6 @@ body {
   align-self: center;
 }
 .contenedor main .sec1 .art1 > p {
-  column-count: 2;
   font-family: "Niconne";
   font-size: 28px;
   line-height: 20px;
