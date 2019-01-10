@@ -9,6 +9,7 @@
 
 
 body{
+	//Fuente de prueba para el body
 	font-family: $font;
 }
 
@@ -19,7 +20,6 @@ body{
 .contenedor{
 	width: $widthContainer;
 	height: $heightContainer;
-	/*@include font-face("Blackore", "fonts/Blackore.ttf");*/
 	display: grid;
 	grid-template-areas: "header header header"
 						 "main main main"
@@ -55,9 +55,14 @@ body{
 
 			.art1{
 				width: $widthArt1;
-
+				&>h1{
+					font-family: Iron;
+				}
 				&>p{
-					column-count: 3;
+					column-count: 2;
+					font-family: Niconne;
+					font-size: 28px;
+					line-height: 20px;
 				}
 			}
 
@@ -97,6 +102,6 @@ body{
 		grid-area: footer;
 		background: purple;
 		width: 100%;
-		height: 100px;
+		height: auto;
 	}
 }
