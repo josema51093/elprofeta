@@ -58,8 +58,13 @@ body{
 					font-size: 55px;
 				}
 
+			div>video{
+				align-self: center;
+			}
+
 			.art1{
 				width: $widthArt1;
+				align-self: center;
 				
 				&>p{
 					column-count: 2;

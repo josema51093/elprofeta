@@ -529,8 +529,12 @@ body {
   font-family: "Iron";
   font-size: 55px;
 }
+.contenedor main .sec1 div > video {
+  align-self: center;
+}
 .contenedor main .sec1 .art1 {
   width: 50%;
+  align-self: center;
 }
 .contenedor main .sec1 .art1 > p {
   column-count: 2;
