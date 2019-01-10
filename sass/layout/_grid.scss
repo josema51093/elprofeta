@@ -53,24 +53,27 @@ body{
 			padding: 5%;
 			text-align: justify;
 
+			div>h1{
+					font-family: $iron;
+					font-size: 55px;
+				}
+
 			.art1{
 				width: $widthArt1;
-				&>h1{
-					font-family: Iron;
-				}
+				
 				&>p{
 					column-count: 2;
-					font-family: Niconne;
+					font-family: $niconne;
 					font-size: 28px;
 					line-height: 20px;
 				}
 			}
 
-			.art2{
+			/*.art2{
 				column-count: 1;
 				width: 50%;
 				padding-left: 15%;
-			}
+			}*/
 		}
 
 		.sec2{
