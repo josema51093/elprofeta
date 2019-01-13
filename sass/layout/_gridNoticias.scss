@@ -1,16 +1,24 @@
+@charset 'UTF-8';
+
 /**
- * CONTENIDO REFERENTE A LA ESTRUCTURA GRID
+ * CONTENIDO REFERENTE A LA ESTRUCTURA GRID DE LAS NOTICIAS
  */
 
 *{
 	box-sizing: border-box;
 }
 
+
+
+/*body{
+	//Fuente de prueba para el body
+	font-family: $font;
+}*/
 body{
 	background: $fondoContainer;
 }
 
-.contenedor{
+.contenedorNoticias{
 	width: $widthContainer;
 	height: $heightContainer;
 	display: grid;
@@ -76,59 +84,40 @@ body{
 			padding: 2%;
 			text-align: justify;
 
-			.noticia{
+			&>.contenido{
 				@extend .row;
 
-				&>h1{
-					@extend .col-12;
+				&>aside{
+					@extend .col-3;
 					@extend .text-center;
-					font-family: Harry2;
-					font-size: 75px;
-					letter-spacing: 5px;
+
+					&>h1{
+						@extend .col-12;
+						@extend .text-center;
+						font-family: Harry2;
+						font-size: 36px;
+						letter-spacing: 5px;
+					}
 				}
 
 				&>.art1{
 					width: $widthArt1;
 					align-self: center;
-					@extend .col-3; 
+					@extend .col-9;
+
+					&>h1{
+						@extend .col-12;
+						@extend .text-center;
+						font-family: Harry2;
+						font-size: 75px;
+						letter-spacing: 5px;
+					}
 					
 					&>p{
 						font-family: $niconne;
 						font-size: 28px;
 						line-height: 20px;
 					}
-				}
-
-				&>video{
-					@extend .col-6;
-					width: 620px;
-					height: 320px;
-					align-self: center;
-				}
-			}
-		}
-
-		//Se completa mañana cuando esten los cards
-		.sec2{
-			width: $widthSec2;
-			height: $heightSec2;
-			background: $fondoSec2;
-			display: flex;
-			align-items: center;
-			padding: 5%;
-			text-align: justify;
-
-			.art3{
-				column-count: 1;
-				width: 50%;
-				padding-right: 15%;
-			}
-
-			.art4{
-				width: 50%;
-
-				&>p{
-					column-count: 3;
 				}
 			}
 		}
