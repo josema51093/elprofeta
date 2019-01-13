@@ -168,6 +168,15 @@ body{
 				}
 			}
 		}
+		.paginador{
+			@extend .row;
+			@extend .col-12;
+			@extend .justify-content-center;
+
+			&>.paginas{
+				@extend .pagination;
+			}
+		}
 	}
 
 	footer{
