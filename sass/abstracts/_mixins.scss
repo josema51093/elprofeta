@@ -48,3 +48,10 @@
     align-items: $align;
     flex-wrap: $flex-wrap;
 }
+
+//Mixin para establecer el formato del parrafo
+@mixin parrafo($type,$size: null,$height: null) {
+    font-family: $type;
+    font-size: $size;
+    line-height: $height;
+}

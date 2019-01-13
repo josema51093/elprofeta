@@ -112,9 +112,7 @@ body{
 					}
 					
 					&>p{
-						font-family: $niconne;
-						font-size: 28px;
-						line-height: 20px;
+						@include parrafo($niconne,28px,20px);
 					}
 				}
 			}
