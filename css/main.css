@@ -7036,8 +7036,23 @@ a.text-dark:hover, a.text-dark:focus {
     border: 1px solid #ddd !important; } }
 @font-face {
   font-family: 'Blackore';
+  font-style: normal;
+  font-weight: normal;
+  src: url("../fonts/Blackore.ttf") format("truetype"); }
+@font-face {
+  font-family: 'Blackore-Cursive';
   font-style: italic;
   font-weight: normal;
+  src: url("../fonts/Blackore.ttf") format("truetype"); }
+@font-face {
+  font-family: 'Blackore-Bold';
+  font-style: bold;
+  font-weight: 700;
+  src: url("../fonts/Blackore.ttf") format("truetype"); }
+@font-face {
+  font-family: 'Blackore-BoldCursive';
+  font-style: italic;
+  font-weight: 700;
   src: url("../fonts/Blackore.ttf") format("truetype"); }
 @font-face {
   font-family: 'Iron';
@@ -7045,14 +7060,59 @@ a.text-dark:hover, a.text-dark:focus {
   font-weight: normal;
   src: url("../fonts/Iron-Brine.ttf") format("truetype"); }
 @font-face {
-  font-family: Niconne;
-  font-style: normal;
-  font-weight: 400;
-  src: url("../fonts/Niconne-Regular.ttf") format("truetype"); }
+  font-family: 'Iron-Cursive';
+  font-style: italic;
+  font-weight: normal;
+  src: url("../fonts/Iron-Brine.ttf") format("truetype"); }
 @font-face {
-  font-family: Harry;
+  font-family: 'Iron-Bold';
+  font-style: bold;
+  font-weight: 700;
+  src: url("../fonts/Iron-Brine.ttf") format("truetype"); }
+@font-face {
+  font-family: 'Iron-BoldCursive';
+  font-style: italic;
+  font-weight: 700;
+  src: url("../fonts/Iron-Brine.ttf") format("truetype"); }
+@font-face {
+  font-family: 'Niconne';
   font-style: normal;
   font-weight: normal;
+  src: url("../fonts/Niconne-Regular.ttf") format("truetype"); }
+@font-face {
+  font-family: 'Niconne-Cursive';
+  font-style: italic;
+  font-weight: normal;
+  src: url("../fonts/Niconne-Regular.ttf") format("truetype"); }
+@font-face {
+  font-family: 'Niconne-Bold';
+  font-style: bold;
+  font-weight: 700;
+  src: url("../fonts/Niconne-Regular.ttf") format("truetype"); }
+@font-face {
+  font-family: 'Niconne-Bold';
+  font-style: bold;
+  font-weight: 700;
+  src: url("../fonts/Niconne-Regular.ttf") format("truetype"); }
+@font-face {
+  font-family: 'Harry';
+  font-style: normal;
+  font-weight: normal;
+  src: url("../fonts/HARRYP.ttf") format("truetype"); }
+@font-face {
+  font-family: 'Harry-Cursive';
+  font-style: italic;
+  font-weight: normal;
+  src: url("../fonts/HARRYP.ttf") format("truetype"); }
+@font-face {
+  font-family: 'Harry-Bold';
+  font-style: bold;
+  font-weight: 700;
+  src: url("../fonts/HARRYP.ttf") format("truetype"); }
+@font-face {
+  font-family: 'Harry-BoldCursive';
+  font-style: italic;
+  font-weight: 700;
   src: url("../fonts/HARRYP.ttf") format("truetype"); }
 @font-face {
   font-family: Harry2;
