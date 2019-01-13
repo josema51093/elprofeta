@@ -7283,8 +7283,9 @@ body {
 .menu {
   margin-top: 25px; }
   .menu > button {
-    display: flex;
     border: 0px;
     color: red; }
+    .menu > button > a {
+      display: flex; }
 
 /*# sourceMappingURL=main.css.map */

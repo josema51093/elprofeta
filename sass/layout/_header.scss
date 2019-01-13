@@ -1,8 +1,11 @@
 .menu{
 	margin-top: 25px;
 	&>button{
-		display: flex;
 		border: 0px;
 		color: red;
+
+		&>a{
+			display: flex;
+		}
 	}
 }
