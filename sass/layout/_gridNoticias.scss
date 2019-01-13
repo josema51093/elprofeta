@@ -161,14 +161,9 @@ body{
 					&>p{
 						@include parrafo($niconne,28px,20px);
 					}
-					.row>.gif{
-						@extend .col-8;
-					}
-					.row>.p1{
-						@extend .col-4;
-						font-family: $niconne;
-						font-size: 28px;
-						line-height: 20px;
+					figure{
+						@extend .row;
+						@extend .justify-content-center;
 					}
 				}
 			}
