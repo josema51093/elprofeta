@@ -7041,7 +7041,7 @@ a.text-dark:hover, a.text-dark:focus {
   src: url("../fonts/Blackore.ttf") format("truetype"); }
 @font-face {
   font-family: 'Blackore-Cursive';
-  font-style: italic;
+  font-style: oblique;
   font-weight: normal;
   src: url("../fonts/Blackore.ttf") format("truetype"); }
 @font-face {
@@ -7061,7 +7061,7 @@ a.text-dark:hover, a.text-dark:focus {
   src: url("../fonts/Iron-Brine.ttf") format("truetype"); }
 @font-face {
   font-family: 'Iron-Cursive';
-  font-style: italic;
+  font-style: oblique;
   font-weight: normal;
   src: url("../fonts/Iron-Brine.ttf") format("truetype"); }
 @font-face {
