@@ -7065,6 +7065,9 @@ a.text-dark:hover, a.text-dark:focus {
 * {
   box-sizing: border-box; }
 
+::-webkit-scrollbar {
+  display: none; }
+
 body {
   background: #E4C9B0; }
 
@@ -7146,10 +7149,9 @@ body {
 * {
   box-sizing: border-box; }
 
-/*body{
-	//Fuente de prueba para el body
-	font-family: $font;
-}*/
+::-webkit-scrollbar {
+  display: none; }
+
 body {
   background: #E4C9B0; }
 

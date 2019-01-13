@@ -8,12 +8,10 @@
 	box-sizing: border-box;
 }
 
+::-webkit-scrollbar {
+	display: none;
+}
 
-
-/*body{
-	//Fuente de prueba para el body
-	font-family: $font;
-}*/
 body{
 	background: $fondoContainer;
 }
