@@ -69,7 +69,7 @@ body{
 		background: $fondoMain;
 		border: 4px solid;
 		margin: 0 2%;
-
+	
 		.sec1{
 			width: $widthSec1;
 			height: $heightSec1;
@@ -116,15 +116,53 @@ body{
 			width: $widthSec2;
 			height: $heightSec2;
 			background: $fondoSec2;
-			display: flex;
-			align-items: center;
-			padding: 5%;
-			text-align: justify;
+			
+			&>.deck{
+				@extend .row;
+				@extend .justify-content-around;
+				@extend .col-12;
+				padding-bottom: 25px;
+				
+				&>.carta{
+					background-color: $fondoCarta;
+					border: none;
+					@extend .card;
+					@extend .border-dark;
+					@extend .col-4;
+					max-width: 18rem;
+
+					&>.cabeceraCard{
+						@extend .card-header;
+						width: 100%;
+						background-color: $fondoCarta;
+						border: 1px solid black;
+						border-bottom: none;
+						border-top: none;
+						margin-bottom: 15px;
+						font-family: $font;
+						text-align: center;
+					}
+					&>.card-body{
+						border: 1px solid black;
+						border-top: none;
+						border-bottom: none;
+					}
+					.card-body>.textoCarta{
+						@extend .card-text;
+						font-family: $niconne;
+						font-size: 25px;
+					}
+				}
+			}
+			&>.deck:nth-child(1){
+				padding-left: 50px
+			}
 			
 		}
 	}
 
 	footer{
+		
 		@extend .row;
 		@extend .col-12;
 		grid-area: footer;
@@ -134,7 +172,7 @@ body{
 
 		&>.copyright{
 			@extend .col-6;
-			@extend .text-left;
+			
 		}
 
 		&>.social{

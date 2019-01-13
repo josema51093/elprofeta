@@ -123,7 +123,7 @@ body{
 		@extend .row;
 		@extend .col-12;
 		grid-area: footer;
-		background: purple;
+		background: $fondoFooter;
 		width: 100%;
 		height: auto;
 
