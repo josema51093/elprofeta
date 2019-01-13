@@ -61,6 +61,15 @@ body{
 				@extend .btn-primary;
 			}
 		}
+		.migasPan{
+			@extend .row;
+			@extend .col-12;
+			@extend .text-left;
+			
+			&>ol{
+				@extend .breadcrumb;
+			}
+		}
 	}
 
 	main{
@@ -96,12 +105,50 @@ body{
 						font-size: 36px;
 						letter-spacing: 5px;
 					}
+					&>.deck{
+						@extend .row;
+						@extend .justify-content-around;
+						@extend .col-12;
+						padding-bottom: 25px;
+						
+						&>.carta{
+							background-color: $fondoCarta;
+							border: none;
+							@extend .card;
+							@extend .border-dark;
+							@extend .col-12;
+							max-width: 18rem;
+							margin-top: 10px;
+
+							&>.cabeceraCard{
+								@extend .card-header;
+								width: 100%;
+								background-color: $fondoCarta;
+								border: 1px solid black;
+								border-bottom: none;
+								border-top: none;
+								margin-bottom: 15px;
+								font-family: $font;
+								text-align: center;
+							}
+							&>.card-body{
+								border: 1px solid black;
+								border-top: none;
+								border-bottom: none;
+							}
+							.card-body>.textoCarta{
+								@extend .card-text;
+								font-family: $niconne;
+								font-size: 25px;
+							}
+						}
+					}
 				}
 
 				&>.art1{
 					width: $widthArt1;
 					align-self: center;
-					@extend .col-9;
+					@extend .col-6;
 
 					&>h1{
 						@extend .col-12;
@@ -113,6 +160,15 @@ body{
 					
 					&>p{
 						@include parrafo($niconne,28px,20px);
+					}
+					.row>.gif{
+						@extend .col-8;
+					}
+					.row>.p1{
+						@extend .col-4;
+						font-family: $niconne;
+						font-size: 28px;
+						line-height: 20px;
 					}
 				}
 			}
