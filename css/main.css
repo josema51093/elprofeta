@@ -7380,6 +7380,14 @@ body {
           font-family: "Niconne";
           font-size: 28px;
           line-height: 20px; }
+    .contenedorNoticias main .paginador {
+      font-family: "Niconne";
+      font-size: 20px; }
+      .contenedorNoticias main .paginador > .paginas > .page-item > .page-link {
+        background-color: transparent;
+        border: none;
+        color: black;
+        font-size: 30px; }
   .contenedorNoticias footer {
     grid-area: footer;
     background: #E4C9B0;

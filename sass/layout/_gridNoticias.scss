@@ -68,7 +68,7 @@ body{
 			font-family: $niconne;
 			font-size: 20px;
 			&>ol{
-			background-color: transparent;
+				background-color: transparent;
 				@extend .breadcrumb;
 			}
 		}
@@ -174,9 +174,18 @@ body{
 			@extend .row;
 			@extend .col-12;
 			@extend .justify-content-center;
-
+			font-family: $niconne;
+			font-size: 20px;
 			&>.paginas{
 				@extend .pagination;
+				&>.page-item{
+					&>.page-link{
+					background-color: transparent;
+					border:none;
+					color: black;
+					font-size: 30px;	
+				}	
+				}
 			}
 		}
 	}
