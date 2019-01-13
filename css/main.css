@@ -7320,6 +7320,11 @@ body {
     .contenedorNoticias header .menu > a {
       display: flex;
       align-items: center; }
+    .contenedorNoticias header .migasPan {
+      font-family: "Niconne";
+      font-size: 20px; }
+      .contenedorNoticias header .migasPan > ol {
+        background-color: transparent; }
   .contenedorNoticias main {
     grid-area: main;
     width: auto;

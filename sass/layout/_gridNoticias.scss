@@ -65,8 +65,10 @@ body{
 			@extend .row;
 			@extend .col-12;
 			@extend .text-left;
-			
+			font-family: $niconne;
+			font-size: 20px;
 			&>ol{
+			background-color: transparent;
 				@extend .breadcrumb;
 			}
 		}
