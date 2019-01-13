@@ -1,17 +1,18 @@
 .menu{
 	margin-top: 25px;
 	&>button{
-<<<<<<< Updated upstream
-=======
-		width: 25%;
-		display: flex;
-		flex-direction: row;
->>>>>>> Stashed changes
+		padding: 15px 30px 0px 30px;
 		border: 0px;
-		color: red;
-
+		box-shadow: 4px 4px 5px black;
 		&>a{
+			color: black;
 			display: flex;
+			&>figure{
+				padding-right: 5px;
+			}
+		}
+		&>a:hover{
+			text-decoration: none;
 		}
 	}
 }
