@@ -127,6 +127,8 @@ body{
 				padding-bottom: 25px;
 				
 				&>.carta{
+					background-color: $fondoCarta;
+					border: none;
 					@extend .card;
 					@extend .border-dark;
 					@extend .col-4;
@@ -135,7 +137,18 @@ body{
 					&>.cabeceraCard{
 						@extend .card-header;
 						width: 100%;
-						font-family: $iron;
+						background-color: $fondoCarta;
+						border: 1px solid black;
+						border-bottom: none;
+						border-top: none;
+						margin-bottom: 15px;
+						font-family: $font;
+						text-align: center;
+					}
+					&>.card-body{
+						border: 1px solid black;
+						border-top: none;
+						border-bottom: none;
 					}
 					.card-body>.textoCarta{
 						@extend .card-text;

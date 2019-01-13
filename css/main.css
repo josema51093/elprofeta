@@ -7226,10 +7226,22 @@ body {
       .contenedor main .sec2 > .deck {
         padding-bottom: 25px; }
         .contenedor main .sec2 > .deck > .carta {
+          background-color: #E4C9B0;
+          border: none;
           max-width: 18rem; }
           .contenedor main .sec2 > .deck > .carta > .cabeceraCard {
             width: 100%;
-            font-family: "Iron"; }
+            background-color: #E4C9B0;
+            border: 1px solid black;
+            border-bottom: none;
+            border-top: none;
+            margin-bottom: 15px;
+            font-family: "Blackore", sans-serif;
+            text-align: center; }
+          .contenedor main .sec2 > .deck > .carta > .card-body {
+            border: 1px solid black;
+            border-top: none;
+            border-bottom: none; }
           .contenedor main .sec2 > .deck > .carta .card-body > .textoCarta {
             font-family: "Niconne";
             font-size: 25px; }
@@ -7305,7 +7317,7 @@ body {
           line-height: 20px; }
   .contenedorNoticias footer {
     grid-area: footer;
-    background: purple;
+    background: #E4C9B0;
     width: 100%;
     height: auto; }
 
