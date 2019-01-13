@@ -55,6 +55,7 @@ body{
 			&>a{
 				display: flex;
 				align-items: center;
+				background-color: $fondoBotonHeader;
 				@extend .btn;
 				@extend .btn-primary;
 			}
@@ -129,7 +130,7 @@ body{
 		@extend .row;
 		@extend .col-12;
 		grid-area: footer;
-		background: purple;
+		background: $fondoFooter;
 		width: 100%;
 		height: auto;
 

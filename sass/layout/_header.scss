@@ -1,1 +1,8 @@
-//CONTENIDO REFERENTE AL HEADER DE LA WEB
+.menu{
+	margin-top: 25px;
+	&>button{
+		display: flex;
+		border: 0px;
+		color: red;
+	}
+}
