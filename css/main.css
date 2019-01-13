@@ -7142,10 +7142,16 @@ body {
     background: #E4C9B0;
     width: auto;
     height: auto;
+    /*width: $widthHeader;
+    height: $heightHeader;*/
     display: flex;
     justify-content: space-around;
     align-items: center;
-    flex-wrap: wrap; }
+    flex-wrap: wrap;
+    /*display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;*/ }
     .contenedor header .menu > a {
       display: flex;
       align-items: center; }
@@ -7189,14 +7195,6 @@ body {
       align-items: center;
       padding: 5%;
       text-align: justify; }
-      .contenedor main .sec2 .art3 {
-        column-count: 1;
-        width: 50%;
-        padding-right: 15%; }
-      .contenedor main .sec2 .art4 {
-        width: 50%; }
-        .contenedor main .sec2 .art4 > p {
-          column-count: 3; }
   .contenedor footer {
     grid-area: footer;
     background: purple;

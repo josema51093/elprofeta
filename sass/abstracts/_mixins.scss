@@ -27,3 +27,24 @@
             src: $src;
         }
     }
+
+//Mixin para establecer un alto y ancho a un elemento o componente
+@mixin altoAncho($width, $height){
+    width: $width;
+    height: $height;
+}
+
+//Mixin para establecer un diseño en grid
+@mixin grid($type, $gap, $grid){
+    display: $type;
+    grid-template-areas: $grid;
+    grid-gap: $gap;
+}
+
+//Mixin para establecer un diseño en flex
+@mixin flex($type, $justify: null, $align: null, $flex-wrap: null){
+    display: $type;
+    justify-content: $justify;
+    align-items: $align;
+    flex-wrap: $flex-wrap;
+}

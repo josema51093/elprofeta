@@ -15,25 +15,25 @@ body{
 }
 
 .contenedor{
-	width: $widthContainer;
-	height: $heightContainer;
-	display: grid;
-	grid-template-areas: "header header header"
-						 "main main main"
-						 "main main main"
-						 "footer footer footer";
-	grid-gap: 15px;
+	//Establecer alto y ancho del contenedor
+	@include altoAncho($widthContainer,$heightContainer);
+	//Establecer estructura del layout (grid)
+	@include grid(grid, 15px, $grid);
 
 	header{
 		@extend .container-fluid;
 		grid-area: header;
 		background: $fondoHeader;
-		width: $widthHeader;
-		height: $heightHeader;
-		display: flex;
+		//Establecer alto y ancho del header
+		@include altoAncho($widthHeader, $heightHeader);
+		/*width: $widthHeader;
+		height: $heightHeader;*/
+		//Establecer estructura del layout (flex)
+		@include flex(flex, space-around, center, wrap);
+		/*display: flex;
 		justify-content: space-around;
 		align-items: center;
-		flex-wrap: wrap;
+		flex-wrap: wrap;*/
 
 		.logos{
 			@extend .row;
@@ -121,20 +121,7 @@ body{
 			align-items: center;
 			padding: 5%;
 			text-align: justify;
-
-			.art3{
-				column-count: 1;
-				width: 50%;
-				padding-right: 15%;
-			}
-
-			.art4{
-				width: 50%;
-
-				&>p{
-					column-count: 3;
-				}
-			}
+			
 		}
 	}
 
