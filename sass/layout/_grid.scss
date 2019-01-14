@@ -10,15 +10,25 @@
 	display: none;
 }
 
+//MEDIDAS PARA BREAKPOINT
+$basic: 320px;
+$medium: screen 321px 767px;
+$high: screen 768px 1024px;
+$xtraHigh: screen 1025px 2000px;
+
 body{
 	background: $fondoContainer;
 }
+
+
 
 .contenedor{
 	//Establecer alto y ancho del contenedor
 	@include altoAncho($widthContainer,$heightContainer);
 	//Establecer estructura del layout (grid)
-	@include grid(grid, 15px, $grid);
+	//@include grid(grid, 15px, $grid);
+
+	@extend .container-fluid;
 
 	header{
 		@extend .container-fluid;
@@ -37,12 +47,18 @@ body{
 
 		.logos{
 			@extend .row;
-			@extend .col-12;
 			@extend .justify-content-center;
 
+			@media (max-width: 767px) {
+			  .editorial{
+			  	visibility: hidden;
+			  	display: none;
+			   }
+			}
+
 			&>a{
-				&>img{
-					@extend .img-fluid;
+				&>img{	
+					@extend .col-sm-12;
 				}
 			}
 		}
@@ -50,12 +66,17 @@ body{
 		.menu{
 			@extend .row;
 			@extend .col-12;
-			@extend .justify-content-around;
+			@extend .justify-content-sm-around;
+			@extend .justify-content-md-around;
+			@extend .justify-content-lg-around;
 
 			&>a{
 				display: flex;
 				align-items: center;
 				background-color: $fondoBotonHeader;
+				@extend .col-sm-12;
+				@extend .col-md-4;
+				@extend .col-lg-4;
 				@extend .btn;
 				@extend .btn-primary;
 			}

@@ -1,10 +1,10 @@
 @charset 'UTF-8';
 
-//INCLUIR PARTIALS DE VENDORS (NORMALIZE, BREAKPOINT, BOOTSTRAP, SASSY...)
-@import 'vendors/vendorsDir';
-
 //INCLUIR PARTIALS DE ABSTRACTS (FUNCTIONS, MIXINS, VARIABLES...)
 @import 'abstracts/abstractsDir';
+
+//INCLUIR PARTIALS DE VENDORS (NORMALIZE, BREAKPOINT, BOOTSTRAP, SASSY...)
+@import 'vendors/vendorsDir';
 
 //INCLUIR PARTIALS DE BASE (TYPOGRAPHY...)
 @import 'base/baseDir';
