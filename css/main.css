@@ -879,7 +879,7 @@ pre {
   margin-right: auto;
   margin-left: auto; }
 
-.row, .contenedor header .logos, .contenedor header .menu, .contenedor main .sec1 > .noticia, .contenedor main .sec2 > .deck, .contenedor footer, .contenedorNoticias header .logos, .contenedorNoticias header .menu, .contenedorNoticias header .migasPan, .contenedorNoticias main .sec1 > .contenido, .contenedorNoticias main .sec1 > .contenido > aside > .deck, .contenedorNoticias main .sec1 > .contenido > .art1 figure, .contenedorNoticias main .paginador, .contenedorNoticias footer {
+.row, .contenedor header .logos, .contenedor header .menu, .contenedor main .sec1 > .noticia, .contenedor main .sec2 > .deck, .contenedor footer, .contenedorNoticias header .logos, .contenedorNoticias header .menu, .contenedorNoticias header .migasPan, .contenedorNoticias main .sec1 > .contenido, .contenedorNoticias main .sec1 > .contenido > aside > .deck, .contenedorNoticias main .sec1 > .contenido > .art1 figure, .contenedorNoticias main .sectNoticias2 > .contenidoNoticias2, .contenedorNoticias main .sectNoticias2 > .contenidoNoticias2 > .artNoticias2 > .deck, .contenedorNoticias main .paginador, .contenedorNoticias footer {
   display: flex;
   flex-wrap: wrap;
   margin-right: -15px;
@@ -893,7 +893,7 @@ pre {
     padding-right: 0;
     padding-left: 0; }
 
-.col-1, .col-2, .col-3, .contenedorNoticias main .sec1 > .contenido > aside, .col-4, .contenedor main .sec2 > .deck > .carta, .col-5, .col-6, .contenedor footer > .copyright, .contenedor footer > .social, .contenedorNoticias main .sec1 > .contenido > .art1, .contenedorNoticias footer > .copyright, .contenedorNoticias footer > .social, .col-7, .col-8, .col-9, .col-10, .col-11, .col-12, .contenedor header .menu, .contenedor main .sec1 > .noticia > h1, .contenedor main .sec1 > .noticia > .art1, .contenedor main .sec1 > .noticia > .art1 > video, .contenedor main .sec2 > h1, .contenedor main .sec2 > .deck, .contenedor footer, .contenedorNoticias header .logos, .contenedorNoticias header .menu, .contenedorNoticias header .migasPan, .contenedorNoticias main .sec1 > .contenido > aside > h1, .contenedorNoticias main .sec1 > .contenido > aside > .deck, .contenedorNoticias main .sec1 > .contenido > aside > .deck > .carta, .contenedorNoticias main .sec1 > .contenido > .art1 > h1, .contenedorNoticias main .paginador, .contenedorNoticias footer, .col,
+.col-1, .col-2, .col-3, .contenedorNoticias main .sec1 > .contenido > aside, .contenedorNoticias main .sectNoticias2 > .contenidoNoticias2 > .aside, .contenedorNoticias main .sectNoticias2 > .contenidoNoticias2 > .artNoticias2 > .deck > .carta, .col-4, .contenedor main .sec2 > .deck > .carta, .col-5, .col-6, .contenedor footer > .copyright, .contenedor footer > .social, .contenedorNoticias main .sec1 > .contenido > .art1, .contenedorNoticias footer > .copyright, .contenedorNoticias footer > .social, .col-7, .col-8, .col-9, .contenedorNoticias main .sectNoticias2 > .contenidoNoticias2 > .artNoticias2, .col-10, .col-11, .col-12, .contenedor header .menu, .contenedor main .sec1 > .noticia > h1, .contenedor main .sec1 > .noticia > .art1, .contenedor main .sec1 > .noticia > .art1 > video, .contenedor main .sec2 > h1, .contenedor main .sec2 > .deck, .contenedor footer, .contenedorNoticias header .logos, .contenedorNoticias header .menu, .contenedorNoticias header .migasPan, .contenedorNoticias main .sec1 > .contenido > aside > h1, .contenedorNoticias main .sec1 > .contenido > aside > .deck, .contenedorNoticias main .sec1 > .contenido > aside > .deck > .carta, .contenedorNoticias main .sec1 > .contenido > .art1 > h1, .contenedorNoticias main .sectNoticias2 > .contenidoNoticias2 > .aside > h1, .contenedorNoticias main .sectNoticias2 > .contenidoNoticias2 > .artNoticias2 > .deck, .contenedorNoticias main .paginador, .contenedorNoticias footer, .col,
 .col-auto, .col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12, .contenedor header .logos > a > img, .contenedor header .menu > a, .col-sm,
 .col-sm-auto, .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12, .col-md,
 .col-md-auto, .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg,
@@ -923,7 +923,7 @@ pre {
   flex: 0 0 16.6666666667%;
   max-width: 16.6666666667%; }
 
-.col-3, .contenedorNoticias main .sec1 > .contenido > aside {
+.col-3, .contenedorNoticias main .sec1 > .contenido > aside, .contenedorNoticias main .sectNoticias2 > .contenidoNoticias2 > .aside, .contenedorNoticias main .sectNoticias2 > .contenidoNoticias2 > .artNoticias2 > .deck > .carta {
   flex: 0 0 25%;
   max-width: 25%; }
 
@@ -947,7 +947,7 @@ pre {
   flex: 0 0 66.6666666667%;
   max-width: 66.6666666667%; }
 
-.col-9 {
+.col-9, .contenedorNoticias main .sectNoticias2 > .contenidoNoticias2 > .artNoticias2 {
   flex: 0 0 75%;
   max-width: 75%; }
 
@@ -959,7 +959,7 @@ pre {
   flex: 0 0 91.6666666667%;
   max-width: 91.6666666667%; }
 
-.col-12, .contenedor header .menu, .contenedor main .sec1 > .noticia > h1, .contenedor main .sec1 > .noticia > .art1, .contenedor main .sec1 > .noticia > .art1 > video, .contenedor main .sec2 > h1, .contenedor main .sec2 > .deck, .contenedor footer, .contenedorNoticias header .logos, .contenedorNoticias header .menu, .contenedorNoticias header .migasPan, .contenedorNoticias main .sec1 > .contenido > aside > h1, .contenedorNoticias main .sec1 > .contenido > aside > .deck, .contenedorNoticias main .sec1 > .contenido > aside > .deck > .carta, .contenedorNoticias main .sec1 > .contenido > .art1 > h1, .contenedorNoticias main .paginador, .contenedorNoticias footer {
+.col-12, .contenedor header .menu, .contenedor main .sec1 > .noticia > h1, .contenedor main .sec1 > .noticia > .art1, .contenedor main .sec1 > .noticia > .art1 > video, .contenedor main .sec2 > h1, .contenedor main .sec2 > .deck, .contenedor footer, .contenedorNoticias header .logos, .contenedorNoticias header .menu, .contenedorNoticias header .migasPan, .contenedorNoticias main .sec1 > .contenido > aside > h1, .contenedorNoticias main .sec1 > .contenido > aside > .deck, .contenedorNoticias main .sec1 > .contenido > aside > .deck > .carta, .contenedorNoticias main .sec1 > .contenido > .art1 > h1, .contenedorNoticias main .sectNoticias2 > .contenidoNoticias2 > .aside > h1, .contenedorNoticias main .sectNoticias2 > .contenidoNoticias2 > .artNoticias2 > .deck, .contenedorNoticias main .paginador, .contenedorNoticias footer {
   flex: 0 0 100%;
   max-width: 100%; }
 
@@ -3577,7 +3577,7 @@ tbody.collapse.show {
     .navbar-dark .navbar-text a:hover, .navbar-dark .navbar-text a:focus {
       color: #fff; }
 
-.card, .contenedor main .sec2 > .deck > .carta, .contenedorNoticias main .sec1 > .contenido > aside > .deck > .carta {
+.card, .contenedor main .sec2 > .deck > .carta, .contenedorNoticias main .sec1 > .contenido > aside > .deck > .carta, .contenedorNoticias main .sectNoticias2 > .contenidoNoticias2 > .artNoticias2 > .deck > .carta {
   position: relative;
   display: flex;
   flex-direction: column;
@@ -3587,13 +3587,13 @@ tbody.collapse.show {
   background-clip: border-box;
   border: 1px solid rgba(0, 0, 0, 0.125);
   border-radius: 0.25rem; }
-  .card > hr, .contenedor main .sec2 > .deck > .carta > hr, .contenedorNoticias main .sec1 > .contenido > aside > .deck > .carta > hr {
+  .card > hr, .contenedor main .sec2 > .deck > .carta > hr, .contenedorNoticias main .sec1 > .contenido > aside > .deck > .carta > hr, .contenedorNoticias main .sectNoticias2 > .contenidoNoticias2 > .artNoticias2 > .deck > .carta > hr {
     margin-right: 0;
     margin-left: 0; }
-  .card > .list-group:first-child .list-group-item:first-child, .contenedor main .sec2 > .deck > .carta > .list-group:first-child .list-group-item:first-child, .contenedorNoticias main .sec1 > .contenido > aside > .deck > .carta > .list-group:first-child .list-group-item:first-child {
+  .card > .list-group:first-child .list-group-item:first-child, .contenedor main .sec2 > .deck > .carta > .list-group:first-child .list-group-item:first-child, .contenedorNoticias main .sec1 > .contenido > aside > .deck > .carta > .list-group:first-child .list-group-item:first-child, .contenedorNoticias main .sectNoticias2 > .contenidoNoticias2 > .artNoticias2 > .deck > .carta > .list-group:first-child .list-group-item:first-child {
     border-top-left-radius: 0.25rem;
     border-top-right-radius: 0.25rem; }
-  .card > .list-group:last-child .list-group-item:last-child, .contenedor main .sec2 > .deck > .carta > .list-group:last-child .list-group-item:last-child, .contenedorNoticias main .sec1 > .contenido > aside > .deck > .carta > .list-group:last-child .list-group-item:last-child {
+  .card > .list-group:last-child .list-group-item:last-child, .contenedor main .sec2 > .deck > .carta > .list-group:last-child .list-group-item:last-child, .contenedorNoticias main .sec1 > .contenido > aside > .deck > .carta > .list-group:last-child .list-group-item:last-child, .contenedorNoticias main .sectNoticias2 > .contenidoNoticias2 > .artNoticias2 > .deck > .carta > .list-group:last-child .list-group-item:last-child {
     border-bottom-right-radius: 0.25rem;
     border-bottom-left-radius: 0.25rem; }
 
@@ -3608,7 +3608,7 @@ tbody.collapse.show {
   margin-top: -0.375rem;
   margin-bottom: 0; }
 
-.card-text:last-child, .contenedor main .sec2 > .deck > .carta .card-body > .textoCarta:last-child, .contenedorNoticias main .sec1 > .contenido > aside > .deck > .carta .card-body > .textoCarta:last-child {
+.card-text:last-child, .contenedor main .sec2 > .deck > .carta .card-body > .textoCarta:last-child, .contenedorNoticias main .sec1 > .contenido > aside > .deck > .carta .card-body > .textoCarta:last-child, .contenedorNoticias main .sectNoticias2 > .contenidoNoticias2 > .artNoticias2 > .deck > .carta .card-body > .textoCarta:last-child {
   margin-bottom: 0; }
 
 .card-link:hover {
@@ -3616,14 +3616,14 @@ tbody.collapse.show {
 .card-link + .card-link {
   margin-left: 1.25rem; }
 
-.card-header, .contenedor main .sec2 > .deck > .carta > .cabeceraCard, .contenedorNoticias main .sec1 > .contenido > aside > .deck > .carta > .cabeceraCard {
+.card-header, .contenedor main .sec2 > .deck > .carta > .cabeceraCard, .contenedorNoticias main .sec1 > .contenido > aside > .deck > .carta > .cabeceraCard, .contenedorNoticias main .sectNoticias2 > .contenidoNoticias2 > .artNoticias2 > .deck > .carta > .cabeceraCard {
   padding: 0.75rem 1.25rem;
   margin-bottom: 0;
   background-color: rgba(0, 0, 0, 0.03);
   border-bottom: 1px solid rgba(0, 0, 0, 0.125); }
-  .card-header:first-child, .contenedor main .sec2 > .deck > .carta > .cabeceraCard:first-child, .contenedorNoticias main .sec1 > .contenido > aside > .deck > .carta > .cabeceraCard:first-child {
+  .card-header:first-child, .contenedor main .sec2 > .deck > .carta > .cabeceraCard:first-child, .contenedorNoticias main .sec1 > .contenido > aside > .deck > .carta > .cabeceraCard:first-child, .contenedorNoticias main .sectNoticias2 > .contenidoNoticias2 > .artNoticias2 > .deck > .carta > .cabeceraCard:first-child {
     border-radius: calc(0.25rem - 1px) calc(0.25rem - 1px) 0 0; }
-  .card-header + .list-group .list-group-item:first-child, .contenedor main .sec2 > .deck > .carta > .cabeceraCard + .list-group .list-group-item:first-child, .contenedorNoticias main .sec1 > .contenido > aside > .deck > .carta > .cabeceraCard + .list-group .list-group-item:first-child {
+  .card-header + .list-group .list-group-item:first-child, .contenedor main .sec2 > .deck > .carta > .cabeceraCard + .list-group .list-group-item:first-child, .contenedorNoticias main .sec1 > .contenido > aside > .deck > .carta > .cabeceraCard + .list-group .list-group-item:first-child, .contenedorNoticias main .sectNoticias2 > .contenidoNoticias2 > .artNoticias2 > .deck > .carta > .cabeceraCard + .list-group .list-group-item:first-child {
     border-top: 0; }
 
 .card-footer {
@@ -3668,14 +3668,14 @@ tbody.collapse.show {
 .card-deck {
   display: flex;
   flex-direction: column; }
-  .card-deck .card, .card-deck .contenedor main .sec2 > .deck > .carta, .contenedor main .card-deck .sec2 > .deck > .carta, .card-deck .contenedorNoticias main .sec1 > .contenido > aside > .deck > .carta, .contenedorNoticias main .card-deck .sec1 > .contenido > aside > .deck > .carta {
+  .card-deck .card, .card-deck .contenedor main .sec2 > .deck > .carta, .contenedor main .card-deck .sec2 > .deck > .carta, .card-deck .contenedorNoticias main .sec1 > .contenido > aside > .deck > .carta, .contenedorNoticias main .card-deck .sec1 > .contenido > aside > .deck > .carta, .card-deck .contenedorNoticias main .sectNoticias2 > .contenidoNoticias2 > .artNoticias2 > .deck > .carta, .contenedorNoticias main .card-deck .sectNoticias2 > .contenidoNoticias2 > .artNoticias2 > .deck > .carta {
     margin-bottom: 15px; }
   @media (min-width: 576px) {
     .card-deck {
       flex-flow: row wrap;
       margin-right: -15px;
       margin-left: -15px; }
-      .card-deck .card, .card-deck .contenedor main .sec2 > .deck > .carta, .contenedor main .card-deck .sec2 > .deck > .carta, .card-deck .contenedorNoticias main .sec1 > .contenido > aside > .deck > .carta, .contenedorNoticias main .card-deck .sec1 > .contenido > aside > .deck > .carta {
+      .card-deck .card, .card-deck .contenedor main .sec2 > .deck > .carta, .contenedor main .card-deck .sec2 > .deck > .carta, .card-deck .contenedorNoticias main .sec1 > .contenido > aside > .deck > .carta, .contenedorNoticias main .card-deck .sec1 > .contenido > aside > .deck > .carta, .card-deck .contenedorNoticias main .sectNoticias2 > .contenidoNoticias2 > .artNoticias2 > .deck > .carta, .contenedorNoticias main .card-deck .sectNoticias2 > .contenidoNoticias2 > .artNoticias2 > .deck > .carta {
         display: flex;
         flex: 1 0 0%;
         flex-direction: column;
@@ -3686,118 +3686,163 @@ tbody.collapse.show {
 .card-group {
   display: flex;
   flex-direction: column; }
-  .card-group > .card, .contenedor main .sec2 > .deck.card-group > .carta, .contenedorNoticias main .sec1 > .contenido > aside > .deck.card-group > .carta {
+  .card-group > .card, .contenedor main .sec2 > .deck.card-group > .carta, .contenedorNoticias main .sec1 > .contenido > aside > .deck.card-group > .carta, .contenedorNoticias main .sectNoticias2 > .contenidoNoticias2 > .artNoticias2 > .deck.card-group > .carta {
     margin-bottom: 15px; }
   @media (min-width: 576px) {
     .card-group {
       flex-flow: row wrap; }
-      .card-group > .card, .contenedor main .sec2 > .deck.card-group > .carta, .contenedorNoticias main .sec1 > .contenido > aside > .deck.card-group > .carta {
+      .card-group > .card, .contenedor main .sec2 > .deck.card-group > .carta, .contenedorNoticias main .sec1 > .contenido > aside > .deck.card-group > .carta, .contenedorNoticias main .sectNoticias2 > .contenidoNoticias2 > .artNoticias2 > .deck.card-group > .carta {
         flex: 1 0 0%;
         margin-bottom: 0; }
-        .card-group > .card + .card, .contenedor main .sec2 > .deck.card-group > .carta + .card, .contenedorNoticias main .sec1 > .contenido > aside > .deck.card-group > .carta + .card, .contenedor main .sec2 > .deck.card-group > .card + .carta, .contenedor main .sec2 > .deck.card-group > .carta + .carta, .contenedorNoticias main .sec1 > .contenido > aside > .deck.card-group > .card + .carta, .contenedorNoticias main .sec1 > .contenido > aside > .deck.card-group > .carta + .carta {
+        .card-group > .card + .card, .contenedor main .sec2 > .deck.card-group > .carta + .card, .contenedorNoticias main .sec1 > .contenido > aside > .deck.card-group > .carta + .card, .contenedorNoticias main .sectNoticias2 > .contenidoNoticias2 > .artNoticias2 > .deck.card-group > .carta + .card, .contenedor main .sec2 > .deck.card-group > .card + .carta, .contenedor main .sec2 > .deck.card-group > .carta + .carta, .contenedorNoticias main .sec1 > .contenido > aside > .deck.card-group > .card + .carta, .contenedorNoticias main .sec1 > .contenido > aside > .deck.card-group > .carta + .carta, .contenedorNoticias main .sectNoticias2 > .contenidoNoticias2 > .artNoticias2 > .deck.card-group > .card + .carta, .contenedorNoticias main .sectNoticias2 > .contenidoNoticias2 > .artNoticias2 > .deck.card-group > .carta + .carta {
           margin-left: 0;
           border-left: 0; }
-        .card-group > .card:first-child, .contenedor main .sec2 > .deck.card-group > .carta:first-child, .contenedorNoticias main .sec1 > .contenido > aside > .deck.card-group > .carta:first-child {
+        .card-group > .card:first-child, .contenedor main .sec2 > .deck.card-group > .carta:first-child, .contenedorNoticias main .sec1 > .contenido > aside > .deck.card-group > .carta:first-child, .contenedorNoticias main .sectNoticias2 > .contenidoNoticias2 > .artNoticias2 > .deck.card-group > .carta:first-child {
           border-top-right-radius: 0;
           border-bottom-right-radius: 0; }
-          .card-group > .card:first-child .card-img-top, .contenedor main .sec2 > .deck.card-group > .carta:first-child .card-img-top, .contenedorNoticias main .sec1 > .contenido > aside > .deck.card-group > .carta:first-child .card-img-top,
+          .card-group > .card:first-child .card-img-top, .contenedor main .sec2 > .deck.card-group > .carta:first-child .card-img-top, .contenedorNoticias main .sec1 > .contenido > aside > .deck.card-group > .carta:first-child .card-img-top, .contenedorNoticias main .sectNoticias2 > .contenidoNoticias2 > .artNoticias2 > .deck.card-group > .carta:first-child .card-img-top,
           .card-group > .card:first-child .card-header,
           .contenedor main .sec2 > .deck.card-group > .carta:first-child .card-header,
           .contenedorNoticias main .sec1 > .contenido > aside > .deck.card-group > .carta:first-child .card-header,
+          .contenedorNoticias main .sectNoticias2 > .contenidoNoticias2 > .artNoticias2 > .deck.card-group > .carta:first-child .card-header,
           .card-group > .card:first-child .contenedor main .sec2 > .deck > .carta > .cabeceraCard,
           .contenedor main .card-group > .card:first-child .sec2 > .deck > .carta > .cabeceraCard,
           .contenedor main .sec2 > .deck.card-group > .carta:first-child .sec2 > .deck > .carta > .cabeceraCard,
           .contenedorNoticias .contenedor main .sec1 > .contenido > aside > .deck.card-group > .carta:first-child .sec2 > .deck > .carta > .cabeceraCard,
           .contenedor .contenedorNoticias main .sec1 > .contenido > aside > .deck.card-group > .carta:first-child .sec2 > .deck > .carta > .cabeceraCard,
+          .contenedorNoticias .contenedor main .sectNoticias2 > .contenidoNoticias2 > .artNoticias2 > .deck.card-group > .carta:first-child .sec2 > .deck > .carta > .cabeceraCard,
+          .contenedor .contenedorNoticias main .sectNoticias2 > .contenidoNoticias2 > .artNoticias2 > .deck.card-group > .carta:first-child .sec2 > .deck > .carta > .cabeceraCard,
           .card-group > .card:first-child .contenedorNoticias main .sec1 > .contenido > aside > .deck > .carta > .cabeceraCard,
           .contenedorNoticias main .card-group > .card:first-child .sec1 > .contenido > aside > .deck > .carta > .cabeceraCard,
           .contenedor .contenedorNoticias main .sec2 > .deck.card-group > .carta:first-child .sec1 > .contenido > aside > .deck > .carta > .cabeceraCard,
           .contenedorNoticias .contenedor main .sec2 > .deck.card-group > .carta:first-child .sec1 > .contenido > aside > .deck > .carta > .cabeceraCard,
-          .contenedorNoticias main .sec1 > .contenido > aside > .deck.card-group > .carta:first-child .sec1 > .contenido > aside > .deck > .carta > .cabeceraCard {
+          .contenedorNoticias main .sec1 > .contenido > aside > .deck.card-group > .carta:first-child .sec1 > .contenido > aside > .deck > .carta > .cabeceraCard,
+          .contenedorNoticias main .sectNoticias2 > .contenidoNoticias2 > .artNoticias2 > .deck.card-group > .carta:first-child .sec1 > .contenido > aside > .deck > .carta > .cabeceraCard,
+          .card-group > .card:first-child .contenedorNoticias main .sectNoticias2 > .contenidoNoticias2 > .artNoticias2 > .deck > .carta > .cabeceraCard,
+          .contenedorNoticias main .card-group > .card:first-child .sectNoticias2 > .contenidoNoticias2 > .artNoticias2 > .deck > .carta > .cabeceraCard,
+          .contenedor .contenedorNoticias main .sec2 > .deck.card-group > .carta:first-child .sectNoticias2 > .contenidoNoticias2 > .artNoticias2 > .deck > .carta > .cabeceraCard,
+          .contenedorNoticias .contenedor main .sec2 > .deck.card-group > .carta:first-child .sectNoticias2 > .contenidoNoticias2 > .artNoticias2 > .deck > .carta > .cabeceraCard,
+          .contenedorNoticias main .sec1 > .contenido > aside > .deck.card-group > .carta:first-child .sectNoticias2 > .contenidoNoticias2 > .artNoticias2 > .deck > .carta > .cabeceraCard,
+          .contenedorNoticias main .sectNoticias2 > .contenidoNoticias2 > .artNoticias2 > .deck.card-group > .carta:first-child .sectNoticias2 > .contenidoNoticias2 > .artNoticias2 > .deck > .carta > .cabeceraCard {
             border-top-right-radius: 0; }
-          .card-group > .card:first-child .card-img-bottom, .contenedor main .sec2 > .deck.card-group > .carta:first-child .card-img-bottom, .contenedorNoticias main .sec1 > .contenido > aside > .deck.card-group > .carta:first-child .card-img-bottom,
+          .card-group > .card:first-child .card-img-bottom, .contenedor main .sec2 > .deck.card-group > .carta:first-child .card-img-bottom, .contenedorNoticias main .sec1 > .contenido > aside > .deck.card-group > .carta:first-child .card-img-bottom, .contenedorNoticias main .sectNoticias2 > .contenidoNoticias2 > .artNoticias2 > .deck.card-group > .carta:first-child .card-img-bottom,
           .card-group > .card:first-child .card-footer,
           .contenedor main .sec2 > .deck.card-group > .carta:first-child .card-footer,
-          .contenedorNoticias main .sec1 > .contenido > aside > .deck.card-group > .carta:first-child .card-footer {
+          .contenedorNoticias main .sec1 > .contenido > aside > .deck.card-group > .carta:first-child .card-footer,
+          .contenedorNoticias main .sectNoticias2 > .contenidoNoticias2 > .artNoticias2 > .deck.card-group > .carta:first-child .card-footer {
             border-bottom-right-radius: 0; }
-        .card-group > .card:last-child, .contenedor main .sec2 > .deck.card-group > .carta:last-child, .contenedorNoticias main .sec1 > .contenido > aside > .deck.card-group > .carta:last-child {
+        .card-group > .card:last-child, .contenedor main .sec2 > .deck.card-group > .carta:last-child, .contenedorNoticias main .sec1 > .contenido > aside > .deck.card-group > .carta:last-child, .contenedorNoticias main .sectNoticias2 > .contenidoNoticias2 > .artNoticias2 > .deck.card-group > .carta:last-child {
           border-top-left-radius: 0;
           border-bottom-left-radius: 0; }
-          .card-group > .card:last-child .card-img-top, .contenedor main .sec2 > .deck.card-group > .carta:last-child .card-img-top, .contenedorNoticias main .sec1 > .contenido > aside > .deck.card-group > .carta:last-child .card-img-top,
+          .card-group > .card:last-child .card-img-top, .contenedor main .sec2 > .deck.card-group > .carta:last-child .card-img-top, .contenedorNoticias main .sec1 > .contenido > aside > .deck.card-group > .carta:last-child .card-img-top, .contenedorNoticias main .sectNoticias2 > .contenidoNoticias2 > .artNoticias2 > .deck.card-group > .carta:last-child .card-img-top,
           .card-group > .card:last-child .card-header,
           .contenedor main .sec2 > .deck.card-group > .carta:last-child .card-header,
           .contenedorNoticias main .sec1 > .contenido > aside > .deck.card-group > .carta:last-child .card-header,
+          .contenedorNoticias main .sectNoticias2 > .contenidoNoticias2 > .artNoticias2 > .deck.card-group > .carta:last-child .card-header,
           .card-group > .card:last-child .contenedor main .sec2 > .deck > .carta > .cabeceraCard,
           .contenedor main .card-group > .card:last-child .sec2 > .deck > .carta > .cabeceraCard,
           .contenedor main .sec2 > .deck.card-group > .carta:last-child .sec2 > .deck > .carta > .cabeceraCard,
           .contenedorNoticias .contenedor main .sec1 > .contenido > aside > .deck.card-group > .carta:last-child .sec2 > .deck > .carta > .cabeceraCard,
           .contenedor .contenedorNoticias main .sec1 > .contenido > aside > .deck.card-group > .carta:last-child .sec2 > .deck > .carta > .cabeceraCard,
+          .contenedorNoticias .contenedor main .sectNoticias2 > .contenidoNoticias2 > .artNoticias2 > .deck.card-group > .carta:last-child .sec2 > .deck > .carta > .cabeceraCard,
+          .contenedor .contenedorNoticias main .sectNoticias2 > .contenidoNoticias2 > .artNoticias2 > .deck.card-group > .carta:last-child .sec2 > .deck > .carta > .cabeceraCard,
           .card-group > .card:last-child .contenedorNoticias main .sec1 > .contenido > aside > .deck > .carta > .cabeceraCard,
           .contenedorNoticias main .card-group > .card:last-child .sec1 > .contenido > aside > .deck > .carta > .cabeceraCard,
           .contenedor .contenedorNoticias main .sec2 > .deck.card-group > .carta:last-child .sec1 > .contenido > aside > .deck > .carta > .cabeceraCard,
           .contenedorNoticias .contenedor main .sec2 > .deck.card-group > .carta:last-child .sec1 > .contenido > aside > .deck > .carta > .cabeceraCard,
-          .contenedorNoticias main .sec1 > .contenido > aside > .deck.card-group > .carta:last-child .sec1 > .contenido > aside > .deck > .carta > .cabeceraCard {
+          .contenedorNoticias main .sec1 > .contenido > aside > .deck.card-group > .carta:last-child .sec1 > .contenido > aside > .deck > .carta > .cabeceraCard,
+          .contenedorNoticias main .sectNoticias2 > .contenidoNoticias2 > .artNoticias2 > .deck.card-group > .carta:last-child .sec1 > .contenido > aside > .deck > .carta > .cabeceraCard,
+          .card-group > .card:last-child .contenedorNoticias main .sectNoticias2 > .contenidoNoticias2 > .artNoticias2 > .deck > .carta > .cabeceraCard,
+          .contenedorNoticias main .card-group > .card:last-child .sectNoticias2 > .contenidoNoticias2 > .artNoticias2 > .deck > .carta > .cabeceraCard,
+          .contenedor .contenedorNoticias main .sec2 > .deck.card-group > .carta:last-child .sectNoticias2 > .contenidoNoticias2 > .artNoticias2 > .deck > .carta > .cabeceraCard,
+          .contenedorNoticias .contenedor main .sec2 > .deck.card-group > .carta:last-child .sectNoticias2 > .contenidoNoticias2 > .artNoticias2 > .deck > .carta > .cabeceraCard,
+          .contenedorNoticias main .sec1 > .contenido > aside > .deck.card-group > .carta:last-child .sectNoticias2 > .contenidoNoticias2 > .artNoticias2 > .deck > .carta > .cabeceraCard,
+          .contenedorNoticias main .sectNoticias2 > .contenidoNoticias2 > .artNoticias2 > .deck.card-group > .carta:last-child .sectNoticias2 > .contenidoNoticias2 > .artNoticias2 > .deck > .carta > .cabeceraCard {
             border-top-left-radius: 0; }
-          .card-group > .card:last-child .card-img-bottom, .contenedor main .sec2 > .deck.card-group > .carta:last-child .card-img-bottom, .contenedorNoticias main .sec1 > .contenido > aside > .deck.card-group > .carta:last-child .card-img-bottom,
+          .card-group > .card:last-child .card-img-bottom, .contenedor main .sec2 > .deck.card-group > .carta:last-child .card-img-bottom, .contenedorNoticias main .sec1 > .contenido > aside > .deck.card-group > .carta:last-child .card-img-bottom, .contenedorNoticias main .sectNoticias2 > .contenidoNoticias2 > .artNoticias2 > .deck.card-group > .carta:last-child .card-img-bottom,
           .card-group > .card:last-child .card-footer,
           .contenedor main .sec2 > .deck.card-group > .carta:last-child .card-footer,
-          .contenedorNoticias main .sec1 > .contenido > aside > .deck.card-group > .carta:last-child .card-footer {
+          .contenedorNoticias main .sec1 > .contenido > aside > .deck.card-group > .carta:last-child .card-footer,
+          .contenedorNoticias main .sectNoticias2 > .contenidoNoticias2 > .artNoticias2 > .deck.card-group > .carta:last-child .card-footer {
             border-bottom-left-radius: 0; }
-        .card-group > .card:only-child, .contenedor main .sec2 > .deck.card-group > .carta:only-child, .contenedorNoticias main .sec1 > .contenido > aside > .deck.card-group > .carta:only-child {
+        .card-group > .card:only-child, .contenedor main .sec2 > .deck.card-group > .carta:only-child, .contenedorNoticias main .sec1 > .contenido > aside > .deck.card-group > .carta:only-child, .contenedorNoticias main .sectNoticias2 > .contenidoNoticias2 > .artNoticias2 > .deck.card-group > .carta:only-child {
           border-radius: 0.25rem; }
-          .card-group > .card:only-child .card-img-top, .contenedor main .sec2 > .deck.card-group > .carta:only-child .card-img-top, .contenedorNoticias main .sec1 > .contenido > aside > .deck.card-group > .carta:only-child .card-img-top,
+          .card-group > .card:only-child .card-img-top, .contenedor main .sec2 > .deck.card-group > .carta:only-child .card-img-top, .contenedorNoticias main .sec1 > .contenido > aside > .deck.card-group > .carta:only-child .card-img-top, .contenedorNoticias main .sectNoticias2 > .contenidoNoticias2 > .artNoticias2 > .deck.card-group > .carta:only-child .card-img-top,
           .card-group > .card:only-child .card-header,
           .contenedor main .sec2 > .deck.card-group > .carta:only-child .card-header,
           .contenedorNoticias main .sec1 > .contenido > aside > .deck.card-group > .carta:only-child .card-header,
+          .contenedorNoticias main .sectNoticias2 > .contenidoNoticias2 > .artNoticias2 > .deck.card-group > .carta:only-child .card-header,
           .card-group > .card:only-child .contenedor main .sec2 > .deck > .carta > .cabeceraCard,
           .contenedor main .card-group > .card:only-child .sec2 > .deck > .carta > .cabeceraCard,
           .contenedor main .sec2 > .deck.card-group > .carta:only-child .sec2 > .deck > .carta > .cabeceraCard,
           .contenedorNoticias .contenedor main .sec1 > .contenido > aside > .deck.card-group > .carta:only-child .sec2 > .deck > .carta > .cabeceraCard,
           .contenedor .contenedorNoticias main .sec1 > .contenido > aside > .deck.card-group > .carta:only-child .sec2 > .deck > .carta > .cabeceraCard,
+          .contenedorNoticias .contenedor main .sectNoticias2 > .contenidoNoticias2 > .artNoticias2 > .deck.card-group > .carta:only-child .sec2 > .deck > .carta > .cabeceraCard,
+          .contenedor .contenedorNoticias main .sectNoticias2 > .contenidoNoticias2 > .artNoticias2 > .deck.card-group > .carta:only-child .sec2 > .deck > .carta > .cabeceraCard,
           .card-group > .card:only-child .contenedorNoticias main .sec1 > .contenido > aside > .deck > .carta > .cabeceraCard,
           .contenedorNoticias main .card-group > .card:only-child .sec1 > .contenido > aside > .deck > .carta > .cabeceraCard,
           .contenedor .contenedorNoticias main .sec2 > .deck.card-group > .carta:only-child .sec1 > .contenido > aside > .deck > .carta > .cabeceraCard,
           .contenedorNoticias .contenedor main .sec2 > .deck.card-group > .carta:only-child .sec1 > .contenido > aside > .deck > .carta > .cabeceraCard,
-          .contenedorNoticias main .sec1 > .contenido > aside > .deck.card-group > .carta:only-child .sec1 > .contenido > aside > .deck > .carta > .cabeceraCard {
+          .contenedorNoticias main .sec1 > .contenido > aside > .deck.card-group > .carta:only-child .sec1 > .contenido > aside > .deck > .carta > .cabeceraCard,
+          .contenedorNoticias main .sectNoticias2 > .contenidoNoticias2 > .artNoticias2 > .deck.card-group > .carta:only-child .sec1 > .contenido > aside > .deck > .carta > .cabeceraCard,
+          .card-group > .card:only-child .contenedorNoticias main .sectNoticias2 > .contenidoNoticias2 > .artNoticias2 > .deck > .carta > .cabeceraCard,
+          .contenedorNoticias main .card-group > .card:only-child .sectNoticias2 > .contenidoNoticias2 > .artNoticias2 > .deck > .carta > .cabeceraCard,
+          .contenedor .contenedorNoticias main .sec2 > .deck.card-group > .carta:only-child .sectNoticias2 > .contenidoNoticias2 > .artNoticias2 > .deck > .carta > .cabeceraCard,
+          .contenedorNoticias .contenedor main .sec2 > .deck.card-group > .carta:only-child .sectNoticias2 > .contenidoNoticias2 > .artNoticias2 > .deck > .carta > .cabeceraCard,
+          .contenedorNoticias main .sec1 > .contenido > aside > .deck.card-group > .carta:only-child .sectNoticias2 > .contenidoNoticias2 > .artNoticias2 > .deck > .carta > .cabeceraCard,
+          .contenedorNoticias main .sectNoticias2 > .contenidoNoticias2 > .artNoticias2 > .deck.card-group > .carta:only-child .sectNoticias2 > .contenidoNoticias2 > .artNoticias2 > .deck > .carta > .cabeceraCard {
             border-top-left-radius: 0.25rem;
             border-top-right-radius: 0.25rem; }
-          .card-group > .card:only-child .card-img-bottom, .contenedor main .sec2 > .deck.card-group > .carta:only-child .card-img-bottom, .contenedorNoticias main .sec1 > .contenido > aside > .deck.card-group > .carta:only-child .card-img-bottom,
+          .card-group > .card:only-child .card-img-bottom, .contenedor main .sec2 > .deck.card-group > .carta:only-child .card-img-bottom, .contenedorNoticias main .sec1 > .contenido > aside > .deck.card-group > .carta:only-child .card-img-bottom, .contenedorNoticias main .sectNoticias2 > .contenidoNoticias2 > .artNoticias2 > .deck.card-group > .carta:only-child .card-img-bottom,
           .card-group > .card:only-child .card-footer,
           .contenedor main .sec2 > .deck.card-group > .carta:only-child .card-footer,
-          .contenedorNoticias main .sec1 > .contenido > aside > .deck.card-group > .carta:only-child .card-footer {
+          .contenedorNoticias main .sec1 > .contenido > aside > .deck.card-group > .carta:only-child .card-footer,
+          .contenedorNoticias main .sectNoticias2 > .contenidoNoticias2 > .artNoticias2 > .deck.card-group > .carta:only-child .card-footer {
             border-bottom-right-radius: 0.25rem;
             border-bottom-left-radius: 0.25rem; }
-        .card-group > .card:not(:first-child):not(:last-child):not(:only-child), .contenedor main .sec2 > .deck.card-group > .carta:not(:first-child):not(:last-child):not(:only-child), .contenedorNoticias main .sec1 > .contenido > aside > .deck.card-group > .carta:not(:first-child):not(:last-child):not(:only-child) {
+        .card-group > .card:not(:first-child):not(:last-child):not(:only-child), .contenedor main .sec2 > .deck.card-group > .carta:not(:first-child):not(:last-child):not(:only-child), .contenedorNoticias main .sec1 > .contenido > aside > .deck.card-group > .carta:not(:first-child):not(:last-child):not(:only-child), .contenedorNoticias main .sectNoticias2 > .contenidoNoticias2 > .artNoticias2 > .deck.card-group > .carta:not(:first-child):not(:last-child):not(:only-child) {
           border-radius: 0; }
-          .card-group > .card:not(:first-child):not(:last-child):not(:only-child) .card-img-top, .contenedor main .sec2 > .deck.card-group > .carta:not(:first-child):not(:last-child):not(:only-child) .card-img-top, .contenedorNoticias main .sec1 > .contenido > aside > .deck.card-group > .carta:not(:first-child):not(:last-child):not(:only-child) .card-img-top,
+          .card-group > .card:not(:first-child):not(:last-child):not(:only-child) .card-img-top, .contenedor main .sec2 > .deck.card-group > .carta:not(:first-child):not(:last-child):not(:only-child) .card-img-top, .contenedorNoticias main .sec1 > .contenido > aside > .deck.card-group > .carta:not(:first-child):not(:last-child):not(:only-child) .card-img-top, .contenedorNoticias main .sectNoticias2 > .contenidoNoticias2 > .artNoticias2 > .deck.card-group > .carta:not(:first-child):not(:last-child):not(:only-child) .card-img-top,
           .card-group > .card:not(:first-child):not(:last-child):not(:only-child) .card-img-bottom,
           .contenedor main .sec2 > .deck.card-group > .carta:not(:first-child):not(:last-child):not(:only-child) .card-img-bottom,
           .contenedorNoticias main .sec1 > .contenido > aside > .deck.card-group > .carta:not(:first-child):not(:last-child):not(:only-child) .card-img-bottom,
+          .contenedorNoticias main .sectNoticias2 > .contenidoNoticias2 > .artNoticias2 > .deck.card-group > .carta:not(:first-child):not(:last-child):not(:only-child) .card-img-bottom,
           .card-group > .card:not(:first-child):not(:last-child):not(:only-child) .card-header,
           .contenedor main .sec2 > .deck.card-group > .carta:not(:first-child):not(:last-child):not(:only-child) .card-header,
           .contenedorNoticias main .sec1 > .contenido > aside > .deck.card-group > .carta:not(:first-child):not(:last-child):not(:only-child) .card-header,
+          .contenedorNoticias main .sectNoticias2 > .contenidoNoticias2 > .artNoticias2 > .deck.card-group > .carta:not(:first-child):not(:last-child):not(:only-child) .card-header,
           .card-group > .card:not(:first-child):not(:last-child):not(:only-child) .contenedor main .sec2 > .deck > .carta > .cabeceraCard,
           .contenedor main .card-group > .card:not(:first-child):not(:last-child):not(:only-child) .sec2 > .deck > .carta > .cabeceraCard,
           .contenedor main .sec2 > .deck.card-group > .carta:not(:first-child):not(:last-child):not(:only-child) .sec2 > .deck > .carta > .cabeceraCard,
           .contenedorNoticias .contenedor main .sec1 > .contenido > aside > .deck.card-group > .carta:not(:first-child):not(:last-child):not(:only-child) .sec2 > .deck > .carta > .cabeceraCard,
           .contenedor .contenedorNoticias main .sec1 > .contenido > aside > .deck.card-group > .carta:not(:first-child):not(:last-child):not(:only-child) .sec2 > .deck > .carta > .cabeceraCard,
+          .contenedorNoticias .contenedor main .sectNoticias2 > .contenidoNoticias2 > .artNoticias2 > .deck.card-group > .carta:not(:first-child):not(:last-child):not(:only-child) .sec2 > .deck > .carta > .cabeceraCard,
+          .contenedor .contenedorNoticias main .sectNoticias2 > .contenidoNoticias2 > .artNoticias2 > .deck.card-group > .carta:not(:first-child):not(:last-child):not(:only-child) .sec2 > .deck > .carta > .cabeceraCard,
           .card-group > .card:not(:first-child):not(:last-child):not(:only-child) .contenedorNoticias main .sec1 > .contenido > aside > .deck > .carta > .cabeceraCard,
           .contenedorNoticias main .card-group > .card:not(:first-child):not(:last-child):not(:only-child) .sec1 > .contenido > aside > .deck > .carta > .cabeceraCard,
           .contenedor .contenedorNoticias main .sec2 > .deck.card-group > .carta:not(:first-child):not(:last-child):not(:only-child) .sec1 > .contenido > aside > .deck > .carta > .cabeceraCard,
           .contenedorNoticias .contenedor main .sec2 > .deck.card-group > .carta:not(:first-child):not(:last-child):not(:only-child) .sec1 > .contenido > aside > .deck > .carta > .cabeceraCard,
           .contenedorNoticias main .sec1 > .contenido > aside > .deck.card-group > .carta:not(:first-child):not(:last-child):not(:only-child) .sec1 > .contenido > aside > .deck > .carta > .cabeceraCard,
+          .contenedorNoticias main .sectNoticias2 > .contenidoNoticias2 > .artNoticias2 > .deck.card-group > .carta:not(:first-child):not(:last-child):not(:only-child) .sec1 > .contenido > aside > .deck > .carta > .cabeceraCard,
+          .card-group > .card:not(:first-child):not(:last-child):not(:only-child) .contenedorNoticias main .sectNoticias2 > .contenidoNoticias2 > .artNoticias2 > .deck > .carta > .cabeceraCard,
+          .contenedorNoticias main .card-group > .card:not(:first-child):not(:last-child):not(:only-child) .sectNoticias2 > .contenidoNoticias2 > .artNoticias2 > .deck > .carta > .cabeceraCard,
+          .contenedor .contenedorNoticias main .sec2 > .deck.card-group > .carta:not(:first-child):not(:last-child):not(:only-child) .sectNoticias2 > .contenidoNoticias2 > .artNoticias2 > .deck > .carta > .cabeceraCard,
+          .contenedorNoticias .contenedor main .sec2 > .deck.card-group > .carta:not(:first-child):not(:last-child):not(:only-child) .sectNoticias2 > .contenidoNoticias2 > .artNoticias2 > .deck > .carta > .cabeceraCard,
+          .contenedorNoticias main .sec1 > .contenido > aside > .deck.card-group > .carta:not(:first-child):not(:last-child):not(:only-child) .sectNoticias2 > .contenidoNoticias2 > .artNoticias2 > .deck > .carta > .cabeceraCard,
+          .contenedorNoticias main .sectNoticias2 > .contenidoNoticias2 > .artNoticias2 > .deck.card-group > .carta:not(:first-child):not(:last-child):not(:only-child) .sectNoticias2 > .contenidoNoticias2 > .artNoticias2 > .deck > .carta > .cabeceraCard,
           .card-group > .card:not(:first-child):not(:last-child):not(:only-child) .card-footer,
           .contenedor main .sec2 > .deck.card-group > .carta:not(:first-child):not(:last-child):not(:only-child) .card-footer,
-          .contenedorNoticias main .sec1 > .contenido > aside > .deck.card-group > .carta:not(:first-child):not(:last-child):not(:only-child) .card-footer {
+          .contenedorNoticias main .sec1 > .contenido > aside > .deck.card-group > .carta:not(:first-child):not(:last-child):not(:only-child) .card-footer,
+          .contenedorNoticias main .sectNoticias2 > .contenidoNoticias2 > .artNoticias2 > .deck.card-group > .carta:not(:first-child):not(:last-child):not(:only-child) .card-footer {
             border-radius: 0; } }
 
-.card-columns .card, .card-columns .contenedor main .sec2 > .deck > .carta, .contenedor main .card-columns .sec2 > .deck > .carta, .card-columns .contenedorNoticias main .sec1 > .contenido > aside > .deck > .carta, .contenedorNoticias main .card-columns .sec1 > .contenido > aside > .deck > .carta {
+.card-columns .card, .card-columns .contenedor main .sec2 > .deck > .carta, .contenedor main .card-columns .sec2 > .deck > .carta, .card-columns .contenedorNoticias main .sec1 > .contenido > aside > .deck > .carta, .contenedorNoticias main .card-columns .sec1 > .contenido > aside > .deck > .carta, .card-columns .contenedorNoticias main .sectNoticias2 > .contenidoNoticias2 > .artNoticias2 > .deck > .carta, .contenedorNoticias main .card-columns .sectNoticias2 > .contenidoNoticias2 > .artNoticias2 > .deck > .carta {
   margin-bottom: 0.75rem; }
 @media (min-width: 576px) {
   .card-columns {
     column-count: 3;
     column-gap: 1.25rem; }
-    .card-columns .card, .card-columns .contenedor main .sec2 > .deck > .carta, .contenedor main .card-columns .sec2 > .deck > .carta, .card-columns .contenedorNoticias main .sec1 > .contenido > aside > .deck > .carta, .contenedorNoticias main .card-columns .sec1 > .contenido > aside > .deck > .carta {
+    .card-columns .card, .card-columns .contenedor main .sec2 > .deck > .carta, .contenedor main .card-columns .sec2 > .deck > .carta, .card-columns .contenedorNoticias main .sec1 > .contenido > aside > .deck > .carta, .contenedorNoticias main .card-columns .sec1 > .contenido > aside > .deck > .carta, .card-columns .contenedorNoticias main .sectNoticias2 > .contenidoNoticias2 > .artNoticias2 > .deck > .carta, .contenedorNoticias main .card-columns .sectNoticias2 > .contenidoNoticias2 > .artNoticias2 > .deck > .carta {
       display: inline-block;
       width: 100%; } }
 
@@ -4888,7 +4933,7 @@ button.bg-dark:focus {
 .border-light {
   border-color: #f8f9fa !important; }
 
-.border-dark, .contenedor main .sec2 > .deck > .carta, .contenedorNoticias main .sec1 > .contenido > aside > .deck > .carta {
+.border-dark, .contenedor main .sec2 > .deck > .carta, .contenedorNoticias main .sec1 > .contenido > aside > .deck > .carta, .contenedorNoticias main .sectNoticias2 > .contenidoNoticias2 > .artNoticias2 > .deck > .carta {
   border-color: #343a40 !important; }
 
 .border-white {
@@ -5150,7 +5195,7 @@ button.bg-dark:focus {
 .justify-content-center, .contenedor header .logos, .contenedorNoticias header .logos, .contenedorNoticias main .sec1 > .contenido > .art1 figure, .contenedorNoticias main .paginador {
   justify-content: center !important; }
 
-.justify-content-between {
+.justify-content-between, .contenedorNoticias main .sectNoticias2 > .contenidoNoticias2 > .artNoticias2 > .deck {
   justify-content: space-between !important; }
 
 .justify-content-around, .contenedor main .sec2 > .deck, .contenedorNoticias header .menu, .contenedorNoticias main .sec1 > .contenido > aside > .deck {
@@ -6937,7 +6982,7 @@ button.bg-dark:focus {
 .text-right, .contenedor footer > .social, .contenedorNoticias footer > .social {
   text-align: right !important; }
 
-.text-center, .contenedor main .sec1 > .noticia > h1, .contenedor main .sec2 > h1, .contenedorNoticias main .sec1 > .contenido > aside, .contenedorNoticias main .sec1 > .contenido > aside > h1, .contenedorNoticias main .sec1 > .contenido > .art1 > h1 {
+.text-center, .contenedor main .sec1 > .noticia > h1, .contenedor main .sec2 > h1, .contenedorNoticias main .sec1 > .contenido > aside, .contenedorNoticias main .sec1 > .contenido > aside > h1, .contenedorNoticias main .sec1 > .contenido > .art1 > h1, .contenedorNoticias main .sectNoticias2 > .contenidoNoticias2 > .aside, .contenedorNoticias main .sectNoticias2 > .contenidoNoticias2 > .aside > h1 {
   text-align: center !important; }
 
 @media (min-width: 576px) {
@@ -7446,6 +7491,43 @@ body {
           font-family: "Niconne";
           font-size: 28px;
           line-height: 20px; }
+    .contenedorNoticias main .sectNoticias2 {
+      width: 100%;
+      height: 50%;
+      background: #E4C9B0;
+      /*display: flex;
+      align-items: center;
+      padding: 5%;
+      text-align: justify;*/
+      padding: 2%;
+      text-align: justify; }
+      .contenedorNoticias main .sectNoticias2 > .contenidoNoticias2 > .aside > h1 {
+        font-family: Harry2;
+        font-size: 36px;
+        letter-spacing: 5px; }
+      .contenedorNoticias main .sectNoticias2 > .contenidoNoticias2 > .artNoticias2 > .deck {
+        padding-bottom: 25px; }
+        .contenedorNoticias main .sectNoticias2 > .contenidoNoticias2 > .artNoticias2 > .deck > .carta {
+          background-color: #E4C9B0;
+          border: none;
+          max-width: 18rem;
+          margin-top: 10px; }
+          .contenedorNoticias main .sectNoticias2 > .contenidoNoticias2 > .artNoticias2 > .deck > .carta > .cabeceraCard {
+            width: 100%;
+            background-color: #E4C9B0;
+            border: 1px solid black;
+            border-bottom: none;
+            border-top: none;
+            margin-bottom: 15px;
+            font-family: "Blackore", sans-serif;
+            text-align: center; }
+          .contenedorNoticias main .sectNoticias2 > .contenidoNoticias2 > .artNoticias2 > .deck > .carta > .card-body {
+            border: 1px solid black;
+            border-top: none;
+            border-bottom: none; }
+          .contenedorNoticias main .sectNoticias2 > .contenidoNoticias2 > .artNoticias2 > .deck > .carta .card-body > .textoCarta {
+            font-family: "Niconne";
+            font-size: 25px; }
     .contenedorNoticias main .paginador {
       font-family: "Niconne";
       font-size: 20px; }
