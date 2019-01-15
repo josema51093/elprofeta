@@ -23,6 +23,11 @@ body{
 
 
 .contenedor{
+	@media (max-width: 320px){
+		*{
+			width: 100%;
+		}
+	}
 	//Establecer alto y ancho del contenedor
 	@include altoAncho($widthContainer,$heightContainer);
 	//Establecer estructura del layout (grid)
@@ -102,7 +107,9 @@ body{
 		background: $fondoMain;
 		border: 4px solid;
 		margin: 0 2%;
-		@extend .col-12;
+		/*@extend .col-12;
+		@extend .row;*/
+		@extend .container-fluid;
 	
 		.sec1{
 			width: $widthSec1;
@@ -115,7 +122,7 @@ body{
 			padding: 2%;
 			text-align: justify;
 
-			.noticia{
+			&>.noticia{
 				@extend .row;
 
 				&>h1{
@@ -130,20 +137,22 @@ body{
 					width: $widthArt1;
 					align-self: center;
 					@extend .col-sm-12;
-					@extend .col-3; 
+					@extend .col-12; 
 					
 					&>p{
 						@include parrafo($niconne,28px,20px);
 					}
+
+					&>video{
+						@extend .col-sm-12;
+						@extend .col-12;
+						width: 100%;
+						height: 450px;
+						//@extend .justify-content-center;
+					}
 				}
 
-				&>video{
-					@extend .col-sm-12;
-					@extend .col-6;
-					width: 620px;
-					height: 320px;
-					align-self: center;
-				}
+				
 			}
 		}
 
@@ -152,20 +161,56 @@ body{
 			width: $widthSec2;
 			height: $heightSec2;
 			background: $fondoSec2;
+			//@extend .container-fluid;
+			@media (max-width: 320px){
+				*{
+					max-width: 100%;
+				}
+			}
+			
+			//@extend .row;
+			
+			&>h1{
+				@extend .col-12;
+				@extend .text-center;
+				font-family: Harry2;
+				font-size: 55px;
+				letter-spacing: 5px;
+				margin-bottom: -5%;
+			}
 			
 			&>.deck{
+				@extend .col-12;
 				@extend .row;
 				@extend .justify-content-around;
-				@extend .col-12;
+				/*@extend .col-sm-12;
+				@extend .col-12;*/
+				@extend .container-fluid;
+				width: 100%;
 				padding-bottom: 25px;
+
+				@media (max-width: 320px){
+							max-width: 100%;
+							display: flex;
+					}
 				
 				&>.carta{
+
+					@media (max-width: 320px){
+							max-width: 100%;
+							display: flex;
+					}
+					@media (max-width: 767px){
+						max-width: 100%;
+					}
 					background-color: $fondoCarta;
 					border: none;
 					@extend .card;
 					@extend .border-dark;
+					@extend .col-sm-12;
 					@extend .col-4;
 					max-width: 18rem;
+					margin-top: 5%;
 
 					&>.cabeceraCard{
 						@extend .card-header;

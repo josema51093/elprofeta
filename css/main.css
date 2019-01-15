@@ -872,14 +872,14 @@ pre {
     .container {
       max-width: 1140px; } }
 
-.container-fluid, .contenedor, .contenedor header, .contenedorNoticias header {
+.container-fluid, .contenedor, .contenedor header, .contenedor main, .contenedor main .sec2 > .deck, .contenedorNoticias header {
   width: 100%;
   padding-right: 15px;
   padding-left: 15px;
   margin-right: auto;
   margin-left: auto; }
 
-.row, .contenedor header .logos, .contenedor header .menu, .contenedor main .sec1 .noticia, .contenedor main .sec2 > .deck, .contenedor footer, .contenedorNoticias header .logos, .contenedorNoticias header .menu, .contenedorNoticias header .migasPan, .contenedorNoticias main .sec1 > .contenido, .contenedorNoticias main .sec1 > .contenido > aside > .deck, .contenedorNoticias main .sec1 > .contenido > .art1 figure, .contenedorNoticias main .paginador, .contenedorNoticias footer {
+.row, .contenedor header .logos, .contenedor header .menu, .contenedor main .sec1 > .noticia, .contenedor main .sec2 > .deck, .contenedor footer, .contenedorNoticias header .logos, .contenedorNoticias header .menu, .contenedorNoticias header .migasPan, .contenedorNoticias main .sec1 > .contenido, .contenedorNoticias main .sec1 > .contenido > aside > .deck, .contenedorNoticias main .sec1 > .contenido > .art1 figure, .contenedorNoticias main .paginador, .contenedorNoticias footer {
   display: flex;
   flex-wrap: wrap;
   margin-right: -15px;
@@ -893,7 +893,7 @@ pre {
     padding-right: 0;
     padding-left: 0; }
 
-.col-1, .col-2, .col-3, .contenedor main .sec1 .noticia > .art1, .contenedorNoticias main .sec1 > .contenido > aside, .col-4, .contenedor main .sec2 > .deck > .carta, .col-5, .col-6, .contenedor main .sec1 .noticia > video, .contenedor footer > .copyright, .contenedor footer > .social, .contenedorNoticias main .sec1 > .contenido > .art1, .contenedorNoticias footer > .copyright, .contenedorNoticias footer > .social, .col-7, .col-8, .col-9, .col-10, .col-11, .col-12, .contenedor header .menu, .contenedor main, .contenedor main .sec1 .noticia > h1, .contenedor main .sec2 > .deck, .contenedor footer, .contenedorNoticias header .logos, .contenedorNoticias header .menu, .contenedorNoticias header .migasPan, .contenedorNoticias main .sec1 > .contenido > aside > h1, .contenedorNoticias main .sec1 > .contenido > aside > .deck, .contenedorNoticias main .sec1 > .contenido > aside > .deck > .carta, .contenedorNoticias main .sec1 > .contenido > .art1 > h1, .contenedorNoticias main .paginador, .contenedorNoticias footer, .col,
+.col-1, .col-2, .col-3, .contenedorNoticias main .sec1 > .contenido > aside, .col-4, .contenedor main .sec2 > .deck > .carta, .col-5, .col-6, .contenedor footer > .copyright, .contenedor footer > .social, .contenedorNoticias main .sec1 > .contenido > .art1, .contenedorNoticias footer > .copyright, .contenedorNoticias footer > .social, .col-7, .col-8, .col-9, .col-10, .col-11, .col-12, .contenedor header .menu, .contenedor main .sec1 > .noticia > h1, .contenedor main .sec1 > .noticia > .art1, .contenedor main .sec1 > .noticia > .art1 > video, .contenedor main .sec2 > h1, .contenedor main .sec2 > .deck, .contenedor footer, .contenedorNoticias header .logos, .contenedorNoticias header .menu, .contenedorNoticias header .migasPan, .contenedorNoticias main .sec1 > .contenido > aside > h1, .contenedorNoticias main .sec1 > .contenido > aside > .deck, .contenedorNoticias main .sec1 > .contenido > aside > .deck > .carta, .contenedorNoticias main .sec1 > .contenido > .art1 > h1, .contenedorNoticias main .paginador, .contenedorNoticias footer, .col,
 .col-auto, .col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12, .contenedor header .logos > a > img, .contenedor header .menu > a, .col-sm,
 .col-sm-auto, .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12, .col-md,
 .col-md-auto, .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg,
@@ -923,7 +923,7 @@ pre {
   flex: 0 0 16.6666666667%;
   max-width: 16.6666666667%; }
 
-.col-3, .contenedor main .sec1 .noticia > .art1, .contenedorNoticias main .sec1 > .contenido > aside {
+.col-3, .contenedorNoticias main .sec1 > .contenido > aside {
   flex: 0 0 25%;
   max-width: 25%; }
 
@@ -935,7 +935,7 @@ pre {
   flex: 0 0 41.6666666667%;
   max-width: 41.6666666667%; }
 
-.col-6, .contenedor main .sec1 .noticia > video, .contenedor footer > .copyright, .contenedor footer > .social, .contenedorNoticias main .sec1 > .contenido > .art1, .contenedorNoticias footer > .copyright, .contenedorNoticias footer > .social {
+.col-6, .contenedor footer > .copyright, .contenedor footer > .social, .contenedorNoticias main .sec1 > .contenido > .art1, .contenedorNoticias footer > .copyright, .contenedorNoticias footer > .social {
   flex: 0 0 50%;
   max-width: 50%; }
 
@@ -959,7 +959,7 @@ pre {
   flex: 0 0 91.6666666667%;
   max-width: 91.6666666667%; }
 
-.col-12, .contenedor header .menu, .contenedor main, .contenedor main .sec1 .noticia > h1, .contenedor main .sec2 > .deck, .contenedor footer, .contenedorNoticias header .logos, .contenedorNoticias header .menu, .contenedorNoticias header .migasPan, .contenedorNoticias main .sec1 > .contenido > aside > h1, .contenedorNoticias main .sec1 > .contenido > aside > .deck, .contenedorNoticias main .sec1 > .contenido > aside > .deck > .carta, .contenedorNoticias main .sec1 > .contenido > .art1 > h1, .contenedorNoticias main .paginador, .contenedorNoticias footer {
+.col-12, .contenedor header .menu, .contenedor main .sec1 > .noticia > h1, .contenedor main .sec1 > .noticia > .art1, .contenedor main .sec1 > .noticia > .art1 > video, .contenedor main .sec2 > h1, .contenedor main .sec2 > .deck, .contenedor footer, .contenedorNoticias header .logos, .contenedorNoticias header .menu, .contenedorNoticias header .migasPan, .contenedorNoticias main .sec1 > .contenido > aside > h1, .contenedorNoticias main .sec1 > .contenido > aside > .deck, .contenedorNoticias main .sec1 > .contenido > aside > .deck > .carta, .contenedorNoticias main .sec1 > .contenido > .art1 > h1, .contenedorNoticias main .paginador, .contenedorNoticias footer {
   flex: 0 0 100%;
   max-width: 100%; }
 
@@ -1096,7 +1096,7 @@ pre {
     flex: 0 0 91.6666666667%;
     max-width: 91.6666666667%; }
 
-  .col-sm-12, .contenedor header .logos > a > img, .contenedor header .menu > a, .contenedor main .sec1 .noticia > .art1, .contenedor main .sec1 .noticia > video {
+  .col-sm-12, .contenedor header .logos > a > img, .contenedor header .menu > a, .contenedor main .sec1 > .noticia > .art1, .contenedor main .sec1 > .noticia > .art1 > video, .contenedor main .sec2 > .deck > .carta {
     flex: 0 0 100%;
     max-width: 100%; }
 
@@ -3261,6 +3261,8 @@ tbody.collapse.show {
   .navbar > .container-fluid,
   .navbar > .contenedor,
   .contenedor .navbar > header,
+  .contenedor .navbar > main,
+  .contenedor main .sec2.navbar > .deck,
   .contenedorNoticias .navbar > header {
     display: flex;
     flex-wrap: wrap;
@@ -3327,6 +3329,8 @@ tbody.collapse.show {
   .navbar-expand-sm > .container-fluid,
   .navbar-expand-sm > .contenedor,
   .contenedor .navbar-expand-sm > header,
+  .contenedor .navbar-expand-sm > main,
+  .contenedor main .sec2.navbar-expand-sm > .deck,
   .contenedorNoticias .navbar-expand-sm > header {
     padding-right: 0;
     padding-left: 0; } }
@@ -3348,6 +3352,8 @@ tbody.collapse.show {
     .navbar-expand-sm > .container-fluid,
     .navbar-expand-sm > .contenedor,
     .contenedor .navbar-expand-sm > header,
+    .contenedor .navbar-expand-sm > main,
+    .contenedor main .sec2.navbar-expand-sm > .deck,
     .contenedorNoticias .navbar-expand-sm > header {
       flex-wrap: nowrap; }
     .navbar-expand-sm .navbar-collapse {
@@ -3363,6 +3369,8 @@ tbody.collapse.show {
   .navbar-expand-md > .container-fluid,
   .navbar-expand-md > .contenedor,
   .contenedor .navbar-expand-md > header,
+  .contenedor .navbar-expand-md > main,
+  .contenedor main .sec2.navbar-expand-md > .deck,
   .contenedorNoticias .navbar-expand-md > header {
     padding-right: 0;
     padding-left: 0; } }
@@ -3384,6 +3392,8 @@ tbody.collapse.show {
     .navbar-expand-md > .container-fluid,
     .navbar-expand-md > .contenedor,
     .contenedor .navbar-expand-md > header,
+    .contenedor .navbar-expand-md > main,
+    .contenedor main .sec2.navbar-expand-md > .deck,
     .contenedorNoticias .navbar-expand-md > header {
       flex-wrap: nowrap; }
     .navbar-expand-md .navbar-collapse {
@@ -3399,6 +3409,8 @@ tbody.collapse.show {
   .navbar-expand-lg > .container-fluid,
   .navbar-expand-lg > .contenedor,
   .contenedor .navbar-expand-lg > header,
+  .contenedor .navbar-expand-lg > main,
+  .contenedor main .sec2.navbar-expand-lg > .deck,
   .contenedorNoticias .navbar-expand-lg > header {
     padding-right: 0;
     padding-left: 0; } }
@@ -3420,6 +3432,8 @@ tbody.collapse.show {
     .navbar-expand-lg > .container-fluid,
     .navbar-expand-lg > .contenedor,
     .contenedor .navbar-expand-lg > header,
+    .contenedor .navbar-expand-lg > main,
+    .contenedor main .sec2.navbar-expand-lg > .deck,
     .contenedorNoticias .navbar-expand-lg > header {
       flex-wrap: nowrap; }
     .navbar-expand-lg .navbar-collapse {
@@ -3435,6 +3449,8 @@ tbody.collapse.show {
   .navbar-expand-xl > .container-fluid,
   .navbar-expand-xl > .contenedor,
   .contenedor .navbar-expand-xl > header,
+  .contenedor .navbar-expand-xl > main,
+  .contenedor main .sec2.navbar-expand-xl > .deck,
   .contenedorNoticias .navbar-expand-xl > header {
     padding-right: 0;
     padding-left: 0; } }
@@ -3456,6 +3472,8 @@ tbody.collapse.show {
     .navbar-expand-xl > .container-fluid,
     .navbar-expand-xl > .contenedor,
     .contenedor .navbar-expand-xl > header,
+    .contenedor .navbar-expand-xl > main,
+    .contenedor main .sec2.navbar-expand-xl > .deck,
     .contenedorNoticias .navbar-expand-xl > header {
       flex-wrap: nowrap; }
     .navbar-expand-xl .navbar-collapse {
@@ -3473,6 +3491,8 @@ tbody.collapse.show {
   .navbar-expand > .container-fluid,
   .navbar-expand > .contenedor,
   .contenedor .navbar-expand > header,
+  .contenedor .navbar-expand > main,
+  .contenedor main .sec2.navbar-expand > .deck,
   .contenedorNoticias .navbar-expand > header {
     padding-right: 0;
     padding-left: 0; }
@@ -3490,6 +3510,8 @@ tbody.collapse.show {
   .navbar-expand > .container-fluid,
   .navbar-expand > .contenedor,
   .contenedor .navbar-expand > header,
+  .contenedor .navbar-expand > main,
+  .contenedor main .sec2.navbar-expand > .deck,
   .contenedorNoticias .navbar-expand > header {
     flex-wrap: nowrap; }
   .navbar-expand .navbar-collapse {
@@ -6915,7 +6937,7 @@ button.bg-dark:focus {
 .text-right, .contenedor footer > .social, .contenedorNoticias footer > .social {
   text-align: right !important; }
 
-.text-center, .contenedor main .sec1 .noticia > h1, .contenedorNoticias main .sec1 > .contenido > aside, .contenedorNoticias main .sec1 > .contenido > aside > h1, .contenedorNoticias main .sec1 > .contenido > .art1 > h1 {
+.text-center, .contenedor main .sec1 > .noticia > h1, .contenedor main .sec2 > h1, .contenedorNoticias main .sec1 > .contenido > aside, .contenedorNoticias main .sec1 > .contenido > aside > h1, .contenedorNoticias main .sec1 > .contenido > .art1 > h1 {
   text-align: center !important; }
 
 @media (min-width: 576px) {
@@ -7213,6 +7235,9 @@ body {
 .contenedor {
   width: auto;
   height: auto; }
+  @media (max-width: 320px) {
+    .contenedor * {
+      width: 100%; } }
   .contenedor header {
     background: #E4C9B0;
     width: auto;
@@ -7248,7 +7273,9 @@ body {
     height: auto;
     background: #E4C9B0;
     border: 4px solid;
-    margin: 0 2%; }
+    margin: 0 2%;
+    /*@extend .col-12;
+    @extend .row;*/ }
     .contenedor main .sec1 {
       width: 100%;
       height: 50%;
@@ -7259,31 +7286,53 @@ body {
       text-align: justify;*/
       padding: 2%;
       text-align: justify; }
-      .contenedor main .sec1 .noticia > h1 {
+      .contenedor main .sec1 > .noticia > h1 {
         font-family: Harry2;
         font-size: 75px;
         letter-spacing: 5px; }
-      .contenedor main .sec1 .noticia > .art1 {
+      .contenedor main .sec1 > .noticia > .art1 {
         width: 50%;
         align-self: center; }
-        .contenedor main .sec1 .noticia > .art1 > p {
+        .contenedor main .sec1 > .noticia > .art1 > p {
           font-family: "Niconne";
           font-size: 28px;
           line-height: 20px; }
-      .contenedor main .sec1 .noticia > video {
-        width: 620px;
-        height: 320px;
-        align-self: center; }
+        .contenedor main .sec1 > .noticia > .art1 > video {
+          width: 100%;
+          height: 450px; }
     .contenedor main .sec2 {
       width: 100%;
       height: 50%;
       background: #E4C9B0; }
+      @media (max-width: 320px) {
+        .contenedor main .sec2 * {
+          max-width: 100%; } }
+      .contenedor main .sec2 > h1 {
+        font-family: Harry2;
+        font-size: 55px;
+        letter-spacing: 5px;
+        margin-bottom: -5%; }
       .contenedor main .sec2 > .deck {
+        /*@extend .col-sm-12;
+        @extend .col-12;*/
+        width: 100%;
         padding-bottom: 25px; }
+        @media (max-width: 320px) {
+          .contenedor main .sec2 > .deck {
+            max-width: 100%;
+            display: flex; } }
         .contenedor main .sec2 > .deck > .carta {
           background-color: #E4C9B0;
           border: none;
-          max-width: 18rem; }
+          max-width: 18rem;
+          margin-top: 5%; }
+          @media (max-width: 320px) {
+            .contenedor main .sec2 > .deck > .carta {
+              max-width: 100%;
+              display: flex; } }
+          @media (max-width: 767px) {
+            .contenedor main .sec2 > .deck > .carta {
+              max-width: 100%; } }
           .contenedor main .sec2 > .deck > .carta > .cabeceraCard {
             width: 100%;
             background-color: #E4C9B0;
