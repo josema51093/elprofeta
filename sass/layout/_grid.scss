@@ -76,6 +76,8 @@ body{
 			@extend .justify-content-md-around;
 			@extend .justify-content-lg-around;
 
+			font-family: Harry2;
+			font-size: 20px;
 			@media (max-width: 767px){
 				&>button{
 					width: 100%;

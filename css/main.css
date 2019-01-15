@@ -7302,17 +7302,20 @@ body {
       .contenedor header .logos .editorial {
         visibility: hidden;
         display: none; } }
-    @media (max-width: 767px) {
-      .contenedor header .menu > button {
-        width: 100%;
-        margin-top: 4%; }
-        .contenedor header .menu > button > a {
-          justify-content: center; } }
-    .contenedor header .menu > a {
-      display: flex;
-      align-items: center;
-      text-align: center;
-      background-color: #C7C7C7; }
+    .contenedor header .menu {
+      font-family: Harry2;
+      font-size: 20px; }
+      @media (max-width: 767px) {
+        .contenedor header .menu > button {
+          width: 100%;
+          margin-top: 4%; }
+          .contenedor header .menu > button > a {
+            justify-content: center; } }
+      .contenedor header .menu > a {
+        display: flex;
+        align-items: center;
+        text-align: center;
+        background-color: #C7C7C7; }
   .contenedor main {
     width: auto;
     height: auto;
@@ -7428,14 +7431,19 @@ body {
     justify-content: space-around;
     align-items: center;
     flex-wrap: wrap; }
-    .contenedorNoticias header .menu > a {
-      display: flex;
-      align-items: center; }
+    .contenedorNoticias header .menu {
+      font-family: Harry2;
+      font-size: 20px; }
+      .contenedorNoticias header .menu > a {
+        display: flex;
+        align-items: center; }
     .contenedorNoticias header .migasPan {
       font-family: "Niconne";
       font-size: 20px; }
       .contenedorNoticias header .migasPan > ol {
         background-color: transparent; }
+        .contenedorNoticias header .migasPan > ol > .breadcrumb-item a {
+          color: black; }
   .contenedorNoticias main {
     grid-area: main;
     width: auto;

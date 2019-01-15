@@ -54,12 +54,15 @@ body{
 			@extend .col-12;
 			@extend .justify-content-around;
 
+			font-family: Harry2;
+			font-size: 20px;
 			&>a{
 				display: flex;
 				align-items: center;
 				@extend .btn;
 				@extend .btn-primary;
 			}
+			
 		}
 		.migasPan{
 			@extend .row;
@@ -70,6 +73,9 @@ body{
 			&>ol{
 				background-color: transparent;
 				@extend .breadcrumb;
+				&>.breadcrumb-item a{
+					color: black;
+				}
 			}
 		}
 	}
