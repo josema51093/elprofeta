@@ -54,12 +54,15 @@ body{
 			@extend .col-12;
 			@extend .justify-content-around;
 
+			font-family: Harry2;
+			font-size: 20px;
 			&>a{
 				display: flex;
 				align-items: center;
 				@extend .btn;
 				@extend .btn-primary;
 			}
+			
 		}
 		.migasPan{
 			@extend .row;
@@ -70,6 +73,9 @@ body{
 			&>ol{
 				background-color: transparent;
 				@extend .breadcrumb;
+				&>.breadcrumb-item a{
+					color: black;
+				}
 			}
 		}
 	}
@@ -195,6 +201,10 @@ body{
 						font-size: 36px;
 						letter-spacing: 5px;
 					}
+					&>p{
+						@include parrafo($niconne,28px,20px);
+						text-align: justify;
+					}
 					
 				}
 				&>.artNoticias2{
@@ -210,7 +220,7 @@ body{
 							border: none;
 							@extend .card;
 							@extend .border-dark;
-							@extend .col-3;
+							@extend .col-4;
 							max-width: 18rem;
 							margin-top: 10px;
 
