@@ -170,6 +170,73 @@ body{
 				}
 			}
 		}
+		.sectNoticias2{
+			width: $widthSec1;
+			height: $heightSec1;
+			background: $fondoSec1;
+			/*display: flex;
+			align-items: center;
+			padding: 5%;
+			text-align: justify;*/
+			padding: 2%;
+			text-align: justify;
+
+			&>.contenidoNoticias2{
+				@extend .row;
+
+				&>.aside{
+					@extend .col-3;
+					@extend .text-center;
+
+					&>h1{
+						@extend .col-12;
+						@extend .text-center;
+						font-family: Harry2;
+						font-size: 36px;
+						letter-spacing: 5px;
+					}
+					
+				}
+				.deck{
+					@extend .col-9;
+					@extend .row;
+					@extend .justify-content-between;
+					padding-bottom: 25px;
+						
+					&>.carta{
+						background-color: $fondoCarta;
+						border: none;
+						@extend .card;
+						@extend .border-dark;
+						@extend .col-4;
+						max-width: 18rem;
+						margin-top: 10px;
+
+						&>.cabeceraCard{
+							@extend .card-header;
+							width: 100%;
+							background-color: $fondoCarta;
+							border: 1px solid black;
+							border-bottom: none;
+							border-top: none;
+							margin-bottom: 15px;
+							font-family: $font;
+							text-align: center;
+						}
+						&>.card-body{
+							border: 1px solid black;
+							border-top: none;
+							border-bottom: none;
+						}
+						.card-body>.textoCarta{
+							@extend .card-text;
+							font-family: $niconne;
+							font-size: 25px;
+						}
+					}
+				}
+			}
+		}
 		.paginador{
 			@extend .row;
 			@extend .col-12;
