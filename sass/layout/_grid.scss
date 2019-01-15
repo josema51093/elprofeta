@@ -158,7 +158,7 @@ body{
 			}
 		}
 
-		//Se completa mañana cuando esten los cards
+		
 		.sec2{
 			width: $widthSec2;
 			height: $heightSec2;
@@ -181,64 +181,53 @@ body{
 				margin-bottom: -5%;
 			}
 			
-			&>.deck{
-				@extend .col-12;
-				@extend .row;
-				@extend .justify-content-around;
-				/*@extend .col-sm-12;
-				@extend .col-12;*/
-				@extend .container-fluid;
-				width: 100%;
-				padding-bottom: 25px;
+			&>.carrusel{
+				margin: 5%;
+				&>.carousel-inner{
+					&>.carousel-item{
 
-				@media (max-width: 320px){
-							max-width: 100%;
-							display: flex;
-					}
-				
-				&>.carta{
+						&>.textoCarrusel{
+							@extend .carousel-caption;
+							@extend .d-none;
+							@extend .d-md-block;
 
-					@media (max-width: 320px){
-							max-width: 100%;
-							display: flex;
-					}
-					@media (max-width: 767px){
-						max-width: 100%;
-					}
-					background-color: $fondoCarta;
-					border: none;
-					@extend .card;
-					@extend .border-dark;
-					@extend .col-sm-12;
-					@extend .col-4;
-					max-width: 18rem;
-					margin-top: 5%;
-
-					&>.cabeceraCard{
-						@extend .card-header;
-						width: 100%;
-						background-color: $fondoCarta;
-						border: 1px solid black;
-						border-bottom: none;
-						border-top: none;
-						margin-bottom: 15px;
-						font-family: $font;
-						text-align: center;
-					}
-					&>.card-body{
-						border: 1px solid black;
-						border-top: none;
-						border-bottom: none;
-					}
-					.card-body>.textoCarta{
-						@extend .card-text;
-						font-family: $niconne;
-						font-size: 25px;
+							&>h1{
+								font-family: Harry2;
+							}
+						}
+						&>.accordion{
+							&>.card{
+								background-color: transparent;
+								border: none;
+								width: 100%;
+								&>.cabeceraCarta{
+									&>h1{
+										font-family: Harry2;
+										&>.btn{
+											background-color: transparent;
+											color: white;
+											font-size: 40px;
+										}
+									}
+								}
+							}
+							&>.collapse{
+								background-color: rgba(0,0,0,0.7);
+								width: 100%;
+								&>.card-body{
+									color: white;
+									font-family: $niconne;
+									font-size: 23px;
+								}
+							}
+						}
+						&>img{
+							width: 500px;
+							height: 450px;
+							
+						}
 					}
 				}
-			}
-			&>.deck:nth-child(1){
-				padding-left: 50px
 			}
 			
 		}
