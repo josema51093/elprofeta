@@ -8,6 +8,118 @@
 	<link rel="stylesheet" href="../css/main.css">
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
 	<link rel="shortcut icon" href="../images/logo.png" type="image/png">
+	<script src="../js/jquery.js" type="text/javascript"></script> 
+	<script>
+		// jQuery
+		/*$(document).ready(function(){ 
+		   $('#noticia').on('click',function(){
+		      // $('#mostrar').show('slow');
+		      document.getElementById("mostrar").style.display='block';
+		      document.getElementById("noticia").innerHTML='Cerrar';
+		      mostrarOcultar();
+		   });
+		});*/
+
+		//document.getElementById("noticia").addEventListener("click", mostrarOcultar());
+
+		function mostrarOcultar(){
+			var statusDisplay = document.getElementById("mostrar").style.display;
+			var valueEnlace = document.getElementById("noticia").value;
+
+			if (statusDisplay == "block") {
+				document.getElementById("noticia").innerHTML = 'Leer más';
+				document.getElementById("mostrar").style.display='none';	
+			} else {
+				document.getElementById("noticia").innerHTML = 'Cerrar';
+				document.getElementById("mostrar").style.display='block';
+			}
+		}
+
+		function mostrarOcultar2(){
+			var statusDisplay = document.getElementById("mostrar2").style.display;
+			var valueEnlace = document.getElementById("noticia2").value;
+
+			if (statusDisplay == "block") {
+				document.getElementById("noticia2").innerHTML = 'Leer más';
+				document.getElementById("mostrar2").style.display='none';	
+			} else {
+				document.getElementById("noticia2").innerHTML = 'Cerrar';
+				document.getElementById("mostrar2").style.display='block';
+			}
+		}
+
+		function mostrarOcultar3(){
+			var statusDisplay = document.getElementById("mostrar3").style.display;
+			var valueEnlace = document.getElementById("noticia3").value;
+
+			if (statusDisplay == "block") {
+				document.getElementById("noticia3").innerHTML = 'Leer más';
+				document.getElementById("mostrar3").style.display='none';	
+			} else {
+				document.getElementById("noticia3").innerHTML = 'Cerrar';
+				document.getElementById("mostrar3").style.display='block';
+			}
+		}
+
+		function mostrarOcultar4(){
+			var statusDisplay = document.getElementById("mostrar4").style.display;
+			var valueEnlace = document.getElementById("noticia4").value;
+
+			if (statusDisplay == "block") {
+				document.getElementById("noticia4").innerHTML = 'Leer más';
+				document.getElementById("mostrar4").style.display='none';	
+			} else {
+				document.getElementById("noticia4").innerHTML = 'Cerrar';
+				document.getElementById("mostrar4").style.display='block';
+			}
+		}
+
+		function mostrarOcultar5(){
+			var statusDisplay = document.getElementById("mostrar5").style.display;
+			var valueEnlace = document.getElementById("noticia5").value;
+
+			if (statusDisplay == "block") {
+				document.getElementById("noticia5").innerHTML = 'Leer más';
+				document.getElementById("mostrar5").style.display='none';	
+			} else {
+				document.getElementById("noticia5").innerHTML = 'Cerrar';
+				document.getElementById("mostrar5").style.display='block';
+			}
+		}
+
+		function mostrarOcultar6(){
+			var statusDisplay = document.getElementById("mostrar6").style.display;
+			var valueEnlace = document.getElementById("noticia6").value;
+
+			if (statusDisplay == "block") {
+				document.getElementById("noticia6").innerHTML = 'Leer más';
+				document.getElementById("mostrar6").style.display='none';	
+			} else {
+				document.getElementById("noticia6").innerHTML = 'Cerrar';
+				document.getElementById("mostrar6").style.display='block';
+			}
+		}
+
+		/*$(document, '#noticia').click(function(e){
+			e.preventDefault();
+			$('#mostrar'.show());
+		});*/
+
+		/*document.getElementById("noticia").addEventListener("click", cambiaContenido);
+		function cambiaContenido(){
+			var xhr = new XMLHttpRequest();
+			xhr.onreadystatechange = function(){
+				if (this.readyState == 4 && this.status == 200) {
+					$(document).ready(function(){ 
+					   $('#noticia').on('click',function(){
+					      $('#mostrar').show('slow');
+					   });
+				}
+			};
+			xhr.open("GET", "ajax_files/holamundo.txt", true);
+			xhr.send();
+		}*/
+	</script>
 </head>
 <body>
 	<div class="contenedorNoticias">
@@ -90,7 +202,9 @@
 	                        </div>
 	                        <div class="card-body">
 	                            <img class="card-img-top img-fluid" src="../images/ejemplo.jpg" alt="Card image cap">
-	                            <p class="textoCarta">Investigadores muggles descubren la cura contra el cáncer mágico con una proteína encontrada en las mandrágoras... <a href="pages/noticias.html" title="">Leer mas</a></p>
+	                            <p class="textoCarta">Investigadores muggles descubren la cura contra el cáncer mágico con una proteína encontrada en las mandrágoras... <span id="mostrar" class="mostrar">
+	                            	Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam quia ipsa a doloremque maiores, tempore reprehenderit tempora in magnam maxime aut deserunt commodi. Dolore, consectetur libero aliquid atque! Cupiditate, dolor.
+	                            </span><a href="#" title="" id="noticia" onclick="mostrarOcultar()">Leer mas</a></p>
 	                        </div>
 	                    </div>
 	                    <div class="carta">
@@ -99,7 +213,9 @@
 	                        </div>
 	                        <div class="card-body">
 	                            <img class="card-img-top img-fluid" src="../images/ejemplo.jpg" alt="Card image cap">
-	                            <p class="textoCarta">Investigadores muggles descubren la cura contra el cáncer mágico con una proteína encontrada en las mandrágoras... <a href="pages/noticias.html" title="">Leer mas</a></p>
+	                            <p class="textoCarta">Investigadores muggles descubren la cura contra el cáncer mágico con una proteína encontrada en las mandrágoras... <span id="mostrar2" class="mostrar">
+	                            	Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam quia ipsa a doloremque maiores, tempore reprehenderit tempora in magnam maxime aut deserunt commodi. Dolore, consectetur libero aliquid atque! Cupiditate, dolor.
+	                            </span><a href="#" title="" id="noticia2" onclick="mostrarOcultar2()">Leer mas</a></p>
 	                        </div>
 	                    </div>
 	                    <div class="carta">
@@ -108,7 +224,9 @@
 	                        </div>
 	                        <div class="card-body">
 	                            <img class="card-img-top img-fluid" src="../images/ejemplo.jpg" alt="Card image cap">
-	                            <p class="textoCarta">Investigadores muggles descubren la cura contra el cáncer mágico con una proteína encontrada en las mandrágoras... <a href="pages/noticias.html" title="">Leer mas</a></p>
+	                            <p class="textoCarta">Investigadores muggles descubren la cura contra el cáncer mágico con una proteína encontrada en las mandrágoras... <span id="mostrar3" class="mostrar">
+	                            	Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam quia ipsa a doloremque maiores, tempore reprehenderit tempora in magnam maxime aut deserunt commodi. Dolore, consectetur libero aliquid atque! Cupiditate, dolor.
+	                            </span><a href="#" title="" id="noticia3" onclick="mostrarOcultar3()">Leer mas</a></p>
 	                        </div>
 	                    </div>
 	                    <div class="carta">
@@ -117,7 +235,9 @@
 	                        </div>
 	                        <div class="card-body">
 	                            <img class="card-img-top img-fluid" src="../images/ejemplo.jpg" alt="Card image cap">
-	                            <p class="textoCarta">Investigadores muggles descubren la cura contra el cáncer mágico con una proteína encontrada en las mandrágoras... <a href="pages/noticias.html" title="">Leer mas</a></p>
+	                            <p class="textoCarta">Investigadores muggles descubren la cura contra el cáncer mágico con una proteína encontrada en las mandrágoras... <span id="mostrar4" class="mostrar">
+	                            	Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam quia ipsa a doloremque maiores, tempore reprehenderit tempora in magnam maxime aut deserunt commodi. Dolore, consectetur libero aliquid atque! Cupiditate, dolor.
+	                            </span><a href="#" title="" id="noticia4" onclick="mostrarOcultar4()">Leer mas</a></p>
 	                        </div>
 	                    </div>
 	                    <div class="carta">
@@ -126,7 +246,9 @@
 	                        </div>
 	                        <div class="card-body">
 	                            <img class="card-img-top img-fluid" src="../images/ejemplo.jpg" alt="Card image cap">
-	                            <p class="textoCarta">Investigadores muggles descubren la cura contra el cáncer mágico con una proteína encontrada en las mandrágoras... <a href="pages/noticias.html" title="">Leer mas</a></p>
+	                            <p class="textoCarta">Investigadores muggles descubren la cura contra el cáncer mágico con una proteína encontrada en las mandrágoras... <span id="mostrar5" class="mostrar">
+	                            	Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam quia ipsa a doloremque maiores, tempore reprehenderit tempora in magnam maxime aut deserunt commodi. Dolore, consectetur libero aliquid atque! Cupiditate, dolor.
+	                            </span><a href="#" title="" id="noticia5" onclick="mostrarOcultar5()">Leer mas</a></p>
 	                        </div>
 	                    </div>
 	                    <div class="carta">
@@ -135,7 +257,9 @@
 	                        </div>
 	                        <div class="card-body">
 	                            <img class="card-img-top img-fluid" src="../images/ejemplo.jpg" alt="Card image cap">
-	                            <p class="textoCarta">Investigadores muggles descubren la cura contra el cáncer mágico con una proteína encontrada en las mandrágoras... <a href="pages/noticias.html" title="">Leer mas</a></p>
+	                            <p class="textoCarta">Investigadores muggles descubren la cura contra el cáncer mágico con una proteína encontrada en las mandrágoras... <span id="mostrar6" class="mostrar">
+	                            	Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam quia ipsa a doloremque maiores, tempore reprehenderit tempora in magnam maxime aut deserunt commodi. Dolore, consectetur libero aliquid atque! Cupiditate, dolor.
+	                            </span><a href="#" title="" id="noticia6" onclick="mostrarOcultar6()">Leer mas</a></p>
 	                        </div>
 	                    </div>
                     </div>

@@ -176,6 +176,8 @@ body{
 				}
 			}
 		}
+
+		//Comienzo pagina noticias 2
 		.sectNoticias2{
 			width: $widthSec1;
 			height: $heightSec1;
@@ -239,11 +241,16 @@ body{
 								border: 1px solid black;
 								border-top: none;
 								border-bottom: none;
-							}
-							.card-body>.textoCarta{
-								@extend .card-text;
-								font-family: $niconne;
-								font-size: 25px;
+								&>.textoCarta{
+									@extend .card-text;
+									font-family: $niconne;
+									font-size: 25px;
+
+									&>.mostrar{
+										display: none;
+										@extend .collapse;
+									}
+								}
 							}
 						}
 					}
