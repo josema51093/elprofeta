@@ -793,7 +793,7 @@ mark,
   .blockquote-footer::before {
     content: "\2014 \00A0"; }
 
-.img-fluid, .contenedorNoticias header .logos > a > img {
+.img-fluid {
   max-width: 100%;
   height: auto; }
 
@@ -872,7 +872,7 @@ pre {
     .container {
       max-width: 1140px; } }
 
-.container-fluid, .contenedor, .contenedor header, .contenedor main, .contenedorNoticias header {
+.container-fluid, .contenedor, .contenedor header, .contenedor main, .contenedorNoticias, .contenedorNoticias header, .contenedorNoticias main {
   width: 100%;
   padding-right: 15px;
   padding-left: 15px;
@@ -893,10 +893,10 @@ pre {
     padding-right: 0;
     padding-left: 0; }
 
-.col-1, .col-2, .col-3, .contenedorNoticias main .sec1 > .contenido > aside, .col-4, .contenedorNoticias main .sectNoticias2 > .contenidoNoticias2 > .aside, .contenedorNoticias main .sectNoticias2 > .contenidoNoticias2 > .artNoticias2 > .deck > .carta, .col-5, .col-6, .contenedor footer > .copyright, .contenedor footer > .social, .contenedorNoticias main .sec1 > .contenido > .art1, .contenedorNoticias footer > .copyright, .contenedorNoticias footer > .social, .col-7, .col-8, .contenedorNoticias main .sectNoticias2 > .contenidoNoticias2 > .artNoticias2, .col-9, .col-10, .col-11, .col-12, .contenedor header .menu, .contenedor main .sec1 > .noticia > h1, .contenedor main .sec1 > .noticia > .art1, .contenedor main .sec1 > .noticia > .art1 > video, .contenedor main .sec2 > h1, .contenedor footer, .contenedorNoticias header .logos, .contenedorNoticias header .menu, .contenedorNoticias header .migasPan, .contenedorNoticias main .sec1 > .contenido > aside > h1, .contenedorNoticias main .sec1 > .contenido > aside > .deck, .contenedorNoticias main .sec1 > .contenido > aside > .deck > .carta, .contenedorNoticias main .sec1 > .contenido > .art1 > h1, .contenedorNoticias main .sectNoticias2 > .contenidoNoticias2 > .aside > h1, .contenedorNoticias main .sectNoticias2 > .contenidoNoticias2 > .artNoticias2 > .deck, .contenedorNoticias main .paginador, .contenedorNoticias footer, .col,
-.col-auto, .col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12, .contenedor header .logos > a > img, .contenedor header .menu > a, .col-sm,
+.col-1, .col-2, .col-3, .col-4, .contenedorNoticias main .sectNoticias2 > .contenidoNoticias2 > .aside, .col-5, .col-6, .col-7, .col-8, .col-9, .col-10, .col-11, .col-12, .contenedor header .menu, .contenedor main .sec1 > .noticia > h1, .contenedor main .sec1 > .noticia > .art1, .contenedor main .sec1 > .noticia > .art1 > video, .contenedor main .sec2 > h1, .contenedor footer, .contenedorNoticias header .menu, .contenedorNoticias header .migasPan, .contenedorNoticias main .sec1 > .contenido > aside > h1, .contenedorNoticias main .sec1 > .contenido > aside > .deck, .contenedorNoticias main .sec1 > .contenido > aside > .deck > .carta, .contenedorNoticias main .sec1 > .contenido > .art1, .contenedorNoticias main .sec1 > .contenido > .art1 > h1, .contenedorNoticias main .sectNoticias2 > .contenidoNoticias2 > .aside > h1, .contenedorNoticias main .sectNoticias2 > .contenidoNoticias2 > .artNoticias2 > .deck, .contenedorNoticias main .paginador, .contenedorNoticias footer, .col,
+.col-auto, .col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12, .contenedor header .logos > a > img, .contenedor header .menu > a, .contenedorNoticias header .logos > a > img, .contenedorNoticias main .sectNoticias2 > .contenidoNoticias2 > .artNoticias2, .contenedorNoticias main .sectNoticias2 > .contenidoNoticias2 > .artNoticias2 > .deck > .carta, .col-sm,
 .col-sm-auto, .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12, .col-md,
-.col-md-auto, .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg,
+.col-md-auto, .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .contenedorNoticias main .sec1 > .contenido > aside, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg,
 .col-lg-auto, .col-xl-1, .col-xl-2, .col-xl-3, .col-xl-4, .col-xl-5, .col-xl-6, .col-xl-7, .col-xl-8, .col-xl-9, .col-xl-10, .col-xl-11, .col-xl-12, .col-xl,
 .col-xl-auto {
   position: relative;
@@ -923,11 +923,11 @@ pre {
   flex: 0 0 16.6666666667%;
   max-width: 16.6666666667%; }
 
-.col-3, .contenedorNoticias main .sec1 > .contenido > aside {
+.col-3 {
   flex: 0 0 25%;
   max-width: 25%; }
 
-.col-4, .contenedorNoticias main .sectNoticias2 > .contenidoNoticias2 > .aside, .contenedorNoticias main .sectNoticias2 > .contenidoNoticias2 > .artNoticias2 > .deck > .carta {
+.col-4, .contenedorNoticias main .sectNoticias2 > .contenidoNoticias2 > .aside {
   flex: 0 0 33.3333333333%;
   max-width: 33.3333333333%; }
 
@@ -935,7 +935,7 @@ pre {
   flex: 0 0 41.6666666667%;
   max-width: 41.6666666667%; }
 
-.col-6, .contenedor footer > .copyright, .contenedor footer > .social, .contenedorNoticias main .sec1 > .contenido > .art1, .contenedorNoticias footer > .copyright, .contenedorNoticias footer > .social {
+.col-6 {
   flex: 0 0 50%;
   max-width: 50%; }
 
@@ -943,7 +943,7 @@ pre {
   flex: 0 0 58.3333333333%;
   max-width: 58.3333333333%; }
 
-.col-8, .contenedorNoticias main .sectNoticias2 > .contenidoNoticias2 > .artNoticias2 {
+.col-8 {
   flex: 0 0 66.6666666667%;
   max-width: 66.6666666667%; }
 
@@ -959,7 +959,7 @@ pre {
   flex: 0 0 91.6666666667%;
   max-width: 91.6666666667%; }
 
-.col-12, .contenedor header .menu, .contenedor main .sec1 > .noticia > h1, .contenedor main .sec1 > .noticia > .art1, .contenedor main .sec1 > .noticia > .art1 > video, .contenedor main .sec2 > h1, .contenedor footer, .contenedorNoticias header .logos, .contenedorNoticias header .menu, .contenedorNoticias header .migasPan, .contenedorNoticias main .sec1 > .contenido > aside > h1, .contenedorNoticias main .sec1 > .contenido > aside > .deck, .contenedorNoticias main .sec1 > .contenido > aside > .deck > .carta, .contenedorNoticias main .sec1 > .contenido > .art1 > h1, .contenedorNoticias main .sectNoticias2 > .contenidoNoticias2 > .aside > h1, .contenedorNoticias main .sectNoticias2 > .contenidoNoticias2 > .artNoticias2 > .deck, .contenedorNoticias main .paginador, .contenedorNoticias footer {
+.col-12, .contenedor header .menu, .contenedor main .sec1 > .noticia > h1, .contenedor main .sec1 > .noticia > .art1, .contenedor main .sec1 > .noticia > .art1 > video, .contenedor main .sec2 > h1, .contenedor footer, .contenedorNoticias header .menu, .contenedorNoticias header .migasPan, .contenedorNoticias main .sec1 > .contenido > aside > h1, .contenedorNoticias main .sec1 > .contenido > aside > .deck, .contenedorNoticias main .sec1 > .contenido > aside > .deck > .carta, .contenedorNoticias main .sec1 > .contenido > .art1, .contenedorNoticias main .sec1 > .contenido > .art1 > h1, .contenedorNoticias main .sectNoticias2 > .contenidoNoticias2 > .aside > h1, .contenedorNoticias main .sectNoticias2 > .contenidoNoticias2 > .artNoticias2 > .deck, .contenedorNoticias main .paginador, .contenedorNoticias footer {
   flex: 0 0 100%;
   max-width: 100%; }
 
@@ -1096,7 +1096,7 @@ pre {
     flex: 0 0 91.6666666667%;
     max-width: 91.6666666667%; }
 
-  .col-sm-12, .contenedor header .logos > a > img, .contenedor header .menu > a, .contenedor main .sec1 > .noticia > .art1, .contenedor main .sec1 > .noticia > .art1 > video {
+  .col-sm-12, .contenedor header .logos > a > img, .contenedor header .menu > a, .contenedor main .sec1 > .noticia > .art1, .contenedor main .sec1 > .noticia > .art1 > video, .contenedorNoticias header .logos > a > img, .contenedorNoticias main .sec1 > .contenido > .art1, .contenedorNoticias main .sectNoticias2 > .contenidoNoticias2 > .artNoticias2, .contenedorNoticias main .sectNoticias2 > .contenidoNoticias2 > .artNoticias2 > .deck > .carta {
     flex: 0 0 100%;
     max-width: 100%; }
 
@@ -1211,7 +1211,7 @@ pre {
     flex: 0 0 41.6666666667%;
     max-width: 41.6666666667%; }
 
-  .col-md-6 {
+  .col-md-6, .contenedorNoticias main .sectNoticias2 > .contenidoNoticias2 > .artNoticias2 > .deck > .carta {
     flex: 0 0 50%;
     max-width: 50%; }
 
@@ -1235,7 +1235,7 @@ pre {
     flex: 0 0 91.6666666667%;
     max-width: 91.6666666667%; }
 
-  .col-md-12 {
+  .col-md-12, .contenedorNoticias main .sectNoticias2 > .contenidoNoticias2 > .artNoticias2 {
     flex: 0 0 100%;
     max-width: 100%; }
 
@@ -1342,7 +1342,7 @@ pre {
     flex: 0 0 25%;
     max-width: 25%; }
 
-  .col-lg-4, .contenedor header .menu > a {
+  .col-lg-4, .contenedor header .menu > a, .contenedorNoticias main .sec1 > .contenido > aside, .contenedorNoticias main .sectNoticias2 > .contenidoNoticias2 > .artNoticias2 > .deck > .carta {
     flex: 0 0 33.3333333333%;
     max-width: 33.3333333333%; }
 
@@ -1358,7 +1358,7 @@ pre {
     flex: 0 0 58.3333333333%;
     max-width: 58.3333333333%; }
 
-  .col-lg-8 {
+  .col-lg-8, .contenedorNoticias main .sec1 > .contenido > .art1, .contenedorNoticias main .sectNoticias2 > .contenidoNoticias2 > .artNoticias2 {
     flex: 0 0 66.6666666667%;
     max-width: 66.6666666667%; }
 
@@ -1874,18 +1874,14 @@ select.form-control:focus::-ms-value {
   .input-group-sm > .input-group-append > .form-control-plaintext.input-group-text,
   .input-group-sm > .input-group-prepend > .form-control-plaintext.btn,
   .contenedor header .input-group-sm > .menu.input-group-prepend > a.form-control-plaintext,
-  .contenedorNoticias header .input-group-sm > .menu.input-group-prepend > a.form-control-plaintext,
   .input-group-sm > .input-group-append > .form-control-plaintext.btn,
-  .contenedor header .input-group-sm > .menu.input-group-append > a.form-control-plaintext,
-  .contenedorNoticias header .input-group-sm > .menu.input-group-append > a.form-control-plaintext, .form-control-plaintext.form-control-lg, .input-group-lg > .form-control-plaintext.form-control,
+  .contenedor header .input-group-sm > .menu.input-group-append > a.form-control-plaintext, .form-control-plaintext.form-control-lg, .input-group-lg > .form-control-plaintext.form-control,
   .input-group-lg > .input-group-prepend > .form-control-plaintext.input-group-text,
   .input-group-lg > .input-group-append > .form-control-plaintext.input-group-text,
   .input-group-lg > .input-group-prepend > .form-control-plaintext.btn,
   .contenedor header .input-group-lg > .menu.input-group-prepend > a.form-control-plaintext,
-  .contenedorNoticias header .input-group-lg > .menu.input-group-prepend > a.form-control-plaintext,
   .input-group-lg > .input-group-append > .form-control-plaintext.btn,
-  .contenedor header .input-group-lg > .menu.input-group-append > a.form-control-plaintext,
-  .contenedorNoticias header .input-group-lg > .menu.input-group-append > a.form-control-plaintext {
+  .contenedor header .input-group-lg > .menu.input-group-append > a.form-control-plaintext {
     padding-right: 0;
     padding-left: 0; }
 
@@ -1894,10 +1890,8 @@ select.form-control:focus::-ms-value {
 .input-group-sm > .input-group-append > .input-group-text,
 .input-group-sm > .input-group-prepend > .btn,
 .contenedor header .input-group-sm > .menu.input-group-prepend > a,
-.contenedorNoticias header .input-group-sm > .menu.input-group-prepend > a,
 .input-group-sm > .input-group-append > .btn,
-.contenedor header .input-group-sm > .menu.input-group-append > a,
-.contenedorNoticias header .input-group-sm > .menu.input-group-append > a {
+.contenedor header .input-group-sm > .menu.input-group-append > a {
   padding: 0.25rem 0.5rem;
   font-size: 0.875rem;
   line-height: 1.5;
@@ -1915,10 +1909,8 @@ select.form-control-sm:not([size]):not([multiple]), .input-group-sm > select.for
 .input-group-lg > .input-group-append > .input-group-text,
 .input-group-lg > .input-group-prepend > .btn,
 .contenedor header .input-group-lg > .menu.input-group-prepend > a,
-.contenedorNoticias header .input-group-lg > .menu.input-group-prepend > a,
 .input-group-lg > .input-group-append > .btn,
-.contenedor header .input-group-lg > .menu.input-group-append > a,
-.contenedorNoticias header .input-group-lg > .menu.input-group-append > a {
+.contenedor header .input-group-lg > .menu.input-group-append > a {
   padding: 0.5rem 1rem;
   font-size: 1.25rem;
   line-height: 1.5;
@@ -2157,7 +2149,7 @@ select.form-control-lg:not([size]):not([multiple]), .input-group-lg > select.for
     .form-inline .custom-control-label {
       margin-bottom: 0; } }
 
-.btn, .contenedor header .menu > a, .contenedorNoticias header .menu > a {
+.btn, .contenedor header .menu > a {
   display: inline-block;
   font-weight: 400;
   text-align: center;
@@ -2170,45 +2162,43 @@ select.form-control-lg:not([size]):not([multiple]), .input-group-lg > select.for
   line-height: 1.5;
   border-radius: 0.25rem;
   transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out; }
-  .btn:hover, .contenedor header .menu > a:hover, .contenedorNoticias header .menu > a:hover, .btn:focus, .contenedor header .menu > a:focus, .contenedorNoticias header .menu > a:focus {
+  .btn:hover, .contenedor header .menu > a:hover, .btn:focus, .contenedor header .menu > a:focus {
     text-decoration: none; }
-  .btn:focus, .contenedor header .menu > a:focus, .contenedorNoticias header .menu > a:focus, .btn.focus, .contenedor header .menu > a.focus, .contenedorNoticias header .menu > a.focus {
+  .btn:focus, .contenedor header .menu > a:focus, .btn.focus, .contenedor header .menu > a.focus {
     outline: 0;
     box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25); }
-  .btn.disabled, .contenedor header .menu > a.disabled, .contenedorNoticias header .menu > a.disabled, .btn:disabled, .contenedor header .menu > a:disabled, .contenedorNoticias header .menu > a:disabled {
+  .btn.disabled, .contenedor header .menu > a.disabled, .btn:disabled, .contenedor header .menu > a:disabled {
     opacity: 0.65; }
-  .btn:not(:disabled):not(.disabled), .contenedor header .menu > a:not(:disabled):not(.disabled), .contenedorNoticias header .menu > a:not(:disabled):not(.disabled) {
+  .btn:not(:disabled):not(.disabled), .contenedor header .menu > a:not(:disabled):not(.disabled) {
     cursor: pointer; }
-  .btn:not(:disabled):not(.disabled):active, .contenedor header .menu > a:not(:disabled):not(.disabled):active, .contenedorNoticias header .menu > a:not(:disabled):not(.disabled):active, .btn:not(:disabled):not(.disabled).active, .contenedor header .menu > a:not(:disabled):not(.disabled).active, .contenedorNoticias header .menu > a:not(:disabled):not(.disabled).active {
+  .btn:not(:disabled):not(.disabled):active, .contenedor header .menu > a:not(:disabled):not(.disabled):active, .btn:not(:disabled):not(.disabled).active, .contenedor header .menu > a:not(:disabled):not(.disabled).active {
     background-image: none; }
 
-a.btn.disabled, .contenedor header .menu > a.disabled, .contenedorNoticias header .menu > a.disabled,
+a.btn.disabled, .contenedor header .menu > a.disabled,
 fieldset:disabled a.btn,
 fieldset:disabled .contenedor header .menu > a,
-.contenedor header fieldset:disabled .menu > a,
-fieldset:disabled .contenedorNoticias header .menu > a,
-.contenedorNoticias header fieldset:disabled .menu > a {
+.contenedor header fieldset:disabled .menu > a {
   pointer-events: none; }
 
-.btn-primary, .contenedor header .menu > a, .contenedorNoticias header .menu > a {
+.btn-primary, .contenedor header .menu > a {
   color: #fff;
   background-color: #007bff;
   border-color: #007bff; }
-  .btn-primary:hover, .contenedor header .menu > a:hover, .contenedorNoticias header .menu > a:hover {
+  .btn-primary:hover, .contenedor header .menu > a:hover {
     color: #fff;
     background-color: #0069d9;
     border-color: #0062cc; }
-  .btn-primary:focus, .contenedor header .menu > a:focus, .contenedorNoticias header .menu > a:focus, .btn-primary.focus, .contenedor header .menu > a.focus, .contenedorNoticias header .menu > a.focus {
+  .btn-primary:focus, .contenedor header .menu > a:focus, .btn-primary.focus, .contenedor header .menu > a.focus {
     box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.5); }
-  .btn-primary.disabled, .contenedor header .menu > a.disabled, .contenedorNoticias header .menu > a.disabled, .btn-primary:disabled, .contenedor header .menu > a:disabled, .contenedorNoticias header .menu > a:disabled {
+  .btn-primary.disabled, .contenedor header .menu > a.disabled, .btn-primary:disabled, .contenedor header .menu > a:disabled {
     color: #fff;
     background-color: #007bff;
     border-color: #007bff; }
-  .btn-primary:not(:disabled):not(.disabled):active, .contenedor header .menu > a:not(:disabled):not(.disabled):active, .contenedorNoticias header .menu > a:not(:disabled):not(.disabled):active, .btn-primary:not(:disabled):not(.disabled).active, .contenedor header .menu > a:not(:disabled):not(.disabled).active, .contenedorNoticias header .menu > a:not(:disabled):not(.disabled).active, .show > .btn-primary.dropdown-toggle, .contenedor header .menu.show > a.dropdown-toggle, .contenedorNoticias header .menu.show > a.dropdown-toggle {
+  .btn-primary:not(:disabled):not(.disabled):active, .contenedor header .menu > a:not(:disabled):not(.disabled):active, .btn-primary:not(:disabled):not(.disabled).active, .contenedor header .menu > a:not(:disabled):not(.disabled).active, .show > .btn-primary.dropdown-toggle, .contenedor header .menu.show > a.dropdown-toggle {
     color: #fff;
     background-color: #0062cc;
     border-color: #005cbf; }
-    .btn-primary:not(:disabled):not(.disabled):active:focus, .contenedor header .menu > a:not(:disabled):not(.disabled):active:focus, .contenedorNoticias header .menu > a:not(:disabled):not(.disabled):active:focus, .btn-primary:not(:disabled):not(.disabled).active:focus, .contenedor header .menu > a:not(:disabled):not(.disabled).active:focus, .contenedorNoticias header .menu > a:not(:disabled):not(.disabled).active:focus, .show > .btn-primary.dropdown-toggle:focus, .contenedor header .menu.show > a.dropdown-toggle:focus, .contenedorNoticias header .menu.show > a.dropdown-toggle:focus {
+    .btn-primary:not(:disabled):not(.disabled):active:focus, .contenedor header .menu > a:not(:disabled):not(.disabled):active:focus, .btn-primary:not(:disabled):not(.disabled).active:focus, .contenedor header .menu > a:not(:disabled):not(.disabled).active:focus, .show > .btn-primary.dropdown-toggle:focus, .contenedor header .menu.show > a.dropdown-toggle:focus {
       box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.5); }
 
 .btn-secondary {
@@ -2542,13 +2532,13 @@ fieldset:disabled .contenedorNoticias header .menu > a,
   .btn-link:disabled, .btn-link.disabled {
     color: #6c757d; }
 
-.btn-lg, .btn-group-lg > .btn, .contenedor header .menu.btn-group-lg > a, .contenedorNoticias header .menu.btn-group-lg > a {
+.btn-lg, .btn-group-lg > .btn, .contenedor header .menu.btn-group-lg > a {
   padding: 0.5rem 1rem;
   font-size: 1.25rem;
   line-height: 1.5;
   border-radius: 0.3rem; }
 
-.btn-sm, .btn-group-sm > .btn, .contenedor header .menu.btn-group-sm > a, .contenedorNoticias header .menu.btn-group-sm > a {
+.btn-sm, .btn-group-sm > .btn, .contenedor header .menu.btn-group-sm > a {
   padding: 0.25rem 0.5rem;
   font-size: 0.875rem;
   line-height: 1.5;
@@ -2732,63 +2722,44 @@ tbody.collapse.show, .contenedorNoticias main .sectNoticias2 > .contenidoNoticia
   position: relative;
   display: inline-flex;
   vertical-align: middle; }
-  .btn-group > .btn, .contenedor header .menu.btn-group > a, .contenedorNoticias header .menu.btn-group > a,
+  .btn-group > .btn, .contenedor header .menu.btn-group > a,
   .btn-group-vertical > .btn,
-  .contenedor header .menu.btn-group-vertical > a,
-  .contenedorNoticias header .menu.btn-group-vertical > a {
+  .contenedor header .menu.btn-group-vertical > a {
     position: relative;
     flex: 0 1 auto; }
-    .btn-group > .btn:hover, .contenedor header .menu.btn-group > a:hover, .contenedorNoticias header .menu.btn-group > a:hover,
+    .btn-group > .btn:hover, .contenedor header .menu.btn-group > a:hover,
     .btn-group-vertical > .btn:hover,
-    .contenedor header .menu.btn-group-vertical > a:hover,
-    .contenedorNoticias header .menu.btn-group-vertical > a:hover {
+    .contenedor header .menu.btn-group-vertical > a:hover {
       z-index: 1; }
-    .btn-group > .btn:focus, .contenedor header .menu.btn-group > a:focus, .contenedorNoticias header .menu.btn-group > a:focus, .btn-group > .btn:active, .contenedor header .menu.btn-group > a:active, .contenedorNoticias header .menu.btn-group > a:active, .btn-group > .btn.active, .contenedor header .menu.btn-group > a.active, .contenedorNoticias header .menu.btn-group > a.active,
+    .btn-group > .btn:focus, .contenedor header .menu.btn-group > a:focus, .btn-group > .btn:active, .contenedor header .menu.btn-group > a:active, .btn-group > .btn.active, .contenedor header .menu.btn-group > a.active,
     .btn-group-vertical > .btn:focus,
     .contenedor header .menu.btn-group-vertical > a:focus,
-    .contenedorNoticias header .menu.btn-group-vertical > a:focus,
     .btn-group-vertical > .btn:active,
     .contenedor header .menu.btn-group-vertical > a:active,
-    .contenedorNoticias header .menu.btn-group-vertical > a:active,
     .btn-group-vertical > .btn.active,
-    .contenedor header .menu.btn-group-vertical > a.active,
-    .contenedorNoticias header .menu.btn-group-vertical > a.active {
+    .contenedor header .menu.btn-group-vertical > a.active {
       z-index: 1; }
-  .btn-group .btn + .btn, .btn-group .contenedor header .menu > a + .btn, .contenedor header .btn-group .menu > a + .btn, .btn-group .contenedorNoticias header .menu > a + .btn, .contenedorNoticias header .btn-group .menu > a + .btn, .btn-group .contenedor header .menu > .btn + a, .contenedor header .btn-group .menu > .btn + a, .btn-group .contenedor header .menu > a + a, .contenedor header .btn-group .menu > a + a, .btn-group .contenedorNoticias header .menu > .btn + a, .contenedorNoticias header .btn-group .menu > .btn + a, .btn-group .contenedorNoticias header .menu > a + a, .contenedorNoticias header .btn-group .menu > a + a,
+  .btn-group .btn + .btn, .btn-group .contenedor header .menu > a + .btn, .contenedor header .btn-group .menu > a + .btn, .btn-group .contenedor header .menu > .btn + a, .contenedor header .btn-group .menu > .btn + a, .btn-group .contenedor header .menu > a + a, .contenedor header .btn-group .menu > a + a,
   .btn-group .btn + .btn-group,
   .btn-group .contenedor header .menu > a + .btn-group,
   .contenedor header .btn-group .menu > a + .btn-group,
-  .btn-group .contenedorNoticias header .menu > a + .btn-group,
-  .contenedorNoticias header .btn-group .menu > a + .btn-group,
   .btn-group .btn-group + .btn,
   .btn-group .contenedor header .menu > .btn-group + a,
   .contenedor header .btn-group .menu > .btn-group + a,
-  .btn-group .contenedorNoticias header .menu > .btn-group + a,
-  .contenedorNoticias header .btn-group .menu > .btn-group + a,
   .btn-group .btn-group + .btn-group,
   .btn-group-vertical .btn + .btn,
   .btn-group-vertical .contenedor header .menu > a + .btn,
   .contenedor header .btn-group-vertical .menu > a + .btn,
-  .btn-group-vertical .contenedorNoticias header .menu > a + .btn,
-  .contenedorNoticias header .btn-group-vertical .menu > a + .btn,
   .btn-group-vertical .contenedor header .menu > .btn + a,
   .contenedor header .btn-group-vertical .menu > .btn + a,
   .btn-group-vertical .contenedor header .menu > a + a,
   .contenedor header .btn-group-vertical .menu > a + a,
-  .btn-group-vertical .contenedorNoticias header .menu > .btn + a,
-  .contenedorNoticias header .btn-group-vertical .menu > .btn + a,
-  .btn-group-vertical .contenedorNoticias header .menu > a + a,
-  .contenedorNoticias header .btn-group-vertical .menu > a + a,
   .btn-group-vertical .btn + .btn-group,
   .btn-group-vertical .contenedor header .menu > a + .btn-group,
   .contenedor header .btn-group-vertical .menu > a + .btn-group,
-  .btn-group-vertical .contenedorNoticias header .menu > a + .btn-group,
-  .contenedorNoticias header .btn-group-vertical .menu > a + .btn-group,
   .btn-group-vertical .btn-group + .btn,
   .btn-group-vertical .contenedor header .menu > .btn-group + a,
   .contenedor header .btn-group-vertical .menu > .btn-group + a,
-  .btn-group-vertical .contenedorNoticias header .menu > .btn-group + a,
-  .contenedorNoticias header .btn-group-vertical .menu > .btn-group + a,
   .btn-group-vertical .btn-group + .btn-group {
     margin-left: -1px; }
 
@@ -2799,18 +2770,16 @@ tbody.collapse.show, .contenedorNoticias main .sectNoticias2 > .contenidoNoticia
   .btn-toolbar .input-group {
     width: auto; }
 
-.btn-group > .btn:first-child, .contenedor header .menu.btn-group > a:first-child, .contenedorNoticias header .menu.btn-group > a:first-child {
+.btn-group > .btn:first-child, .contenedor header .menu.btn-group > a:first-child {
   margin-left: 0; }
-.btn-group > .btn:not(:last-child):not(.dropdown-toggle), .contenedor header .menu.btn-group > a:not(:last-child):not(.dropdown-toggle), .contenedorNoticias header .menu.btn-group > a:not(:last-child):not(.dropdown-toggle),
+.btn-group > .btn:not(:last-child):not(.dropdown-toggle), .contenedor header .menu.btn-group > a:not(:last-child):not(.dropdown-toggle),
 .btn-group > .btn-group:not(:last-child) > .btn,
-.contenedor header .btn-group > .menu.btn-group:not(:last-child) > a,
-.contenedorNoticias header .btn-group > .menu.btn-group:not(:last-child) > a {
+.contenedor header .btn-group > .menu.btn-group:not(:last-child) > a {
   border-top-right-radius: 0;
   border-bottom-right-radius: 0; }
-.btn-group > .btn:not(:first-child), .contenedor header .menu.btn-group > a:not(:first-child), .contenedorNoticias header .menu.btn-group > a:not(:first-child),
+.btn-group > .btn:not(:first-child), .contenedor header .menu.btn-group > a:not(:first-child),
 .btn-group > .btn-group:not(:first-child) > .btn,
-.contenedor header .btn-group > .menu.btn-group:not(:first-child) > a,
-.contenedorNoticias header .btn-group > .menu.btn-group:not(:first-child) > a {
+.contenedor header .btn-group > .menu.btn-group:not(:first-child) > a {
   border-top-left-radius: 0;
   border-bottom-left-radius: 0; }
 
@@ -2820,11 +2789,11 @@ tbody.collapse.show, .contenedorNoticias main .sectNoticias2 > .contenidoNoticia
   .dropdown-toggle-split::after {
     margin-left: 0; }
 
-.btn-sm + .dropdown-toggle-split, .btn-group-sm > .btn + .dropdown-toggle-split, .contenedor header .menu.btn-group-sm > a + .dropdown-toggle-split, .contenedorNoticias header .menu.btn-group-sm > a + .dropdown-toggle-split {
+.btn-sm + .dropdown-toggle-split, .btn-group-sm > .btn + .dropdown-toggle-split, .contenedor header .menu.btn-group-sm > a + .dropdown-toggle-split {
   padding-right: 0.375rem;
   padding-left: 0.375rem; }
 
-.btn-lg + .dropdown-toggle-split, .btn-group-lg > .btn + .dropdown-toggle-split, .contenedor header .menu.btn-group-lg > a + .dropdown-toggle-split, .contenedorNoticias header .menu.btn-group-lg > a + .dropdown-toggle-split {
+.btn-lg + .dropdown-toggle-split, .btn-group-lg > .btn + .dropdown-toggle-split, .contenedor header .menu.btn-group-lg > a + .dropdown-toggle-split {
   padding-right: 0.75rem;
   padding-left: 0.75rem; }
 
@@ -2832,47 +2801,39 @@ tbody.collapse.show, .contenedorNoticias main .sectNoticias2 > .contenidoNoticia
   flex-direction: column;
   align-items: flex-start;
   justify-content: center; }
-  .btn-group-vertical .btn, .btn-group-vertical .contenedor header .menu > a, .contenedor header .btn-group-vertical .menu > a, .btn-group-vertical .contenedorNoticias header .menu > a, .contenedorNoticias header .btn-group-vertical .menu > a,
+  .btn-group-vertical .btn, .btn-group-vertical .contenedor header .menu > a, .contenedor header .btn-group-vertical .menu > a,
   .btn-group-vertical .btn-group {
     width: 100%; }
-  .btn-group-vertical > .btn + .btn, .contenedor header .menu.btn-group-vertical > a + .btn, .contenedorNoticias header .menu.btn-group-vertical > a + .btn, .contenedor header .menu.btn-group-vertical > .btn + a, .contenedor header .menu.btn-group-vertical > a + a, .contenedorNoticias header .menu.btn-group-vertical > .btn + a, .contenedorNoticias header .menu.btn-group-vertical > a + a,
+  .btn-group-vertical > .btn + .btn, .contenedor header .menu.btn-group-vertical > a + .btn, .contenedor header .menu.btn-group-vertical > .btn + a, .contenedor header .menu.btn-group-vertical > a + a,
   .btn-group-vertical > .btn + .btn-group,
   .contenedor header .menu.btn-group-vertical > a + .btn-group,
-  .contenedorNoticias header .menu.btn-group-vertical > a + .btn-group,
   .btn-group-vertical > .btn-group + .btn,
   .contenedor header .menu.btn-group-vertical > .btn-group + a,
-  .contenedorNoticias header .menu.btn-group-vertical > .btn-group + a,
   .btn-group-vertical > .btn-group + .btn-group {
     margin-top: -1px;
     margin-left: 0; }
-  .btn-group-vertical > .btn:not(:last-child):not(.dropdown-toggle), .contenedor header .menu.btn-group-vertical > a:not(:last-child):not(.dropdown-toggle), .contenedorNoticias header .menu.btn-group-vertical > a:not(:last-child):not(.dropdown-toggle),
+  .btn-group-vertical > .btn:not(:last-child):not(.dropdown-toggle), .contenedor header .menu.btn-group-vertical > a:not(:last-child):not(.dropdown-toggle),
   .btn-group-vertical > .btn-group:not(:last-child) > .btn,
-  .contenedor header .btn-group-vertical > .menu.btn-group:not(:last-child) > a,
-  .contenedorNoticias header .btn-group-vertical > .menu.btn-group:not(:last-child) > a {
+  .contenedor header .btn-group-vertical > .menu.btn-group:not(:last-child) > a {
     border-bottom-right-radius: 0;
     border-bottom-left-radius: 0; }
-  .btn-group-vertical > .btn:not(:first-child), .contenedor header .menu.btn-group-vertical > a:not(:first-child), .contenedorNoticias header .menu.btn-group-vertical > a:not(:first-child),
+  .btn-group-vertical > .btn:not(:first-child), .contenedor header .menu.btn-group-vertical > a:not(:first-child),
   .btn-group-vertical > .btn-group:not(:first-child) > .btn,
-  .contenedor header .btn-group-vertical > .menu.btn-group:not(:first-child) > a,
-  .contenedorNoticias header .btn-group-vertical > .menu.btn-group:not(:first-child) > a {
+  .contenedor header .btn-group-vertical > .menu.btn-group:not(:first-child) > a {
     border-top-left-radius: 0;
     border-top-right-radius: 0; }
 
-.btn-group-toggle > .btn, .contenedor header .menu.btn-group-toggle > a, .contenedorNoticias header .menu.btn-group-toggle > a,
+.btn-group-toggle > .btn, .contenedor header .menu.btn-group-toggle > a,
 .btn-group-toggle > .btn-group > .btn,
-.contenedor header .btn-group-toggle > .menu.btn-group > a,
-.contenedorNoticias header .btn-group-toggle > .menu.btn-group > a {
+.contenedor header .btn-group-toggle > .menu.btn-group > a {
   margin-bottom: 0; }
-  .btn-group-toggle > .btn input[type="radio"], .contenedor header .menu.btn-group-toggle > a input[type="radio"], .contenedorNoticias header .menu.btn-group-toggle > a input[type="radio"],
+  .btn-group-toggle > .btn input[type="radio"], .contenedor header .menu.btn-group-toggle > a input[type="radio"],
   .btn-group-toggle > .btn input[type="checkbox"],
   .contenedor header .menu.btn-group-toggle > a input[type="checkbox"],
-  .contenedorNoticias header .menu.btn-group-toggle > a input[type="checkbox"],
   .btn-group-toggle > .btn-group > .btn input[type="radio"],
   .contenedor header .btn-group-toggle > .menu.btn-group > a input[type="radio"],
-  .contenedorNoticias header .btn-group-toggle > .menu.btn-group > a input[type="radio"],
   .btn-group-toggle > .btn-group > .btn input[type="checkbox"],
-  .contenedor header .btn-group-toggle > .menu.btn-group > a input[type="checkbox"],
-  .contenedorNoticias header .btn-group-toggle > .menu.btn-group > a input[type="checkbox"] {
+  .contenedor header .btn-group-toggle > .menu.btn-group > a input[type="checkbox"] {
     position: absolute;
     clip: rect(0, 0, 0, 0);
     pointer-events: none; }
@@ -2925,50 +2886,34 @@ tbody.collapse.show, .contenedorNoticias main .sectNoticias2 > .contenidoNoticia
 .input-group-prepend,
 .input-group-append {
   display: flex; }
-  .input-group-prepend .btn, .input-group-prepend .contenedor header .menu > a, .contenedor header .input-group-prepend .menu > a, .input-group-prepend .contenedorNoticias header .menu > a, .contenedorNoticias header .input-group-prepend .menu > a,
+  .input-group-prepend .btn, .input-group-prepend .contenedor header .menu > a, .contenedor header .input-group-prepend .menu > a,
   .input-group-append .btn,
   .input-group-append .contenedor header .menu > a,
-  .contenedor header .input-group-append .menu > a,
-  .input-group-append .contenedorNoticias header .menu > a,
-  .contenedorNoticias header .input-group-append .menu > a {
+  .contenedor header .input-group-append .menu > a {
     position: relative;
     z-index: 2; }
-  .input-group-prepend .btn + .btn, .input-group-prepend .contenedor header .menu > a + .btn, .contenedor header .input-group-prepend .menu > a + .btn, .input-group-prepend .contenedorNoticias header .menu > a + .btn, .contenedorNoticias header .input-group-prepend .menu > a + .btn, .input-group-prepend .contenedor header .menu > .btn + a, .contenedor header .input-group-prepend .menu > .btn + a, .input-group-prepend .contenedor header .menu > a + a, .contenedor header .input-group-prepend .menu > a + a, .input-group-prepend .contenedorNoticias header .menu > .btn + a, .contenedorNoticias header .input-group-prepend .menu > .btn + a, .input-group-prepend .contenedorNoticias header .menu > a + a, .contenedorNoticias header .input-group-prepend .menu > a + a,
+  .input-group-prepend .btn + .btn, .input-group-prepend .contenedor header .menu > a + .btn, .contenedor header .input-group-prepend .menu > a + .btn, .input-group-prepend .contenedor header .menu > .btn + a, .contenedor header .input-group-prepend .menu > .btn + a, .input-group-prepend .contenedor header .menu > a + a, .contenedor header .input-group-prepend .menu > a + a,
   .input-group-prepend .btn + .input-group-text,
   .input-group-prepend .contenedor header .menu > a + .input-group-text,
   .contenedor header .input-group-prepend .menu > a + .input-group-text,
-  .input-group-prepend .contenedorNoticias header .menu > a + .input-group-text,
-  .contenedorNoticias header .input-group-prepend .menu > a + .input-group-text,
   .input-group-prepend .input-group-text + .input-group-text,
   .input-group-prepend .input-group-text + .btn,
   .input-group-prepend .contenedor header .menu > .input-group-text + a,
   .contenedor header .input-group-prepend .menu > .input-group-text + a,
-  .input-group-prepend .contenedorNoticias header .menu > .input-group-text + a,
-  .contenedorNoticias header .input-group-prepend .menu > .input-group-text + a,
   .input-group-append .btn + .btn,
   .input-group-append .contenedor header .menu > a + .btn,
   .contenedor header .input-group-append .menu > a + .btn,
-  .input-group-append .contenedorNoticias header .menu > a + .btn,
-  .contenedorNoticias header .input-group-append .menu > a + .btn,
   .input-group-append .contenedor header .menu > .btn + a,
   .contenedor header .input-group-append .menu > .btn + a,
   .input-group-append .contenedor header .menu > a + a,
   .contenedor header .input-group-append .menu > a + a,
-  .input-group-append .contenedorNoticias header .menu > .btn + a,
-  .contenedorNoticias header .input-group-append .menu > .btn + a,
-  .input-group-append .contenedorNoticias header .menu > a + a,
-  .contenedorNoticias header .input-group-append .menu > a + a,
   .input-group-append .btn + .input-group-text,
   .input-group-append .contenedor header .menu > a + .input-group-text,
   .contenedor header .input-group-append .menu > a + .input-group-text,
-  .input-group-append .contenedorNoticias header .menu > a + .input-group-text,
-  .contenedorNoticias header .input-group-append .menu > a + .input-group-text,
   .input-group-append .input-group-text + .input-group-text,
   .input-group-append .input-group-text + .btn,
   .input-group-append .contenedor header .menu > .input-group-text + a,
-  .contenedor header .input-group-append .menu > .input-group-text + a,
-  .input-group-append .contenedorNoticias header .menu > .input-group-text + a,
-  .contenedorNoticias header .input-group-append .menu > .input-group-text + a {
+  .contenedor header .input-group-append .menu > .input-group-text + a {
     margin-left: -1px; }
 
 .input-group-prepend {
@@ -2995,28 +2940,24 @@ tbody.collapse.show, .contenedorNoticias main .sectNoticias2 > .contenidoNoticia
   .input-group-text input[type="checkbox"] {
     margin-top: 0; }
 
-.input-group > .input-group-prepend > .btn, .contenedor header .input-group > .menu.input-group-prepend > a, .contenedorNoticias header .input-group > .menu.input-group-prepend > a,
+.input-group > .input-group-prepend > .btn, .contenedor header .input-group > .menu.input-group-prepend > a,
 .input-group > .input-group-prepend > .input-group-text,
 .input-group > .input-group-append:not(:last-child) > .btn,
 .contenedor header .input-group > .menu.input-group-append:not(:last-child) > a,
-.contenedorNoticias header .input-group > .menu.input-group-append:not(:last-child) > a,
 .input-group > .input-group-append:not(:last-child) > .input-group-text,
 .input-group > .input-group-append:last-child > .btn:not(:last-child):not(.dropdown-toggle),
 .contenedor header .input-group > .menu.input-group-append:last-child > a:not(:last-child):not(.dropdown-toggle),
-.contenedorNoticias header .input-group > .menu.input-group-append:last-child > a:not(:last-child):not(.dropdown-toggle),
 .input-group > .input-group-append:last-child > .input-group-text:not(:last-child) {
   border-top-right-radius: 0;
   border-bottom-right-radius: 0; }
 
-.input-group > .input-group-append > .btn, .contenedor header .input-group > .menu.input-group-append > a, .contenedorNoticias header .input-group > .menu.input-group-append > a,
+.input-group > .input-group-append > .btn, .contenedor header .input-group > .menu.input-group-append > a,
 .input-group > .input-group-append > .input-group-text,
 .input-group > .input-group-prepend:not(:first-child) > .btn,
 .contenedor header .input-group > .menu.input-group-prepend:not(:first-child) > a,
-.contenedorNoticias header .input-group > .menu.input-group-prepend:not(:first-child) > a,
 .input-group > .input-group-prepend:not(:first-child) > .input-group-text,
 .input-group > .input-group-prepend:first-child > .btn:not(:first-child),
 .contenedor header .input-group > .menu.input-group-prepend:first-child > a:not(:first-child),
-.contenedorNoticias header .input-group > .menu.input-group-prepend:first-child > a:not(:first-child),
 .input-group > .input-group-prepend:first-child > .input-group-text:not(:first-child) {
   border-top-left-radius: 0;
   border-bottom-left-radius: 0; }
@@ -3262,7 +3203,9 @@ tbody.collapse.show, .contenedorNoticias main .sectNoticias2 > .contenidoNoticia
   .navbar > .contenedor,
   .contenedor .navbar > header,
   .contenedor .navbar > main,
-  .contenedorNoticias .navbar > header {
+  .navbar > .contenedorNoticias,
+  .contenedorNoticias .navbar > header,
+  .contenedorNoticias .navbar > main {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
@@ -3329,7 +3272,9 @@ tbody.collapse.show, .contenedorNoticias main .sectNoticias2 > .contenidoNoticia
   .navbar-expand-sm > .contenedor,
   .contenedor .navbar-expand-sm > header,
   .contenedor .navbar-expand-sm > main,
-  .contenedorNoticias .navbar-expand-sm > header {
+  .navbar-expand-sm > .contenedorNoticias,
+  .contenedorNoticias .navbar-expand-sm > header,
+  .contenedorNoticias .navbar-expand-sm > main {
     padding-right: 0;
     padding-left: 0; } }
 @media (min-width: 576px) {
@@ -3351,7 +3296,9 @@ tbody.collapse.show, .contenedorNoticias main .sectNoticias2 > .contenidoNoticia
     .navbar-expand-sm > .contenedor,
     .contenedor .navbar-expand-sm > header,
     .contenedor .navbar-expand-sm > main,
-    .contenedorNoticias .navbar-expand-sm > header {
+    .navbar-expand-sm > .contenedorNoticias,
+    .contenedorNoticias .navbar-expand-sm > header,
+    .contenedorNoticias .navbar-expand-sm > main {
       flex-wrap: nowrap; }
     .navbar-expand-sm .navbar-collapse {
       display: flex !important;
@@ -3367,7 +3314,9 @@ tbody.collapse.show, .contenedorNoticias main .sectNoticias2 > .contenidoNoticia
   .navbar-expand-md > .contenedor,
   .contenedor .navbar-expand-md > header,
   .contenedor .navbar-expand-md > main,
-  .contenedorNoticias .navbar-expand-md > header {
+  .navbar-expand-md > .contenedorNoticias,
+  .contenedorNoticias .navbar-expand-md > header,
+  .contenedorNoticias .navbar-expand-md > main {
     padding-right: 0;
     padding-left: 0; } }
 @media (min-width: 768px) {
@@ -3389,7 +3338,9 @@ tbody.collapse.show, .contenedorNoticias main .sectNoticias2 > .contenidoNoticia
     .navbar-expand-md > .contenedor,
     .contenedor .navbar-expand-md > header,
     .contenedor .navbar-expand-md > main,
-    .contenedorNoticias .navbar-expand-md > header {
+    .navbar-expand-md > .contenedorNoticias,
+    .contenedorNoticias .navbar-expand-md > header,
+    .contenedorNoticias .navbar-expand-md > main {
       flex-wrap: nowrap; }
     .navbar-expand-md .navbar-collapse {
       display: flex !important;
@@ -3405,7 +3356,9 @@ tbody.collapse.show, .contenedorNoticias main .sectNoticias2 > .contenidoNoticia
   .navbar-expand-lg > .contenedor,
   .contenedor .navbar-expand-lg > header,
   .contenedor .navbar-expand-lg > main,
-  .contenedorNoticias .navbar-expand-lg > header {
+  .navbar-expand-lg > .contenedorNoticias,
+  .contenedorNoticias .navbar-expand-lg > header,
+  .contenedorNoticias .navbar-expand-lg > main {
     padding-right: 0;
     padding-left: 0; } }
 @media (min-width: 992px) {
@@ -3427,7 +3380,9 @@ tbody.collapse.show, .contenedorNoticias main .sectNoticias2 > .contenidoNoticia
     .navbar-expand-lg > .contenedor,
     .contenedor .navbar-expand-lg > header,
     .contenedor .navbar-expand-lg > main,
-    .contenedorNoticias .navbar-expand-lg > header {
+    .navbar-expand-lg > .contenedorNoticias,
+    .contenedorNoticias .navbar-expand-lg > header,
+    .contenedorNoticias .navbar-expand-lg > main {
       flex-wrap: nowrap; }
     .navbar-expand-lg .navbar-collapse {
       display: flex !important;
@@ -3443,7 +3398,9 @@ tbody.collapse.show, .contenedorNoticias main .sectNoticias2 > .contenidoNoticia
   .navbar-expand-xl > .contenedor,
   .contenedor .navbar-expand-xl > header,
   .contenedor .navbar-expand-xl > main,
-  .contenedorNoticias .navbar-expand-xl > header {
+  .navbar-expand-xl > .contenedorNoticias,
+  .contenedorNoticias .navbar-expand-xl > header,
+  .contenedorNoticias .navbar-expand-xl > main {
     padding-right: 0;
     padding-left: 0; } }
 @media (min-width: 1200px) {
@@ -3465,7 +3422,9 @@ tbody.collapse.show, .contenedorNoticias main .sectNoticias2 > .contenidoNoticia
     .navbar-expand-xl > .contenedor,
     .contenedor .navbar-expand-xl > header,
     .contenedor .navbar-expand-xl > main,
-    .contenedorNoticias .navbar-expand-xl > header {
+    .navbar-expand-xl > .contenedorNoticias,
+    .contenedorNoticias .navbar-expand-xl > header,
+    .contenedorNoticias .navbar-expand-xl > main {
       flex-wrap: nowrap; }
     .navbar-expand-xl .navbar-collapse {
       display: flex !important;
@@ -3483,7 +3442,9 @@ tbody.collapse.show, .contenedorNoticias main .sectNoticias2 > .contenidoNoticia
   .navbar-expand > .contenedor,
   .contenedor .navbar-expand > header,
   .contenedor .navbar-expand > main,
-  .contenedorNoticias .navbar-expand > header {
+  .navbar-expand > .contenedorNoticias,
+  .contenedorNoticias .navbar-expand > header,
+  .contenedorNoticias .navbar-expand > main {
     padding-right: 0;
     padding-left: 0; }
   .navbar-expand .navbar-nav {
@@ -3501,7 +3462,9 @@ tbody.collapse.show, .contenedorNoticias main .sectNoticias2 > .contenidoNoticia
   .navbar-expand > .contenedor,
   .contenedor .navbar-expand > header,
   .contenedor .navbar-expand > main,
-  .contenedorNoticias .navbar-expand > header {
+  .navbar-expand > .contenedorNoticias,
+  .contenedorNoticias .navbar-expand > header,
+  .contenedorNoticias .navbar-expand > main {
     flex-wrap: nowrap; }
   .navbar-expand .navbar-collapse {
     display: flex !important;
@@ -3885,7 +3848,7 @@ tbody.collapse.show, .contenedorNoticias main .sectNoticias2 > .contenidoNoticia
   .badge:empty {
     display: none; }
 
-.btn .badge, .contenedor header .menu > a .badge, .contenedorNoticias header .menu > a .badge {
+.btn .badge, .contenedor header .menu > a .badge {
   position: relative;
   top: -1px; }
 
@@ -5134,7 +5097,7 @@ button.bg-dark:focus {
 .justify-content-between {
   justify-content: space-between !important; }
 
-.justify-content-around, .contenedorNoticias header .menu, .contenedorNoticias main .sec1 > .contenido > aside > .deck, .contenedorNoticias main .sectNoticias2 > .contenidoNoticias2 > .artNoticias2 > .deck {
+.justify-content-around, .contenedorNoticias main .sec1 > .contenido > aside > .deck, .contenedorNoticias main .sectNoticias2 > .contenidoNoticias2 > .artNoticias2 > .deck {
   justify-content: space-around !important; }
 
 .align-items-start {
@@ -5222,7 +5185,7 @@ button.bg-dark:focus {
   .justify-content-sm-between {
     justify-content: space-between !important; }
 
-  .justify-content-sm-around, .contenedor header .menu {
+  .justify-content-sm-around, .contenedor header .menu, .contenedorNoticias header .menu {
     justify-content: space-around !important; }
 
   .align-items-sm-start {
@@ -5309,7 +5272,7 @@ button.bg-dark:focus {
   .justify-content-md-between {
     justify-content: space-between !important; }
 
-  .justify-content-md-around, .contenedor header .menu {
+  .justify-content-md-around, .contenedor header .menu, .contenedorNoticias header .menu {
     justify-content: space-around !important; }
 
   .align-items-md-start {
@@ -5396,7 +5359,7 @@ button.bg-dark:focus {
   .justify-content-lg-between {
     justify-content: space-between !important; }
 
-  .justify-content-lg-around, .contenedor header .menu {
+  .justify-content-lg-around, .contenedor header .menu, .contenedorNoticias header .menu {
     justify-content: space-around !important; }
 
   .align-items-lg-start {
@@ -6912,7 +6875,7 @@ button.bg-dark:focus {
   text-overflow: ellipsis;
   white-space: nowrap; }
 
-.text-left, .contenedorNoticias header .migasPan, .contenedorNoticias footer > .copyright {
+.text-left, .contenedor footer > .copyright, .contenedorNoticias header .migasPan, .contenedorNoticias footer > .copyright {
   text-align: left !important; }
 
 .text-right, .contenedor footer > .social, .contenedorNoticias footer > .social {
@@ -7306,7 +7269,7 @@ body {
           width: 100%; }
           .contenedor main .sec2 > .carrusel > .carousel-inner > .carousel-item > .accordion > .card > .cabeceraCarta > h1, .contenedor .contenedorNoticias main .sec2 > .sec1.carrusel > .contenido.carousel-inner > aside.carousel-item > .deck.accordion > .carta > .cabeceraCarta > h1, .contenedorNoticias .contenedor main .sec2 > .sec1.carrusel > .contenido.carousel-inner > aside.carousel-item > .deck.accordion > .carta > .cabeceraCarta > h1, .contenedor .contenedorNoticias main .sec2 > .sectNoticias2.carrusel > .contenidoNoticias2.carousel-inner > .artNoticias2.carousel-item > .deck.accordion > .carta > .cabeceraCarta > h1, .contenedorNoticias .contenedor main .sec2 > .sectNoticias2.carrusel > .contenidoNoticias2.carousel-inner > .artNoticias2.carousel-item > .deck.accordion > .carta > .cabeceraCarta > h1 {
             font-family: Harry2; }
-            .contenedor main .sec2 > .carrusel > .carousel-inner > .carousel-item > .accordion > .card > .cabeceraCarta > h1 > .btn, .contenedor .contenedorNoticias main .sec2 > .sec1.carrusel > .contenido.carousel-inner > aside.carousel-item > .deck.accordion > .carta > .cabeceraCarta > h1 > .btn, .contenedorNoticias .contenedor main .sec2 > .sec1.carrusel > .contenido.carousel-inner > aside.carousel-item > .deck.accordion > .carta > .cabeceraCarta > h1 > .btn, .contenedor .contenedorNoticias main .sec2 > .sectNoticias2.carrusel > .contenidoNoticias2.carousel-inner > .artNoticias2.carousel-item > .deck.accordion > .carta > .cabeceraCarta > h1 > .btn, .contenedorNoticias .contenedor main .sec2 > .sectNoticias2.carrusel > .contenidoNoticias2.carousel-inner > .artNoticias2.carousel-item > .deck.accordion > .carta > .cabeceraCarta > h1 > .btn, .contenedor main header .sec2 > .carrusel > .carousel-inner > .carousel-item > .accordion > .card > .cabeceraCarta > h1.menu > a, .contenedor header main .sec2 > .carrusel > .carousel-inner > .carousel-item > .accordion > .card > .cabeceraCarta > h1.menu > a, .contenedor header .contenedorNoticias main .sec2 > .sec1.carrusel > .contenido.carousel-inner > aside.carousel-item > .deck.accordion > .carta > .cabeceraCarta > h1.menu > a, .contenedorNoticias .contenedor header main .sec2 > .sec1.carrusel > .contenido.carousel-inner > aside.carousel-item > .deck.accordion > .carta > .cabeceraCarta > h1.menu > a, .contenedor header .contenedorNoticias main .sec2 > .sectNoticias2.carrusel > .contenidoNoticias2.carousel-inner > .artNoticias2.carousel-item > .deck.accordion > .carta > .cabeceraCarta > h1.menu > a, .contenedorNoticias .contenedor header main .sec2 > .sectNoticias2.carrusel > .contenidoNoticias2.carousel-inner > .artNoticias2.carousel-item > .deck.accordion > .carta > .cabeceraCarta > h1.menu > a, .contenedorNoticias header .contenedor main .sec2 > .carrusel > .carousel-inner > .carousel-item > .accordion > .card > .cabeceraCarta > h1.menu > a, .contenedor .contenedorNoticias main header .sec2 > .sec1.carrusel > .contenido.carousel-inner > aside.carousel-item > .deck.accordion > .carta > .cabeceraCarta > h1.menu > a, .contenedor .contenedorNoticias header main .sec2 > .sec1.carrusel > .contenido.carousel-inner > aside.carousel-item > .deck.accordion > .carta > .cabeceraCarta > h1.menu > a, .contenedorNoticias .contenedor main header .sec2 > .sec1.carrusel > .contenido.carousel-inner > aside.carousel-item > .deck.accordion > .carta > .cabeceraCarta > h1.menu > a, .contenedorNoticias header .contenedor main .sec2 > .sec1.carrusel > .contenido.carousel-inner > aside.carousel-item > .deck.accordion > .carta > .cabeceraCarta > h1.menu > a, .contenedor .contenedorNoticias main header .sec2 > .sectNoticias2.carrusel > .contenidoNoticias2.carousel-inner > .artNoticias2.carousel-item > .deck.accordion > .carta > .cabeceraCarta > h1.menu > a, .contenedor .contenedorNoticias header main .sec2 > .sectNoticias2.carrusel > .contenidoNoticias2.carousel-inner > .artNoticias2.carousel-item > .deck.accordion > .carta > .cabeceraCarta > h1.menu > a, .contenedorNoticias .contenedor main header .sec2 > .sectNoticias2.carrusel > .contenidoNoticias2.carousel-inner > .artNoticias2.carousel-item > .deck.accordion > .carta > .cabeceraCarta > h1.menu > a, .contenedorNoticias header .contenedor main .sec2 > .sectNoticias2.carrusel > .contenidoNoticias2.carousel-inner > .artNoticias2.carousel-item > .deck.accordion > .carta > .cabeceraCarta > h1.menu > a {
+            .contenedor main .sec2 > .carrusel > .carousel-inner > .carousel-item > .accordion > .card > .cabeceraCarta > h1 > .btn, .contenedor .contenedorNoticias main .sec2 > .sec1.carrusel > .contenido.carousel-inner > aside.carousel-item > .deck.accordion > .carta > .cabeceraCarta > h1 > .btn, .contenedorNoticias .contenedor main .sec2 > .sec1.carrusel > .contenido.carousel-inner > aside.carousel-item > .deck.accordion > .carta > .cabeceraCarta > h1 > .btn, .contenedor .contenedorNoticias main .sec2 > .sectNoticias2.carrusel > .contenidoNoticias2.carousel-inner > .artNoticias2.carousel-item > .deck.accordion > .carta > .cabeceraCarta > h1 > .btn, .contenedorNoticias .contenedor main .sec2 > .sectNoticias2.carrusel > .contenidoNoticias2.carousel-inner > .artNoticias2.carousel-item > .deck.accordion > .carta > .cabeceraCarta > h1 > .btn, .contenedor main header .sec2 > .carrusel > .carousel-inner > .carousel-item > .accordion > .card > .cabeceraCarta > h1.menu > a, .contenedor header main .sec2 > .carrusel > .carousel-inner > .carousel-item > .accordion > .card > .cabeceraCarta > h1.menu > a, .contenedor .contenedorNoticias main header .sec2 > .sec1.carrusel > .contenido.carousel-inner > aside.carousel-item > .deck.accordion > .carta > .cabeceraCarta > h1.menu > a, .contenedor header .contenedorNoticias main .sec2 > .sec1.carrusel > .contenido.carousel-inner > aside.carousel-item > .deck.accordion > .carta > .cabeceraCarta > h1.menu > a, .contenedorNoticias .contenedor main header .sec2 > .sec1.carrusel > .contenido.carousel-inner > aside.carousel-item > .deck.accordion > .carta > .cabeceraCarta > h1.menu > a, .contenedorNoticias .contenedor header main .sec2 > .sec1.carrusel > .contenido.carousel-inner > aside.carousel-item > .deck.accordion > .carta > .cabeceraCarta > h1.menu > a, .contenedor .contenedorNoticias main header .sec2 > .sectNoticias2.carrusel > .contenidoNoticias2.carousel-inner > .artNoticias2.carousel-item > .deck.accordion > .carta > .cabeceraCarta > h1.menu > a, .contenedor header .contenedorNoticias main .sec2 > .sectNoticias2.carrusel > .contenidoNoticias2.carousel-inner > .artNoticias2.carousel-item > .deck.accordion > .carta > .cabeceraCarta > h1.menu > a, .contenedorNoticias .contenedor main header .sec2 > .sectNoticias2.carrusel > .contenidoNoticias2.carousel-inner > .artNoticias2.carousel-item > .deck.accordion > .carta > .cabeceraCarta > h1.menu > a, .contenedorNoticias .contenedor header main .sec2 > .sectNoticias2.carrusel > .contenidoNoticias2.carousel-inner > .artNoticias2.carousel-item > .deck.accordion > .carta > .cabeceraCarta > h1.menu > a {
               background-color: transparent;
               color: white;
               font-size: 40px; }
@@ -7323,7 +7286,14 @@ body {
   .contenedor footer {
     background: #E4C9B0;
     width: 100%;
-    height: auto; }
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around; }
+    .contenedor footer > .copyright {
+      align-content: center; }
+    .contenedor footer > .social {
+      align-content: center; }
 
 /**
  * CONTENIDO REFERENTE A LA ESTRUCTURA GRID DE LAS NOTICIAS
@@ -7340,38 +7310,66 @@ body {
 .contenedorNoticias {
   width: auto;
   height: auto;
-  display: grid;
-  grid-template-areas: "header header header" "main main main" "main main main" "footer footer footer";
-  grid-gap: 15px; }
+  	/*@media (max-width: 576px){
+  		footer{
+  			display: flex;
+  			flex-wrap: wrap;
+  		}
+  
+  		&>.copyright{
+  			justify-content: flex-start;
+  		}
+  	}*/ }
   .contenedorNoticias header {
-    grid-area: header;
     background: #E4C9B0;
     width: auto;
     height: auto;
+    /*width: $widthHeader;
+    height: $heightHeader;*/
     display: flex;
     justify-content: space-around;
     align-items: center;
-    flex-wrap: wrap; }
+    flex-wrap: wrap;
+    /*display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;*/
+    margin-bottom: 2%; }
+    @media (max-width: 767px) {
+      .contenedorNoticias header .logos .editorial {
+        visibility: hidden;
+        display: none; } }
     .contenedorNoticias header .menu {
       font-family: Harry2;
       font-size: 20px; }
-      .contenedorNoticias header .menu > a {
-        display: flex;
-        align-items: center; }
+      @media (max-width: 767px) {
+        .contenedorNoticias header .menu > button {
+          width: 100%;
+          margin-top: 4%; }
+          .contenedorNoticias header .menu > button > a {
+            justify-content: center; } }
     .contenedorNoticias header .migasPan {
       font-family: "Niconne";
-      font-size: 20px; }
+      font-size: 20px;
+      margin-top: 1%;
+      margin-bottom: -2%; }
       .contenedorNoticias header .migasPan > ol {
         background-color: transparent; }
         .contenedorNoticias header .migasPan > ol > .breadcrumb-item a {
           color: black; }
   .contenedorNoticias main {
-    grid-area: main;
     width: auto;
     height: auto;
     background: #E4C9B0;
     border: 4px solid;
-    margin: 0 2%; }
+    margin: 0 2%;
+    /*@extend .col-12;
+    @extend .row;*/
+    /*<!--
+    	==========
+    	= COMIENZO PAGINA NOTICIAS 2 =
+    	==========
+    -->*/ }
     .contenedorNoticias main .sec1 {
       width: 100%;
       height: 50%;
@@ -7382,44 +7380,76 @@ body {
       text-align: justify;*/
       padding: 2%;
       text-align: justify; }
-      .contenedorNoticias main .sec1 > .contenido > aside > h1 {
-        font-family: Harry2;
-        font-size: 36px;
-        letter-spacing: 5px; }
-      .contenedorNoticias main .sec1 > .contenido > aside > .deck {
-        padding-bottom: 25px; }
-        .contenedorNoticias main .sec1 > .contenido > aside > .deck > .carta {
-          background-color: #E4C9B0;
-          border: none;
-          max-width: 18rem;
-          margin-top: 10px; }
-          .contenedorNoticias main .sec1 > .contenido > aside > .deck > .carta > .cabeceraCard {
-            width: 100%;
+      @media (min-width: 320px) {
+        .contenedorNoticias main .sec1 * {
+          max-width: 100%; } }
+      .contenedorNoticias main .sec1 > .contenido > aside {
+        max-width: 100%; }
+        @media (max-width: 992px) {
+          .contenedorNoticias main .sec1 > .contenido > aside {
+            visibility: hidden;
+            display: none; } }
+        .contenedorNoticias main .sec1 > .contenido > aside > h1 {
+          font-family: Harry2;
+          font-size: 36px;
+          letter-spacing: 5px;
+          max-width: 100%; }
+        .contenedorNoticias main .sec1 > .contenido > aside > .deck {
+          padding-bottom: 25px;
+          max-width: 100%;
+          margin-left: 3%; }
+          .contenedorNoticias main .sec1 > .contenido > aside > .deck > .carta {
             background-color: #E4C9B0;
-            border: 1px solid black;
-            border-bottom: none;
-            border-top: none;
-            margin-bottom: 15px;
-            font-family: "Blackore", sans-serif;
-            text-align: center; }
-          .contenedorNoticias main .sec1 > .contenido > aside > .deck > .carta > .card-body {
-            border: 1px solid black;
-            border-top: none;
-            border-bottom: none; }
-          .contenedorNoticias main .sec1 > .contenido > aside > .deck > .carta .card-body > .textoCarta {
-            font-family: "Niconne";
-            font-size: 25px; }
+            border: none;
+            max-width: 100%;
+            margin-top: 2%; }
+            .contenedorNoticias main .sec1 > .contenido > aside > .deck > .carta > .cabeceraCard {
+              max-width: 100%;
+              background-color: #E4C9B0;
+              border: 1px solid black;
+              border-bottom: none;
+              border-top: none;
+              margin-bottom: 3%;
+              font-family: "Blackore", sans-serif;
+              text-align: center; }
+            .contenedorNoticias main .sec1 > .contenido > aside > .deck > .carta > .card-body {
+              border: 1px solid black;
+              border-top: none;
+              border-bottom: none;
+              max-width: 100%; }
+            .contenedorNoticias main .sec1 > .contenido > aside > .deck > .carta .card-body > .textoCarta {
+              font-family: "Niconne";
+              font-size: 25px; }
       .contenedorNoticias main .sec1 > .contenido > .art1 {
         width: 50%;
-        align-self: center; }
+        align-self: center;
+        /*@media (max-width: 767px){
+        	*{
+        		margin-left: 7%;
+        	}
+        }*/
+        /*@media (min-width: 320px){
+        	*{
+        		max-width: 100%;
+        	}
+        }*/ }
+        .contenedorNoticias main .sec1 > .contenido > .art1 > * {
+          margin-left: 7%; }
         .contenedorNoticias main .sec1 > .contenido > .art1 > h1 {
           font-family: Harry2;
           font-size: 75px;
           letter-spacing: 5px; }
+          @media (max-width: 767px) {
+            .contenedorNoticias main .sec1 > .contenido > .art1 > h1 {
+              font-family: Harry2;
+              font-size: 55px;
+              letter-spacing: 3px; } }
         .contenedorNoticias main .sec1 > .contenido > .art1 > p {
           font-family: "Niconne";
           font-size: 28px;
           line-height: 20px; }
+        .contenedorNoticias main .sec1 > .contenido > .art1 figure {
+          margin-left: 6%; }
     .contenedorNoticias main .sectNoticias2 {
       width: 100%;
       height: 50%;
@@ -7428,46 +7458,60 @@ body {
       align-items: center;
       padding: 5%;
       text-align: justify;*/
-      padding: 2%;
-      text-align: justify; }
-      .contenedorNoticias main .sectNoticias2 > .contenidoNoticias2 > .aside > h1 {
-        font-family: Harry2;
-        font-size: 36px;
-        letter-spacing: 5px; }
-      .contenedorNoticias main .sectNoticias2 > .contenidoNoticias2 > .aside > p {
-        font-family: "Niconne";
-        font-size: 28px;
-        line-height: 20px;
-        text-align: justify; }
-      .contenedorNoticias main .sectNoticias2 > .contenidoNoticias2 > .artNoticias2 > .deck {
-        padding-bottom: 25px; }
-        .contenedorNoticias main .sectNoticias2 > .contenidoNoticias2 > .artNoticias2 > .deck > .carta {
-          background-color: #E4C9B0;
-          border: none;
-          max-width: 18rem;
-          margin-top: 10px; }
-          .contenedorNoticias main .sectNoticias2 > .contenidoNoticias2 > .artNoticias2 > .deck > .carta > .cabeceraCard {
-            width: 100%;
+      text-align: justify;
+      margin-top: 1%;
+      /*@media (max-width: 400px){
+      	margin-left: 10%;
+      }*/ }
+      @media (min-width: 320px) {
+        .contenedorNoticias main .sectNoticias2 * {
+          max-width: 100%; } }
+      .contenedorNoticias main .sectNoticias2 > .contenidoNoticias2 {
+        margin-left: 3%; }
+        .contenedorNoticias main .sectNoticias2 > .contenidoNoticias2 > .aside {
+          max-width: 100%; }
+          @media (max-width: 992px) {
+            .contenedorNoticias main .sectNoticias2 > .contenidoNoticias2 > .aside {
+              visibility: hidden;
+              display: none; } }
+          .contenedorNoticias main .sectNoticias2 > .contenidoNoticias2 > .aside > h1 {
+            font-family: Harry2;
+            font-size: 36px;
+            letter-spacing: 5px; }
+          .contenedorNoticias main .sectNoticias2 > .contenidoNoticias2 > .aside > p {
+            font-family: "Niconne";
+            font-size: 28px;
+            line-height: 20px;
+            text-align: justify; }
+        .contenedorNoticias main .sectNoticias2 > .contenidoNoticias2 > .artNoticias2 > .deck {
+          padding-bottom: 25px; }
+          .contenedorNoticias main .sectNoticias2 > .contenidoNoticias2 > .artNoticias2 > .deck > .carta {
             background-color: #E4C9B0;
-            border: 1px solid black;
-            border-bottom: none;
-            border-top: none;
-            margin-bottom: 15px;
-            font-family: "Blackore", sans-serif;
-            text-align: center; }
-          .contenedorNoticias main .sectNoticias2 > .contenidoNoticias2 > .artNoticias2 > .deck > .carta > .card-body {
-            border: 1px solid black;
-            border-top: none;
-            border-bottom: none; }
-            .contenedorNoticias main .sectNoticias2 > .contenidoNoticias2 > .artNoticias2 > .deck > .carta > .card-body > .textoCarta {
-              font-family: "Niconne";
-              font-size: 25px; }
-              .contenedorNoticias main .sectNoticias2 > .contenidoNoticias2 > .artNoticias2 > .deck > .carta > .card-body > .textoCarta > .mostrar {
-                display: none; }
+            border: none;
+            max-width: 100%;
+            margin-top: 5%; }
+            .contenedorNoticias main .sectNoticias2 > .contenidoNoticias2 > .artNoticias2 > .deck > .carta > .cabeceraCard {
+              width: 100%;
+              background-color: #E4C9B0;
+              border: 1px solid black;
+              border-bottom: none;
+              border-top: none;
+              margin-bottom: 15px;
+              font-family: "Blackore", sans-serif;
+              text-align: center; }
+            .contenedorNoticias main .sectNoticias2 > .contenidoNoticias2 > .artNoticias2 > .deck > .carta > .card-body {
+              border: 1px solid black;
+              border-top: none;
+              border-bottom: none; }
+              .contenedorNoticias main .sectNoticias2 > .contenidoNoticias2 > .artNoticias2 > .deck > .carta > .card-body > .textoCarta {
+                font-family: "Niconne";
+                font-size: 25px; }
+                .contenedorNoticias main .sectNoticias2 > .contenidoNoticias2 > .artNoticias2 > .deck > .carta > .card-body > .textoCarta > .mostrar {
+                  display: none; }
     .contenedorNoticias main > .sectNoticias2 > .contenidoNoticias2 > .aside > .accordion > .card, .contenedorNoticias main > .sec1.sectNoticias2 > .contenido.contenidoNoticias2 > aside.aside > .deck.accordion > .carta, .contenedorNoticias main > .sectNoticias2 > .contenidoNoticias2 > .artNoticias2.aside > .deck.accordion > .carta {
       background-color: transparent;
       border: none; }
-      .contenedorNoticias main > .sectNoticias2 > .contenidoNoticias2 > .aside > .accordion > .card > .card-header > .mb-0 > .btn, .contenedorNoticias main > .sec1.sectNoticias2 > .contenido.contenidoNoticias2 > aside.aside > .deck.accordion > .carta > .card-header > .mb-0 > .btn, .contenedorNoticias main > .sectNoticias2 > .contenidoNoticias2 > .artNoticias2.aside > .deck.accordion > .carta > .card-header > .mb-0 > .btn, .contenedorNoticias main > .sec1.sectNoticias2 > .contenido.contenidoNoticias2 > aside.aside > .deck.accordion > .carta > .cabeceraCard > .mb-0 > .btn, .contenedorNoticias main > .sectNoticias2 > .contenidoNoticias2 > .artNoticias2.aside > .deck.accordion > .carta > .cabeceraCard > .mb-0 > .btn, .contenedor header .contenedorNoticias main > .sectNoticias2 > .contenidoNoticias2 > .aside > .accordion > .card > .card-header > .menu.mb-0 > a, .contenedor header .contenedorNoticias main > .sec1.sectNoticias2 > .contenido.contenidoNoticias2 > aside.aside > .deck.accordion > .carta > .card-header > .menu.mb-0 > a, .contenedor header .contenedorNoticias main > .sectNoticias2 > .contenidoNoticias2 > .artNoticias2.aside > .deck.accordion > .carta > .card-header > .menu.mb-0 > a, .contenedor header .contenedorNoticias main > .sec1.sectNoticias2 > .contenido.contenidoNoticias2 > aside.aside > .deck.accordion > .carta > .cabeceraCard > .menu.mb-0 > a, .contenedor header .contenedorNoticias main > .sectNoticias2 > .contenidoNoticias2 > .artNoticias2.aside > .deck.accordion > .carta > .cabeceraCard > .menu.mb-0 > a, .contenedorNoticias header main > .sectNoticias2 > .contenidoNoticias2 > .aside > .accordion > .card > .card-header > .menu.mb-0 > a, .contenedorNoticias header main > .sec1.sectNoticias2 > .contenido.contenidoNoticias2 > aside.aside > .deck.accordion > .carta > .card-header > .menu.mb-0 > a, .contenedorNoticias header main > .sectNoticias2 > .contenidoNoticias2 > .artNoticias2.aside > .deck.accordion > .carta > .card-header > .menu.mb-0 > a, .contenedorNoticias header main > .sec1.sectNoticias2 > .contenido.contenidoNoticias2 > aside.aside > .deck.accordion > .carta > .cabeceraCard > .menu.mb-0 > a, .contenedorNoticias header main > .sectNoticias2 > .contenidoNoticias2 > .artNoticias2.aside > .deck.accordion > .carta > .cabeceraCard > .menu.mb-0 > a {
+      .contenedorNoticias main > .sectNoticias2 > .contenidoNoticias2 > .aside > .accordion > .card > .card-header > .mb-0 > .btn, .contenedorNoticias main > .sec1.sectNoticias2 > .contenido.contenidoNoticias2 > aside.aside > .deck.accordion > .carta > .card-header > .mb-0 > .btn, .contenedorNoticias main > .sectNoticias2 > .contenidoNoticias2 > .artNoticias2.aside > .deck.accordion > .carta > .card-header > .mb-0 > .btn, .contenedorNoticias main > .sec1.sectNoticias2 > .contenido.contenidoNoticias2 > aside.aside > .deck.accordion > .carta > .cabeceraCard > .mb-0 > .btn, .contenedorNoticias main > .sectNoticias2 > .contenidoNoticias2 > .artNoticias2.aside > .deck.accordion > .carta > .cabeceraCard > .mb-0 > .btn, .contenedorNoticias .contenedor header main > .sectNoticias2 > .contenidoNoticias2 > .aside > .accordion > .card > .card-header > .menu.mb-0 > a, .contenedor header .contenedorNoticias main > .sectNoticias2 > .contenidoNoticias2 > .aside > .accordion > .card > .card-header > .menu.mb-0 > a, .contenedorNoticias .contenedor header main > .sec1.sectNoticias2 > .contenido.contenidoNoticias2 > aside.aside > .deck.accordion > .carta > .card-header > .menu.mb-0 > a, .contenedor header .contenedorNoticias main > .sec1.sectNoticias2 > .contenido.contenidoNoticias2 > aside.aside > .deck.accordion > .carta > .card-header > .menu.mb-0 > a, .contenedorNoticias .contenedor header main > .sectNoticias2 > .contenidoNoticias2 > .artNoticias2.aside > .deck.accordion > .carta > .card-header > .menu.mb-0 > a, .contenedor header .contenedorNoticias main > .sectNoticias2 > .contenidoNoticias2 > .artNoticias2.aside > .deck.accordion > .carta > .card-header > .menu.mb-0 > a, .contenedorNoticias .contenedor header main > .sec1.sectNoticias2 > .contenido.contenidoNoticias2 > aside.aside > .deck.accordion > .carta > .cabeceraCard > .menu.mb-0 > a, .contenedor header .contenedorNoticias main > .sec1.sectNoticias2 > .contenido.contenidoNoticias2 > aside.aside > .deck.accordion > .carta > .cabeceraCard > .menu.mb-0 > a, .contenedorNoticias .contenedor header main > .sectNoticias2 > .contenidoNoticias2 > .artNoticias2.aside > .deck.accordion > .carta > .cabeceraCard > .menu.mb-0 > a, .contenedor header .contenedorNoticias main > .sectNoticias2 > .contenidoNoticias2 > .artNoticias2.aside > .deck.accordion > .carta > .cabeceraCard > .menu.mb-0 > a {
         font-family: Harry2;
         color: black;
         font-size: 25px; }
@@ -7520,10 +7564,16 @@ body {
         color: black;
         font-size: 30px; }
   .contenedorNoticias footer {
-    grid-area: footer;
     background: #E4C9B0;
     width: 100%;
-    height: auto; }
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around; }
+    .contenedorNoticias footer > .copyright {
+      align-content: center; }
+    .contenedorNoticias footer > .social {
+      align-content: center; }
 
 .menu {
   margin-top: 25px; }

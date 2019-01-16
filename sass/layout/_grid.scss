@@ -234,22 +234,25 @@ body{
 	}
 
 	footer{
-		
 		@extend .row;
 		@extend .col-12;
-		//grid-area: footer;
 		background: $fondoFooter;
 		width: 100%;
 		height: auto;
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-around;
 
 		&>.copyright{
-			@extend .col-6;
-			
+			//@extend .col-6;
+			@extend .text-left;
+			align-content: center;
 		}
 
 		&>.social{
-			@extend .col-6;
+			//@extend .col-6;
 			@extend .text-right;
+			align-content: center;
 		}
 	}
 }
