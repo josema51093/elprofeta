@@ -181,8 +181,10 @@ body{
 				margin-bottom: -5%;
 			}
 			
-			&>.carrusel{
-				margin: 5%;
+			&>.carrusel1{
+				@extend .col-6;
+				padding-top: 5%;
+				margin-bottom: 2%;
 				&>.carousel-inner{
 					&>.carousel-item{
 
@@ -206,7 +208,57 @@ body{
 										&>.btn{
 											background-color: transparent;
 											color: white;
-											font-size: 40px;
+											font-size: 25px;
+										}
+									}
+								}
+							}
+							&>.collapse{
+								background-color: rgba(0,0,0,0.7);
+								width: 100%;
+								&>.card-body{
+									color: white;
+									font-family: $niconne;
+									font-size: 23px;
+								}
+							}
+						}
+						&>img{
+							width: 500px;
+							height: 450px;
+							
+						}
+					}
+				}
+			}
+			&>.carrusel2{
+				@extend .col-6;
+				padding-top: 5%;
+				margin-bottom: 2%;
+				&>.carousel-inner{
+					&>.carousel-item{
+
+						&>.textoCarrusel{
+							@extend .carousel-caption;
+							@extend .d-none;
+							@extend .d-md-block;
+
+							&>h1{
+								font-family: Harry2;
+							}
+						}
+						&>.accordion{
+							&>.card{
+								background-color: transparent;
+								border: none;
+								width: 100%;
+								&>.cabeceraCarta{
+									&>h1{
+										font-family: Harry2;
+										&>.btn{
+											background-color: transparent;
+											color: white;
+											font-size: 25px;
 										}
 									}
 								}
