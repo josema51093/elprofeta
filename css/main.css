@@ -879,7 +879,7 @@ pre {
   margin-right: auto;
   margin-left: auto; }
 
-.row, .contenedor header .logos, .contenedor header .menu, .contenedor main .sec1 > .noticia, .contenedor footer, .contenedorNoticias header .logos, .contenedorNoticias header .menu, .contenedorNoticias header .migasPan, .contenedorNoticias main .sec1 > .contenido, .contenedorNoticias main .sec1 > .contenido > aside > .deck, .contenedorNoticias main .sec1 > .contenido > .art1 figure, .contenedorNoticias main .sectNoticias2 > .contenidoNoticias2, .contenedorNoticias main .sectNoticias2 > .contenidoNoticias2 > .artNoticias2 > .deck, .contenedorNoticias main .paginador, .contenedorNoticias footer {
+.row, .contenedor header .logos, .contenedor header .menu, .contenedor main .sec1 > .noticia, .contenedor footer, .contenedorNoticias header .logos, .contenedorNoticias header .menu, .contenedorNoticias header .migasPan, .contenedorNoticias main .sec1 > .contenido, .contenedorNoticias main .sec1 > .contenido > aside > .deck, .contenedorNoticias main .sec1 > .contenido > .art1 figure, .contenedorNoticias main .sectNoticias2 > .contenidoNoticias2, .contenedorNoticias main .sectNoticias2 > .contenidoNoticias2 > .artNoticias2 > .deck, .contenedorNoticias main .paginador, .contenedorNoticias footer, .migasPan {
   display: flex;
   flex-wrap: wrap;
   margin-right: -15px;
@@ -893,7 +893,7 @@ pre {
     padding-right: 0;
     padding-left: 0; }
 
-.col-1, .col-2, .col-3, .col-4, .contenedorNoticias main .sectNoticias2 > .contenidoNoticias2 > .aside, .col-5, .col-6, .col-7, .col-8, .col-9, .col-10, .col-11, .col-12, .contenedor header .menu, .contenedor main .sec1 > .noticia > h1, .contenedor main .sec1 > .noticia > .art1, .contenedor main .sec1 > .noticia > .art1 > video, .contenedor main .sec2 > h1, .contenedor footer, .contenedorNoticias header .menu, .contenedorNoticias header .migasPan, .contenedorNoticias main .sec1 > .contenido > aside > h1, .contenedorNoticias main .sec1 > .contenido > aside > .deck, .contenedorNoticias main .sec1 > .contenido > aside > .deck > .carta, .contenedorNoticias main .sec1 > .contenido > .art1, .contenedorNoticias main .sec1 > .contenido > .art1 > h1, .contenedorNoticias main .sectNoticias2 > .contenidoNoticias2 > .aside > h1, .contenedorNoticias main .sectNoticias2 > .contenidoNoticias2 > .artNoticias2 > .deck, .contenedorNoticias main .paginador, .contenedorNoticias footer, .col,
+.col-1, .col-2, .col-3, .col-4, .contenedorNoticias main .sectNoticias2 > .contenidoNoticias2 > .aside, .col-5, .col-6, .contenedor main .sec2 > .carrusel1, .contenedor main .sec2 > .carrusel2, .col-7, .col-8, .col-9, .col-10, .col-11, .col-12, .contenedor header .menu, .contenedor main .sec1 > .noticia > h1, .contenedor main .sec1 > .noticia > .art1, .contenedor main .sec1 > .noticia > .art1 > video, .contenedor main .sec2 > h1, .contenedor footer, .contenedorNoticias header .menu, .contenedorNoticias header .migasPan, .contenedorNoticias main .sec1 > .contenido > aside > h1, .contenedorNoticias main .sec1 > .contenido > aside > .deck, .contenedorNoticias main .sec1 > .contenido > aside > .deck > .carta, .contenedorNoticias main .sec1 > .contenido > .art1, .contenedorNoticias main .sec1 > .contenido > .art1 > h1, .contenedorNoticias main .sectNoticias2 > .contenidoNoticias2 > .aside > h1, .contenedorNoticias main .sectNoticias2 > .contenidoNoticias2 > .artNoticias2 > .deck, .contenedorNoticias main .paginador, .contenedorNoticias footer, .migasPan, .col,
 .col-auto, .col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12, .contenedor header .logos > a > img, .contenedor header .menu > a, .contenedorNoticias header .logos > a > img, .contenedorNoticias main .sectNoticias2 > .contenidoNoticias2 > .artNoticias2, .contenedorNoticias main .sectNoticias2 > .contenidoNoticias2 > .artNoticias2 > .deck > .carta, .col-sm,
 .col-sm-auto, .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12, .col-md,
 .col-md-auto, .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .contenedorNoticias main .sec1 > .contenido > aside, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg,
@@ -935,7 +935,7 @@ pre {
   flex: 0 0 41.6666666667%;
   max-width: 41.6666666667%; }
 
-.col-6 {
+.col-6, .contenedor main .sec2 > .carrusel1, .contenedor main .sec2 > .carrusel2 {
   flex: 0 0 50%;
   max-width: 50%; }
 
@@ -959,7 +959,7 @@ pre {
   flex: 0 0 91.6666666667%;
   max-width: 91.6666666667%; }
 
-.col-12, .contenedor header .menu, .contenedor main .sec1 > .noticia > h1, .contenedor main .sec1 > .noticia > .art1, .contenedor main .sec1 > .noticia > .art1 > video, .contenedor main .sec2 > h1, .contenedor footer, .contenedorNoticias header .menu, .contenedorNoticias header .migasPan, .contenedorNoticias main .sec1 > .contenido > aside > h1, .contenedorNoticias main .sec1 > .contenido > aside > .deck, .contenedorNoticias main .sec1 > .contenido > aside > .deck > .carta, .contenedorNoticias main .sec1 > .contenido > .art1, .contenedorNoticias main .sec1 > .contenido > .art1 > h1, .contenedorNoticias main .sectNoticias2 > .contenidoNoticias2 > .aside > h1, .contenedorNoticias main .sectNoticias2 > .contenidoNoticias2 > .artNoticias2 > .deck, .contenedorNoticias main .paginador, .contenedorNoticias footer {
+.col-12, .contenedor header .menu, .contenedor main .sec1 > .noticia > h1, .contenedor main .sec1 > .noticia > .art1, .contenedor main .sec1 > .noticia > .art1 > video, .contenedor main .sec2 > h1, .contenedor footer, .contenedorNoticias header .menu, .contenedorNoticias header .migasPan, .contenedorNoticias main .sec1 > .contenido > aside > h1, .contenedorNoticias main .sec1 > .contenido > aside > .deck, .contenedorNoticias main .sec1 > .contenido > aside > .deck > .carta, .contenedorNoticias main .sec1 > .contenido > .art1, .contenedorNoticias main .sec1 > .contenido > .art1 > h1, .contenedorNoticias main .sectNoticias2 > .contenidoNoticias2 > .aside > h1, .contenedorNoticias main .sectNoticias2 > .contenidoNoticias2 > .artNoticias2 > .deck, .contenedorNoticias main .paginador, .contenedorNoticias footer, .migasPan {
   flex: 0 0 100%;
   max-width: 100%; }
 
@@ -3745,7 +3745,7 @@ tbody.collapse.show, .contenedorNoticias main .sectNoticias2 > .contenidoNoticia
       display: inline-block;
       width: 100%; } }
 
-.breadcrumb, .contenedorNoticias header .migasPan > ol {
+.breadcrumb, .contenedorNoticias header .migasPan > ol, .migasPan > ol {
   display: flex;
   flex-wrap: wrap;
   padding: 0.75rem 1rem;
@@ -4682,7 +4682,7 @@ button.close {
   .carousel-indicators .active {
     background-color: #fff; }
 
-.carousel-caption, .contenedor main .sec2 > .carrusel > .carousel-inner > .carousel-item > .textoCarrusel {
+.carousel-caption, .contenedor main .sec2 > .carrusel1 > .carousel-inner > .carousel-item > .textoCarrusel, .contenedor main .sec2 > .carrusel2 > .carousel-inner > .carousel-item > .textoCarrusel {
   position: absolute;
   right: 15%;
   bottom: 20px;
@@ -4868,7 +4868,7 @@ button.bg-dark:focus {
   clear: both;
   content: ""; }
 
-.d-none, .contenedor main .sec2 > .carrusel > .carousel-inner > .carousel-item > .textoCarrusel {
+.d-none, .contenedor main .sec2 > .carrusel1 > .carousel-inner > .carousel-item > .textoCarrusel, .contenedor main .sec2 > .carrusel2 > .carousel-inner > .carousel-item > .textoCarrusel {
   display: none !important; }
 
 .d-inline {
@@ -4932,7 +4932,7 @@ button.bg-dark:focus {
   .d-md-inline-block {
     display: inline-block !important; }
 
-  .d-md-block, .contenedor main .sec2 > .carrusel > .carousel-inner > .carousel-item > .textoCarrusel {
+  .d-md-block, .contenedor main .sec2 > .carrusel1 > .carousel-inner > .carousel-item > .textoCarrusel, .contenedor main .sec2 > .carrusel2 > .carousel-inner > .carousel-item > .textoCarrusel {
     display: block !important; }
 
   .d-md-table {
@@ -6875,7 +6875,7 @@ button.bg-dark:focus {
   text-overflow: ellipsis;
   white-space: nowrap; }
 
-.text-left, .contenedor footer > .copyright, .contenedorNoticias header .migasPan, .contenedorNoticias footer > .copyright {
+.text-left, .contenedor footer > .copyright, .contenedorNoticias header .migasPan, .contenedorNoticias footer > .copyright, .migasPan {
   text-align: left !important; }
 
 .text-right, .contenedor footer > .social, .contenedorNoticias footer > .social {
@@ -7259,28 +7259,54 @@ body {
         font-size: 55px;
         letter-spacing: 5px;
         margin-bottom: -5%; }
-      .contenedor main .sec2 > .carrusel {
-        margin: 5%; }
-        .contenedor main .sec2 > .carrusel > .carousel-inner > .carousel-item > .textoCarrusel > h1 {
+      .contenedor main .sec2 > .carrusel1 {
+        padding-top: 5%;
+        margin-bottom: 2%; }
+        .contenedor main .sec2 > .carrusel1 > .carousel-inner > .carousel-item > .textoCarrusel > h1 {
           font-family: Harry2; }
-        .contenedor main .sec2 > .carrusel > .carousel-inner > .carousel-item > .accordion > .card, .contenedor .contenedorNoticias main .sec2 > .sec1.carrusel > .contenido.carousel-inner > aside.carousel-item > .deck.accordion > .carta, .contenedorNoticias .contenedor main .sec2 > .sec1.carrusel > .contenido.carousel-inner > aside.carousel-item > .deck.accordion > .carta, .contenedor .contenedorNoticias main .sec2 > .sectNoticias2.carrusel > .contenidoNoticias2.carousel-inner > .artNoticias2.carousel-item > .deck.accordion > .carta, .contenedorNoticias .contenedor main .sec2 > .sectNoticias2.carrusel > .contenidoNoticias2.carousel-inner > .artNoticias2.carousel-item > .deck.accordion > .carta {
+        .contenedor main .sec2 > .carrusel1 > .carousel-inner > .carousel-item > .accordion > .card, .contenedor .contenedorNoticias main .sec2 > .sec1.carrusel1 > .contenido.carousel-inner > aside.carousel-item > .deck.accordion > .carta, .contenedorNoticias .contenedor main .sec2 > .sec1.carrusel1 > .contenido.carousel-inner > aside.carousel-item > .deck.accordion > .carta, .contenedor .contenedorNoticias main .sec2 > .sectNoticias2.carrusel1 > .contenidoNoticias2.carousel-inner > .artNoticias2.carousel-item > .deck.accordion > .carta, .contenedorNoticias .contenedor main .sec2 > .sectNoticias2.carrusel1 > .contenidoNoticias2.carousel-inner > .artNoticias2.carousel-item > .deck.accordion > .carta {
           background-color: transparent;
           border: none;
           width: 100%; }
-          .contenedor main .sec2 > .carrusel > .carousel-inner > .carousel-item > .accordion > .card > .cabeceraCarta > h1, .contenedor .contenedorNoticias main .sec2 > .sec1.carrusel > .contenido.carousel-inner > aside.carousel-item > .deck.accordion > .carta > .cabeceraCarta > h1, .contenedorNoticias .contenedor main .sec2 > .sec1.carrusel > .contenido.carousel-inner > aside.carousel-item > .deck.accordion > .carta > .cabeceraCarta > h1, .contenedor .contenedorNoticias main .sec2 > .sectNoticias2.carrusel > .contenidoNoticias2.carousel-inner > .artNoticias2.carousel-item > .deck.accordion > .carta > .cabeceraCarta > h1, .contenedorNoticias .contenedor main .sec2 > .sectNoticias2.carrusel > .contenidoNoticias2.carousel-inner > .artNoticias2.carousel-item > .deck.accordion > .carta > .cabeceraCarta > h1 {
+          .contenedor main .sec2 > .carrusel1 > .carousel-inner > .carousel-item > .accordion > .card > .cabeceraCarta > h1, .contenedor .contenedorNoticias main .sec2 > .sec1.carrusel1 > .contenido.carousel-inner > aside.carousel-item > .deck.accordion > .carta > .cabeceraCarta > h1, .contenedorNoticias .contenedor main .sec2 > .sec1.carrusel1 > .contenido.carousel-inner > aside.carousel-item > .deck.accordion > .carta > .cabeceraCarta > h1, .contenedor .contenedorNoticias main .sec2 > .sectNoticias2.carrusel1 > .contenidoNoticias2.carousel-inner > .artNoticias2.carousel-item > .deck.accordion > .carta > .cabeceraCarta > h1, .contenedorNoticias .contenedor main .sec2 > .sectNoticias2.carrusel1 > .contenidoNoticias2.carousel-inner > .artNoticias2.carousel-item > .deck.accordion > .carta > .cabeceraCarta > h1 {
             font-family: Harry2; }
-            .contenedor main .sec2 > .carrusel > .carousel-inner > .carousel-item > .accordion > .card > .cabeceraCarta > h1 > .btn, .contenedor .contenedorNoticias main .sec2 > .sec1.carrusel > .contenido.carousel-inner > aside.carousel-item > .deck.accordion > .carta > .cabeceraCarta > h1 > .btn, .contenedorNoticias .contenedor main .sec2 > .sec1.carrusel > .contenido.carousel-inner > aside.carousel-item > .deck.accordion > .carta > .cabeceraCarta > h1 > .btn, .contenedor .contenedorNoticias main .sec2 > .sectNoticias2.carrusel > .contenidoNoticias2.carousel-inner > .artNoticias2.carousel-item > .deck.accordion > .carta > .cabeceraCarta > h1 > .btn, .contenedorNoticias .contenedor main .sec2 > .sectNoticias2.carrusel > .contenidoNoticias2.carousel-inner > .artNoticias2.carousel-item > .deck.accordion > .carta > .cabeceraCarta > h1 > .btn, .contenedor main header .sec2 > .carrusel > .carousel-inner > .carousel-item > .accordion > .card > .cabeceraCarta > h1.menu > a, .contenedor header main .sec2 > .carrusel > .carousel-inner > .carousel-item > .accordion > .card > .cabeceraCarta > h1.menu > a, .contenedor .contenedorNoticias main header .sec2 > .sec1.carrusel > .contenido.carousel-inner > aside.carousel-item > .deck.accordion > .carta > .cabeceraCarta > h1.menu > a, .contenedor header .contenedorNoticias main .sec2 > .sec1.carrusel > .contenido.carousel-inner > aside.carousel-item > .deck.accordion > .carta > .cabeceraCarta > h1.menu > a, .contenedorNoticias .contenedor main header .sec2 > .sec1.carrusel > .contenido.carousel-inner > aside.carousel-item > .deck.accordion > .carta > .cabeceraCarta > h1.menu > a, .contenedorNoticias .contenedor header main .sec2 > .sec1.carrusel > .contenido.carousel-inner > aside.carousel-item > .deck.accordion > .carta > .cabeceraCarta > h1.menu > a, .contenedor .contenedorNoticias main header .sec2 > .sectNoticias2.carrusel > .contenidoNoticias2.carousel-inner > .artNoticias2.carousel-item > .deck.accordion > .carta > .cabeceraCarta > h1.menu > a, .contenedor header .contenedorNoticias main .sec2 > .sectNoticias2.carrusel > .contenidoNoticias2.carousel-inner > .artNoticias2.carousel-item > .deck.accordion > .carta > .cabeceraCarta > h1.menu > a, .contenedorNoticias .contenedor main header .sec2 > .sectNoticias2.carrusel > .contenidoNoticias2.carousel-inner > .artNoticias2.carousel-item > .deck.accordion > .carta > .cabeceraCarta > h1.menu > a, .contenedorNoticias .contenedor header main .sec2 > .sectNoticias2.carrusel > .contenidoNoticias2.carousel-inner > .artNoticias2.carousel-item > .deck.accordion > .carta > .cabeceraCarta > h1.menu > a {
+            .contenedor main .sec2 > .carrusel1 > .carousel-inner > .carousel-item > .accordion > .card > .cabeceraCarta > h1 > .btn, .contenedor .contenedorNoticias main .sec2 > .sec1.carrusel1 > .contenido.carousel-inner > aside.carousel-item > .deck.accordion > .carta > .cabeceraCarta > h1 > .btn, .contenedorNoticias .contenedor main .sec2 > .sec1.carrusel1 > .contenido.carousel-inner > aside.carousel-item > .deck.accordion > .carta > .cabeceraCarta > h1 > .btn, .contenedor .contenedorNoticias main .sec2 > .sectNoticias2.carrusel1 > .contenidoNoticias2.carousel-inner > .artNoticias2.carousel-item > .deck.accordion > .carta > .cabeceraCarta > h1 > .btn, .contenedorNoticias .contenedor main .sec2 > .sectNoticias2.carrusel1 > .contenidoNoticias2.carousel-inner > .artNoticias2.carousel-item > .deck.accordion > .carta > .cabeceraCarta > h1 > .btn, .contenedor main header .sec2 > .carrusel1 > .carousel-inner > .carousel-item > .accordion > .card > .cabeceraCarta > h1.menu > a, .contenedor header main .sec2 > .carrusel1 > .carousel-inner > .carousel-item > .accordion > .card > .cabeceraCarta > h1.menu > a, .contenedor .contenedorNoticias main header .sec2 > .sec1.carrusel1 > .contenido.carousel-inner > aside.carousel-item > .deck.accordion > .carta > .cabeceraCarta > h1.menu > a, .contenedor header .contenedorNoticias main .sec2 > .sec1.carrusel1 > .contenido.carousel-inner > aside.carousel-item > .deck.accordion > .carta > .cabeceraCarta > h1.menu > a, .contenedorNoticias .contenedor main header .sec2 > .sec1.carrusel1 > .contenido.carousel-inner > aside.carousel-item > .deck.accordion > .carta > .cabeceraCarta > h1.menu > a, .contenedorNoticias .contenedor header main .sec2 > .sec1.carrusel1 > .contenido.carousel-inner > aside.carousel-item > .deck.accordion > .carta > .cabeceraCarta > h1.menu > a, .contenedor .contenedorNoticias main header .sec2 > .sectNoticias2.carrusel1 > .contenidoNoticias2.carousel-inner > .artNoticias2.carousel-item > .deck.accordion > .carta > .cabeceraCarta > h1.menu > a, .contenedor header .contenedorNoticias main .sec2 > .sectNoticias2.carrusel1 > .contenidoNoticias2.carousel-inner > .artNoticias2.carousel-item > .deck.accordion > .carta > .cabeceraCarta > h1.menu > a, .contenedorNoticias .contenedor main header .sec2 > .sectNoticias2.carrusel1 > .contenidoNoticias2.carousel-inner > .artNoticias2.carousel-item > .deck.accordion > .carta > .cabeceraCarta > h1.menu > a, .contenedorNoticias .contenedor header main .sec2 > .sectNoticias2.carrusel1 > .contenidoNoticias2.carousel-inner > .artNoticias2.carousel-item > .deck.accordion > .carta > .cabeceraCarta > h1.menu > a {
               background-color: transparent;
               color: white;
-              font-size: 40px; }
-        .contenedor main .sec2 > .carrusel > .carousel-inner > .carousel-item > .accordion > .collapse, .contenedor .contenedorNoticias main .sectNoticias2 > .contenidoNoticias2 > .artNoticias2.sec2 > .deck.carrusel > .carta.carousel-inner > .card-body.carousel-item > .textoCarta.accordion > .mostrar, .contenedorNoticias .contenedor main .sectNoticias2 > .contenidoNoticias2 > .artNoticias2.sec2 > .deck.carrusel > .carta.carousel-inner > .card-body.carousel-item > .textoCarta.accordion > .mostrar {
+              font-size: 25px; }
+        .contenedor main .sec2 > .carrusel1 > .carousel-inner > .carousel-item > .accordion > .collapse, .contenedor .contenedorNoticias main .sectNoticias2 > .contenidoNoticias2 > .artNoticias2.sec2 > .deck.carrusel1 > .carta.carousel-inner > .card-body.carousel-item > .textoCarta.accordion > .mostrar, .contenedorNoticias .contenedor main .sectNoticias2 > .contenidoNoticias2 > .artNoticias2.sec2 > .deck.carrusel1 > .carta.carousel-inner > .card-body.carousel-item > .textoCarta.accordion > .mostrar {
           background-color: rgba(0, 0, 0, 0.7);
           width: 100%; }
-          .contenedor main .sec2 > .carrusel > .carousel-inner > .carousel-item > .accordion > .collapse > .card-body, .contenedor .contenedorNoticias main .sectNoticias2 > .contenidoNoticias2 > .artNoticias2.sec2 > .deck.carrusel > .carta.carousel-inner > .card-body.carousel-item > .textoCarta.accordion > .mostrar > .card-body, .contenedorNoticias .contenedor main .sectNoticias2 > .contenidoNoticias2 > .artNoticias2.sec2 > .deck.carrusel > .carta.carousel-inner > .card-body.carousel-item > .textoCarta.accordion > .mostrar > .card-body {
+          .contenedor main .sec2 > .carrusel1 > .carousel-inner > .carousel-item > .accordion > .collapse > .card-body, .contenedor .contenedorNoticias main .sectNoticias2 > .contenidoNoticias2 > .artNoticias2.sec2 > .deck.carrusel1 > .carta.carousel-inner > .card-body.carousel-item > .textoCarta.accordion > .mostrar > .card-body, .contenedorNoticias .contenedor main .sectNoticias2 > .contenidoNoticias2 > .artNoticias2.sec2 > .deck.carrusel1 > .carta.carousel-inner > .card-body.carousel-item > .textoCarta.accordion > .mostrar > .card-body {
             color: white;
             font-family: "Niconne";
             font-size: 23px; }
-        .contenedor main .sec2 > .carrusel > .carousel-inner > .carousel-item > img {
+        .contenedor main .sec2 > .carrusel1 > .carousel-inner > .carousel-item > img {
+          width: 500px;
+          height: 450px; }
+      .contenedor main .sec2 > .carrusel2 {
+        padding-top: 5%;
+        margin-bottom: 2%; }
+        .contenedor main .sec2 > .carrusel2 > .carousel-inner > .carousel-item > .textoCarrusel > h1 {
+          font-family: Harry2; }
+        .contenedor main .sec2 > .carrusel2 > .carousel-inner > .carousel-item > .accordion > .card, .contenedor .contenedorNoticias main .sec2 > .sec1.carrusel2 > .contenido.carousel-inner > aside.carousel-item > .deck.accordion > .carta, .contenedorNoticias .contenedor main .sec2 > .sec1.carrusel2 > .contenido.carousel-inner > aside.carousel-item > .deck.accordion > .carta, .contenedor .contenedorNoticias main .sec2 > .sectNoticias2.carrusel2 > .contenidoNoticias2.carousel-inner > .artNoticias2.carousel-item > .deck.accordion > .carta, .contenedorNoticias .contenedor main .sec2 > .sectNoticias2.carrusel2 > .contenidoNoticias2.carousel-inner > .artNoticias2.carousel-item > .deck.accordion > .carta {
+          background-color: transparent;
+          border: none;
+          width: 100%; }
+          .contenedor main .sec2 > .carrusel2 > .carousel-inner > .carousel-item > .accordion > .card > .cabeceraCarta > h1, .contenedor .contenedorNoticias main .sec2 > .sec1.carrusel2 > .contenido.carousel-inner > aside.carousel-item > .deck.accordion > .carta > .cabeceraCarta > h1, .contenedorNoticias .contenedor main .sec2 > .sec1.carrusel2 > .contenido.carousel-inner > aside.carousel-item > .deck.accordion > .carta > .cabeceraCarta > h1, .contenedor .contenedorNoticias main .sec2 > .sectNoticias2.carrusel2 > .contenidoNoticias2.carousel-inner > .artNoticias2.carousel-item > .deck.accordion > .carta > .cabeceraCarta > h1, .contenedorNoticias .contenedor main .sec2 > .sectNoticias2.carrusel2 > .contenidoNoticias2.carousel-inner > .artNoticias2.carousel-item > .deck.accordion > .carta > .cabeceraCarta > h1 {
+            font-family: Harry2; }
+            .contenedor main .sec2 > .carrusel2 > .carousel-inner > .carousel-item > .accordion > .card > .cabeceraCarta > h1 > .btn, .contenedor .contenedorNoticias main .sec2 > .sec1.carrusel2 > .contenido.carousel-inner > aside.carousel-item > .deck.accordion > .carta > .cabeceraCarta > h1 > .btn, .contenedorNoticias .contenedor main .sec2 > .sec1.carrusel2 > .contenido.carousel-inner > aside.carousel-item > .deck.accordion > .carta > .cabeceraCarta > h1 > .btn, .contenedor .contenedorNoticias main .sec2 > .sectNoticias2.carrusel2 > .contenidoNoticias2.carousel-inner > .artNoticias2.carousel-item > .deck.accordion > .carta > .cabeceraCarta > h1 > .btn, .contenedorNoticias .contenedor main .sec2 > .sectNoticias2.carrusel2 > .contenidoNoticias2.carousel-inner > .artNoticias2.carousel-item > .deck.accordion > .carta > .cabeceraCarta > h1 > .btn, .contenedor main header .sec2 > .carrusel2 > .carousel-inner > .carousel-item > .accordion > .card > .cabeceraCarta > h1.menu > a, .contenedor header main .sec2 > .carrusel2 > .carousel-inner > .carousel-item > .accordion > .card > .cabeceraCarta > h1.menu > a, .contenedor .contenedorNoticias main header .sec2 > .sec1.carrusel2 > .contenido.carousel-inner > aside.carousel-item > .deck.accordion > .carta > .cabeceraCarta > h1.menu > a, .contenedor header .contenedorNoticias main .sec2 > .sec1.carrusel2 > .contenido.carousel-inner > aside.carousel-item > .deck.accordion > .carta > .cabeceraCarta > h1.menu > a, .contenedorNoticias .contenedor main header .sec2 > .sec1.carrusel2 > .contenido.carousel-inner > aside.carousel-item > .deck.accordion > .carta > .cabeceraCarta > h1.menu > a, .contenedorNoticias .contenedor header main .sec2 > .sec1.carrusel2 > .contenido.carousel-inner > aside.carousel-item > .deck.accordion > .carta > .cabeceraCarta > h1.menu > a, .contenedor .contenedorNoticias main header .sec2 > .sectNoticias2.carrusel2 > .contenidoNoticias2.carousel-inner > .artNoticias2.carousel-item > .deck.accordion > .carta > .cabeceraCarta > h1.menu > a, .contenedor header .contenedorNoticias main .sec2 > .sectNoticias2.carrusel2 > .contenidoNoticias2.carousel-inner > .artNoticias2.carousel-item > .deck.accordion > .carta > .cabeceraCarta > h1.menu > a, .contenedorNoticias .contenedor main header .sec2 > .sectNoticias2.carrusel2 > .contenidoNoticias2.carousel-inner > .artNoticias2.carousel-item > .deck.accordion > .carta > .cabeceraCarta > h1.menu > a, .contenedorNoticias .contenedor header main .sec2 > .sectNoticias2.carrusel2 > .contenidoNoticias2.carousel-inner > .artNoticias2.carousel-item > .deck.accordion > .carta > .cabeceraCarta > h1.menu > a {
+              background-color: transparent;
+              color: white;
+              font-size: 25px; }
+        .contenedor main .sec2 > .carrusel2 > .carousel-inner > .carousel-item > .accordion > .collapse, .contenedor .contenedorNoticias main .sectNoticias2 > .contenidoNoticias2 > .artNoticias2.sec2 > .deck.carrusel2 > .carta.carousel-inner > .card-body.carousel-item > .textoCarta.accordion > .mostrar, .contenedorNoticias .contenedor main .sectNoticias2 > .contenidoNoticias2 > .artNoticias2.sec2 > .deck.carrusel2 > .carta.carousel-inner > .card-body.carousel-item > .textoCarta.accordion > .mostrar {
+          background-color: rgba(0, 0, 0, 0.7);
+          width: 100%; }
+          .contenedor main .sec2 > .carrusel2 > .carousel-inner > .carousel-item > .accordion > .collapse > .card-body, .contenedor .contenedorNoticias main .sectNoticias2 > .contenidoNoticias2 > .artNoticias2.sec2 > .deck.carrusel2 > .carta.carousel-inner > .card-body.carousel-item > .textoCarta.accordion > .mostrar > .card-body, .contenedorNoticias .contenedor main .sectNoticias2 > .contenidoNoticias2 > .artNoticias2.sec2 > .deck.carrusel2 > .carta.carousel-inner > .card-body.carousel-item > .textoCarta.accordion > .mostrar > .card-body {
+            color: white;
+            font-family: "Niconne";
+            font-size: 23px; }
+        .contenedor main .sec2 > .carrusel2 > .carousel-inner > .carousel-item > img {
           width: 500px;
           height: 450px; }
   .contenedor footer {
@@ -7612,5 +7638,15 @@ form label {
 
 .formulario2 {
   margin: 40px 0; }
+
+.migasPan {
+  font-family: "Niconne";
+  font-size: 20px;
+  margin-top: 1%;
+  margin-bottom: -2%; }
+  .migasPan > ol {
+    background-color: transparent; }
+    .migasPan > ol > .breadcrumb-item a {
+      color: black; }
 
 /*# sourceMappingURL=main.css.map */
