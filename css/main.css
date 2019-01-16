@@ -7508,6 +7508,8 @@ body {
                 font-size: 25px; }
                 .contenedorNoticias main .sectNoticias2 > .contenidoNoticias2 > .artNoticias2 > .deck > .carta > .card-body > .textoCarta > .mostrar {
                   display: none; }
+                .contenedorNoticias main .sectNoticias2 > .contenidoNoticias2 > .artNoticias2 > .deck > .carta > .card-body > .textoCarta > a {
+                  color: #628591; }
     .contenedorNoticias main > .sectNoticias2 > .contenidoNoticias2 > .aside > .accordion > .card, .contenedorNoticias main > .sec1.sectNoticias2 > .contenido.contenidoNoticias2 > aside.aside > .deck.accordion > .carta, .contenedorNoticias main > .sectNoticias2 > .contenidoNoticias2 > .artNoticias2.aside > .deck.accordion > .carta {
       background-color: transparent;
       border: none; }

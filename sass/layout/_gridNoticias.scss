@@ -336,6 +336,10 @@ body{
 										display: none;
 										@extend .collapse;
 									}
+
+									&>a{
+										color: #628591;
+									}
 								}
 							}
 						}
