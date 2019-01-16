@@ -245,7 +245,6 @@ body{
 									@extend .card-text;
 									font-family: $niconne;
 									font-size: 25px;
-
 									&>.mostrar{
 										display: none;
 										@extend .collapse;
@@ -258,6 +257,84 @@ body{
 				
 			}
 		}
+			&>.sectNoticias2{
+				&>.contenidoNoticias2{
+					&>.aside{
+						&>.accordion{
+							&>.card{
+								background-color: transparent;
+								border:none;
+								&>.card-header{
+									&>.mb-0{
+										&>.btn{
+											font-family: Harry2;
+											color: black;
+											font-size: 25px;
+										}
+									}
+								}
+								&>.fondoLluvia{
+									background-image: url("../images/meteorologia/lluviaFondo.gif");
+									background-repeat: no-repeat;
+									&>.card-body{
+										color: white;
+										&>h3{
+											font-family: Harry2;
+										}
+										&>figure img{
+											width: 100px;
+											height: 100px;
+										}
+									}
+								}
+								&>.fondoNevado{
+									background-image: url("../images/meteorologia/nevadoFondo.gif");
+									background-repeat: no-repeat;
+									&>.card-body{
+										color: white;
+										&>h3{
+											font-family: Harry2;
+										}
+										&>figure img{
+											width: 100px;
+											height: 100px;
+										}
+									}
+								}
+								&>.fondoSoleado{
+									background-image: url("../images/meteorologia/soleadoFondo.gif");
+									background-repeat: no-repeat;
+									&>.card-body{
+										color: white;
+										&>h3{
+											font-family: Harry2;
+										}
+										&>figure img{
+											width: 80px;
+											height: 80px;
+										}
+									}
+								}
+								&>.fondoNublado{
+									background-image: url("../images/meteorologia/nubladoSolFondo.gif");
+									background-repeat: no-repeat;
+									&>.card-body{
+										color: white;
+										&>h3{
+											font-family: Harry2;
+										}
+										&>figure img{
+											width: 80px;
+											height: 80px;
+										}
+									}
+								}
+							}
+
+						}
+					}
+				}
+			}
 		.paginador{
 			@extend .row;
 			@extend .col-12;
