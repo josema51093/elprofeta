@@ -65,6 +65,7 @@
 
 			<form>
 			  <div class="form-control formulario">
+			  	<h2>DATOS PERSONALES</h2>
 			  	<div class="row">
 			  		<div class="col-12 col-sm-4">
 				  		<label>Nombre:</label>
@@ -80,7 +81,7 @@
 				    </div>
 				    <div class="col-12 col-sm-4">
 					    <label>Correo electronico:</label>
-					    <input type="email" class="form-control mb-2" required>
+					    <input type="email" class="form-control mb-2" placeholder="email" required>
 				    </div>
 				    <div class="col-12 col-sm-4">
 					    <label>Subir imagen:</label>
@@ -93,54 +94,62 @@
 			  
 			  	
 			<form>
-				<div class="form-control formulario2">
+				<div class="form-control formulario2 container-fluid">
+					<h2>DATOS DE INTERES</h2>
 			  	<div class="row">
-			  		<div class="col-12 col-sm-4">
+			  		<div class="col-md-4 col-lg-6">
+			  			
 					   <label>¿Que casa te toco en Hogwarts?</label>
 					   <select class="custom-select">
-						  <option selected>- Escoge una opcion -</option>
+						  <option selected>Escoge una opcion</option>
 						  <option value="1">Gryffindor</option>
 						  <option value="2">Hufflepuff</option>
 						  <option value="3">Slytherin</option>
 						  <option value="4">Ravenclaw</option>
 						</select>
-				    </div>
-				    <div class="col-12 col-sm-4">
-					   <label>Intereses: </label>
-					   <div class="custom-control form-check-inline custom-checkbox">
-					   		 <input type="checkbox" class="custom-control-input" id="inlineCheckbox1" value="opcion1">
-  							<label class="custom-control-label" for="customCheck1">Montar a escoba</label>
-					   </div>
-					   <div class="custom-control custom-checkbox">
-					   		 <input type="checkbox" class="custom-control-input" value="opcion2">
-  							<label class="custom-control-label" for="customCheck1">Jugar a Quidditch</label>
-					   </div>
-					   <div class="custom-control custom-checkbox">
-					   		 <input type="checkbox" class="custom-control-input" value="opcion3">
-  							<label class="custom-control-label" for="customCheck1">Lanzar maldiciones imperdonables</label>
-					   </div>
-					   <div class="custom-control custom-checkbox">
-					   		 <input type="checkbox" class="custom-control-input" value="opcion4">
-  							<label class="custom-control-label" for="customCheck1">Buscar horrocruxes</label>
-					   </div>
-				    </div>
-			  	</div>
-			  	<div class="row">
-			  		<div class="col-12 col-sm-4">
+				    
+				    <div class="col-12 col-sm-4 col-lg-6">
 				    	<label>¿Cuantos Timos has aprobado?</label>
 					    <input type="number" class="form-control mb-2 col-sm-4 col-md-3 col-lg-2" required>
+				    </div>
+			  		</div>
+			  		
+				    <div class="col-12 col-sm-4">
+					   <label>Intereses: </label>
+					   <div class="form-check">
+						  <input class="form-check-input " type="checkbox" id="inlineCheckbox1" value="option1">
+						  <label class="form-check-label" for="inlineCheckbox1">Montar a escoba</label>
+						</div>
+						<div class="form-check">
+						  <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
+						  <label class="form-check-label" for="inlineCheckbox2">Jugar a Quidditch</label>
+						</div>
+						<div class="form-check">
+						  <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
+						  <label class="form-check-label" for="inlineCheckbox2">Lanzar maldiciones imperdonables</label>
+						</div>
+						<div class="form-check">
+						  <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
+						  <label class="form-check-label" for="inlineCheckbox2">Buscar horrocruxes</label>
+						</div>
+
 				    </div>
 				    <div class="col-12 col-sm-4">
 				    	<label>¿Cuantos años has cursado en Hogwarts?</label>
 					    <input type="number" class="form-control mb-2 col-sm-4 col-md-3 col-lg-2" required>
 				    </div>
-
 			  	</div>
+			  		
+				    
+
+
 			  	<div class="form-group">
-    <label for="exampleFormControlTextarea1">Example textarea</label>
-    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-  </div>
+				    <label for="exampleFormControlTextarea1">Otros intereses: </label>
+				    <textarea class="form-control" id="exampleFormControlTextarea1" placeholder="Escribe tus intereses aqui..." rows="3"></textarea>
+				 </div>
 			  </div>
+
+
 			  <div class="col-auto text-center">
 			      <div class="form-check mb-2">
 			        <input class="form-check-input" type="checkbox" id="autoSizingCheck">
