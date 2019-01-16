@@ -193,7 +193,7 @@ body{
 				@extend .row;
 
 				&>.aside{
-					@extend .col-3;
+					@extend .col-4;
 					@extend .text-center;
 
 					&>h1{
@@ -210,11 +210,11 @@ body{
 					
 				}
 				&>.artNoticias2{
-					@extend .col-9;
+					@extend .col-8;
 					&>.deck{
 						@extend .col-12;
 						@extend .row;
-						@extend .justify-content-between;
+						@extend .justify-content-around;
 						padding-bottom: 25px;
 							
 						&>.carta{

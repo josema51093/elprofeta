@@ -893,7 +893,7 @@ pre {
     padding-right: 0;
     padding-left: 0; }
 
-.col-1, .col-2, .col-3, .contenedorNoticias main .sec1 > .contenido > aside, .contenedorNoticias main .sectNoticias2 > .contenidoNoticias2 > .aside, .col-4, .contenedorNoticias main .sectNoticias2 > .contenidoNoticias2 > .artNoticias2 > .deck > .carta, .col-5, .col-6, .contenedor footer > .copyright, .contenedor footer > .social, .contenedorNoticias main .sec1 > .contenido > .art1, .contenedorNoticias footer > .copyright, .contenedorNoticias footer > .social, .col-7, .col-8, .col-9, .contenedorNoticias main .sectNoticias2 > .contenidoNoticias2 > .artNoticias2, .col-10, .col-11, .col-12, .contenedor header .menu, .contenedor main .sec1 > .noticia > h1, .contenedor main .sec1 > .noticia > .art1, .contenedor main .sec1 > .noticia > .art1 > video, .contenedor main .sec2 > h1, .contenedor footer, .contenedorNoticias header .logos, .contenedorNoticias header .menu, .contenedorNoticias header .migasPan, .contenedorNoticias main .sec1 > .contenido > aside > h1, .contenedorNoticias main .sec1 > .contenido > aside > .deck, .contenedorNoticias main .sec1 > .contenido > aside > .deck > .carta, .contenedorNoticias main .sec1 > .contenido > .art1 > h1, .contenedorNoticias main .sectNoticias2 > .contenidoNoticias2 > .aside > h1, .contenedorNoticias main .sectNoticias2 > .contenidoNoticias2 > .artNoticias2 > .deck, .contenedorNoticias main .paginador, .contenedorNoticias footer, .col,
+.col-1, .col-2, .col-3, .contenedorNoticias main .sec1 > .contenido > aside, .col-4, .contenedorNoticias main .sectNoticias2 > .contenidoNoticias2 > .aside, .contenedorNoticias main .sectNoticias2 > .contenidoNoticias2 > .artNoticias2 > .deck > .carta, .col-5, .col-6, .contenedor footer > .copyright, .contenedor footer > .social, .contenedorNoticias main .sec1 > .contenido > .art1, .contenedorNoticias footer > .copyright, .contenedorNoticias footer > .social, .col-7, .col-8, .contenedorNoticias main .sectNoticias2 > .contenidoNoticias2 > .artNoticias2, .col-9, .col-10, .col-11, .col-12, .contenedor header .menu, .contenedor main .sec1 > .noticia > h1, .contenedor main .sec1 > .noticia > .art1, .contenedor main .sec1 > .noticia > .art1 > video, .contenedor main .sec2 > h1, .contenedor footer, .contenedorNoticias header .logos, .contenedorNoticias header .menu, .contenedorNoticias header .migasPan, .contenedorNoticias main .sec1 > .contenido > aside > h1, .contenedorNoticias main .sec1 > .contenido > aside > .deck, .contenedorNoticias main .sec1 > .contenido > aside > .deck > .carta, .contenedorNoticias main .sec1 > .contenido > .art1 > h1, .contenedorNoticias main .sectNoticias2 > .contenidoNoticias2 > .aside > h1, .contenedorNoticias main .sectNoticias2 > .contenidoNoticias2 > .artNoticias2 > .deck, .contenedorNoticias main .paginador, .contenedorNoticias footer, .col,
 .col-auto, .col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12, .contenedor header .logos > a > img, .contenedor header .menu > a, .col-sm,
 .col-sm-auto, .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12, .col-md,
 .col-md-auto, .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg,
@@ -923,11 +923,11 @@ pre {
   flex: 0 0 16.6666666667%;
   max-width: 16.6666666667%; }
 
-.col-3, .contenedorNoticias main .sec1 > .contenido > aside, .contenedorNoticias main .sectNoticias2 > .contenidoNoticias2 > .aside {
+.col-3, .contenedorNoticias main .sec1 > .contenido > aside {
   flex: 0 0 25%;
   max-width: 25%; }
 
-.col-4, .contenedorNoticias main .sectNoticias2 > .contenidoNoticias2 > .artNoticias2 > .deck > .carta {
+.col-4, .contenedorNoticias main .sectNoticias2 > .contenidoNoticias2 > .aside, .contenedorNoticias main .sectNoticias2 > .contenidoNoticias2 > .artNoticias2 > .deck > .carta {
   flex: 0 0 33.3333333333%;
   max-width: 33.3333333333%; }
 
@@ -943,11 +943,11 @@ pre {
   flex: 0 0 58.3333333333%;
   max-width: 58.3333333333%; }
 
-.col-8 {
+.col-8, .contenedorNoticias main .sectNoticias2 > .contenidoNoticias2 > .artNoticias2 {
   flex: 0 0 66.6666666667%;
   max-width: 66.6666666667%; }
 
-.col-9, .contenedorNoticias main .sectNoticias2 > .contenidoNoticias2 > .artNoticias2 {
+.col-9 {
   flex: 0 0 75%;
   max-width: 75%; }
 
@@ -5131,10 +5131,10 @@ button.bg-dark:focus {
 .justify-content-center, .contenedor header .logos, .contenedorNoticias header .logos, .contenedorNoticias main .sec1 > .contenido > .art1 figure, .contenedorNoticias main .paginador {
   justify-content: center !important; }
 
-.justify-content-between, .contenedorNoticias main .sectNoticias2 > .contenidoNoticias2 > .artNoticias2 > .deck {
+.justify-content-between {
   justify-content: space-between !important; }
 
-.justify-content-around, .contenedorNoticias header .menu, .contenedorNoticias main .sec1 > .contenido > aside > .deck {
+.justify-content-around, .contenedorNoticias header .menu, .contenedorNoticias main .sec1 > .contenido > aside > .deck, .contenedorNoticias main .sectNoticias2 > .contenidoNoticias2 > .artNoticias2 > .deck {
   justify-content: space-around !important; }
 
 .align-items-start {
