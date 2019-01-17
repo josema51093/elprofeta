@@ -1,3 +1,0 @@
-funcion jquery para mostrar texto oculto --> https://www.danielnabil.com/blog/jquery-toggle-alternar-visibilidad/
-
-como añadir jquery y funcion a condigo html --> https://desarrolloweb.com/articulos/pasos-para-ejecutar-jquery.html
