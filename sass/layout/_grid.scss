@@ -163,11 +163,19 @@ body{
 			width: $widthSec2;
 			height: $heightSec2;
 			background: $fondoSec2;
+			margin-left: 0.1%;
 			//@extend .container-fluid;
 			@media (max-width: 320px){
 				*{
 					max-width: 100%;
 				}
+			}
+
+			@media (max-width: 767px) {
+			  *{
+			  	visibility: hidden;
+			  	display: none;
+			   }
 			}
 			
 			//@extend .row;
@@ -182,7 +190,9 @@ body{
 			}
 			
 			&>.carrusel1{
-				@extend .col-6;
+				@extend .col-sm-12;
+				@extend .col-md-12;
+				@extend .col-lg-6;
 				padding-top: 5%;
 				margin-bottom: 2%;
 				&>.carousel-inner{
@@ -232,7 +242,9 @@ body{
 				}
 			}
 			&>.carrusel2{
-				@extend .col-6;
+				@extend .col-sm-12;
+				@extend .col-md-12;
+				@extend .col-lg-6;
 				padding-top: 5%;
 				margin-bottom: 2%;
 				&>.carousel-inner{
