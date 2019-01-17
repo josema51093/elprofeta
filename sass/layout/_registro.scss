@@ -1,6 +1,7 @@
 /**
  * CONTENIDO Y FORMATO DE REGISTROS
  */
+/* CABECERA */
 header{
 	&>.migasPan{
 		@extend .row;
@@ -19,37 +20,173 @@ header{
 		}
 	}
 }
+/* MAIN */
 main{
+	
 	&>.textoForm{
  		margin:30px 0;
  		@extend .text-center;
+
+ 		&>h4{
+			font-family: $niconne;
+			font-size: 23px;
+		}
+		&>h2{
+			font-family: $iron;
+			font-size: 30px;
+		}
  	}
+ 	/* FORMULARIO */
  	&>form{
- 		&>.formulario{
- 			@extend .form-control;
- 			&>.row{
- 				&>.fila1{
- 					@extend .col-12;
- 					@extend .col-sm-4;
- 				}
- 			}
- 		}
- 		h2{
+ 		&>h2{
  			margin:30px 0;
  			font-family:$iron;
  			font-size:30px;
 		}
-		&>h4{
-			font-family: $niconne;
-			font-size: 23px;
+ 		&>.formulario{
+ 			@extend .form-control;
+ 			
+ 			&>.row{
+ 				&>.fila1{
+ 					font-family: $niconne;
+ 					font-size: 25px;
+ 					@extend .col-12;
+ 					@extend .col-sm-4;
+
+ 					&>input{
+ 						@extend .form-control;
+ 						@extend .mb-2;
+ 						font-size: 25px;
+ 					}
+ 				}
+ 				&>.fila2{
+ 					font-family: $niconne;
+ 					font-size: 25px;
+ 					@extend .col-12;
+ 					@extend .col-sm-4;
+
+ 					&>input{
+ 						@extend .form-control;
+ 						@extend .mb-2;
+ 						font-size: 25px;
+ 					}
+ 				}
+ 				&>.fila3{
+ 					font-family: $niconne;
+ 					font-size: 25px;
+ 					@extend .col-12;
+ 					@extend .col-sm-4;
+
+ 					&>input{
+ 						@extend .form-control;
+ 						@extend .mb-2;
+ 						font-size: 25px;
+ 					}
+ 				}
+ 				&>.fila4{
+ 					font-family: $niconne;
+ 					font-size: 25px;
+ 					@extend .col-12;
+ 					@extend .col-sm-4;
+
+ 					&>input{
+ 						@extend .form-control;
+ 						@extend .mb-2;
+ 						font-size: 25px;
+ 					}
+ 				}
+ 				&>.fila5{
+ 					font-family: $niconne;
+ 					font-size: 25px;
+ 					@extend .col-12;
+ 					@extend .col-sm-4;
+
+ 					&>input{
+ 						@extend .form-control;
+ 						@extend .mb-2;
+ 					}
+ 				}
+ 			}
+ 		}
+ 	}
+ 	&>form{
+ 		&>h2{
+ 			margin:30px 0;
+ 			font-family:$iron;
+ 			font-size:30px;
 		}
-		&>form label{
-			font-family: $niconne;
-			font-size: 20px;
-		}
+		
 		&>.formulario2{
 			margin: 40px 0;
 		}
+ 		&>.formulario2{
+ 			@extend .form-control;
+ 			&>.row{
+ 				&>.fila6{
+ 					font-family: $niconne;
+ 					font-size: 25px;
+ 					@extend .col-md-4;
+ 					@extend .col-lg-6;
+
+ 					&>select{
+ 						@extend .custom-select;
+ 					}
+
+ 					&>.timos{
+ 						@extend .col-12;
+ 						@extend .col-sm-4;
+ 						@extend .col-lg-6;
+						
+						&>input{
+							@extend .form-control;
+							@extend .mb-2;
+							@extend .col-sm-4;
+							@extend .col-md-3;
+							@extend .col-lg-2;
+							font-family: $niconne;
+						}
+ 					}
+ 				}
+ 				&>.fila7{
+ 					font-family: $niconne;
+ 					font-size: 25px;
+ 					@extend .col-12;
+ 					@extend .col-sm-4;
+
+ 					&>.intereses{
+ 						@extend .form-check;
+
+ 						&>input{
+ 							@extend .form-check-input;
+ 							font-size: 25px;
+ 						}
+ 						&>label{
+							@extend .form-check-label;
+ 						}
+ 					}
+ 				}
+ 				&>.fila8{
+ 					font-family: $niconne;
+ 					font-size: 25px;
+ 					@extend .col-12;
+ 					@extend .col-sm-4;
+ 				}
+ 			}
+ 			&>.fila9{
+ 				font-family: $niconne;
+ 				font-size: 25px;
+ 				@extend .form-group;
+
+ 				&>textarea{
+ 					font-size: 25px;
+ 					@extend .form-control;
+ 				}
+ 			}
+ 		}
+ 		&>.condiciones{
+ 			font-family: $niconne;
+ 			font-size: 25px;
+ 		}
 		&>.suscribirse{
 			@extend .col-auto;
 			@extend .text-center;
