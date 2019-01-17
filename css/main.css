@@ -7377,14 +7377,19 @@ body {
         letter-spacing: 5px; }
       .contenedor main .sec1 > .noticia > .art1 {
         width: 50%;
-        align-self: center; }
+        align-self: center;
+        text-align: center; }
         .contenedor main .sec1 > .noticia > .art1 > p {
           font-family: "Niconne";
           font-size: 28px;
           line-height: 20px; }
         .contenedor main .sec1 > .noticia > .art1 > video {
-          width: 100%;
-          height: 450px; }
+          /*width: 100%;
+          height: 450px;*/
+          width: 70%;
+          height: 50%; }
+        .contenedor main .sec1 > .noticia > .art1 > p > a {
+          color: #628591; }
     .contenedor main .sec2 {
       width: 100%;
       height: 50%;
