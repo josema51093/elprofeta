@@ -1,0 +1,189 @@
+@charset 'UTF-8';
+
+//Fuente para el titulo
+/////////////////////////////////////////
+/////////////BLACKORE///////////////////
+//////////Blackore Regular/////////////
+//////////////////////////////////////
+@font-face{
+	font-family: 'Blackore';
+	font-style: normal;
+	font-weight: normal;
+	src: url("../fonts/Blackore.ttf") format("truetype");
+}
+
+//////////////////////////////////////
+///////////Blackore Cursiva///////////
+//////////////////////////////////////
+@font-face{
+	font-family: 'Blackore-Cursive';
+	font-style: oblique;
+	font-weight: normal;
+	src: url("../fonts/Blackore.ttf") format("truetype");
+}
+
+//////////////////////////////////////
+///////////Blackore Negrita///////////
+//////////////////////////////////////
+@font-face{
+	font-family: 'Blackore-Bold';
+	font-style: bold;
+	font-weight: 700;
+	src: url("../fonts/Blackore.ttf") format("truetype");
+}
+
+//////////////////////////////////////
+///////Blackore Negrita-Curisva///////
+//////////////////////////////////////
+@font-face{
+	font-family: 'Blackore-BoldCursive';
+	font-style: italic;
+	font-weight: 700;
+	src: url("../fonts/Blackore.ttf") format("truetype");
+}
+
+
+
+//Fuente para titulos
+/////////////////////////////////////////
+///////////////IRON/////////////////////
+////////////Iron Regular///////////////
+//////////////////////////////////////
+@font-face{
+  font-family: 'Iron';
+  font-style: normal;
+  font-weight: normal;
+  src: url("../fonts/Iron-Brine.ttf") format("truetype");
+}
+
+//////////////////////////////////////
+/////////////Iron Cursiva/////////////
+//////////////////////////////////////
+@font-face{
+	font-family: 'Iron-Cursive';
+	font-style: oblique;
+	font-weight: normal;
+	src: url("../fonts/Iron-Brine.ttf") format("truetype");
+}
+
+//////////////////////////////////////
+/////////////Iron Negrita/////////////
+//////////////////////////////////////
+@font-face{
+	font-family: 'Iron-Bold';
+	font-style: bold;
+	font-weight: 700;
+	src: url("../fonts/Iron-Brine.ttf") format("truetype");
+}
+
+//////////////////////////////////////
+/////////Iron Negrita-Cursiva/////////
+//////////////////////////////////////
+@font-face{
+	font-family: 'Iron-BoldCursive';
+	font-style: italic;
+	font-weight: 700;
+	src: url("../fonts/Iron-Brine.ttf") format("truetype");
+}
+
+
+
+
+//Fuente para parrafos
+/////////////////////////////////////////
+//////////////NICONNE///////////////////
+//////////Niconne Regular//////////////
+//////////////////////////////////////
+@font-face{
+	font-family: 'Niconne';
+	font-style: normal;
+	font-weight: normal;
+	src: url('../fonts/Niconne-Regular.ttf') format("truetype");
+}
+
+//////////////////////////////////////
+///////////Niconne Cursiva////////////
+//////////////////////////////////////
+@font-face{
+	font-family: 'Niconne-Cursive';
+	font-style: italic;
+	font-weight: normal;
+	src: url('../fonts/Niconne-Regular.ttf') format("truetype");
+}
+
+//////////////////////////////////////
+///////////Niconne Negrita////////////
+//////////////////////////////////////
+@font-face{
+	font-family: 'Niconne-Bold';
+	font-style: bold;
+	font-weight: 700;
+	src: url("../fonts/Niconne-Regular.ttf") format("truetype");
+}
+
+//////////////////////////////////////
+///////////Niconne Negrita////////////
+//////////////////////////////////////
+@font-face{
+	font-family: 'Niconne-Bold';
+	font-style: bold;
+	font-weight: 700;
+	src: url("../fonts/Niconne-Regular.ttf") format("truetype");
+}
+
+
+
+
+//Fuente para zonas del titulo
+/////////////////////////////////////////
+///////////////HARRYP///////////////////
+///////////HARRYP Regular//////////////
+//////////////////////////////////////
+@font-face{
+    font-family: 'Harry';
+    font-style: normal;
+    font-weight: normal;
+    src: url('../fonts/HARRYP.ttf') format("truetype");
+ }
+
+//////////////////////////////////////
+////////////Harry Cursiva/////////////
+//////////////////////////////////////
+@font-face{
+    font-family: 'Harry-Cursive';
+    font-style: italic;
+    font-weight: normal;
+    src: url('../fonts/HARRYP.ttf') format("truetype");
+ }
+
+//////////////////////////////////////
+///////////Harry Negrita////////////
+//////////////////////////////////////
+@font-face{
+    font-family: 'Harry-Bold';
+    font-style: bold;
+    font-weight: 700;
+    src: url('../fonts/HARRYP.ttf') format("truetype");
+ }
+
+//////////////////////////////////////
+////////Harry Negrita-Cursiva/////////
+//////////////////////////////////////
+@font-face{
+    font-family: 'Harry-BoldCursive';
+    font-style: italic;
+    font-weight: 700;
+    src: url('../fonts/HARRYP.ttf') format("truetype");
+ }
+
+
+
+
+
+//Fuente alternativa HarryP
+@font-face{
+	font-family: Harry2;
+	font-style: normal;
+	font-weight: normal;
+	src: url('../fonts/HARRP___.ttf') format("truetype");
+}

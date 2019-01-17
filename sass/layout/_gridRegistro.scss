@@ -1,0 +1,469 @@
+@charset 'UTF-8';
+
+/**
+ * CONTENIDO REFERENTE A LA ESTRUCTURA GRID DEL REGISTRO	
+ */
+//Medidas saltos bootstrap --> xs: 0, sm: 576px, md: 768px, lg: 992px, xl: 1200px
+
+*{
+	box-sizing: border-box;
+}
+
+::-webkit-scrollbar {
+	display: none;
+}
+
+body{
+	background: $fondoContainer;
+}
+
+.contenedorRegistro{
+	//Establecer alto y ancho del contenedor
+	@include altoAncho($widthContainer,$heightContainer);
+
+	@extend .container-fluid;
+
+	&>header{
+		@extend .container-fluid;
+		background: $fondoHeader;
+		//Establecer alto y ancho del header
+		@include altoAncho($widthHeader, $heightHeader);
+		//Establecer estructura del layout (flex)
+		@include flex(flex, space-around, center, wrap);
+		margin-bottom: 2%;
+
+		&>.logos{
+			@extend .row;
+			@extend .justify-content-center;
+
+			@media (max-width: $medio/*antes 767*/) {
+			  &>.editorial{
+			  	visibility: hidden;
+			  	display: none;
+			   }
+			}
+
+			&>a{
+				&>img{	
+					@extend .col-sm-12;
+				}
+			}
+		}
+
+		&>.menu{
+			@extend .row;
+			@extend .col-12;
+			@extend .justify-content-sm-around;
+			@extend .justify-content-md-around;
+			@extend .justify-content-lg-around;
+
+			font-family: Harry2;
+			font-size: 20px;
+			@media (max-width: $medio/*antes 767*/){
+				&>button{
+					width: 100%;
+					margin-top: 4%;
+					&>a{
+						justify-content: center;
+					}
+				}	
+			}
+		}
+
+		&>.migasPan{
+			@extend .row;
+			@extend .col-12;
+			@extend .text-left;
+			font-family: $niconne;
+			font-size: 20px;
+			margin-top: 1%;
+			margin-bottom: -2%;
+			&>ol{
+				background-color: transparent;
+				@extend .breadcrumb;
+				&>.breadcrumb-item a{
+					color: black;
+				}
+			}
+		}
+	}
+
+	&>main{
+		width: $widthMain;
+		height: $heightMain;
+		background: $fondoMain;
+		border: 4px solid;
+		margin: 0 2%;
+		@extend .container-fluid;
+
+		&>.sec1{
+			width: $widthSec1;
+			height: $heightSec1;
+			background: $fondoSec1;
+			padding: 2%;
+			text-align: justify;
+
+			@media (min-width: 320px){
+				*{
+					max-width: 100%;
+				}
+			}
+
+			&>.contenido{
+				@extend .row;
+
+				&>aside{
+					@extend .col-lg-4;
+					@extend .text-center;
+
+					@media (max-width: 992px){
+						visibility: hidden;
+			  			display: none;
+					}
+
+					max-width: 100%;
+
+					&>h1{
+						@extend .col-12;
+						@extend .text-center;
+						font-family: Harry2;
+						font-size: 36px;
+						letter-spacing: 5px;
+						max-width: 100%;
+					}
+					&>.deck{
+						@extend .row;
+						@extend .justify-content-around;
+						@extend .col-12;
+						padding-bottom: 25px;
+						max-width: 100%;
+						margin-left: 3%;
+						
+						&>.carta{
+							background-color: $fondoCarta;
+							border: none;
+							@extend .card;
+							@extend .border-dark;
+							@extend .col-12;
+							max-width: 100%;
+							margin-top: 2%;
+
+							&>.cabeceraCard{
+								@extend .card-header;
+								max-width: 100%;
+								background-color: $fondoCarta;
+								border: 1px solid black;
+								border-bottom: none;
+								border-top: none;
+								margin-bottom: 3%;
+								font-family: $font;
+								text-align: center;
+							}
+							&>.card-body{
+								border: 1px solid black;
+								border-top: none;
+								border-bottom: none;
+								max-width: 100%;
+							}
+							.card-body>.textoCarta{
+								@extend .card-text;
+								font-family: $niconne;
+								font-size: 25px;
+							}
+						}
+					}
+				}
+
+				&>.art1{
+
+					width: $widthArt1;
+					align-self: center;
+					@extend .col-sm-12;
+					@extend .col-lg-8;
+					@extend .col-12;
+					&>*{
+						margin-left: 7%;
+					}
+					//margin-left: 7%;
+
+					/*@media (max-width: 767px){
+						*{
+							margin-left: 7%;
+						}
+					}*/
+
+					/*@media (min-width: 320px){
+						*{
+							max-width: 100%;
+						}
+					}*/
+
+					&>h1{
+
+						@media (max-width: 767px){
+							font-family: Harry2;
+							font-size: 55px;
+							letter-spacing: 3px;
+						}
+
+						@extend .col-12;
+						@extend .text-center;
+						font-family: Harry2;
+						font-size: 75px;
+						letter-spacing: 5px;
+					}
+					
+					&>p{
+						@include parrafo($niconne,28px,20px);
+					}
+					figure{
+						@extend .row;
+						@extend .justify-content-center;
+						margin-left: 6%;
+					}
+				}
+			}
+		}
+
+		/*<!--
+			==========
+			= COMIENZO PAGINA NOTICIAS 2 =
+			==========
+		-->*/
+		.sectNoticias2{
+			width: $widthSec1;
+			height: $heightSec1;
+			background: $fondoSec1;
+			/*display: flex;
+			align-items: center;
+			padding: 5%;
+			text-align: justify;*/
+			//margin: 1%;
+			text-align: justify;
+			margin-top: 1%;
+			@media (min-width: 320px){
+				*{
+					max-width: 100%;
+				}
+			}
+
+			/*@media (max-width: 400px){
+				margin-left: 10%;
+			}*/
+
+			&>.contenidoNoticias2{
+				@extend .row;
+				margin-left: 3%;
+
+				&>.aside{
+					@extend .col-4;
+					@extend .text-center;
+					@media (max-width: 992px){
+						visibility: hidden;
+			  			display: none;
+					}
+
+					max-width: 100%;
+
+					&>h1{
+						@extend .col-12;
+						@extend .text-center;
+						font-family: Harry2;
+						font-size: 36px;
+						letter-spacing: 5px;
+					}
+					&>p{
+						@include parrafo($niconne,28px,20px);
+						text-align: justify;
+					}
+					
+				}
+				&>.artNoticias2{
+					@extend .col-sm-12;
+					@extend .col-md-12;
+					@extend .col-lg-8;
+					&>.deck{
+						@extend .col-12;
+						@extend .row;
+						@extend .justify-content-around;
+						padding-bottom: 25px;
+							
+						&>.carta{
+							background-color: $fondoCarta;
+							border: none;
+							@extend .card;
+							@extend .border-dark;
+							@extend .col-sm-12;
+							@extend .col-md-6;
+							@extend .col-lg-4;
+							//@extend .col-4;
+							max-width: 100%;
+							margin-top: 5%;
+
+							&>.cabeceraCard{
+								@extend .card-header;
+								width: 100%;
+								background-color: $fondoCarta;
+								border: 1px solid black;
+								border-bottom: none;
+								border-top: none;
+								margin-bottom: 15px;
+								font-family: $font;
+								text-align: center;
+							}
+							&>.card-body{
+								border: 1px solid black;
+								border-top: none;
+								border-bottom: none;
+								&>.textoCarta{
+									@extend .card-text;
+									font-family: $niconne;
+									font-size: 25px;
+									&>.mostrar{
+										display: none;
+										@extend .collapse;
+									}
+
+									&>a{
+										color: #628591;
+									}
+								}
+							}
+						}
+					}
+				}
+				
+			}
+		}
+			&>.sectNoticias2{
+				&>.contenidoNoticias2{
+					&>.aside{
+						&>.accordion{
+							&>.card{
+								background-color: transparent;
+								border:none;
+								&>.card-header{
+									&>.mb-0{
+										&>.btn{
+											font-family: Harry2;
+											color: black;
+											font-size: 25px;
+										}
+									}
+								}
+								&>.fondoLluvia{
+									background-image: url("../images/meteorologia/lluviaFondo.gif");
+									background-repeat: no-repeat;
+									&>.card-body{
+										color: white;
+										&>h3{
+											font-family: Harry2;
+										}
+										&>figure img{
+											width: 100px;
+											height: 100px;
+										}
+									}
+								}
+								&>.fondoNevado{
+									background-image: url("../images/meteorologia/nevadoFondo.gif");
+									background-repeat: no-repeat;
+									&>.card-body{
+										color: white;
+										&>h3{
+											font-family: Harry2;
+										}
+										&>figure img{
+											width: 100px;
+											height: 100px;
+										}
+									}
+								}
+								&>.fondoSoleado{
+									background-image: url("../images/meteorologia/soleadoFondo.gif");
+									background-repeat: no-repeat;
+									&>.card-body{
+										color: white;
+										&>h3{
+											font-family: Harry2;
+										}
+										&>figure img{
+											width: 80px;
+											height: 80px;
+										}
+									}
+								}
+								&>.fondoNublado{
+									background-image: url("../images/meteorologia/nubladoSolFondo.gif");
+									background-repeat: no-repeat;
+									&>.card-body{
+										color: white;
+										&>h3{
+											font-family: Harry2;
+										}
+										&>figure img{
+											width: 80px;
+											height: 80px;
+										}
+									}
+								}
+							}
+
+						}
+					}
+				}
+			}
+		.paginador{
+			@extend .row;
+			@extend .col-12;
+			@extend .justify-content-center;
+			font-family: $niconne;
+			font-size: 20px;
+			&>.paginas{
+				@extend .pagination;
+				&>.page-item{
+					&>.page-link{
+					background-color: transparent;
+					border:none;
+					color: black;
+					font-size: 30px;	
+				}	
+				}
+			}
+		}
+	}
+
+	/*@media (max-width: 576px){
+		footer{
+			display: flex;
+			flex-wrap: wrap;
+		}
+
+		&>.copyright{
+			justify-content: flex-start;
+		}
+	}*/
+
+	footer{
+		@extend .row;
+		@extend .col-12;
+		background: $fondoFooter;
+		width: 100%;
+		height: auto;
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-around;
+
+		&>.copyright{
+			//@extend .col-6;
+			@extend .text-left;
+			align-content: center;
+		}
+
+		&>.social{
+			//@extend .col-6;
+			@extend .text-right;
+			align-content: center;
+		}
+	}
+}

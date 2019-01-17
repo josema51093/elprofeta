@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<title>El Profeta</title>
+	<!-- <link rel="stylesheet" href="../css/bootstrap.min.css">  -->
+	<link rel="stylesheet" href="../css/main.css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+	<link rel="shortcut icon" href="../images/logo.png" type="image/png">
+	<script src="../js/jquery.js" type="text/javascript"></script> 
+	<script src="../js/funciones.js" type="text/javascript"></script>
+</head>
+<body>
+	<div class="contenedorNoticias">
+		<!--
+			==========
+			= HEADER =
+			==========
+		-->
+		<header>
+			<div class="logos">
+				<a href="../index.html"><img src="../images/logo.png"></a>
+				<img src="../images/title.png" class="editorial">
+			</div>
+			<div class="menu">
+				<button>
+				<a href="../index.html" role="button">
+					<figure>
+						<img src="../images/icons/harry-potter (2).svg" alt="gorro" width="25px" height="25px">
+					</figure>
+				Home</a>
+				</button>
+				<button>
+				<a href="noticias.html" role="button">
+					<figure>
+						<img src="../images/icons/harry-potter (2).svg" alt="gorro" width="25px" height="25px">
+					</figure>
+				Noticias</a>
+				</button>
+				<button>
+				<a class="" href="registro.html" role="button">
+					<figure>
+						<img src="../images/icons/harry-potter (2).svg" alt="gorro" width="25px" height="25px">
+					</figure>
+				Suscribirse</a>
+				</button>
+			</div>
+			<!--
+			=================
+			=  BREADCRUMBS  =
+			=================
+			-->
+			<nav class="migasPan">
+				<ol>
+					<li class="breadcrumb-item"><a href="../index.html">Inicio</a></li>
+					<li class="breadcrumb-item"><a href="noticias.html">Noticias</a></li>
+					<li class="breadcrumb-item active">Noticias-2</li>
+				</ol>
+			</nav>
+		</header>
+		<!-- Fin del header -->
+		
+		<!--
+		============================================
+		=  MAIN QUE INCLUYE UN SECTION Y UN ASIDE =
+		============================================
+		-->
+		<main>
+			<section class="sectNoticias2">
+			<div class="contenidoNoticias2">
+				<aside class="aside">
+					<h1>Tiempo en principales ciuidades mágicas</h1>
+					<div class="accordion" id="accordionExample">
+					  	<div class="card">
+						    <div class="card-header" id="headingOne">
+						      	<h5 class="mb-0">
+						        	<button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+						          Godric Hollow
+						        	</button>
+						      	</h5>
+						    </div>
+						    <div id="collapseOne" class="collapse show fondoLluvia" aria-labelledby="headingOne" data-parent="#accordionExample">
+						      	<div class="card-body">
+						        	<figure>
+						        		<img src="../images/meteorologia/lluvia.png">
+						        	</figure>
+						        	<h3>Fuertes precipitaciones durante todo el día</h3>
+						        	<p>Se recomienda no volar en escoba por su seguridad</p>
+						      	</div>
+						    </div>
+					  	</div>
+					  	<div class="card">
+						    <div class="card-header" id="headingTwo">
+						      	<h5 class="mb-0">
+						        	<button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+						          Hogsmeade
+						        	</button>
+						      	</h5>
+						    </div>
+						    <div id="collapseTwo" class="collapse fondoNevado" aria-labelledby="headingTwo" data-parent="#accordionExample">
+						      	<div class="card-body">
+						        	<figure>
+						        		<img src="../images/meteorologia/nevado.png">
+						        	</figure>
+						        	<h3>Nevando todo el día</h3>
+						        	<p>Se recomienda no volar en escoba por su seguridad</p>
+						      	</div>
+						    </div>
+					  	</div>
+					  	<div class="card">
+					    	<div class="card-header" id="headingThree">
+					      		<h5 class="mb-0">
+					        		<button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">Little Whinging
+					        		</button>
+					      		</h5>
+					    	</div>
+					    	<div id="collapseThree" class="collapse fondoSoleado" aria-labelledby="headingThree" data-parent="#accordionExample">
+						      	<div class="card-body">
+						        	<figure>
+						        		<img src="../images/meteorologia/sol.png">
+						        	</figure>
+						        	<h3>Soleado durante todo el día</h3>
+						        	<p>Maravilloso día para realizar actividades al aire libre</p>
+						      	</div>
+					    	</div>
+					  	</div>
+					  	<div class="card">
+						    <div class="card-header" id="headingFour">
+						      	<h5 class="mb-0">
+						        	<button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+						          Ottery St. Catchpole
+						        	</button>
+						      	</h5>
+						    </div>
+						    <div id="collapseFour" class="collapse fondoNublado" aria-labelledby="headingFour" data-parent="#accordionExample">
+						      	<div class="card-body">
+						        	<figure>
+						        		<img src="../images/meteorologia/nublado.png">
+						        	</figure>
+						        	<h3>Nublado durante todo el día</h3>
+						        	<p>Posibles precipitaciones a media mañana</p>
+						      	</div>
+						    </div>
+					 	</div>
+					 	<div class="card">
+						    <div class="card-header" id="headingFive">
+						      	<h5 class="mb-0">
+						        	<button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+						          Cokeworth
+						        	</button>
+						      	</h5>
+						    </div>
+						    <div id="collapseFive" class="collapse fondoSoleado" aria-labelledby="headingFour" data-parent="#accordionExample">
+						      	<div class="card-body">
+						        	<figure>
+						        		<img src="../images/meteorologia/sol.png">
+						        	</figure>
+						        	<h3>Soleado durante todo el día</h3>
+						        	<p>Maravilloso día para realizar actividades al aire libre</p>
+						      	</div>
+						    </div>
+					 	</div>
+					 	<div class="card">
+						    <div class="card-header" id="headingSix">
+						      	<h5 class="mb-0">
+						        	<button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseSix" aria-expanded="false" aria-controls="collapseFive">
+						          Londres
+						        	</button>
+						      	</h5>
+						    </div>
+						    <div id="collapseSix" class="collapse fondoLluvia" aria-labelledby="headingSix" data-parent="#accordionExample">
+						      	<div class="card-body">
+						        	<figure>
+						        		<img src="../images/meteorologia/lluvia.png">
+						        	</figure>
+						        	<h3>Fuertes precipitaciones durante todo el día</h3>
+						        	<p>Se recomienda no volar en escoba por su seguridad</p>
+						      	</div>
+						    </div>
+					 	</div>
+					 	<div class="card">
+						    <div class="card-header" id="headingSeven">
+						      	<h5 class="mb-0">
+						        	<button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseSeven" aria-expanded="false" aria-controls="collapseFive">
+						          Tinworth
+						        	</button>
+						      	</h5>
+						    </div>
+						    <div id="collapseSeven" class="collapse fondoNublado" aria-labelledby="headingSeven" data-parent="#accordionExample">
+						      	<div class="card-body">
+						        	<figure>
+						        		<img src="../images/meteorologia/nublado.png">
+						        	</figure>
+						        	<h3>Nublado durante todo el día</h3>
+						        	<p>Posibles precipitaciones a media tarde</p>
+						      	</div>
+						    </div>
+					 	</div>
+					</div>
+
+				</aside>
+				<article class="artNoticias2">
+					<!-- 
+					======================================
+					=      AQUI EMPIEZAN LOS CARDS       =
+					======================================
+					-->
+					<div class="deck">
+						<div class="carta">
+	                        <div class="cabeceraCard">
+	                        	Mundial de Quidditch Irlanda vs Bulgaria
+	                        </div>
+	                        <div class="card-body">
+	                            <video class="img-fluid" autoplay muted loop>
+	                            	<source src="../videos/El Mundial de Quidditch Irlanda vs Bulgaria.mp4" type="video/mp4">
+	                            </video>
+	                            <p class="textoCarta">Si, ya hay fecha para esta gran final, 28 de marzo. Se enfrentaran Bulgaria contra Irlanda por el trofeo <span id="mostrar" class="mostrar">
+	                            	más importante del año, el equipo bulgaro viene como favorito pero en sus declaraciones han asegurado que no se van a confiar, van a salir con todo para no dar ninguna oportunidad a su rival, se prevee una apoteósica final.
+	                            </span><a href="#" title="" id="noticia" onclick="mostrarOcultar()">Leer mas</a></p>
+	                        </div>
+	                    </div>
+	                    <div class="carta">
+	                        <div class="cabeceraCard">
+	                        	Vandalismo en Hogwarts
+	                        </div>
+	                        <div class="card-body">
+	                        		<video class="img-fluid" autoplay muted loop>
+	                            		<source src="../videos/actosdevandalismo.mp4" type="video/mp4">
+	                            	</video>
+	                            <p class="textoCarta">Esta mañana un grupo de alumnos se ha revelado en Hogwarts haciendo vandalismo por varios lugares del castillo. <span id="mostrar2" class="mostrar">
+	                            	A esta hora aun no han sido capturados, Dumbledore ha asegurado que van a recibir un castigo a la altura de sus actos. Se han suspendido las clases debido a este suceso.
+	                            </span><a href="#" title="" id="noticia2" onclick="mostrarOcultar2()">Leer mas</a></p>
+	                        </div>
+	                    </div>
+	                    <div class="carta">
+	                        <div class="cabeceraCard">
+	                        	Nueva clase de criaturas mágicas
+	                        </div>
+	                        <div class="card-body">
+	                            <video class="img-fluid" autoplay muted loop>
+	                            	<source src="../videos/clasescriaturasmagicas.mp4" type="video/mp4">
+	                            </video>
+	                            <p class="textoCarta">Ya es una realidad, ha llegado a Hogwarts la nueva asignatura que muchos deseaban. La clase de criaturas Magicas <span id="mostrar3" class="mostrar">
+	                            	impartida por la profesora McGonagall, en esta clase a cada alumno se le dará un cría de dragón la cual tendrán que cuidar durante todo el año.
+	                            </span><a href="#" title="" id="noticia3" onclick="mostrarOcultar3()">Leer mas</a></p>
+	                        </div>
+	                    </div>
+	                    <div class="carta">
+	                        <div class="cabeceraCard">
+	                        	28 de marzo: Torneo de los 3 magos
+	                        </div>
+	                        <div class="card-body">
+	                            <video class="img-fluid" autoplay muted loop>
+	                            	<source src="../videos/torneo3magos.mp4" type="video/mp4">
+	                            </video>
+	                            <p class="textoCarta">Proximamente se celebrara el torneo de los 3 magos como es costumbre cada 4 años. Esta vez Hogwarts será el anfitrion <span id="mostrar4" class="mostrar">
+	                            	los mejores magos lucharán entre si para convertirse en el mejor mago de ese año, aun no están claros los participantes pero promete ser un gran espectaculo.
+	                            </span><a href="#" title="" id="noticia4" onclick="mostrarOcultar4()">Leer mas</a></p>
+	                        </div>
+	                    </div>
+	                    <div class="carta">
+	                        <div class="cabeceraCard">
+	                        	Duelos entre profesores en Hogwarts
+	                        </div>
+	                        <div class="card-body">
+	                            <video class="img-fluid" autoplay muted loop>
+	                            		<source src="../videos/dueloentreprofes.mp4" type="video/mp4">
+	                            </video>
+	                            <p class="textoCarta">Enfrentamientos entre profesores con hechizos defensivos para dar refuerzo a los alumnos en los tiempos que corren. <span id="mostrar5" class="mostrar">
+	                            	Un despliegue de magía que dejo anonadados a los alumnos, se asegura que esto era un montaje aunque los destrozos han sido varios.
+	                            </span><a href="#" title="" id="noticia5" onclick="mostrarOcultar5()">Leer mas</a></p>
+	                        </div>
+	                    </div>
+	                    <div class="carta">
+	                        <div class="cabeceraCard">
+	                        	Clases de Quidditch
+	                        </div>
+	                        <div class="card-body">
+	                            <video class="img-fluid" autoplay muted loop>
+	                            	<source src="../videos/clasesdequidditch.mp4" type="video/mp4">
+	                            </video>
+	                            <p class="textoCarta">Despues del fallecimiento de Severus Snape, las clases de Quidditch se quedaron huerfanas. Pero ya ha llegado un nuevo sustituto. <span id="mostrar6" class="mostrar">
+	                            	Aunque aun se desconoce el nombre, aseguran que es un esperto en este juego, varios alumnos están interesados en empezar con las clases lo antes posible.
+	                            </span><a href="#" title="" id="noticia6" onclick="mostrarOcultar6()">Leer mas</a></p>
+	                        </div>
+	                    </div>
+                    </div>
+                    <!-- Fin de las cartas -->
+				</article>
+			</div>
+			</section>
+			<!--
+				=================
+				=  PAGINADORES  =
+				=================
+			-->
+			<nav class="paginador">
+				<ul class="paginas">
+					<li class="page-item">
+						<a class="page-link" href="noticias.html" aria-label="Previous">
+        					<span aria-hidden="true">&laquo;</span>
+      					</a>
+      				</li>
+					<li class="page-item"><a class="page-link" href="noticias.html">1</a></li>
+					<li class="page-item"><a class="page-link" href="#">2</a></li>
+				</ul>
+			</nav>
+			<!-- FIN DEL PAGINADOR -->
+		</main>
+		<!-- Fin del main -->
+
+		<!-- 
+		===========================
+		=    INICIO DEL FOOTER    =
+		===========================
+		-->
+		<footer>
+			<div class="copyright">
+				<i class="far fa-copyright"></i>2019 DERECHOS RESERVADOS A EL PROFETA
+			</div>
+
+			<!-- 
+			===========================
+			=    ICONOS DEL FOOTER    =
+			===========================
+			-->
+
+			<div class="social">
+				<img src="../images/icons/facebook.svg" width="40px" height="40px" alt="facebook">
+				<img src="../images/icons/logo-dibujado-de-twitter.svg" width="40px" height="40px" alt="twitter">
+				<img src="../images/icons/logo-dibujado-de-instagram.svg" width="40px" height="40px" alt="instagram">
+			</div>
+			<!-- Fin de los iconos del footer -->
+		</footer>
+		<!-- Fin del footer -->
+	</div>
+	<script type="text/javascript" src="../js/jquery.js"></script>
+	<script type="text/javascript" src="../js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="../js/popper.min.js"></script>
+</body>
+</html>

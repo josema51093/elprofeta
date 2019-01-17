@@ -6,90 +6,331 @@
 	box-sizing: border-box;
 }
 
+::-webkit-scrollbar {
+	display: none;
+}
+
+
 body{
 	background: $fondoContainer;
 }
 
+
+
 .contenedor{
-	width: $widthContainer;
-	height: $heightContainer;
-	display: grid;
-	grid-template-areas: "header header header"
-						 "main main main"
-						 "main main main"
-						 "footer footer footer";
-	grid-gap: 15px;
+	@include breakpoint(max-width $pequeno){
+		*{
+			width: 100%;
+		}
+	}
+	/*@media (max-width: $pequeno){
+		*{
+			width: 100%;
+		}
+	}*/
+	//Establecer alto y ancho del contenedor
+	@include altoAncho($widthContainer,$heightContainer);
+
+	@extend .container-fluid;
 
 	header{
-		grid-area: header;
+		@extend .container-fluid;
 		background: $fondoHeader;
-		width: $widthHeader;
-		height: $heightHeader;
-		display: flex;
-		justify-content: space-around;
-		align-items: center;
-		flex-wrap: wrap;
+		@include altoAncho($widthHeader, $heightHeader);
+		//Establecer estructura del layout (flex)
+		@include flex(flex, space-around, center, wrap);
+		margin-bottom: 2%;
+
+		.logos{
+			@extend .row;
+			@extend .justify-content-center;
+
+
+			@include breakpoint(max-width $medio){
+				.editorial{
+				  	visibility: hidden;
+				  	display: none;
+				}
+			}
+
+			/*@media (max-width: $medio) {
+			  .editorial{
+			  	visibility: hidden;
+			  	display: none;
+			   }
+			}*/
+
+			&>a{
+				&>img{	
+					@extend .col-sm-12;
+				}
+			}
+		}
+
+		.menu{
+			@extend .row;
+			@extend .col-12;
+			@extend .justify-content-sm-around;
+			@extend .justify-content-md-around;
+			@extend .justify-content-lg-around;
+
+			font-family: $harry2;
+			font-size: 20px;
+
+			@include breakpoint(max-width $medio){
+				&>button{
+					width: 100%;
+					margin-top: 4%;
+					&>a{
+						justify-content: center;
+					}
+				}
+			}
+
+			/*@media (max-width: $medio){
+				&>button{
+					width: 100%;
+					margin-top: 4%;
+					&>a{
+						justify-content: center;
+					}
+				}
+			}*/
+
+			&>a{
+				display: flex;
+				align-items: center;
+				text-align: center;
+				background-color: $fondoBotonHeader;
+				@extend .col-sm-12;
+				@extend .col-md-4;
+				@extend .col-lg-4;
+				@extend .btn;
+				@extend .btn-primary;
+			}
+		}
 	}
 
 	main{
-		grid-area: main;
 		width: $widthMain;
 		height: $heightMain;
 		background: $fondoMain;
-
+		border: 4px solid;
+		margin: 0 2%;
+		@extend .container-fluid;
+	
 		.sec1{
 			width: $widthSec1;
 			height: $heightSec1;
 			background: $fondoSec1;
-			display: flex;
-			align-items: center;
-			padding: 5%;
+			padding: 2%;
 			text-align: justify;
 
-			.art1{
-				width: $widthArt1;
+			&>.noticia{
+				@extend .row;
 
-				&>p{
-					column-count: 3;
+				&>h1{
+					@extend .col-12;
+					@extend .text-center;
+					font-family: $harry2;
+					font-size: 65px;
+					letter-spacing: 5px;
 				}
-			}
 
-			.art2{
-				column-count: 1;
-				width: 50%;
-				padding-left: 15%;
+				&>.art1{
+					width: $widthArt1;
+					align-self: center;
+					text-align: center;
+					@extend .col-sm-12;
+					@extend .col-12; 
+					
+					&>p{
+						@include parrafo($niconne,28px,20px);
+					}
+
+					&>video{
+						@extend .col-sm-12;
+						@extend .col-12;
+						width: 70%;
+						height: 50%;
+					}
+
+					&>p>a{
+						color: $leerMas;
+					}
+				}
+
+				
 			}
 		}
 
+		
 		.sec2{
 			width: $widthSec2;
 			height: $heightSec2;
 			background: $fondoSec2;
-			display: flex;
-			align-items: center;
-			padding: 5%;
-			text-align: justify;
+			margin-left: 0.1%;
 
-			.art3{
-				column-count: 1;
-				width: 50%;
-				padding-right: 15%;
-			}
-
-			.art4{
-				width: 50%;
-
-				&>p{
-					column-count: 3;
+			@include breakpoint(max-width $pequeno){
+				*{
+					max-width: 100%;
 				}
 			}
+
+			/*@media (max-width: $pequeno){
+				*{
+					max-width: 100%;
+				}
+			}*/
+
+
+			@include breakpoint(max-width $medio){
+				*{
+				  	visibility: hidden;
+				  	display: none;
+			   }
+			}
+
+			/*@media (max-width: $medio) {
+			  *{
+			  	visibility: hidden;
+			  	display: none;
+			   }
+			}*/
+			
+			&>h1{
+				@extend .col-12;
+				@extend .text-center;
+				font-family: $harry2;
+				font-size: 55px;
+				letter-spacing: 5px;
+				margin-bottom: -5%;
+			}
+			
+			&>.carrusel1{
+				@extend .col-sm-12;
+				@extend .col-md-12;
+				@extend .col-lg-6;
+				padding-top: 5%;
+				margin-bottom: 2%;
+				&>.carousel-inner{
+					&>.carousel-item{
+
+						&>.textoCarrusel{
+							@extend .carousel-caption;
+							@extend .d-none;
+							@extend .d-md-block;
+
+							&>h1{
+								font-family: $harry2;
+							}
+						}
+						&>.accordion{
+							&>.card{
+								background-color: transparent;
+								border: none;
+								width: 100%;
+								&>.cabeceraCarta{
+									&>h1{
+										font-family: $harry2;
+										&>.btn{
+											background-color: transparent;
+											color: white;
+											font-size: 25px;
+										}
+									}
+								}
+							}
+							&>.collapse{
+								background-color: rgba(0,0,0,0.7);
+								width: 100%;
+								&>.card-body{
+									color: white;
+									font-family: $niconne;
+									font-size: 23px;
+								}
+							}
+						}
+						&>img{
+							width: $widthImgCarr;
+							height: $heightImgCarr;
+							
+						}
+					}
+				}
+			}
+			&>.carrusel2{
+				@extend .col-sm-12;
+				@extend .col-md-12;
+				@extend .col-lg-6;
+				padding-top: 5%;
+				margin-bottom: 2%;
+				&>.carousel-inner{
+					&>.carousel-item{
+
+						&>.textoCarrusel{
+							@extend .carousel-caption;
+							@extend .d-none;
+							@extend .d-md-block;
+
+							&>h1{
+								font-family: $harry2;
+							}
+						}
+						&>.accordion{
+							&>.card{
+								background-color: transparent;
+								border: none;
+								width: 100%;
+								&>.cabeceraCarta{
+									&>h1{
+										font-family: $harry2;
+										&>.btn{
+											background-color: transparent;
+											color: white;
+											font-size: 25px;
+										}
+									}
+								}
+							}
+							&>.collapse{
+								background-color: rgba(0,0,0,0.7);
+								width: 100%;
+								&>.card-body{
+									color: white;
+									font-family: $niconne;
+									font-size: 23px;
+								}
+							}
+						}
+						&>img{
+							width: $widthImgCarr;
+							height: $heightImgCarr;
+							
+						}
+					}
+				}
+			}
+			
 		}
 	}
 
 	footer{
-		grid-area: footer;
-		background: purple;
+		@extend .row;
+		@extend .col-12;
+		background: $fondoFooter;
 		width: 100%;
-		height: 100px;
+		height: auto;
+		@include flex(flex, space-around,wrap);
+
+		&>.copyright{
+			@extend .text-left;
+			align-content: center;
+		}
+
+		&>.social{
+			@extend .text-right;
+			align-content: center;
+		}
 	}
 }

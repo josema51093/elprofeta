@@ -1,9 +1,24 @@
 //PARTIAL REFERENTE A TODAS LAS VARIABLES GLOBALES
 
+//Variables para breakpoint
+$pequeno: 320px;
+$medio: 767px;
+$grande: 992px;
+
+
+///////////////////////////////////////////////
+////////////////////INDEX/////////////////////
+/////////////////////////////////////////////
+
 //VARIABLES DE .CONTENEDOR
 //Ancho y alto de .contenedor
 $widthContainer: auto;
-$heightContainer: 950px;
+$heightContainer: auto;
+//Estructura grid
+$grid: "header header header"
+		"main main main"
+		"main main main"
+		"footer footer footer";
 
 //VARIABLES DE HEADER
 //Ancho y alto del header
@@ -27,3 +42,27 @@ $widthArt1: 50%;
 //Ancho y alto de .sec2
 $widthSec2: 100%;
 $heightSec2: 50%;
+
+//VARIABLES CARRUSEL
+$widthImgCarr: 500px;
+$heightImgCarr: 450px;
+
+
+
+//////////////////////////////////////////////
+//////////////////NOTICIAS///////////////////
+////////////////////////////////////////////
+
+//VARIABLES BREADCRUMB
+$widthBreadcrumb: 100%;
+
+//VARIABLES ASIDE
+$widthAside: 100%;
+$heightAside: auto;
+
+
+//PARTE RESERVADA PARA LAS FUENTES DE LA PAGINA
+$font: 'Blackore', sans-serif;
+$iron: 'Iron';
+$niconne: 'Niconne';
+$harry2: 'Harry2';
