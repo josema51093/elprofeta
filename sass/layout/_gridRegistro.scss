@@ -1,7 +1,7 @@
 @charset 'UTF-8';
 
 /**
- * CONTENIDO REFERENTE A LA ESTRUCTURA GRID DE LAS NOTICIAS
+ * CONTENIDO REFERENTE A LA ESTRUCTURA GRID DEL REGISTRO	
  */
 //Medidas saltos bootstrap --> xs: 0, sm: 576px, md: 768px, lg: 992px, xl: 1200px
 
@@ -25,25 +25,18 @@ body{
 
 	&>header{
 		@extend .container-fluid;
-		//grid-area: header;
 		background: $fondoHeader;
 		//Establecer alto y ancho del header
 		@include altoAncho($widthHeader, $heightHeader);
-		/*width: $widthHeader;
-		height: $heightHeader;*/
 		//Establecer estructura del layout (flex)
 		@include flex(flex, space-around, center, wrap);
-		/*display: flex;
-		justify-content: space-around;
-		align-items: center;
-		flex-wrap: wrap;*/
 		margin-bottom: 2%;
 
 		&>.logos{
 			@extend .row;
 			@extend .justify-content-center;
 
-			@media (max-width: 767px) {
+			@media (max-width: $medio/*antes 767*/) {
 			  &>.editorial{
 			  	visibility: hidden;
 			  	display: none;
@@ -66,7 +59,7 @@ body{
 
 			font-family: Harry2;
 			font-size: 20px;
-			@media (max-width: 767px){
+			@media (max-width: $medio/*antes 767*/){
 				&>button{
 					width: 100%;
 					margin-top: 4%;
@@ -101,18 +94,12 @@ body{
 		background: $fondoMain;
 		border: 4px solid;
 		margin: 0 2%;
-		/*@extend .col-12;
-		@extend .row;*/
 		@extend .container-fluid;
 
 		&>.sec1{
 			width: $widthSec1;
 			height: $heightSec1;
 			background: $fondoSec1;
-			/*display: flex;
-			align-items: center;
-			padding: 5%;
-			text-align: justify;*/
 			padding: 2%;
 			text-align: justify;
 

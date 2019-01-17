@@ -36,12 +36,19 @@ body{
 			@extend .row;
 			@extend .justify-content-center;
 
-			@media (max-width: $medio/*antes 767*/) {
+
+			@include breakpoint(max-width $medio){
+				.editorial{
+				  	visibility: hidden;
+				  	display: none;
+			   }
+			}
+			/*@media (max-width: $medio) {
 			  .editorial{
 			  	visibility: hidden;
 			  	display: none;
 			   }
-			}
+			}*/
 
 			&>a{
 				&>img{	
@@ -59,7 +66,17 @@ body{
 
 			font-family: $harry2;
 			font-size: 20px;
-			@media (max-width: $medio/*antes 767*/){
+
+			@include breakpoint(max-width $medio){
+				&>button{
+					width: 100%;
+					margin-top: 4%;
+					&>a{
+						justify-content: center;
+					}
+				}
+			}
+			/*@media (max-width: $medio){
 				&>button{
 					width: 100%;
 					margin-top: 4%;
@@ -67,7 +84,7 @@ body{
 						justify-content: center;
 					}
 				}	
-			}
+			}*/
 		}
 
 		.migasPan{
@@ -103,11 +120,17 @@ body{
 			padding: 2%;
 			text-align: justify;
 
-			@media (min-width: $pequeno/*antes 320*/){
+			@include breakpoint($pequeno){
 				*{
 					max-width: 100%;
 				}
 			}
+
+			/*@media (min-width: $pequeno){
+				*{
+					max-width: 100%;
+				}
+			}*/
 
 			&>.contenido{
 				@extend .row;
@@ -116,10 +139,15 @@ body{
 					@extend .col-lg-4;
 					@extend .text-center;
 
-					@media (max-width: $grande/*antes 992*/){
+					@include breakpoint(max-width $grande){
 						visibility: hidden;
 			  			display: none;
 					}
+
+					/*@media (max-width: $grande){
+						visibility: hidden;
+			  			display: none;
+					}*/
 
 					max-width: 100%;
 
@@ -187,11 +215,17 @@ body{
 
 					&>h1{
 
-						@media (max-width: $medio/*antes 767*/){
+						@include breakpoint(max-width $medio){
 							font-family: $harry2;
 							font-size: 55px;
 							letter-spacing: 3px;
 						}
+
+						/*@media (max-width: $medio){
+							font-family: $harry2;
+							font-size: 55px;
+							letter-spacing: 3px;
+						}*/
 
 						@extend .col-12;
 						@extend .text-center;
@@ -223,11 +257,18 @@ body{
 			background: $fondoSec1;
 			text-align: justify;
 			margin-top: 1%;
-			@media (min-width: $pequeno/*antes 320*/){
+
+			@include breakpoint($pequeno){
 				*{
 					max-width: 100%;
 				}
 			}
+
+			/*@media (min-width: $pequeno){
+				*{
+					max-width: 100%;
+				}
+			}*/
 
 			&>.contenidoNoticias2{
 				@extend .row;
@@ -236,10 +277,16 @@ body{
 				&>.aside{
 					@extend .col-4;
 					@extend .text-center;
-					@media (max-width: 992px){
+
+					@include breakpoint(max-width $grande){
 						visibility: hidden;
 			  			display: none;
 					}
+
+					/*@media (max-width: 992px){
+						visibility: hidden;
+			  			display: none;
+					}*/
 
 					max-width: 100%;
 
