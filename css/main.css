@@ -879,7 +879,7 @@ pre {
   margin-right: auto;
   margin-left: auto; }
 
-.row, .contenedor header .logos, .contenedor header .menu, .contenedor main .sec1 > .noticia, .contenedor footer, .contenedorNoticias header .logos, .contenedorNoticias header .menu, .contenedorNoticias header .migasPan, .contenedorNoticias main .sec1 > .contenido, .contenedorNoticias main .sec1 > .contenido > aside > .deck, .contenedorNoticias main .sec1 > .contenido > .art1 figure, .contenedorNoticias main .sectNoticias2 > .contenidoNoticias2, .contenedorNoticias main .sectNoticias2 > .contenidoNoticias2 > .artNoticias2 > .deck, .contenedorNoticias main .paginador, .contenedorNoticias footer, .contenedorRegistro > header > .logos, .contenedorRegistro > header > .menu, .contenedorRegistro > header > .migasPan, .contenedorRegistro > main > .sec1 > .contenido, .contenedorRegistro > main > .sec1 > .contenido > aside > .deck, .contenedorRegistro > main > .sec1 > .contenido > .art1 figure, .contenedorRegistro > main .sectNoticias2 > .contenidoNoticias2, .contenedorRegistro > main .sectNoticias2 > .contenidoNoticias2 > .artNoticias2 > .deck, .contenedorRegistro > main .paginador, .contenedorRegistro footer, .migasPan {
+.row, .contenedor header .logos, .contenedor header .menu, .contenedor main .sec1 > .noticia, .contenedor footer, .contenedorNoticias header .logos, .contenedorNoticias header .menu, .contenedorNoticias header .migasPan, .contenedorNoticias main .sec1 > .contenido, .contenedorNoticias main .sec1 > .contenido > aside > .deck, .contenedorNoticias main .sec1 > .contenido > .art1 figure, .contenedorNoticias main .sectNoticias2 > .contenidoNoticias2, .contenedorNoticias main .sectNoticias2 > .contenidoNoticias2 > .artNoticias2 > .deck, .contenedorNoticias main .paginador, .contenedorNoticias footer, .contenedorRegistro > header > .logos, .contenedorRegistro > header > .menu, .contenedorRegistro > header > .migasPan, .contenedorRegistro > main > .sec1 > .contenido, .contenedorRegistro > main > .sec1 > .contenido > aside > .deck, .contenedorRegistro > main > .sec1 > .contenido > .art1 figure, .contenedorRegistro > main .sectNoticias2 > .contenidoNoticias2, .contenedorRegistro > main .sectNoticias2 > .contenidoNoticias2 > .artNoticias2 > .deck, .contenedorRegistro > main .paginador, .contenedorRegistro footer, header > .migasPan {
   display: flex;
   flex-wrap: wrap;
   margin-right: -15px;
@@ -893,8 +893,9 @@ pre {
     padding-right: 0;
     padding-left: 0; }
 
-.col-1, .col-2, .col-3, .col-4, .contenedorNoticias main .sectNoticias2 > .contenidoNoticias2 > .aside, .contenedorRegistro > main .sectNoticias2 > .contenidoNoticias2 > .aside, .col-5, .col-6, .col-7, .col-8, .col-9, .col-10, .col-11, .col-12, .contenedor header .menu, .contenedor main .sec1 > .noticia > h1, .contenedor main .sec1 > .noticia > .art1, .contenedor main .sec1 > .noticia > .art1 > video, .contenedor main .sec2 > h1, .contenedor footer, .contenedorNoticias header .menu, .contenedorNoticias header .migasPan, .contenedorNoticias main .sec1 > .contenido > aside > h1, .contenedorNoticias main .sec1 > .contenido > aside > .deck, .contenedorNoticias main .sec1 > .contenido > aside > .deck > .carta, .contenedorNoticias main .sec1 > .contenido > .art1, .contenedorNoticias main .sec1 > .contenido > .art1 > h1, .contenedorNoticias main .sectNoticias2 > .contenidoNoticias2 > .aside > h1, .contenedorNoticias main .sectNoticias2 > .contenidoNoticias2 > .artNoticias2 > .deck, .contenedorNoticias main .paginador, .contenedorNoticias footer, .contenedorRegistro > header > .menu, .contenedorRegistro > header > .migasPan, .contenedorRegistro > main > .sec1 > .contenido > aside > h1, .contenedorRegistro > main > .sec1 > .contenido > aside > .deck, .contenedorRegistro > main > .sec1 > .contenido > aside > .deck > .carta, .contenedorRegistro > main > .sec1 > .contenido > .art1, .contenedorRegistro > main > .sec1 > .contenido > .art1 > h1, .contenedorRegistro > main .sectNoticias2 > .contenidoNoticias2 > .aside > h1, .contenedorRegistro > main .sectNoticias2 > .contenidoNoticias2 > .artNoticias2 > .deck, .contenedorRegistro > main .paginador, .contenedorRegistro footer, .migasPan, .col,
-.col-auto, .col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12, .contenedor header .logos > a > img, .contenedor header .menu > a, .contenedor main .sec2 > .carrusel1, .contenedor main .sec2 > .carrusel2, .contenedorNoticias header .logos > a > img, .contenedorNoticias main .sectNoticias2 > .contenidoNoticias2 > .artNoticias2, .contenedorNoticias main .sectNoticias2 > .contenidoNoticias2 > .artNoticias2 > .deck > .carta, .contenedorRegistro > header > .logos > a > img, .contenedorRegistro > main .sectNoticias2 > .contenidoNoticias2 > .artNoticias2, .contenedorRegistro > main .sectNoticias2 > .contenidoNoticias2 > .artNoticias2 > .deck > .carta, .col-sm,
+.col-1, .col-2, .col-3, .col-4, .contenedorNoticias main .sectNoticias2 > .contenidoNoticias2 > .aside, .contenedorRegistro > main .sectNoticias2 > .contenidoNoticias2 > .aside, .col-5, .col-6, .col-7, .col-8, .col-9, .col-10, .col-11, .col-12, .contenedor header .menu, .contenedor main .sec1 > .noticia > h1, .contenedor main .sec1 > .noticia > .art1, .contenedor main .sec1 > .noticia > .art1 > video, .contenedor main .sec2 > h1, .contenedor footer, .contenedorNoticias header .menu, .contenedorNoticias header .migasPan, .contenedorNoticias main .sec1 > .contenido > aside > h1, .contenedorNoticias main .sec1 > .contenido > aside > .deck, .contenedorNoticias main .sec1 > .contenido > aside > .deck > .carta, .contenedorNoticias main .sec1 > .contenido > .art1, .contenedorNoticias main .sec1 > .contenido > .art1 > h1, .contenedorNoticias main .sectNoticias2 > .contenidoNoticias2 > .aside > h1, .contenedorNoticias main .sectNoticias2 > .contenidoNoticias2 > .artNoticias2 > .deck, .contenedorNoticias main .paginador, .contenedorNoticias footer, .contenedorRegistro > header > .menu, .contenedorRegistro > header > .migasPan, .contenedorRegistro > main > .sec1 > .contenido > aside > h1, .contenedorRegistro > main > .sec1 > .contenido > aside > .deck, .contenedorRegistro > main > .sec1 > .contenido > aside > .deck > .carta, .contenedorRegistro > main > .sec1 > .contenido > .art1, .contenedorRegistro > main > .sec1 > .contenido > .art1 > h1, .contenedorRegistro > main .sectNoticias2 > .contenidoNoticias2 > .aside > h1, .contenedorRegistro > main .sectNoticias2 > .contenidoNoticias2 > .artNoticias2 > .deck, .contenedorRegistro > main .paginador, .contenedorRegistro footer, header > .migasPan, main > form > .formulario > .row > .fila1, .contenedor header main > form > .formulario > .logos > .fila1, .contenedor header main > form > .formulario > .menu > .fila1, .contenedor main > form > .sec1.formulario > .noticia > .fila1, .contenedor main > form > .formulario > footer > .fila1, .contenedorNoticias header main > form > .formulario > .logos > .fila1, .contenedorNoticias header main > form > .formulario > .menu > .fila1, .contenedorNoticias header main > form > .formulario > .migasPan > .fila1, .contenedorNoticias main > form > .sec1.formulario > .contenido > .fila1, .contenedorNoticias main main.sec1 > form.contenido > aside.formulario > .deck > .fila1, .contenedorNoticias main .sec1 > .contenido > .art1 main > form > .formulario > figure > .fila1, .contenedorNoticias main > form > .sectNoticias2.formulario > .contenidoNoticias2 > .fila1, .contenedorNoticias main main.sectNoticias2 > form.contenidoNoticias2 > .artNoticias2.formulario > .deck > .fila1, .contenedorNoticias main > form > .formulario > .paginador > .fila1, .contenedorNoticias main > form > .formulario > footer > .fila1, main > form.contenedorRegistro > header.formulario > .logos > .fila1, main > form.contenedorRegistro > header.formulario > .menu > .fila1, .contenedorRegistro > main > main.sec1 > form.contenido > aside.formulario > .deck > .fila1, .contenedorRegistro > main > .sec1 > .contenido > .art1 main > form > .formulario > figure > .fila1, .contenedorRegistro > main > form > .sectNoticias2.formulario > .contenidoNoticias2 > .fila1, .contenedorRegistro > main main.sectNoticias2 > form.contenidoNoticias2 > .artNoticias2.formulario > .deck > .fila1, .contenedorRegistro > main > form > .formulario > .paginador > .fila1, .contenedorRegistro main > form > .formulario > footer > .fila1, main > form > header.formulario > .migasPan > .fila1, .col,
+.col-auto,
+main > form > .suscribirse, .col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12, .contenedor header .logos > a > img, .contenedor header .menu > a, .contenedor main .sec2 > .carrusel1, .contenedor main .sec2 > .carrusel2, .contenedorNoticias header .logos > a > img, .contenedorNoticias main .sectNoticias2 > .contenidoNoticias2 > .artNoticias2, .contenedorNoticias main .sectNoticias2 > .contenidoNoticias2 > .artNoticias2 > .deck > .carta, .contenedorRegistro > header > .logos > a > img, .contenedorRegistro > main .sectNoticias2 > .contenidoNoticias2 > .artNoticias2, .contenedorRegistro > main .sectNoticias2 > .contenidoNoticias2 > .artNoticias2 > .deck > .carta, .col-sm,
 .col-sm-auto, .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12, .col-md,
 .col-md-auto, .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .contenedorNoticias main .sec1 > .contenido > aside, .contenedorRegistro > main > .sec1 > .contenido > aside, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg,
 .col-lg-auto, .col-xl-1, .col-xl-2, .col-xl-3, .col-xl-4, .col-xl-5, .col-xl-6, .col-xl-7, .col-xl-8, .col-xl-9, .col-xl-10, .col-xl-11, .col-xl-12, .col-xl,
@@ -910,7 +911,7 @@ pre {
   flex-grow: 1;
   max-width: 100%; }
 
-.col-auto {
+.col-auto, main > form > .suscribirse {
   flex: 0 0 auto;
   width: auto;
   max-width: none; }
@@ -959,7 +960,7 @@ pre {
   flex: 0 0 91.6666666667%;
   max-width: 91.6666666667%; }
 
-.col-12, .contenedor header .menu, .contenedor main .sec1 > .noticia > h1, .contenedor main .sec1 > .noticia > .art1, .contenedor main .sec1 > .noticia > .art1 > video, .contenedor main .sec2 > h1, .contenedor footer, .contenedorNoticias header .menu, .contenedorNoticias header .migasPan, .contenedorNoticias main .sec1 > .contenido > aside > h1, .contenedorNoticias main .sec1 > .contenido > aside > .deck, .contenedorNoticias main .sec1 > .contenido > aside > .deck > .carta, .contenedorNoticias main .sec1 > .contenido > .art1, .contenedorNoticias main .sec1 > .contenido > .art1 > h1, .contenedorNoticias main .sectNoticias2 > .contenidoNoticias2 > .aside > h1, .contenedorNoticias main .sectNoticias2 > .contenidoNoticias2 > .artNoticias2 > .deck, .contenedorNoticias main .paginador, .contenedorNoticias footer, .contenedorRegistro > header > .menu, .contenedorRegistro > header > .migasPan, .contenedorRegistro > main > .sec1 > .contenido > aside > h1, .contenedorRegistro > main > .sec1 > .contenido > aside > .deck, .contenedorRegistro > main > .sec1 > .contenido > aside > .deck > .carta, .contenedorRegistro > main > .sec1 > .contenido > .art1, .contenedorRegistro > main > .sec1 > .contenido > .art1 > h1, .contenedorRegistro > main .sectNoticias2 > .contenidoNoticias2 > .aside > h1, .contenedorRegistro > main .sectNoticias2 > .contenidoNoticias2 > .artNoticias2 > .deck, .contenedorRegistro > main .paginador, .contenedorRegistro footer, .migasPan {
+.col-12, .contenedor header .menu, .contenedor main .sec1 > .noticia > h1, .contenedor main .sec1 > .noticia > .art1, .contenedor main .sec1 > .noticia > .art1 > video, .contenedor main .sec2 > h1, .contenedor footer, .contenedorNoticias header .menu, .contenedorNoticias header .migasPan, .contenedorNoticias main .sec1 > .contenido > aside > h1, .contenedorNoticias main .sec1 > .contenido > aside > .deck, .contenedorNoticias main .sec1 > .contenido > aside > .deck > .carta, .contenedorNoticias main .sec1 > .contenido > .art1, .contenedorNoticias main .sec1 > .contenido > .art1 > h1, .contenedorNoticias main .sectNoticias2 > .contenidoNoticias2 > .aside > h1, .contenedorNoticias main .sectNoticias2 > .contenidoNoticias2 > .artNoticias2 > .deck, .contenedorNoticias main .paginador, .contenedorNoticias footer, .contenedorRegistro > header > .menu, .contenedorRegistro > header > .migasPan, .contenedorRegistro > main > .sec1 > .contenido > aside > h1, .contenedorRegistro > main > .sec1 > .contenido > aside > .deck, .contenedorRegistro > main > .sec1 > .contenido > aside > .deck > .carta, .contenedorRegistro > main > .sec1 > .contenido > .art1, .contenedorRegistro > main > .sec1 > .contenido > .art1 > h1, .contenedorRegistro > main .sectNoticias2 > .contenidoNoticias2 > .aside > h1, .contenedorRegistro > main .sectNoticias2 > .contenidoNoticias2 > .artNoticias2 > .deck, .contenedorRegistro > main .paginador, .contenedorRegistro footer, header > .migasPan, main > form > .formulario > .row > .fila1, .contenedor header main > form > .formulario > .logos > .fila1, .contenedor header main > form > .formulario > .menu > .fila1, .contenedor main > form > .sec1.formulario > .noticia > .fila1, .contenedor main > form > .formulario > footer > .fila1, .contenedorNoticias header main > form > .formulario > .logos > .fila1, .contenedorNoticias header main > form > .formulario > .menu > .fila1, .contenedorNoticias header main > form > .formulario > .migasPan > .fila1, .contenedorNoticias main > form > .sec1.formulario > .contenido > .fila1, .contenedorNoticias main main.sec1 > form.contenido > aside.formulario > .deck > .fila1, .contenedorNoticias main .sec1 > .contenido > .art1 main > form > .formulario > figure > .fila1, .contenedorNoticias main > form > .sectNoticias2.formulario > .contenidoNoticias2 > .fila1, .contenedorNoticias main main.sectNoticias2 > form.contenidoNoticias2 > .artNoticias2.formulario > .deck > .fila1, .contenedorNoticias main > form > .formulario > .paginador > .fila1, .contenedorNoticias main > form > .formulario > footer > .fila1, main > form.contenedorRegistro > header.formulario > .logos > .fila1, main > form.contenedorRegistro > header.formulario > .menu > .fila1, .contenedorRegistro > main > main.sec1 > form.contenido > aside.formulario > .deck > .fila1, .contenedorRegistro > main > .sec1 > .contenido > .art1 main > form > .formulario > figure > .fila1, .contenedorRegistro > main > form > .sectNoticias2.formulario > .contenidoNoticias2 > .fila1, .contenedorRegistro > main main.sectNoticias2 > form.contenidoNoticias2 > .artNoticias2.formulario > .deck > .fila1, .contenedorRegistro > main > form > .formulario > .paginador > .fila1, .contenedorRegistro main > form > .formulario > footer > .fila1, main > form > header.formulario > .migasPan > .fila1 {
   flex: 0 0 100%;
   max-width: 100%; }
 
@@ -1064,7 +1065,7 @@ pre {
     flex: 0 0 25%;
     max-width: 25%; }
 
-  .col-sm-4 {
+  .col-sm-4, main > form > .formulario > .row > .fila1, .contenedor header main > form > .formulario > .logos > .fila1, .contenedor header main > form > .formulario > .menu > .fila1, .contenedor main > form > .sec1.formulario > .noticia > .fila1, .contenedor main > form > .formulario > footer > .fila1, .contenedorNoticias header main > form > .formulario > .logos > .fila1, .contenedorNoticias header main > form > .formulario > .menu > .fila1, .contenedorNoticias header main > form > .formulario > .migasPan > .fila1, .contenedorNoticias main > form > .sec1.formulario > .contenido > .fila1, .contenedorNoticias main main.sec1 > form.contenido > aside.formulario > .deck > .fila1, .contenedorNoticias main .sec1 > .contenido > .art1 main > form > .formulario > figure > .fila1, .contenedorNoticias main > form > .sectNoticias2.formulario > .contenidoNoticias2 > .fila1, .contenedorNoticias main main.sectNoticias2 > form.contenidoNoticias2 > .artNoticias2.formulario > .deck > .fila1, .contenedorNoticias main > form > .formulario > .paginador > .fila1, .contenedorNoticias main > form > .formulario > footer > .fila1, main > form.contenedorRegistro > header.formulario > .logos > .fila1, main > form.contenedorRegistro > header.formulario > .menu > .fila1, .contenedorRegistro > main > main.sec1 > form.contenido > aside.formulario > .deck > .fila1, .contenedorRegistro > main > .sec1 > .contenido > .art1 main > form > .formulario > figure > .fila1, .contenedorRegistro > main > form > .sectNoticias2.formulario > .contenidoNoticias2 > .fila1, .contenedorRegistro > main main.sectNoticias2 > form.contenidoNoticias2 > .artNoticias2.formulario > .deck > .fila1, .contenedorRegistro > main > form > .formulario > .paginador > .fila1, .contenedorRegistro main > form > .formulario > footer > .fila1, main > form > header.formulario > .migasPan > .fila1 {
     flex: 0 0 33.3333333333%;
     max-width: 33.3333333333%; }
 
@@ -1801,7 +1802,7 @@ pre {
   .table-responsive > .table-bordered {
     border: 0; }
 
-.form-control {
+.form-control, main > form > .formulario {
   display: block;
   width: 100%;
   padding: 0.375rem 0.75rem;
@@ -1813,25 +1814,25 @@ pre {
   border: 1px solid #ced4da;
   border-radius: 0.25rem;
   transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out; }
-  .form-control::-ms-expand {
+  .form-control::-ms-expand, main > form > .formulario::-ms-expand {
     background-color: transparent;
     border: 0; }
-  .form-control:focus {
+  .form-control:focus, main > form > .formulario:focus {
     color: #495057;
     background-color: #fff;
     border-color: #80bdff;
     outline: 0;
     box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25); }
-  .form-control::placeholder {
+  .form-control::placeholder, main > form > .formulario::placeholder {
     color: #6c757d;
     opacity: 1; }
-  .form-control:disabled, .form-control[readonly] {
+  .form-control:disabled, main > form > .formulario:disabled, .form-control[readonly], main > form > [readonly].formulario {
     background-color: #e9ecef;
     opacity: 1; }
 
-select.form-control:not([size]):not([multiple]) {
+select.form-control:not([size]):not([multiple]), main > form > select.formulario:not([size]):not([multiple]) {
   height: calc(2.25rem + 2px); }
-select.form-control:focus::-ms-value {
+select.form-control:focus::-ms-value, main > form > select.formulario:focus::-ms-value {
   color: #495057;
   background-color: #fff; }
 
@@ -1869,54 +1870,62 @@ select.form-control:focus::-ms-value {
   background-color: transparent;
   border: solid transparent;
   border-width: 1px 0; }
-  .form-control-plaintext.form-control-sm, .input-group-sm > .form-control-plaintext.form-control,
+  .form-control-plaintext.form-control-sm, .input-group-sm > .form-control-plaintext.form-control, main > form.input-group-sm > .form-control-plaintext.formulario,
   .input-group-sm > .input-group-prepend > .form-control-plaintext.input-group-text,
   .input-group-sm > .input-group-append > .form-control-plaintext.input-group-text,
   .input-group-sm > .input-group-prepend > .form-control-plaintext.btn,
   .contenedor header .input-group-sm > .menu.input-group-prepend > a.form-control-plaintext,
+  main > form.input-group-sm > .suscribirse.input-group-prepend > button.form-control-plaintext,
   .input-group-sm > .input-group-append > .form-control-plaintext.btn,
-  .contenedor header .input-group-sm > .menu.input-group-append > a.form-control-plaintext, .form-control-plaintext.form-control-lg, .input-group-lg > .form-control-plaintext.form-control,
+  .contenedor header .input-group-sm > .menu.input-group-append > a.form-control-plaintext,
+  main > form.input-group-sm > .suscribirse.input-group-append > button.form-control-plaintext, .form-control-plaintext.form-control-lg, .input-group-lg > .form-control-plaintext.form-control, main > form.input-group-lg > .form-control-plaintext.formulario,
   .input-group-lg > .input-group-prepend > .form-control-plaintext.input-group-text,
   .input-group-lg > .input-group-append > .form-control-plaintext.input-group-text,
   .input-group-lg > .input-group-prepend > .form-control-plaintext.btn,
   .contenedor header .input-group-lg > .menu.input-group-prepend > a.form-control-plaintext,
+  main > form.input-group-lg > .suscribirse.input-group-prepend > button.form-control-plaintext,
   .input-group-lg > .input-group-append > .form-control-plaintext.btn,
-  .contenedor header .input-group-lg > .menu.input-group-append > a.form-control-plaintext {
+  .contenedor header .input-group-lg > .menu.input-group-append > a.form-control-plaintext,
+  main > form.input-group-lg > .suscribirse.input-group-append > button.form-control-plaintext {
     padding-right: 0;
     padding-left: 0; }
 
-.form-control-sm, .input-group-sm > .form-control,
+.form-control-sm, .input-group-sm > .form-control, main > form.input-group-sm > .formulario,
 .input-group-sm > .input-group-prepend > .input-group-text,
 .input-group-sm > .input-group-append > .input-group-text,
 .input-group-sm > .input-group-prepend > .btn,
 .contenedor header .input-group-sm > .menu.input-group-prepend > a,
+main > form.input-group-sm > .suscribirse.input-group-prepend > button,
 .input-group-sm > .input-group-append > .btn,
-.contenedor header .input-group-sm > .menu.input-group-append > a {
+.contenedor header .input-group-sm > .menu.input-group-append > a,
+main > form.input-group-sm > .suscribirse.input-group-append > button {
   padding: 0.25rem 0.5rem;
   font-size: 0.875rem;
   line-height: 1.5;
   border-radius: 0.2rem; }
 
-select.form-control-sm:not([size]):not([multiple]), .input-group-sm > select.form-control:not([size]):not([multiple]),
+select.form-control-sm:not([size]):not([multiple]), .input-group-sm > select.form-control:not([size]):not([multiple]), main > form.input-group-sm > select.formulario:not([size]):not([multiple]),
 .input-group-sm > .input-group-prepend > select.input-group-text:not([size]):not([multiple]),
 .input-group-sm > .input-group-append > select.input-group-text:not([size]):not([multiple]),
 .input-group-sm > .input-group-prepend > select.btn:not([size]):not([multiple]),
 .input-group-sm > .input-group-append > select.btn:not([size]):not([multiple]) {
   height: calc(1.8125rem + 2px); }
 
-.form-control-lg, .input-group-lg > .form-control,
+.form-control-lg, .input-group-lg > .form-control, main > form.input-group-lg > .formulario,
 .input-group-lg > .input-group-prepend > .input-group-text,
 .input-group-lg > .input-group-append > .input-group-text,
 .input-group-lg > .input-group-prepend > .btn,
 .contenedor header .input-group-lg > .menu.input-group-prepend > a,
+main > form.input-group-lg > .suscribirse.input-group-prepend > button,
 .input-group-lg > .input-group-append > .btn,
-.contenedor header .input-group-lg > .menu.input-group-append > a {
+.contenedor header .input-group-lg > .menu.input-group-append > a,
+main > form.input-group-lg > .suscribirse.input-group-append > button {
   padding: 0.5rem 1rem;
   font-size: 1.25rem;
   line-height: 1.5;
   border-radius: 0.3rem; }
 
-select.form-control-lg:not([size]):not([multiple]), .input-group-lg > select.form-control:not([size]):not([multiple]),
+select.form-control-lg:not([size]):not([multiple]), .input-group-lg > select.form-control:not([size]):not([multiple]), main > form.input-group-lg > select.formulario:not([size]):not([multiple]),
 .input-group-lg > .input-group-prepend > select.input-group-text:not([size]):not([multiple]),
 .input-group-lg > .input-group-append > select.input-group-text:not([size]):not([multiple]),
 .input-group-lg > .input-group-prepend > select.btn:not([size]):not([multiple]),
@@ -1987,18 +1996,20 @@ select.form-control-lg:not([size]):not([multiple]), .input-group-lg > select.for
   background-color: rgba(40, 167, 69, 0.8);
   border-radius: .2rem; }
 
-.was-validated .form-control:valid, .form-control.is-valid,
+.was-validated .form-control:valid, .was-validated main > form > .formulario:valid, .form-control.is-valid, main > form > .is-valid.formulario,
 .was-validated .custom-select:valid,
 .custom-select.is-valid {
   border-color: #28a745; }
-  .was-validated .form-control:valid:focus, .form-control.is-valid:focus,
+  .was-validated .form-control:valid:focus, .was-validated main > form > .formulario:valid:focus, .form-control.is-valid:focus, main > form > .is-valid.formulario:focus,
   .was-validated .custom-select:valid:focus,
   .custom-select.is-valid:focus {
     border-color: #28a745;
     box-shadow: 0 0 0 0.2rem rgba(40, 167, 69, 0.25); }
-  .was-validated .form-control:valid ~ .valid-feedback,
-  .was-validated .form-control:valid ~ .valid-tooltip, .form-control.is-valid ~ .valid-feedback,
+  .was-validated .form-control:valid ~ .valid-feedback, .was-validated main > form > .formulario:valid ~ .valid-feedback,
+  .was-validated .form-control:valid ~ .valid-tooltip,
+  .was-validated main > form > .formulario:valid ~ .valid-tooltip, .form-control.is-valid ~ .valid-feedback, main > form > .is-valid.formulario ~ .valid-feedback,
   .form-control.is-valid ~ .valid-tooltip,
+  main > form > .is-valid.formulario ~ .valid-tooltip,
   .was-validated .custom-select:valid ~ .valid-feedback,
   .was-validated .custom-select:valid ~ .valid-tooltip,
   .custom-select.is-valid ~ .valid-feedback,
@@ -2057,18 +2068,20 @@ select.form-control-lg:not([size]):not([multiple]), .input-group-lg > select.for
   background-color: rgba(220, 53, 69, 0.8);
   border-radius: .2rem; }
 
-.was-validated .form-control:invalid, .form-control.is-invalid,
+.was-validated .form-control:invalid, .was-validated main > form > .formulario:invalid, .form-control.is-invalid, main > form > .is-invalid.formulario,
 .was-validated .custom-select:invalid,
 .custom-select.is-invalid {
   border-color: #dc3545; }
-  .was-validated .form-control:invalid:focus, .form-control.is-invalid:focus,
+  .was-validated .form-control:invalid:focus, .was-validated main > form > .formulario:invalid:focus, .form-control.is-invalid:focus, main > form > .is-invalid.formulario:focus,
   .was-validated .custom-select:invalid:focus,
   .custom-select.is-invalid:focus {
     border-color: #dc3545;
     box-shadow: 0 0 0 0.2rem rgba(220, 53, 69, 0.25); }
-  .was-validated .form-control:invalid ~ .invalid-feedback,
-  .was-validated .form-control:invalid ~ .invalid-tooltip, .form-control.is-invalid ~ .invalid-feedback,
+  .was-validated .form-control:invalid ~ .invalid-feedback, .was-validated main > form > .formulario:invalid ~ .invalid-feedback,
+  .was-validated .form-control:invalid ~ .invalid-tooltip,
+  .was-validated main > form > .formulario:invalid ~ .invalid-tooltip, .form-control.is-invalid ~ .invalid-feedback, main > form > .is-invalid.formulario ~ .invalid-feedback,
   .form-control.is-invalid ~ .invalid-tooltip,
+  main > form > .is-invalid.formulario ~ .invalid-tooltip,
   .was-validated .custom-select:invalid ~ .invalid-feedback,
   .was-validated .custom-select:invalid ~ .invalid-tooltip,
   .custom-select.is-invalid ~ .invalid-feedback,
@@ -2124,7 +2137,7 @@ select.form-control-lg:not([size]):not([multiple]), .input-group-lg > select.for
       flex-flow: row wrap;
       align-items: center;
       margin-bottom: 0; }
-    .form-inline .form-control {
+    .form-inline .form-control, .form-inline main > form > .formulario {
       display: inline-block;
       width: auto;
       vertical-align: middle; }
@@ -2149,7 +2162,7 @@ select.form-control-lg:not([size]):not([multiple]), .input-group-lg > select.for
     .form-inline .custom-control-label {
       margin-bottom: 0; } }
 
-.btn, .contenedor header .menu > a {
+.btn, .contenedor header .menu > a, main > form > .suscribirse > button {
   display: inline-block;
   font-weight: 400;
   text-align: center;
@@ -2162,16 +2175,16 @@ select.form-control-lg:not([size]):not([multiple]), .input-group-lg > select.for
   line-height: 1.5;
   border-radius: 0.25rem;
   transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out; }
-  .btn:hover, .contenedor header .menu > a:hover, .btn:focus, .contenedor header .menu > a:focus {
+  .btn:hover, .contenedor header .menu > a:hover, main > form > .suscribirse > button:hover, .btn:focus, .contenedor header .menu > a:focus, main > form > .suscribirse > button:focus {
     text-decoration: none; }
-  .btn:focus, .contenedor header .menu > a:focus, .btn.focus, .contenedor header .menu > a.focus {
+  .btn:focus, .contenedor header .menu > a:focus, main > form > .suscribirse > button:focus, .btn.focus, .contenedor header .menu > a.focus, main > form > .suscribirse > button.focus {
     outline: 0;
     box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25); }
-  .btn.disabled, .contenedor header .menu > a.disabled, .btn:disabled, .contenedor header .menu > a:disabled {
+  .btn.disabled, .contenedor header .menu > a.disabled, main > form > .suscribirse > button.disabled, .btn:disabled, .contenedor header .menu > a:disabled, main > form > .suscribirse > button:disabled {
     opacity: 0.65; }
-  .btn:not(:disabled):not(.disabled), .contenedor header .menu > a:not(:disabled):not(.disabled) {
+  .btn:not(:disabled):not(.disabled), .contenedor header .menu > a:not(:disabled):not(.disabled), main > form > .suscribirse > button:not(:disabled):not(.disabled) {
     cursor: pointer; }
-  .btn:not(:disabled):not(.disabled):active, .contenedor header .menu > a:not(:disabled):not(.disabled):active, .btn:not(:disabled):not(.disabled).active, .contenedor header .menu > a:not(:disabled):not(.disabled).active {
+  .btn:not(:disabled):not(.disabled):active, .contenedor header .menu > a:not(:disabled):not(.disabled):active, main > form > .suscribirse > button:not(:disabled):not(.disabled):active, .btn:not(:disabled):not(.disabled).active, .contenedor header .menu > a:not(:disabled):not(.disabled).active, main > form > .suscribirse > button:not(:disabled):not(.disabled).active {
     background-image: none; }
 
 a.btn.disabled, .contenedor header .menu > a.disabled,
@@ -2532,13 +2545,13 @@ fieldset:disabled .contenedor header .menu > a,
   .btn-link:disabled, .btn-link.disabled {
     color: #6c757d; }
 
-.btn-lg, .btn-group-lg > .btn, .contenedor header .menu.btn-group-lg > a {
+.btn-lg, .btn-group-lg > .btn, .contenedor header .menu.btn-group-lg > a, main > form > .suscribirse.btn-group-lg > button {
   padding: 0.5rem 1rem;
   font-size: 1.25rem;
   line-height: 1.5;
   border-radius: 0.3rem; }
 
-.btn-sm, .btn-group-sm > .btn, .contenedor header .menu.btn-group-sm > a {
+.btn-sm, .btn-group-sm > .btn, .contenedor header .menu.btn-group-sm > a, main > form > .suscribirse.btn-group-sm > button {
   padding: 0.25rem 0.5rem;
   font-size: 0.875rem;
   line-height: 1.5;
@@ -2722,44 +2735,60 @@ tbody.collapse.show, .contenedorNoticias main .sectNoticias2 > .contenidoNoticia
   position: relative;
   display: inline-flex;
   vertical-align: middle; }
-  .btn-group > .btn, .contenedor header .menu.btn-group > a,
+  .btn-group > .btn, .contenedor header .menu.btn-group > a, main > form > .suscribirse.btn-group > button,
   .btn-group-vertical > .btn,
-  .contenedor header .menu.btn-group-vertical > a {
+  .contenedor header .menu.btn-group-vertical > a,
+  main > form > .suscribirse.btn-group-vertical > button {
     position: relative;
     flex: 0 1 auto; }
-    .btn-group > .btn:hover, .contenedor header .menu.btn-group > a:hover,
+    .btn-group > .btn:hover, .contenedor header .menu.btn-group > a:hover, main > form > .suscribirse.btn-group > button:hover,
     .btn-group-vertical > .btn:hover,
-    .contenedor header .menu.btn-group-vertical > a:hover {
+    .contenedor header .menu.btn-group-vertical > a:hover,
+    main > form > .suscribirse.btn-group-vertical > button:hover {
       z-index: 1; }
-    .btn-group > .btn:focus, .contenedor header .menu.btn-group > a:focus, .btn-group > .btn:active, .contenedor header .menu.btn-group > a:active, .btn-group > .btn.active, .contenedor header .menu.btn-group > a.active,
+    .btn-group > .btn:focus, .contenedor header .menu.btn-group > a:focus, main > form > .suscribirse.btn-group > button:focus, .btn-group > .btn:active, .contenedor header .menu.btn-group > a:active, main > form > .suscribirse.btn-group > button:active, .btn-group > .btn.active, .contenedor header .menu.btn-group > a.active, main > form > .suscribirse.btn-group > button.active,
     .btn-group-vertical > .btn:focus,
     .contenedor header .menu.btn-group-vertical > a:focus,
+    main > form > .suscribirse.btn-group-vertical > button:focus,
     .btn-group-vertical > .btn:active,
     .contenedor header .menu.btn-group-vertical > a:active,
+    main > form > .suscribirse.btn-group-vertical > button:active,
     .btn-group-vertical > .btn.active,
-    .contenedor header .menu.btn-group-vertical > a.active {
+    .contenedor header .menu.btn-group-vertical > a.active,
+    main > form > .suscribirse.btn-group-vertical > button.active {
       z-index: 1; }
-  .btn-group .btn + .btn, .btn-group .contenedor header .menu > a + .btn, .contenedor header .btn-group .menu > a + .btn, .btn-group .contenedor header .menu > .btn + a, .contenedor header .btn-group .menu > .btn + a, .btn-group .contenedor header .menu > a + a, .contenedor header .btn-group .menu > a + a,
+  .btn-group .btn + .btn, .btn-group .contenedor header .menu > a + .btn, .contenedor header .btn-group .menu > a + .btn, .btn-group main > form > .suscribirse > button + .btn, .btn-group .contenedor header .menu > .btn + a, .contenedor header .btn-group .menu > .btn + a, .btn-group .contenedor header .menu > a + a, .contenedor header .btn-group .menu > a + a, .btn-group .contenedor header main > form > .menu.suscribirse > button + a, .contenedor header .btn-group main > form > .menu.suscribirse > button + a, .btn-group main > form > .suscribirse > .btn + button, .btn-group .contenedor header main > form > .suscribirse.menu > a + button, .contenedor header .btn-group main > form > .suscribirse.menu > a + button, .btn-group main > form > .suscribirse > button + button,
   .btn-group .btn + .btn-group,
   .btn-group .contenedor header .menu > a + .btn-group,
   .contenedor header .btn-group .menu > a + .btn-group,
+  .btn-group main > form > .suscribirse > button + .btn-group,
   .btn-group .btn-group + .btn,
   .btn-group .contenedor header .menu > .btn-group + a,
   .contenedor header .btn-group .menu > .btn-group + a,
+  .btn-group main > form > .suscribirse > .btn-group + button,
   .btn-group .btn-group + .btn-group,
   .btn-group-vertical .btn + .btn,
   .btn-group-vertical .contenedor header .menu > a + .btn,
   .contenedor header .btn-group-vertical .menu > a + .btn,
+  .btn-group-vertical main > form > .suscribirse > button + .btn,
   .btn-group-vertical .contenedor header .menu > .btn + a,
   .contenedor header .btn-group-vertical .menu > .btn + a,
   .btn-group-vertical .contenedor header .menu > a + a,
   .contenedor header .btn-group-vertical .menu > a + a,
+  .btn-group-vertical .contenedor header main > form > .menu.suscribirse > button + a,
+  .contenedor header .btn-group-vertical main > form > .menu.suscribirse > button + a,
+  .btn-group-vertical main > form > .suscribirse > .btn + button,
+  .btn-group-vertical .contenedor header main > form > .suscribirse.menu > a + button,
+  .contenedor header .btn-group-vertical main > form > .suscribirse.menu > a + button,
+  .btn-group-vertical main > form > .suscribirse > button + button,
   .btn-group-vertical .btn + .btn-group,
   .btn-group-vertical .contenedor header .menu > a + .btn-group,
   .contenedor header .btn-group-vertical .menu > a + .btn-group,
+  .btn-group-vertical main > form > .suscribirse > button + .btn-group,
   .btn-group-vertical .btn-group + .btn,
   .btn-group-vertical .contenedor header .menu > .btn-group + a,
   .contenedor header .btn-group-vertical .menu > .btn-group + a,
+  .btn-group-vertical main > form > .suscribirse > .btn-group + button,
   .btn-group-vertical .btn-group + .btn-group {
     margin-left: -1px; }
 
@@ -2770,16 +2799,18 @@ tbody.collapse.show, .contenedorNoticias main .sectNoticias2 > .contenidoNoticia
   .btn-toolbar .input-group {
     width: auto; }
 
-.btn-group > .btn:first-child, .contenedor header .menu.btn-group > a:first-child {
+.btn-group > .btn:first-child, .contenedor header .menu.btn-group > a:first-child, main > form > .suscribirse.btn-group > button:first-child {
   margin-left: 0; }
-.btn-group > .btn:not(:last-child):not(.dropdown-toggle), .contenedor header .menu.btn-group > a:not(:last-child):not(.dropdown-toggle),
+.btn-group > .btn:not(:last-child):not(.dropdown-toggle), .contenedor header .menu.btn-group > a:not(:last-child):not(.dropdown-toggle), main > form > .suscribirse.btn-group > button:not(:last-child):not(.dropdown-toggle),
 .btn-group > .btn-group:not(:last-child) > .btn,
-.contenedor header .btn-group > .menu.btn-group:not(:last-child) > a {
+.contenedor header .btn-group > .menu.btn-group:not(:last-child) > a,
+main > form.btn-group > .suscribirse.btn-group:not(:last-child) > button {
   border-top-right-radius: 0;
   border-bottom-right-radius: 0; }
-.btn-group > .btn:not(:first-child), .contenedor header .menu.btn-group > a:not(:first-child),
+.btn-group > .btn:not(:first-child), .contenedor header .menu.btn-group > a:not(:first-child), main > form > .suscribirse.btn-group > button:not(:first-child),
 .btn-group > .btn-group:not(:first-child) > .btn,
-.contenedor header .btn-group > .menu.btn-group:not(:first-child) > a {
+.contenedor header .btn-group > .menu.btn-group:not(:first-child) > a,
+main > form.btn-group > .suscribirse.btn-group:not(:first-child) > button {
   border-top-left-radius: 0;
   border-bottom-left-radius: 0; }
 
@@ -2789,11 +2820,11 @@ tbody.collapse.show, .contenedorNoticias main .sectNoticias2 > .contenidoNoticia
   .dropdown-toggle-split::after {
     margin-left: 0; }
 
-.btn-sm + .dropdown-toggle-split, .btn-group-sm > .btn + .dropdown-toggle-split, .contenedor header .menu.btn-group-sm > a + .dropdown-toggle-split {
+.btn-sm + .dropdown-toggle-split, .btn-group-sm > .btn + .dropdown-toggle-split, .contenedor header .menu.btn-group-sm > a + .dropdown-toggle-split, main > form > .suscribirse.btn-group-sm > button + .dropdown-toggle-split {
   padding-right: 0.375rem;
   padding-left: 0.375rem; }
 
-.btn-lg + .dropdown-toggle-split, .btn-group-lg > .btn + .dropdown-toggle-split, .contenedor header .menu.btn-group-lg > a + .dropdown-toggle-split {
+.btn-lg + .dropdown-toggle-split, .btn-group-lg > .btn + .dropdown-toggle-split, .contenedor header .menu.btn-group-lg > a + .dropdown-toggle-split, main > form > .suscribirse.btn-group-lg > button + .dropdown-toggle-split {
   padding-right: 0.75rem;
   padding-left: 0.75rem; }
 
@@ -2801,39 +2832,47 @@ tbody.collapse.show, .contenedorNoticias main .sectNoticias2 > .contenidoNoticia
   flex-direction: column;
   align-items: flex-start;
   justify-content: center; }
-  .btn-group-vertical .btn, .btn-group-vertical .contenedor header .menu > a, .contenedor header .btn-group-vertical .menu > a,
+  .btn-group-vertical .btn, .btn-group-vertical .contenedor header .menu > a, .contenedor header .btn-group-vertical .menu > a, .btn-group-vertical main > form > .suscribirse > button,
   .btn-group-vertical .btn-group {
     width: 100%; }
-  .btn-group-vertical > .btn + .btn, .contenedor header .menu.btn-group-vertical > a + .btn, .contenedor header .menu.btn-group-vertical > .btn + a, .contenedor header .menu.btn-group-vertical > a + a,
+  .btn-group-vertical > .btn + .btn, .contenedor header .menu.btn-group-vertical > a + .btn, main > form > .suscribirse.btn-group-vertical > button + .btn, .contenedor header .menu.btn-group-vertical > .btn + a, .contenedor header .menu.btn-group-vertical > a + a, .contenedor header main > form > .menu.suscribirse.btn-group-vertical > button + a, main > form > .suscribirse.btn-group-vertical > .btn + button, .contenedor header main > form > .suscribirse.menu.btn-group-vertical > a + button, main > form > .suscribirse.btn-group-vertical > button + button,
   .btn-group-vertical > .btn + .btn-group,
   .contenedor header .menu.btn-group-vertical > a + .btn-group,
+  main > form > .suscribirse.btn-group-vertical > button + .btn-group,
   .btn-group-vertical > .btn-group + .btn,
   .contenedor header .menu.btn-group-vertical > .btn-group + a,
+  main > form > .suscribirse.btn-group-vertical > .btn-group + button,
   .btn-group-vertical > .btn-group + .btn-group {
     margin-top: -1px;
     margin-left: 0; }
-  .btn-group-vertical > .btn:not(:last-child):not(.dropdown-toggle), .contenedor header .menu.btn-group-vertical > a:not(:last-child):not(.dropdown-toggle),
+  .btn-group-vertical > .btn:not(:last-child):not(.dropdown-toggle), .contenedor header .menu.btn-group-vertical > a:not(:last-child):not(.dropdown-toggle), main > form > .suscribirse.btn-group-vertical > button:not(:last-child):not(.dropdown-toggle),
   .btn-group-vertical > .btn-group:not(:last-child) > .btn,
-  .contenedor header .btn-group-vertical > .menu.btn-group:not(:last-child) > a {
+  .contenedor header .btn-group-vertical > .menu.btn-group:not(:last-child) > a,
+  main > form.btn-group-vertical > .suscribirse.btn-group:not(:last-child) > button {
     border-bottom-right-radius: 0;
     border-bottom-left-radius: 0; }
-  .btn-group-vertical > .btn:not(:first-child), .contenedor header .menu.btn-group-vertical > a:not(:first-child),
+  .btn-group-vertical > .btn:not(:first-child), .contenedor header .menu.btn-group-vertical > a:not(:first-child), main > form > .suscribirse.btn-group-vertical > button:not(:first-child),
   .btn-group-vertical > .btn-group:not(:first-child) > .btn,
-  .contenedor header .btn-group-vertical > .menu.btn-group:not(:first-child) > a {
+  .contenedor header .btn-group-vertical > .menu.btn-group:not(:first-child) > a,
+  main > form.btn-group-vertical > .suscribirse.btn-group:not(:first-child) > button {
     border-top-left-radius: 0;
     border-top-right-radius: 0; }
 
-.btn-group-toggle > .btn, .contenedor header .menu.btn-group-toggle > a,
+.btn-group-toggle > .btn, .contenedor header .menu.btn-group-toggle > a, main > form > .suscribirse.btn-group-toggle > button,
 .btn-group-toggle > .btn-group > .btn,
-.contenedor header .btn-group-toggle > .menu.btn-group > a {
+.contenedor header .btn-group-toggle > .menu.btn-group > a,
+main > form.btn-group-toggle > .suscribirse.btn-group > button {
   margin-bottom: 0; }
-  .btn-group-toggle > .btn input[type="radio"], .contenedor header .menu.btn-group-toggle > a input[type="radio"],
+  .btn-group-toggle > .btn input[type="radio"], .contenedor header .menu.btn-group-toggle > a input[type="radio"], main > form > .suscribirse.btn-group-toggle > button input[type="radio"],
   .btn-group-toggle > .btn input[type="checkbox"],
   .contenedor header .menu.btn-group-toggle > a input[type="checkbox"],
+  main > form > .suscribirse.btn-group-toggle > button input[type="checkbox"],
   .btn-group-toggle > .btn-group > .btn input[type="radio"],
   .contenedor header .btn-group-toggle > .menu.btn-group > a input[type="radio"],
+  main > form.btn-group-toggle > .suscribirse.btn-group > button input[type="radio"],
   .btn-group-toggle > .btn-group > .btn input[type="checkbox"],
-  .contenedor header .btn-group-toggle > .menu.btn-group > a input[type="checkbox"] {
+  .contenedor header .btn-group-toggle > .menu.btn-group > a input[type="checkbox"],
+  main > form.btn-group-toggle > .suscribirse.btn-group > button input[type="checkbox"] {
     position: absolute;
     clip: rect(0, 0, 0, 0);
     pointer-events: none; }
@@ -2844,32 +2883,36 @@ tbody.collapse.show, .contenedorNoticias main .sectNoticias2 > .contenidoNoticia
   flex-wrap: wrap;
   align-items: stretch;
   width: 100%; }
-  .input-group > .form-control,
+  .input-group > .form-control, main > form.input-group > .formulario,
   .input-group > .custom-select,
   .input-group > .custom-file {
     position: relative;
     flex: 1 1 auto;
     width: 1%;
     margin-bottom: 0; }
-    .input-group > .form-control:focus,
+    .input-group > .form-control:focus, main > form.input-group > .formulario:focus,
     .input-group > .custom-select:focus,
     .input-group > .custom-file:focus {
       z-index: 3; }
-    .input-group > .form-control + .form-control,
+    .input-group > .form-control + .form-control, main > form.input-group > .formulario + .form-control, main > form.input-group > .form-control + .formulario, main > form.input-group > .formulario + .formulario,
     .input-group > .form-control + .custom-select,
+    main > form.input-group > .formulario + .custom-select,
     .input-group > .form-control + .custom-file,
+    main > form.input-group > .formulario + .custom-file,
     .input-group > .custom-select + .form-control,
+    main > form.input-group > .custom-select + .formulario,
     .input-group > .custom-select + .custom-select,
     .input-group > .custom-select + .custom-file,
     .input-group > .custom-file + .form-control,
+    main > form.input-group > .custom-file + .formulario,
     .input-group > .custom-file + .custom-select,
     .input-group > .custom-file + .custom-file {
       margin-left: -1px; }
-  .input-group > .form-control:not(:last-child),
+  .input-group > .form-control:not(:last-child), main > form.input-group > .formulario:not(:last-child),
   .input-group > .custom-select:not(:last-child) {
     border-top-right-radius: 0;
     border-bottom-right-radius: 0; }
-  .input-group > .form-control:not(:first-child),
+  .input-group > .form-control:not(:first-child), main > form.input-group > .formulario:not(:first-child),
   .input-group > .custom-select:not(:first-child) {
     border-top-left-radius: 0;
     border-bottom-left-radius: 0; }
@@ -2886,34 +2929,46 @@ tbody.collapse.show, .contenedorNoticias main .sectNoticias2 > .contenidoNoticia
 .input-group-prepend,
 .input-group-append {
   display: flex; }
-  .input-group-prepend .btn, .input-group-prepend .contenedor header .menu > a, .contenedor header .input-group-prepend .menu > a,
+  .input-group-prepend .btn, .input-group-prepend .contenedor header .menu > a, .contenedor header .input-group-prepend .menu > a, .input-group-prepend main > form > .suscribirse > button,
   .input-group-append .btn,
   .input-group-append .contenedor header .menu > a,
-  .contenedor header .input-group-append .menu > a {
+  .contenedor header .input-group-append .menu > a,
+  .input-group-append main > form > .suscribirse > button {
     position: relative;
     z-index: 2; }
-  .input-group-prepend .btn + .btn, .input-group-prepend .contenedor header .menu > a + .btn, .contenedor header .input-group-prepend .menu > a + .btn, .input-group-prepend .contenedor header .menu > .btn + a, .contenedor header .input-group-prepend .menu > .btn + a, .input-group-prepend .contenedor header .menu > a + a, .contenedor header .input-group-prepend .menu > a + a,
+  .input-group-prepend .btn + .btn, .input-group-prepend .contenedor header .menu > a + .btn, .contenedor header .input-group-prepend .menu > a + .btn, .input-group-prepend main > form > .suscribirse > button + .btn, .input-group-prepend .contenedor header .menu > .btn + a, .contenedor header .input-group-prepend .menu > .btn + a, .input-group-prepend .contenedor header .menu > a + a, .contenedor header .input-group-prepend .menu > a + a, .input-group-prepend .contenedor header main > form > .menu.suscribirse > button + a, .contenedor header .input-group-prepend main > form > .menu.suscribirse > button + a, .input-group-prepend main > form > .suscribirse > .btn + button, .input-group-prepend .contenedor header main > form > .suscribirse.menu > a + button, .contenedor header .input-group-prepend main > form > .suscribirse.menu > a + button, .input-group-prepend main > form > .suscribirse > button + button,
   .input-group-prepend .btn + .input-group-text,
   .input-group-prepend .contenedor header .menu > a + .input-group-text,
   .contenedor header .input-group-prepend .menu > a + .input-group-text,
+  .input-group-prepend main > form > .suscribirse > button + .input-group-text,
   .input-group-prepend .input-group-text + .input-group-text,
   .input-group-prepend .input-group-text + .btn,
   .input-group-prepend .contenedor header .menu > .input-group-text + a,
   .contenedor header .input-group-prepend .menu > .input-group-text + a,
+  .input-group-prepend main > form > .suscribirse > .input-group-text + button,
   .input-group-append .btn + .btn,
   .input-group-append .contenedor header .menu > a + .btn,
   .contenedor header .input-group-append .menu > a + .btn,
+  .input-group-append main > form > .suscribirse > button + .btn,
   .input-group-append .contenedor header .menu > .btn + a,
   .contenedor header .input-group-append .menu > .btn + a,
   .input-group-append .contenedor header .menu > a + a,
   .contenedor header .input-group-append .menu > a + a,
+  .input-group-append .contenedor header main > form > .menu.suscribirse > button + a,
+  .contenedor header .input-group-append main > form > .menu.suscribirse > button + a,
+  .input-group-append main > form > .suscribirse > .btn + button,
+  .input-group-append .contenedor header main > form > .suscribirse.menu > a + button,
+  .contenedor header .input-group-append main > form > .suscribirse.menu > a + button,
+  .input-group-append main > form > .suscribirse > button + button,
   .input-group-append .btn + .input-group-text,
   .input-group-append .contenedor header .menu > a + .input-group-text,
   .contenedor header .input-group-append .menu > a + .input-group-text,
+  .input-group-append main > form > .suscribirse > button + .input-group-text,
   .input-group-append .input-group-text + .input-group-text,
   .input-group-append .input-group-text + .btn,
   .input-group-append .contenedor header .menu > .input-group-text + a,
-  .contenedor header .input-group-append .menu > .input-group-text + a {
+  .contenedor header .input-group-append .menu > .input-group-text + a,
+  .input-group-append main > form > .suscribirse > .input-group-text + button {
     margin-left: -1px; }
 
 .input-group-prepend {
@@ -2940,24 +2995,28 @@ tbody.collapse.show, .contenedorNoticias main .sectNoticias2 > .contenidoNoticia
   .input-group-text input[type="checkbox"] {
     margin-top: 0; }
 
-.input-group > .input-group-prepend > .btn, .contenedor header .input-group > .menu.input-group-prepend > a,
+.input-group > .input-group-prepend > .btn, .contenedor header .input-group > .menu.input-group-prepend > a, main > form.input-group > .suscribirse.input-group-prepend > button,
 .input-group > .input-group-prepend > .input-group-text,
 .input-group > .input-group-append:not(:last-child) > .btn,
 .contenedor header .input-group > .menu.input-group-append:not(:last-child) > a,
+main > form.input-group > .suscribirse.input-group-append:not(:last-child) > button,
 .input-group > .input-group-append:not(:last-child) > .input-group-text,
 .input-group > .input-group-append:last-child > .btn:not(:last-child):not(.dropdown-toggle),
 .contenedor header .input-group > .menu.input-group-append:last-child > a:not(:last-child):not(.dropdown-toggle),
+main > form.input-group > .suscribirse.input-group-append:last-child > button:not(:last-child):not(.dropdown-toggle),
 .input-group > .input-group-append:last-child > .input-group-text:not(:last-child) {
   border-top-right-radius: 0;
   border-bottom-right-radius: 0; }
 
-.input-group > .input-group-append > .btn, .contenedor header .input-group > .menu.input-group-append > a,
+.input-group > .input-group-append > .btn, .contenedor header .input-group > .menu.input-group-append > a, main > form.input-group > .suscribirse.input-group-append > button,
 .input-group > .input-group-append > .input-group-text,
 .input-group > .input-group-prepend:not(:first-child) > .btn,
 .contenedor header .input-group > .menu.input-group-prepend:not(:first-child) > a,
+main > form.input-group > .suscribirse.input-group-prepend:not(:first-child) > button,
 .input-group > .input-group-prepend:not(:first-child) > .input-group-text,
 .input-group > .input-group-prepend:first-child > .btn:not(:first-child),
 .contenedor header .input-group > .menu.input-group-prepend:first-child > a:not(:first-child),
+main > form.input-group > .suscribirse.input-group-prepend:first-child > button:not(:first-child),
 .input-group > .input-group-prepend:first-child > .input-group-text:not(:first-child) {
   border-top-left-radius: 0;
   border-bottom-left-radius: 0; }
@@ -3824,7 +3883,7 @@ tbody.collapse.show, .contenedorNoticias main .sectNoticias2 > .contenidoNoticia
       display: inline-block;
       width: 100%; } }
 
-.breadcrumb, .contenedorNoticias header .migasPan > ol, .contenedorRegistro > header > .migasPan > ol, .migasPan > ol {
+.breadcrumb, .contenedorNoticias header .migasPan > ol, .contenedorRegistro > header > .migasPan > ol, header > .migasPan > ol {
   display: flex;
   flex-wrap: wrap;
   padding: 0.75rem 1rem;
@@ -3927,7 +3986,7 @@ tbody.collapse.show, .contenedorNoticias main .sectNoticias2 > .contenidoNoticia
   .badge:empty {
     display: none; }
 
-.btn .badge, .contenedor header .menu > a .badge {
+.btn .badge, .contenedor header .menu > a .badge, main > form > .suscribirse > button .badge {
   position: relative;
   top: -1px; }
 
@@ -5757,7 +5816,7 @@ button.bg-dark:focus {
 .mx-2 {
   margin-right: 0.5rem !important; }
 
-.mb-2,
+.mb-2, main > form > .suscribirse > button,
 .my-2 {
   margin-bottom: 0.5rem !important; }
 
@@ -6954,13 +7013,13 @@ button.bg-dark:focus {
   text-overflow: ellipsis;
   white-space: nowrap; }
 
-.text-left, .contenedor footer > .copyright, .contenedorNoticias header .migasPan, .contenedorNoticias footer > .copyright, .contenedorRegistro > header > .migasPan, .contenedorRegistro footer > .copyright, .migasPan {
+.text-left, .contenedor footer > .copyright, .contenedorNoticias header .migasPan, .contenedorNoticias footer > .copyright, .contenedorRegistro > header > .migasPan, .contenedorRegistro footer > .copyright, header > .migasPan {
   text-align: left !important; }
 
 .text-right, .contenedor footer > .social, .contenedorNoticias footer > .social, .contenedorRegistro footer > .social {
   text-align: right !important; }
 
-.text-center, .contenedor main .sec1 > .noticia > h1, .contenedor main .sec2 > h1, .contenedorNoticias main .sec1 > .contenido > aside, .contenedorNoticias main .sec1 > .contenido > aside > h1, .contenedorNoticias main .sec1 > .contenido > .art1 > h1, .contenedorNoticias main .sectNoticias2 > .contenidoNoticias2 > .aside, .contenedorNoticias main .sectNoticias2 > .contenidoNoticias2 > .aside > h1, .contenedorRegistro > main > .sec1 > .contenido > aside, .contenedorRegistro > main > .sec1 > .contenido > aside > h1, .contenedorRegistro > main > .sec1 > .contenido > .art1 > h1, .contenedorRegistro > main .sectNoticias2 > .contenidoNoticias2 > .aside, .contenedorRegistro > main .sectNoticias2 > .contenidoNoticias2 > .aside > h1 {
+.text-center, .contenedor main .sec1 > .noticia > h1, .contenedor main .sec2 > h1, .contenedorNoticias main .sec1 > .contenido > aside, .contenedorNoticias main .sec1 > .contenido > aside > h1, .contenedorNoticias main .sec1 > .contenido > .art1 > h1, .contenedorNoticias main .sectNoticias2 > .contenidoNoticias2 > .aside, .contenedorNoticias main .sectNoticias2 > .contenidoNoticias2 > .aside > h1, .contenedorRegistro > main > .sec1 > .contenido > aside, .contenedorRegistro > main > .sec1 > .contenido > aside > h1, .contenedorRegistro > main > .sec1 > .contenido > .art1 > h1, .contenedorRegistro > main .sectNoticias2 > .contenidoNoticias2 > .aside, .contenedorRegistro > main .sectNoticias2 > .contenidoNoticias2 > .aside > h1, main > .textoForm, main > form > .suscribirse {
   text-align: center !important; }
 
 @media (min-width: 576px) {
@@ -7281,7 +7340,7 @@ body {
         visibility: hidden;
         display: none; } }
     .contenedor header .menu {
-      font-family: Harry2;
+      font-family: "Harry2";
       font-size: 20px; }
       @media (max-width: 767px) {
         .contenedor header .menu > button {
@@ -7313,8 +7372,8 @@ body {
       padding: 2%;
       text-align: justify; }
       .contenedor main .sec1 > .noticia > h1 {
-        font-family: Harry2;
-        font-size: 75px;
+        font-family: "Harry2";
+        font-size: 65px;
         letter-spacing: 5px; }
       .contenedor main .sec1 > .noticia > .art1 {
         width: 50%;
@@ -7339,7 +7398,7 @@ body {
           visibility: hidden;
           display: none; } }
       .contenedor main .sec2 > h1 {
-        font-family: Harry2;
+        font-family: "Harry2";
         font-size: 55px;
         letter-spacing: 5px;
         margin-bottom: -5%; }
@@ -7347,14 +7406,14 @@ body {
         padding-top: 5%;
         margin-bottom: 2%; }
         .contenedor main .sec2 > .carrusel1 > .carousel-inner > .carousel-item > .textoCarrusel > h1 {
-          font-family: Harry2; }
+          font-family: "Harry2"; }
         .contenedor main .sec2 > .carrusel1 > .carousel-inner > .carousel-item > .accordion > .card, .contenedor .contenedorNoticias main .sec2 > .sec1.carrusel1 > .contenido.carousel-inner > aside.carousel-item > .deck.accordion > .carta, .contenedorNoticias .contenedor main .sec2 > .sec1.carrusel1 > .contenido.carousel-inner > aside.carousel-item > .deck.accordion > .carta, .contenedor .contenedorNoticias main .sec2 > .sectNoticias2.carrusel1 > .contenidoNoticias2.carousel-inner > .artNoticias2.carousel-item > .deck.accordion > .carta, .contenedorNoticias .contenedor main .sec2 > .sectNoticias2.carrusel1 > .contenidoNoticias2.carousel-inner > .artNoticias2.carousel-item > .deck.accordion > .carta, .contenedor main .contenedorRegistro > main.sec2 > .sec1.carrusel1 > .contenido.carousel-inner > aside.carousel-item > .deck.accordion > .carta, .contenedor .contenedorRegistro > main .sec2 > .sectNoticias2.carrusel1 > .contenidoNoticias2.carousel-inner > .artNoticias2.carousel-item > .deck.accordion > .carta {
           background-color: transparent;
           border: none;
           width: 100%; }
           .contenedor main .sec2 > .carrusel1 > .carousel-inner > .carousel-item > .accordion > .card > .cabeceraCarta > h1, .contenedor .contenedorNoticias main .sec2 > .sec1.carrusel1 > .contenido.carousel-inner > aside.carousel-item > .deck.accordion > .carta > .cabeceraCarta > h1, .contenedorNoticias .contenedor main .sec2 > .sec1.carrusel1 > .contenido.carousel-inner > aside.carousel-item > .deck.accordion > .carta > .cabeceraCarta > h1, .contenedor .contenedorNoticias main .sec2 > .sectNoticias2.carrusel1 > .contenidoNoticias2.carousel-inner > .artNoticias2.carousel-item > .deck.accordion > .carta > .cabeceraCarta > h1, .contenedorNoticias .contenedor main .sec2 > .sectNoticias2.carrusel1 > .contenidoNoticias2.carousel-inner > .artNoticias2.carousel-item > .deck.accordion > .carta > .cabeceraCarta > h1, .contenedor main .contenedorRegistro > main.sec2 > .sec1.carrusel1 > .contenido.carousel-inner > aside.carousel-item > .deck.accordion > .carta > .cabeceraCarta > h1, .contenedor .contenedorRegistro > main .sec2 > .sectNoticias2.carrusel1 > .contenidoNoticias2.carousel-inner > .artNoticias2.carousel-item > .deck.accordion > .carta > .cabeceraCarta > h1 {
-            font-family: Harry2; }
-            .contenedor main .sec2 > .carrusel1 > .carousel-inner > .carousel-item > .accordion > .card > .cabeceraCarta > h1 > .btn, .contenedor .contenedorNoticias main .sec2 > .sec1.carrusel1 > .contenido.carousel-inner > aside.carousel-item > .deck.accordion > .carta > .cabeceraCarta > h1 > .btn, .contenedorNoticias .contenedor main .sec2 > .sec1.carrusel1 > .contenido.carousel-inner > aside.carousel-item > .deck.accordion > .carta > .cabeceraCarta > h1 > .btn, .contenedor .contenedorNoticias main .sec2 > .sectNoticias2.carrusel1 > .contenidoNoticias2.carousel-inner > .artNoticias2.carousel-item > .deck.accordion > .carta > .cabeceraCarta > h1 > .btn, .contenedorNoticias .contenedor main .sec2 > .sectNoticias2.carrusel1 > .contenidoNoticias2.carousel-inner > .artNoticias2.carousel-item > .deck.accordion > .carta > .cabeceraCarta > h1 > .btn, .contenedor main .contenedorRegistro > main.sec2 > .sec1.carrusel1 > .contenido.carousel-inner > aside.carousel-item > .deck.accordion > .carta > .cabeceraCarta > h1 > .btn, .contenedor .contenedorRegistro > main .sec2 > .sectNoticias2.carrusel1 > .contenidoNoticias2.carousel-inner > .artNoticias2.carousel-item > .deck.accordion > .carta > .cabeceraCarta > h1 > .btn, .contenedor main header .sec2 > .carrusel1 > .carousel-inner > .carousel-item > .accordion > .card > .cabeceraCarta > h1.menu > a, .contenedor header main .sec2 > .carrusel1 > .carousel-inner > .carousel-item > .accordion > .card > .cabeceraCarta > h1.menu > a, .contenedor .contenedorNoticias main header .sec2 > .sec1.carrusel1 > .contenido.carousel-inner > aside.carousel-item > .deck.accordion > .carta > .cabeceraCarta > h1.menu > a, .contenedor header .contenedorNoticias main .sec2 > .sec1.carrusel1 > .contenido.carousel-inner > aside.carousel-item > .deck.accordion > .carta > .cabeceraCarta > h1.menu > a, .contenedorNoticias .contenedor main header .sec2 > .sec1.carrusel1 > .contenido.carousel-inner > aside.carousel-item > .deck.accordion > .carta > .cabeceraCarta > h1.menu > a, .contenedorNoticias .contenedor header main .sec2 > .sec1.carrusel1 > .contenido.carousel-inner > aside.carousel-item > .deck.accordion > .carta > .cabeceraCarta > h1.menu > a, .contenedor .contenedorNoticias main header .sec2 > .sectNoticias2.carrusel1 > .contenidoNoticias2.carousel-inner > .artNoticias2.carousel-item > .deck.accordion > .carta > .cabeceraCarta > h1.menu > a, .contenedor header .contenedorNoticias main .sec2 > .sectNoticias2.carrusel1 > .contenidoNoticias2.carousel-inner > .artNoticias2.carousel-item > .deck.accordion > .carta > .cabeceraCarta > h1.menu > a, .contenedorNoticias .contenedor main header .sec2 > .sectNoticias2.carrusel1 > .contenidoNoticias2.carousel-inner > .artNoticias2.carousel-item > .deck.accordion > .carta > .cabeceraCarta > h1.menu > a, .contenedorNoticias .contenedor header main .sec2 > .sectNoticias2.carrusel1 > .contenidoNoticias2.carousel-inner > .artNoticias2.carousel-item > .deck.accordion > .carta > .cabeceraCarta > h1.menu > a, .contenedor main header .contenedorRegistro > main.sec2 > .sec1.carrusel1 > .contenido.carousel-inner > aside.carousel-item > .deck.accordion > .carta > .cabeceraCarta > h1.menu > a, .contenedor header main .contenedorRegistro > main.sec2 > .sec1.carrusel1 > .contenido.carousel-inner > aside.carousel-item > .deck.accordion > .carta > .cabeceraCarta > h1.menu > a, .contenedor .contenedorRegistro > main header .sec2 > .sectNoticias2.carrusel1 > .contenidoNoticias2.carousel-inner > .artNoticias2.carousel-item > .deck.accordion > .carta > .cabeceraCarta > h1.menu > a, .contenedor header .contenedorRegistro > main .sec2 > .sectNoticias2.carrusel1 > .contenidoNoticias2.carousel-inner > .artNoticias2.carousel-item > .deck.accordion > .carta > .cabeceraCarta > h1.menu > a {
+            font-family: "Harry2"; }
+            .contenedor main .sec2 > .carrusel1 > .carousel-inner > .carousel-item > .accordion > .card > .cabeceraCarta > h1 > .btn, .contenedor .contenedorNoticias main .sec2 > .sec1.carrusel1 > .contenido.carousel-inner > aside.carousel-item > .deck.accordion > .carta > .cabeceraCarta > h1 > .btn, .contenedorNoticias .contenedor main .sec2 > .sec1.carrusel1 > .contenido.carousel-inner > aside.carousel-item > .deck.accordion > .carta > .cabeceraCarta > h1 > .btn, .contenedor .contenedorNoticias main .sec2 > .sectNoticias2.carrusel1 > .contenidoNoticias2.carousel-inner > .artNoticias2.carousel-item > .deck.accordion > .carta > .cabeceraCarta > h1 > .btn, .contenedorNoticias .contenedor main .sec2 > .sectNoticias2.carrusel1 > .contenidoNoticias2.carousel-inner > .artNoticias2.carousel-item > .deck.accordion > .carta > .cabeceraCarta > h1 > .btn, .contenedor main .contenedorRegistro > main.sec2 > .sec1.carrusel1 > .contenido.carousel-inner > aside.carousel-item > .deck.accordion > .carta > .cabeceraCarta > h1 > .btn, .contenedor .contenedorRegistro > main .sec2 > .sectNoticias2.carrusel1 > .contenidoNoticias2.carousel-inner > .artNoticias2.carousel-item > .deck.accordion > .carta > .cabeceraCarta > h1 > .btn, .contenedor main header .sec2 > .carrusel1 > .carousel-inner > .carousel-item > .accordion > .card > .cabeceraCarta > h1.menu > a, .contenedor header main .sec2 > .carrusel1 > .carousel-inner > .carousel-item > .accordion > .card > .cabeceraCarta > h1.menu > a, .contenedor .contenedorNoticias main header .sec2 > .sec1.carrusel1 > .contenido.carousel-inner > aside.carousel-item > .deck.accordion > .carta > .cabeceraCarta > h1.menu > a, .contenedor header .contenedorNoticias main .sec2 > .sec1.carrusel1 > .contenido.carousel-inner > aside.carousel-item > .deck.accordion > .carta > .cabeceraCarta > h1.menu > a, .contenedorNoticias .contenedor main header .sec2 > .sec1.carrusel1 > .contenido.carousel-inner > aside.carousel-item > .deck.accordion > .carta > .cabeceraCarta > h1.menu > a, .contenedorNoticias .contenedor header main .sec2 > .sec1.carrusel1 > .contenido.carousel-inner > aside.carousel-item > .deck.accordion > .carta > .cabeceraCarta > h1.menu > a, .contenedor .contenedorNoticias main header .sec2 > .sectNoticias2.carrusel1 > .contenidoNoticias2.carousel-inner > .artNoticias2.carousel-item > .deck.accordion > .carta > .cabeceraCarta > h1.menu > a, .contenedor header .contenedorNoticias main .sec2 > .sectNoticias2.carrusel1 > .contenidoNoticias2.carousel-inner > .artNoticias2.carousel-item > .deck.accordion > .carta > .cabeceraCarta > h1.menu > a, .contenedorNoticias .contenedor main header .sec2 > .sectNoticias2.carrusel1 > .contenidoNoticias2.carousel-inner > .artNoticias2.carousel-item > .deck.accordion > .carta > .cabeceraCarta > h1.menu > a, .contenedorNoticias .contenedor header main .sec2 > .sectNoticias2.carrusel1 > .contenidoNoticias2.carousel-inner > .artNoticias2.carousel-item > .deck.accordion > .carta > .cabeceraCarta > h1.menu > a, .contenedor main header .contenedorRegistro > main.sec2 > .sec1.carrusel1 > .contenido.carousel-inner > aside.carousel-item > .deck.accordion > .carta > .cabeceraCarta > h1.menu > a, .contenedor header main .contenedorRegistro > main.sec2 > .sec1.carrusel1 > .contenido.carousel-inner > aside.carousel-item > .deck.accordion > .carta > .cabeceraCarta > h1.menu > a, .contenedor .contenedorRegistro > main header .sec2 > .sectNoticias2.carrusel1 > .contenidoNoticias2.carousel-inner > .artNoticias2.carousel-item > .deck.accordion > .carta > .cabeceraCarta > h1.menu > a, .contenedor header .contenedorRegistro > main .sec2 > .sectNoticias2.carrusel1 > .contenidoNoticias2.carousel-inner > .artNoticias2.carousel-item > .deck.accordion > .carta > .cabeceraCarta > h1.menu > a, .contenedor main .sec2 > .carrusel1 > .carousel-inner > .carousel-item > .accordion > main.card > form.cabeceraCarta > h1.suscribirse > button, .contenedor .contenedorNoticias main .sec2 > .sec1.carrusel1 > .contenido.carousel-inner > aside.carousel-item > .deck.accordion > main.carta > form.cabeceraCarta > h1.suscribirse > button, .contenedorNoticias .contenedor main .sec2 > .sec1.carrusel1 > .contenido.carousel-inner > aside.carousel-item > .deck.accordion > main.carta > form.cabeceraCarta > h1.suscribirse > button, .contenedor .contenedorNoticias main .sec2 > .sectNoticias2.carrusel1 > .contenidoNoticias2.carousel-inner > .artNoticias2.carousel-item > .deck.accordion > main.carta > form.cabeceraCarta > h1.suscribirse > button, .contenedorNoticias .contenedor main .sec2 > .sectNoticias2.carrusel1 > .contenidoNoticias2.carousel-inner > .artNoticias2.carousel-item > .deck.accordion > main.carta > form.cabeceraCarta > h1.suscribirse > button, .contenedor main .contenedorRegistro > main.sec2 > .sec1.carrusel1 > .contenido.carousel-inner > aside.carousel-item > .deck.accordion > main.carta > form.cabeceraCarta > h1.suscribirse > button, .contenedor .contenedorRegistro > main .sec2 > .sectNoticias2.carrusel1 > .contenidoNoticias2.carousel-inner > .artNoticias2.carousel-item > .deck.accordion > main.carta > form.cabeceraCarta > h1.suscribirse > button {
               background-color: transparent;
               color: white;
               font-size: 25px; }
@@ -7372,14 +7431,14 @@ body {
         padding-top: 5%;
         margin-bottom: 2%; }
         .contenedor main .sec2 > .carrusel2 > .carousel-inner > .carousel-item > .textoCarrusel > h1 {
-          font-family: Harry2; }
+          font-family: "Harry2"; }
         .contenedor main .sec2 > .carrusel2 > .carousel-inner > .carousel-item > .accordion > .card, .contenedor .contenedorNoticias main .sec2 > .sec1.carrusel2 > .contenido.carousel-inner > aside.carousel-item > .deck.accordion > .carta, .contenedorNoticias .contenedor main .sec2 > .sec1.carrusel2 > .contenido.carousel-inner > aside.carousel-item > .deck.accordion > .carta, .contenedor .contenedorNoticias main .sec2 > .sectNoticias2.carrusel2 > .contenidoNoticias2.carousel-inner > .artNoticias2.carousel-item > .deck.accordion > .carta, .contenedorNoticias .contenedor main .sec2 > .sectNoticias2.carrusel2 > .contenidoNoticias2.carousel-inner > .artNoticias2.carousel-item > .deck.accordion > .carta, .contenedor main .contenedorRegistro > main.sec2 > .sec1.carrusel2 > .contenido.carousel-inner > aside.carousel-item > .deck.accordion > .carta, .contenedor .contenedorRegistro > main .sec2 > .sectNoticias2.carrusel2 > .contenidoNoticias2.carousel-inner > .artNoticias2.carousel-item > .deck.accordion > .carta {
           background-color: transparent;
           border: none;
           width: 100%; }
           .contenedor main .sec2 > .carrusel2 > .carousel-inner > .carousel-item > .accordion > .card > .cabeceraCarta > h1, .contenedor .contenedorNoticias main .sec2 > .sec1.carrusel2 > .contenido.carousel-inner > aside.carousel-item > .deck.accordion > .carta > .cabeceraCarta > h1, .contenedorNoticias .contenedor main .sec2 > .sec1.carrusel2 > .contenido.carousel-inner > aside.carousel-item > .deck.accordion > .carta > .cabeceraCarta > h1, .contenedor .contenedorNoticias main .sec2 > .sectNoticias2.carrusel2 > .contenidoNoticias2.carousel-inner > .artNoticias2.carousel-item > .deck.accordion > .carta > .cabeceraCarta > h1, .contenedorNoticias .contenedor main .sec2 > .sectNoticias2.carrusel2 > .contenidoNoticias2.carousel-inner > .artNoticias2.carousel-item > .deck.accordion > .carta > .cabeceraCarta > h1, .contenedor main .contenedorRegistro > main.sec2 > .sec1.carrusel2 > .contenido.carousel-inner > aside.carousel-item > .deck.accordion > .carta > .cabeceraCarta > h1, .contenedor .contenedorRegistro > main .sec2 > .sectNoticias2.carrusel2 > .contenidoNoticias2.carousel-inner > .artNoticias2.carousel-item > .deck.accordion > .carta > .cabeceraCarta > h1 {
-            font-family: Harry2; }
-            .contenedor main .sec2 > .carrusel2 > .carousel-inner > .carousel-item > .accordion > .card > .cabeceraCarta > h1 > .btn, .contenedor .contenedorNoticias main .sec2 > .sec1.carrusel2 > .contenido.carousel-inner > aside.carousel-item > .deck.accordion > .carta > .cabeceraCarta > h1 > .btn, .contenedorNoticias .contenedor main .sec2 > .sec1.carrusel2 > .contenido.carousel-inner > aside.carousel-item > .deck.accordion > .carta > .cabeceraCarta > h1 > .btn, .contenedor .contenedorNoticias main .sec2 > .sectNoticias2.carrusel2 > .contenidoNoticias2.carousel-inner > .artNoticias2.carousel-item > .deck.accordion > .carta > .cabeceraCarta > h1 > .btn, .contenedorNoticias .contenedor main .sec2 > .sectNoticias2.carrusel2 > .contenidoNoticias2.carousel-inner > .artNoticias2.carousel-item > .deck.accordion > .carta > .cabeceraCarta > h1 > .btn, .contenedor main .contenedorRegistro > main.sec2 > .sec1.carrusel2 > .contenido.carousel-inner > aside.carousel-item > .deck.accordion > .carta > .cabeceraCarta > h1 > .btn, .contenedor .contenedorRegistro > main .sec2 > .sectNoticias2.carrusel2 > .contenidoNoticias2.carousel-inner > .artNoticias2.carousel-item > .deck.accordion > .carta > .cabeceraCarta > h1 > .btn, .contenedor main header .sec2 > .carrusel2 > .carousel-inner > .carousel-item > .accordion > .card > .cabeceraCarta > h1.menu > a, .contenedor header main .sec2 > .carrusel2 > .carousel-inner > .carousel-item > .accordion > .card > .cabeceraCarta > h1.menu > a, .contenedor .contenedorNoticias main header .sec2 > .sec1.carrusel2 > .contenido.carousel-inner > aside.carousel-item > .deck.accordion > .carta > .cabeceraCarta > h1.menu > a, .contenedor header .contenedorNoticias main .sec2 > .sec1.carrusel2 > .contenido.carousel-inner > aside.carousel-item > .deck.accordion > .carta > .cabeceraCarta > h1.menu > a, .contenedorNoticias .contenedor main header .sec2 > .sec1.carrusel2 > .contenido.carousel-inner > aside.carousel-item > .deck.accordion > .carta > .cabeceraCarta > h1.menu > a, .contenedorNoticias .contenedor header main .sec2 > .sec1.carrusel2 > .contenido.carousel-inner > aside.carousel-item > .deck.accordion > .carta > .cabeceraCarta > h1.menu > a, .contenedor .contenedorNoticias main header .sec2 > .sectNoticias2.carrusel2 > .contenidoNoticias2.carousel-inner > .artNoticias2.carousel-item > .deck.accordion > .carta > .cabeceraCarta > h1.menu > a, .contenedor header .contenedorNoticias main .sec2 > .sectNoticias2.carrusel2 > .contenidoNoticias2.carousel-inner > .artNoticias2.carousel-item > .deck.accordion > .carta > .cabeceraCarta > h1.menu > a, .contenedorNoticias .contenedor main header .sec2 > .sectNoticias2.carrusel2 > .contenidoNoticias2.carousel-inner > .artNoticias2.carousel-item > .deck.accordion > .carta > .cabeceraCarta > h1.menu > a, .contenedorNoticias .contenedor header main .sec2 > .sectNoticias2.carrusel2 > .contenidoNoticias2.carousel-inner > .artNoticias2.carousel-item > .deck.accordion > .carta > .cabeceraCarta > h1.menu > a, .contenedor main header .contenedorRegistro > main.sec2 > .sec1.carrusel2 > .contenido.carousel-inner > aside.carousel-item > .deck.accordion > .carta > .cabeceraCarta > h1.menu > a, .contenedor header main .contenedorRegistro > main.sec2 > .sec1.carrusel2 > .contenido.carousel-inner > aside.carousel-item > .deck.accordion > .carta > .cabeceraCarta > h1.menu > a, .contenedor .contenedorRegistro > main header .sec2 > .sectNoticias2.carrusel2 > .contenidoNoticias2.carousel-inner > .artNoticias2.carousel-item > .deck.accordion > .carta > .cabeceraCarta > h1.menu > a, .contenedor header .contenedorRegistro > main .sec2 > .sectNoticias2.carrusel2 > .contenidoNoticias2.carousel-inner > .artNoticias2.carousel-item > .deck.accordion > .carta > .cabeceraCarta > h1.menu > a {
+            font-family: "Harry2"; }
+            .contenedor main .sec2 > .carrusel2 > .carousel-inner > .carousel-item > .accordion > .card > .cabeceraCarta > h1 > .btn, .contenedor .contenedorNoticias main .sec2 > .sec1.carrusel2 > .contenido.carousel-inner > aside.carousel-item > .deck.accordion > .carta > .cabeceraCarta > h1 > .btn, .contenedorNoticias .contenedor main .sec2 > .sec1.carrusel2 > .contenido.carousel-inner > aside.carousel-item > .deck.accordion > .carta > .cabeceraCarta > h1 > .btn, .contenedor .contenedorNoticias main .sec2 > .sectNoticias2.carrusel2 > .contenidoNoticias2.carousel-inner > .artNoticias2.carousel-item > .deck.accordion > .carta > .cabeceraCarta > h1 > .btn, .contenedorNoticias .contenedor main .sec2 > .sectNoticias2.carrusel2 > .contenidoNoticias2.carousel-inner > .artNoticias2.carousel-item > .deck.accordion > .carta > .cabeceraCarta > h1 > .btn, .contenedor main .contenedorRegistro > main.sec2 > .sec1.carrusel2 > .contenido.carousel-inner > aside.carousel-item > .deck.accordion > .carta > .cabeceraCarta > h1 > .btn, .contenedor .contenedorRegistro > main .sec2 > .sectNoticias2.carrusel2 > .contenidoNoticias2.carousel-inner > .artNoticias2.carousel-item > .deck.accordion > .carta > .cabeceraCarta > h1 > .btn, .contenedor main header .sec2 > .carrusel2 > .carousel-inner > .carousel-item > .accordion > .card > .cabeceraCarta > h1.menu > a, .contenedor header main .sec2 > .carrusel2 > .carousel-inner > .carousel-item > .accordion > .card > .cabeceraCarta > h1.menu > a, .contenedor .contenedorNoticias main header .sec2 > .sec1.carrusel2 > .contenido.carousel-inner > aside.carousel-item > .deck.accordion > .carta > .cabeceraCarta > h1.menu > a, .contenedor header .contenedorNoticias main .sec2 > .sec1.carrusel2 > .contenido.carousel-inner > aside.carousel-item > .deck.accordion > .carta > .cabeceraCarta > h1.menu > a, .contenedorNoticias .contenedor main header .sec2 > .sec1.carrusel2 > .contenido.carousel-inner > aside.carousel-item > .deck.accordion > .carta > .cabeceraCarta > h1.menu > a, .contenedorNoticias .contenedor header main .sec2 > .sec1.carrusel2 > .contenido.carousel-inner > aside.carousel-item > .deck.accordion > .carta > .cabeceraCarta > h1.menu > a, .contenedor .contenedorNoticias main header .sec2 > .sectNoticias2.carrusel2 > .contenidoNoticias2.carousel-inner > .artNoticias2.carousel-item > .deck.accordion > .carta > .cabeceraCarta > h1.menu > a, .contenedor header .contenedorNoticias main .sec2 > .sectNoticias2.carrusel2 > .contenidoNoticias2.carousel-inner > .artNoticias2.carousel-item > .deck.accordion > .carta > .cabeceraCarta > h1.menu > a, .contenedorNoticias .contenedor main header .sec2 > .sectNoticias2.carrusel2 > .contenidoNoticias2.carousel-inner > .artNoticias2.carousel-item > .deck.accordion > .carta > .cabeceraCarta > h1.menu > a, .contenedorNoticias .contenedor header main .sec2 > .sectNoticias2.carrusel2 > .contenidoNoticias2.carousel-inner > .artNoticias2.carousel-item > .deck.accordion > .carta > .cabeceraCarta > h1.menu > a, .contenedor main header .contenedorRegistro > main.sec2 > .sec1.carrusel2 > .contenido.carousel-inner > aside.carousel-item > .deck.accordion > .carta > .cabeceraCarta > h1.menu > a, .contenedor header main .contenedorRegistro > main.sec2 > .sec1.carrusel2 > .contenido.carousel-inner > aside.carousel-item > .deck.accordion > .carta > .cabeceraCarta > h1.menu > a, .contenedor .contenedorRegistro > main header .sec2 > .sectNoticias2.carrusel2 > .contenidoNoticias2.carousel-inner > .artNoticias2.carousel-item > .deck.accordion > .carta > .cabeceraCarta > h1.menu > a, .contenedor header .contenedorRegistro > main .sec2 > .sectNoticias2.carrusel2 > .contenidoNoticias2.carousel-inner > .artNoticias2.carousel-item > .deck.accordion > .carta > .cabeceraCarta > h1.menu > a, .contenedor main .sec2 > .carrusel2 > .carousel-inner > .carousel-item > .accordion > main.card > form.cabeceraCarta > h1.suscribirse > button, .contenedor .contenedorNoticias main .sec2 > .sec1.carrusel2 > .contenido.carousel-inner > aside.carousel-item > .deck.accordion > main.carta > form.cabeceraCarta > h1.suscribirse > button, .contenedorNoticias .contenedor main .sec2 > .sec1.carrusel2 > .contenido.carousel-inner > aside.carousel-item > .deck.accordion > main.carta > form.cabeceraCarta > h1.suscribirse > button, .contenedor .contenedorNoticias main .sec2 > .sectNoticias2.carrusel2 > .contenidoNoticias2.carousel-inner > .artNoticias2.carousel-item > .deck.accordion > main.carta > form.cabeceraCarta > h1.suscribirse > button, .contenedorNoticias .contenedor main .sec2 > .sectNoticias2.carrusel2 > .contenidoNoticias2.carousel-inner > .artNoticias2.carousel-item > .deck.accordion > main.carta > form.cabeceraCarta > h1.suscribirse > button, .contenedor main .contenedorRegistro > main.sec2 > .sec1.carrusel2 > .contenido.carousel-inner > aside.carousel-item > .deck.accordion > main.carta > form.cabeceraCarta > h1.suscribirse > button, .contenedor .contenedorRegistro > main .sec2 > .sectNoticias2.carrusel2 > .contenidoNoticias2.carousel-inner > .artNoticias2.carousel-item > .deck.accordion > main.carta > form.cabeceraCarta > h1.suscribirse > button {
               background-color: transparent;
               color: white;
               font-size: 25px; }
@@ -7450,7 +7509,7 @@ body {
         visibility: hidden;
         display: none; } }
     .contenedorNoticias header .menu {
-      font-family: Harry2;
+      font-family: "Harry2";
       font-size: 20px; }
       @media (max-width: 767px) {
         .contenedorNoticias header .menu > button {
@@ -7500,7 +7559,7 @@ body {
             visibility: hidden;
             display: none; } }
         .contenedorNoticias main .sec1 > .contenido > aside > h1 {
-          font-family: Harry2;
+          font-family: "Harry2";
           font-size: 36px;
           letter-spacing: 5px;
           max-width: 100%; }
@@ -7546,12 +7605,12 @@ body {
         .contenedorNoticias main .sec1 > .contenido > .art1 > * {
           margin-left: 7%; }
         .contenedorNoticias main .sec1 > .contenido > .art1 > h1 {
-          font-family: Harry2;
+          font-family: "Harry2";
           font-size: 75px;
           letter-spacing: 5px; }
           @media (max-width: 767px) {
             .contenedorNoticias main .sec1 > .contenido > .art1 > h1 {
-              font-family: Harry2;
+              font-family: "Harry2";
               font-size: 55px;
               letter-spacing: 3px; } }
         .contenedorNoticias main .sec1 > .contenido > .art1 > p {
@@ -7585,7 +7644,7 @@ body {
               visibility: hidden;
               display: none; } }
           .contenedorNoticias main .sectNoticias2 > .contenidoNoticias2 > .aside > h1 {
-            font-family: Harry2;
+            font-family: "Harry2";
             font-size: 36px;
             letter-spacing: 5px; }
           .contenedorNoticias main .sectNoticias2 > .contenidoNoticias2 > .aside > p {
@@ -7623,8 +7682,8 @@ body {
     .contenedorNoticias main > .sectNoticias2 > .contenidoNoticias2 > .aside > .accordion > .card, .contenedorNoticias main > .sec1.sectNoticias2 > .contenido.contenidoNoticias2 > aside.aside > .deck.accordion > .carta, .contenedorNoticias main > .sectNoticias2 > .contenidoNoticias2 > .artNoticias2.aside > .deck.accordion > .carta {
       background-color: transparent;
       border: none; }
-      .contenedorNoticias main > .sectNoticias2 > .contenidoNoticias2 > .aside > .accordion > .card > .card-header > .mb-0 > .btn, .contenedorNoticias main > .sec1.sectNoticias2 > .contenido.contenidoNoticias2 > aside.aside > .deck.accordion > .carta > .card-header > .mb-0 > .btn, .contenedorNoticias main > .sectNoticias2 > .contenidoNoticias2 > .artNoticias2.aside > .deck.accordion > .carta > .card-header > .mb-0 > .btn, .contenedorNoticias main > .sec1.sectNoticias2 > .contenido.contenidoNoticias2 > aside.aside > .deck.accordion > .carta > .cabeceraCard > .mb-0 > .btn, .contenedorNoticias main > .sectNoticias2 > .contenidoNoticias2 > .artNoticias2.aside > .deck.accordion > .carta > .cabeceraCard > .mb-0 > .btn, .contenedorNoticias .contenedor header main > .sectNoticias2 > .contenidoNoticias2 > .aside > .accordion > .card > .card-header > .menu.mb-0 > a, .contenedor header .contenedorNoticias main > .sectNoticias2 > .contenidoNoticias2 > .aside > .accordion > .card > .card-header > .menu.mb-0 > a, .contenedorNoticias .contenedor header main > .sec1.sectNoticias2 > .contenido.contenidoNoticias2 > aside.aside > .deck.accordion > .carta > .card-header > .menu.mb-0 > a, .contenedor header .contenedorNoticias main > .sec1.sectNoticias2 > .contenido.contenidoNoticias2 > aside.aside > .deck.accordion > .carta > .card-header > .menu.mb-0 > a, .contenedorNoticias .contenedor header main > .sectNoticias2 > .contenidoNoticias2 > .artNoticias2.aside > .deck.accordion > .carta > .card-header > .menu.mb-0 > a, .contenedor header .contenedorNoticias main > .sectNoticias2 > .contenidoNoticias2 > .artNoticias2.aside > .deck.accordion > .carta > .card-header > .menu.mb-0 > a, .contenedorNoticias .contenedor header main > .sec1.sectNoticias2 > .contenido.contenidoNoticias2 > aside.aside > .deck.accordion > .carta > .cabeceraCard > .menu.mb-0 > a, .contenedor header .contenedorNoticias main > .sec1.sectNoticias2 > .contenido.contenidoNoticias2 > aside.aside > .deck.accordion > .carta > .cabeceraCard > .menu.mb-0 > a, .contenedorNoticias .contenedor header main > .sectNoticias2 > .contenidoNoticias2 > .artNoticias2.aside > .deck.accordion > .carta > .cabeceraCard > .menu.mb-0 > a, .contenedor header .contenedorNoticias main > .sectNoticias2 > .contenidoNoticias2 > .artNoticias2.aside > .deck.accordion > .carta > .cabeceraCard > .menu.mb-0 > a {
-        font-family: Harry2;
+      .contenedorNoticias main > .sectNoticias2 > .contenidoNoticias2 > .aside > .accordion > .card > .card-header > .mb-0 > .btn, .contenedorNoticias main > .sec1.sectNoticias2 > .contenido.contenidoNoticias2 > aside.aside > .deck.accordion > .carta > .card-header > .mb-0 > .btn, .contenedorNoticias main > .sectNoticias2 > .contenidoNoticias2 > .artNoticias2.aside > .deck.accordion > .carta > .card-header > .mb-0 > .btn, .contenedorNoticias main > .sec1.sectNoticias2 > .contenido.contenidoNoticias2 > aside.aside > .deck.accordion > .carta > .cabeceraCard > .mb-0 > .btn, .contenedorNoticias main > .sectNoticias2 > .contenidoNoticias2 > .artNoticias2.aside > .deck.accordion > .carta > .cabeceraCard > .mb-0 > .btn, .contenedorNoticias .contenedor header main > .sectNoticias2 > .contenidoNoticias2 > .aside > .accordion > .card > .card-header > .menu.mb-0 > a, .contenedor header .contenedorNoticias main > .sectNoticias2 > .contenidoNoticias2 > .aside > .accordion > .card > .card-header > .menu.mb-0 > a, .contenedorNoticias .contenedor header main > .sec1.sectNoticias2 > .contenido.contenidoNoticias2 > aside.aside > .deck.accordion > .carta > .card-header > .menu.mb-0 > a, .contenedor header .contenedorNoticias main > .sec1.sectNoticias2 > .contenido.contenidoNoticias2 > aside.aside > .deck.accordion > .carta > .card-header > .menu.mb-0 > a, .contenedorNoticias .contenedor header main > .sectNoticias2 > .contenidoNoticias2 > .artNoticias2.aside > .deck.accordion > .carta > .card-header > .menu.mb-0 > a, .contenedor header .contenedorNoticias main > .sectNoticias2 > .contenidoNoticias2 > .artNoticias2.aside > .deck.accordion > .carta > .card-header > .menu.mb-0 > a, .contenedorNoticias .contenedor header main > .sec1.sectNoticias2 > .contenido.contenidoNoticias2 > aside.aside > .deck.accordion > .carta > .cabeceraCard > .menu.mb-0 > a, .contenedor header .contenedorNoticias main > .sec1.sectNoticias2 > .contenido.contenidoNoticias2 > aside.aside > .deck.accordion > .carta > .cabeceraCard > .menu.mb-0 > a, .contenedorNoticias .contenedor header main > .sectNoticias2 > .contenidoNoticias2 > .artNoticias2.aside > .deck.accordion > .carta > .cabeceraCard > .menu.mb-0 > a, .contenedor header .contenedorNoticias main > .sectNoticias2 > .contenidoNoticias2 > .artNoticias2.aside > .deck.accordion > .carta > .cabeceraCard > .menu.mb-0 > a, .contenedorNoticias main > .sectNoticias2 > .contenidoNoticias2 > .aside > .accordion > main.card > form.card-header > .suscribirse.mb-0 > button, .contenedorNoticias main > .sec1.sectNoticias2 > .contenido.contenidoNoticias2 > aside.aside > .deck.accordion > main.carta > form.card-header > .suscribirse.mb-0 > button, .contenedorNoticias main > .sectNoticias2 > .contenidoNoticias2 > .artNoticias2.aside > .deck.accordion > main.carta > form.card-header > .suscribirse.mb-0 > button, .contenedorNoticias main > .sec1.sectNoticias2 > .contenido.contenidoNoticias2 > aside.aside > .deck.accordion > main.carta > form.cabeceraCard > .suscribirse.mb-0 > button, .contenedorNoticias main > .sectNoticias2 > .contenidoNoticias2 > .artNoticias2.aside > .deck.accordion > main.carta > form.cabeceraCard > .suscribirse.mb-0 > button {
+        font-family: "Harry2";
         color: black;
         font-size: 25px; }
       .contenedorNoticias main > .sectNoticias2 > .contenidoNoticias2 > .aside > .accordion > .card > .fondoLluvia, .contenedorNoticias main > .sec1.sectNoticias2 > .contenido.contenidoNoticias2 > aside.aside > .deck.accordion > .carta > .fondoLluvia, .contenedorNoticias main > .sectNoticias2 > .contenidoNoticias2 > .artNoticias2.aside > .deck.accordion > .carta > .fondoLluvia {
@@ -7633,7 +7692,7 @@ body {
         .contenedorNoticias main > .sectNoticias2 > .contenidoNoticias2 > .aside > .accordion > .card > .fondoLluvia > .card-body, .contenedorNoticias main > .sec1.sectNoticias2 > .contenido.contenidoNoticias2 > aside.aside > .deck.accordion > .carta > .fondoLluvia > .card-body, .contenedorNoticias main > .sectNoticias2 > .contenidoNoticias2 > .artNoticias2.aside > .deck.accordion > .carta > .fondoLluvia > .card-body {
           color: white; }
           .contenedorNoticias main > .sectNoticias2 > .contenidoNoticias2 > .aside > .accordion > .card > .fondoLluvia > .card-body > h3, .contenedorNoticias main > .sec1.sectNoticias2 > .contenido.contenidoNoticias2 > aside.aside > .deck.accordion > .carta > .fondoLluvia > .card-body > h3, .contenedorNoticias main > .sectNoticias2 > .contenidoNoticias2 > .artNoticias2.aside > .deck.accordion > .carta > .fondoLluvia > .card-body > h3 {
-            font-family: Harry2; }
+            font-family: "Harry2"; }
           .contenedorNoticias main > .sectNoticias2 > .contenidoNoticias2 > .aside > .accordion > .card > .fondoLluvia > .card-body > figure img, .contenedorNoticias main > .sec1.sectNoticias2 > .contenido.contenidoNoticias2 > aside.aside > .deck.accordion > .carta > .fondoLluvia > .card-body > figure img, .contenedorNoticias main > .sectNoticias2 > .contenidoNoticias2 > .artNoticias2.aside > .deck.accordion > .carta > .fondoLluvia > .card-body > figure img {
             width: 100px;
             height: 100px; }
@@ -7643,7 +7702,7 @@ body {
         .contenedorNoticias main > .sectNoticias2 > .contenidoNoticias2 > .aside > .accordion > .card > .fondoNevado > .card-body, .contenedorNoticias main > .sec1.sectNoticias2 > .contenido.contenidoNoticias2 > aside.aside > .deck.accordion > .carta > .fondoNevado > .card-body, .contenedorNoticias main > .sectNoticias2 > .contenidoNoticias2 > .artNoticias2.aside > .deck.accordion > .carta > .fondoNevado > .card-body {
           color: white; }
           .contenedorNoticias main > .sectNoticias2 > .contenidoNoticias2 > .aside > .accordion > .card > .fondoNevado > .card-body > h3, .contenedorNoticias main > .sec1.sectNoticias2 > .contenido.contenidoNoticias2 > aside.aside > .deck.accordion > .carta > .fondoNevado > .card-body > h3, .contenedorNoticias main > .sectNoticias2 > .contenidoNoticias2 > .artNoticias2.aside > .deck.accordion > .carta > .fondoNevado > .card-body > h3 {
-            font-family: Harry2; }
+            font-family: "Harry2"; }
           .contenedorNoticias main > .sectNoticias2 > .contenidoNoticias2 > .aside > .accordion > .card > .fondoNevado > .card-body > figure img, .contenedorNoticias main > .sec1.sectNoticias2 > .contenido.contenidoNoticias2 > aside.aside > .deck.accordion > .carta > .fondoNevado > .card-body > figure img, .contenedorNoticias main > .sectNoticias2 > .contenidoNoticias2 > .artNoticias2.aside > .deck.accordion > .carta > .fondoNevado > .card-body > figure img {
             width: 100px;
             height: 100px; }
@@ -7653,7 +7712,7 @@ body {
         .contenedorNoticias main > .sectNoticias2 > .contenidoNoticias2 > .aside > .accordion > .card > .fondoSoleado > .card-body, .contenedorNoticias main > .sec1.sectNoticias2 > .contenido.contenidoNoticias2 > aside.aside > .deck.accordion > .carta > .fondoSoleado > .card-body, .contenedorNoticias main > .sectNoticias2 > .contenidoNoticias2 > .artNoticias2.aside > .deck.accordion > .carta > .fondoSoleado > .card-body {
           color: white; }
           .contenedorNoticias main > .sectNoticias2 > .contenidoNoticias2 > .aside > .accordion > .card > .fondoSoleado > .card-body > h3, .contenedorNoticias main > .sec1.sectNoticias2 > .contenido.contenidoNoticias2 > aside.aside > .deck.accordion > .carta > .fondoSoleado > .card-body > h3, .contenedorNoticias main > .sectNoticias2 > .contenidoNoticias2 > .artNoticias2.aside > .deck.accordion > .carta > .fondoSoleado > .card-body > h3 {
-            font-family: Harry2; }
+            font-family: "Harry2"; }
           .contenedorNoticias main > .sectNoticias2 > .contenidoNoticias2 > .aside > .accordion > .card > .fondoSoleado > .card-body > figure img, .contenedorNoticias main > .sec1.sectNoticias2 > .contenido.contenidoNoticias2 > aside.aside > .deck.accordion > .carta > .fondoSoleado > .card-body > figure img, .contenedorNoticias main > .sectNoticias2 > .contenidoNoticias2 > .artNoticias2.aside > .deck.accordion > .carta > .fondoSoleado > .card-body > figure img {
             width: 80px;
             height: 80px; }
@@ -7663,7 +7722,7 @@ body {
         .contenedorNoticias main > .sectNoticias2 > .contenidoNoticias2 > .aside > .accordion > .card > .fondoNublado > .card-body, .contenedorNoticias main > .sec1.sectNoticias2 > .contenido.contenidoNoticias2 > aside.aside > .deck.accordion > .carta > .fondoNublado > .card-body, .contenedorNoticias main > .sectNoticias2 > .contenidoNoticias2 > .artNoticias2.aside > .deck.accordion > .carta > .fondoNublado > .card-body {
           color: white; }
           .contenedorNoticias main > .sectNoticias2 > .contenidoNoticias2 > .aside > .accordion > .card > .fondoNublado > .card-body > h3, .contenedorNoticias main > .sec1.sectNoticias2 > .contenido.contenidoNoticias2 > aside.aside > .deck.accordion > .carta > .fondoNublado > .card-body > h3, .contenedorNoticias main > .sectNoticias2 > .contenidoNoticias2 > .artNoticias2.aside > .deck.accordion > .carta > .fondoNublado > .card-body > h3 {
-            font-family: Harry2; }
+            font-family: "Harry2"; }
           .contenedorNoticias main > .sectNoticias2 > .contenidoNoticias2 > .aside > .accordion > .card > .fondoNublado > .card-body > figure img, .contenedorNoticias main > .sec1.sectNoticias2 > .contenido.contenidoNoticias2 > aside.aside > .deck.accordion > .carta > .fondoNublado > .card-body > figure img, .contenedorNoticias main > .sectNoticias2 > .contenidoNoticias2 > .artNoticias2.aside > .deck.accordion > .carta > .fondoNublado > .card-body > figure img {
             width: 80px;
             height: 80px; }
@@ -7905,7 +7964,7 @@ body {
     .contenedorRegistro > main > .sectNoticias2 > .contenidoNoticias2 > .aside > .accordion > .card, .contenedorRegistro > main > .sec1.sectNoticias2 > .contenido.contenidoNoticias2 > aside.aside > .deck.accordion > .carta, .contenedorRegistro > main > .sectNoticias2 > .contenidoNoticias2 > .artNoticias2.aside > .deck.accordion > .carta {
       background-color: transparent;
       border: none; }
-      .contenedorRegistro > main > .sectNoticias2 > .contenidoNoticias2 > .aside > .accordion > .card > .card-header > .mb-0 > .btn, .contenedorRegistro > main > .sec1.sectNoticias2 > .contenido.contenidoNoticias2 > aside.aside > .deck.accordion > .carta > .card-header > .mb-0 > .btn, .contenedorRegistro > main > .sectNoticias2 > .contenidoNoticias2 > .artNoticias2.aside > .deck.accordion > .carta > .card-header > .mb-0 > .btn, .contenedorRegistro > main > .sec1.sectNoticias2 > .contenido.contenidoNoticias2 > aside.aside > .deck.accordion > .carta > .cabeceraCard > .mb-0 > .btn, .contenedorRegistro > main > .sectNoticias2 > .contenidoNoticias2 > .artNoticias2.aside > .deck.accordion > .carta > .cabeceraCard > .mb-0 > .btn, .contenedor header .contenedorRegistro > main > .sectNoticias2 > .contenidoNoticias2 > .aside > .accordion > .card > .card-header > .menu.mb-0 > a, .contenedor header .contenedorRegistro > main > .sec1.sectNoticias2 > .contenido.contenidoNoticias2 > aside.aside > .deck.accordion > .carta > .card-header > .menu.mb-0 > a, .contenedor header .contenedorRegistro > main > .sectNoticias2 > .contenidoNoticias2 > .artNoticias2.aside > .deck.accordion > .carta > .card-header > .menu.mb-0 > a, .contenedor header .contenedorRegistro > main > .sec1.sectNoticias2 > .contenido.contenidoNoticias2 > aside.aside > .deck.accordion > .carta > .cabeceraCard > .menu.mb-0 > a, .contenedor header .contenedorRegistro > main > .sectNoticias2 > .contenidoNoticias2 > .artNoticias2.aside > .deck.accordion > .carta > .cabeceraCard > .menu.mb-0 > a {
+      .contenedorRegistro > main > .sectNoticias2 > .contenidoNoticias2 > .aside > .accordion > .card > .card-header > .mb-0 > .btn, .contenedorRegistro > main > .sec1.sectNoticias2 > .contenido.contenidoNoticias2 > aside.aside > .deck.accordion > .carta > .card-header > .mb-0 > .btn, .contenedorRegistro > main > .sectNoticias2 > .contenidoNoticias2 > .artNoticias2.aside > .deck.accordion > .carta > .card-header > .mb-0 > .btn, .contenedorRegistro > main > .sec1.sectNoticias2 > .contenido.contenidoNoticias2 > aside.aside > .deck.accordion > .carta > .cabeceraCard > .mb-0 > .btn, .contenedorRegistro > main > .sectNoticias2 > .contenidoNoticias2 > .artNoticias2.aside > .deck.accordion > .carta > .cabeceraCard > .mb-0 > .btn, .contenedor header .contenedorRegistro > main > .sectNoticias2 > .contenidoNoticias2 > .aside > .accordion > .card > .card-header > .menu.mb-0 > a, .contenedor header .contenedorRegistro > main > .sec1.sectNoticias2 > .contenido.contenidoNoticias2 > aside.aside > .deck.accordion > .carta > .card-header > .menu.mb-0 > a, .contenedor header .contenedorRegistro > main > .sectNoticias2 > .contenidoNoticias2 > .artNoticias2.aside > .deck.accordion > .carta > .card-header > .menu.mb-0 > a, .contenedor header .contenedorRegistro > main > .sec1.sectNoticias2 > .contenido.contenidoNoticias2 > aside.aside > .deck.accordion > .carta > .cabeceraCard > .menu.mb-0 > a, .contenedor header .contenedorRegistro > main > .sectNoticias2 > .contenidoNoticias2 > .artNoticias2.aside > .deck.accordion > .carta > .cabeceraCard > .menu.mb-0 > a, .contenedorRegistro > main > .sectNoticias2 > .contenidoNoticias2 > .aside > .accordion > main.card > form.card-header > .suscribirse.mb-0 > button, .contenedorRegistro > main > .sec1.sectNoticias2 > .contenido.contenidoNoticias2 > aside.aside > .deck.accordion > main.carta > form.card-header > .suscribirse.mb-0 > button, .contenedorRegistro > main > .sectNoticias2 > .contenidoNoticias2 > .artNoticias2.aside > .deck.accordion > main.carta > form.card-header > .suscribirse.mb-0 > button, .contenedorRegistro > main > .sec1.sectNoticias2 > .contenido.contenidoNoticias2 > aside.aside > .deck.accordion > main.carta > form.cabeceraCard > .suscribirse.mb-0 > button, .contenedorRegistro > main > .sectNoticias2 > .contenidoNoticias2 > .artNoticias2.aside > .deck.accordion > main.carta > form.cabeceraCard > .suscribirse.mb-0 > button {
         font-family: Harry2;
         color: black;
         font-size: 25px; }
@@ -7986,33 +8045,35 @@ body {
 /**
  * CONTENIDO Y FORMATO DE REGISTROS
  */
-.texto {
-  margin: 30px 0; }
-
-h2 {
-  margin: 30px 0;
-  font-family: "Iron";
-  font-size: 30px; }
-
-h4 {
-  font-family: "Niconne";
-  font-size: 23px; }
-
-form label {
-  font-family: "Niconne";
-  font-size: 20px; }
-
-.formulario2 {
-  margin: 40px 0; }
-
-.migasPan {
+header > .migasPan {
   font-family: "Niconne";
   font-size: 20px;
   margin-top: 1%;
   margin-bottom: -2%; }
-  .migasPan > ol {
+  header > .migasPan > ol {
     background-color: transparent; }
-    .migasPan > ol > .breadcrumb-item a {
+    header > .migasPan > ol > .breadcrumb-item a {
       color: black; }
+
+main > .textoForm {
+  margin: 30px 0; }
+main > form h2 {
+  margin: 30px 0;
+  font-family: "Iron";
+  font-size: 30px; }
+main > form > h4 {
+  font-family: "Niconne";
+  font-size: 23px; }
+main > form > form label {
+  font-family: "Niconne";
+  font-size: 20px; }
+main > form > .formulario2 {
+  margin: 40px 0; }
+main > form > .suscribirse > button {
+  background-color: #C7C7C7;
+  font-family: "Harry2";
+  padding: 15px 30px 0px 30px;
+  border: 0px;
+  box-shadow: 4px 4px 5px black; }
 
 /*# sourceMappingURL=main.css.map */

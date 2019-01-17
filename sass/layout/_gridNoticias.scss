@@ -64,7 +64,7 @@ body{
 			@extend .justify-content-md-around;
 			@extend .justify-content-lg-around;
 
-			font-family: Harry2;
+			font-family: $harry2;
 			font-size: 20px;
 			@media (max-width: 767px){
 				&>button{
@@ -139,7 +139,7 @@ body{
 					&>h1{
 						@extend .col-12;
 						@extend .text-center;
-						font-family: Harry2;
+						font-family: $harry2;
 						font-size: 36px;
 						letter-spacing: 5px;
 						max-width: 100%;
@@ -214,14 +214,14 @@ body{
 					&>h1{
 
 						@media (max-width: 767px){
-							font-family: Harry2;
+							font-family: $harry2;
 							font-size: 55px;
 							letter-spacing: 3px;
 						}
 
 						@extend .col-12;
 						@extend .text-center;
-						font-family: Harry2;
+						font-family: $harry2;
 						font-size: 75px;
 						letter-spacing: 5px;
 					}
@@ -281,7 +281,7 @@ body{
 					&>h1{
 						@extend .col-12;
 						@extend .text-center;
-						font-family: Harry2;
+						font-family: $harry2;
 						font-size: 36px;
 						letter-spacing: 5px;
 					}
@@ -358,7 +358,7 @@ body{
 								&>.card-header{
 									&>.mb-0{
 										&>.btn{
-											font-family: Harry2;
+											font-family: $harry2;
 											color: black;
 											font-size: 25px;
 										}
@@ -370,7 +370,7 @@ body{
 									&>.card-body{
 										color: white;
 										&>h3{
-											font-family: Harry2;
+											font-family: $harry2;
 										}
 										&>figure img{
 											width: 100px;
@@ -384,7 +384,7 @@ body{
 									&>.card-body{
 										color: white;
 										&>h3{
-											font-family: Harry2;
+											font-family: $harry2;
 										}
 										&>figure img{
 											width: 100px;
@@ -398,7 +398,7 @@ body{
 									&>.card-body{
 										color: white;
 										&>h3{
-											font-family: Harry2;
+											font-family: $harry2;
 										}
 										&>figure img{
 											width: 80px;
@@ -412,7 +412,7 @@ body{
 									&>.card-body{
 										color: white;
 										&>h3{
-											font-family: Harry2;
+											font-family: $harry2;
 										}
 										&>figure img{
 											width: 80px;

@@ -76,7 +76,7 @@ body{
 			@extend .justify-content-md-around;
 			@extend .justify-content-lg-around;
 
-			font-family: Harry2;
+			font-family: $harry2;
 			font-size: 20px;
 			@media (max-width: 767px){
 				&>button{
@@ -130,8 +130,8 @@ body{
 				&>h1{
 					@extend .col-12;
 					@extend .text-center;
-					font-family: Harry2;
-					font-size: 75px;
+					font-family: $harry2;
+					font-size: 65px;
 					letter-spacing: 5px;
 				}
 
@@ -183,7 +183,7 @@ body{
 			&>h1{
 				@extend .col-12;
 				@extend .text-center;
-				font-family: Harry2;
+				font-family: $harry2;
 				font-size: 55px;
 				letter-spacing: 5px;
 				margin-bottom: -5%;
@@ -204,7 +204,7 @@ body{
 							@extend .d-md-block;
 
 							&>h1{
-								font-family: Harry2;
+								font-family: $harry2;
 							}
 						}
 						&>.accordion{
@@ -214,7 +214,7 @@ body{
 								width: 100%;
 								&>.cabeceraCarta{
 									&>h1{
-										font-family: Harry2;
+										font-family: $harry2;
 										&>.btn{
 											background-color: transparent;
 											color: white;
@@ -256,7 +256,7 @@ body{
 							@extend .d-md-block;
 
 							&>h1{
-								font-family: Harry2;
+								font-family: $harry2;
 							}
 						}
 						&>.accordion{
@@ -266,7 +266,7 @@ body{
 								width: 100%;
 								&>.cabeceraCarta{
 									&>h1{
-										font-family: Harry2;
+										font-family: $harry2;
 										&>.btn{
 											background-color: transparent;
 											color: white;
